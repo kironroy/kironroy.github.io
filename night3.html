@@ -27,7 +27,7 @@ body, h2, h3 {
 }
 .my-gallery {
   width: 100%;
-  float: left;
+  float: center;
 }
 .my-gallery img {
   width: 100%;
@@ -35,19 +35,26 @@ body, h2, h3 {
 }
 .my-gallery figure {
   display: block;
-  float: left;
+  float: center;
   margin: 0 5px 5px 0;
-  width: 150px;
+  width: 290px;
 }
 .my-gallery figcaption {
   display: none;
+
 }
+
+.pswp__caption__center {
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
 </style>
 <body>
   <br>
 <center><a href="http://kironroy.github.io"><img alt="Kiron Roy Logo" src="logo2.svg" style="width:70px;height:70px;"></a></center>
   <center><h3>Night Scene</h3></center>
-
+<center>
     <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
 
       <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -164,7 +171,7 @@ body, h2, h3 {
       </figure>
 
     </div>
-
+</center>
 <!--
   <h2>Second gallery:</h2>
 
