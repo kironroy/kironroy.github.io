@@ -93,7 +93,7 @@
 - Slack  
   - [Jr Dev Jobs](https://jrdevjobs.slack.com/)
   - [Code and Coffee](https://codeandcoffee.slack.com)
-  - [HQ](https://thehq.slack.com/)
+  - [The HQ](https://thehq.slack.com/)
   - [Learn to Teach Code LA](https://learnteachcode.slack.com)
 
 
