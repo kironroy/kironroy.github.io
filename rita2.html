@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+
+
+
+
+
+
+
+
+
+
+  <script type="text/javascript" src="/js/lib/dummy.js"></script>
+
+
+
+
+
+
+
+
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+
+
+
+
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.3/vue.min.js"></script>
+
+
+
+  <style type="text/css">
+    /* // thank you: https://codepen.io/sergio_llanos22/pen/JNQRRP
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Heebo:300,400');
+
+html, body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 16px;
+	margin-bottom: 16px;
+  background-color: #FFFFFF;
+  font-family: 'Heebo';
+  font-weight: 300;
+}
+
+div#app {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+div#app .search-wrapper {
+	position: relative;
+}
+
+div#app .search-wrapper label {
+	position: absolute;
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.5);
+	top: 8px;
+	left: 12px;
+	z-index: -1;
+	transition: .15s all ease-in-out;
+}
+
+div#app .search-wrapper input {
+	padding: 10px 40px;
+	color: rgba(0, 0, 0, 0.7);
+	border: 2px solid rgba(0, 0, 0, 0.12);
+	transition: .15s all ease-in-out;
+	background: white;
+}
+
+div#app .search-wrapper input:focus {
+	outline: none;
+	transform: scale(1.05);
+}
+
+div#app .search-wrapper input:focus + label {
+	font-size: 10px;
+	transform: translateY(-24px) translateX(-12px);
+}
+
+div#app .search-wrapper input::-webkit-input-placeholder {
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.5);
+	font-weight: 100;
+}
+
+div#app .wrapper {
+	display: flex;
+	max-width: 444px;
+	flex-wrap: wrap;
+	padding-top: 12px;
+}
+
+div#app .card {
+	box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+	max-width: 124px;
+	margin: 12px;
+	transition: .15s all ease-in-out;
+}
+
+div#app .card:hover {
+	transform: scale(1.1);
+}
+
+div#app .card a {
+	text-decoration: none;
+	padding: 12px;
+	color: #03A9F4;
+	font-size: 18px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  color: #000000;
+}
+
+div#app .card a img {
+	height: 92px;
+  width: 100px;
+}
+
+div#app .card a small {
+	font-size: 1px;
+	padding: 4px;
+}
+
+div#app .hotpink {
+	background: hotpink;
+}
+
+div#app .green {
+	background: green;
+}
+
+div#app .box {
+	width: 200px;
+	height: 200px;
+	border: 1px solid rgba(0, 0, 0, 0.12);
+}
+  </style>
+
+  <title>basic vue by kironroy</title>
+
+
+
+
+
+
+
+<script type='text/javascript'>//<![CDATA[
+window.onload=function(){
+// thank you: https://codepen.io/sergio_llanos22/pen/JNQRRP
+
+class Post {
+  constructor(title, link, author, img) {
+    this.title = title;
+    this.link = link;
+    //this.author = author;
+    this.img = img;
+  }
+}
+
+const app = new Vue({
+  el: '#app',
+  data: {
+    keyword: '',
+    postList: [
+      new Post(
+        'Office Ally',
+        'https://pm.officeally.com/pm/login.aspx',
+        'Chris',
+        'https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAfYAAAAJGM4OTlmOTZhLTc2OWItNDVjYS1iODNmLTgyOWQ3YmI5YzEzMQ.png'
+      ),
+      new Post(
+        'EZIZ',
+        'http://eziz.org/myvfcvaccines/',
+        'Tim',
+        'http://eziz.org/images/faq2.gif'
+      ),
+      new Post(
+        'Vaccine',
+        'https://www.vaccineshoppe.com/index.cfm?fa=anon.homepage',
+        'Sam',
+        'http://www.casaalliance.net/images/193/0/button-order-sanofi.png'
+      ),
+      new Post(
+        'Medi-Cal',
+        'https://www.medi-cal.ca.gov/Eligibility/Login.asp',
+        'Rachel',
+        'https://www.kerncounty.com/dhs/images/medi-cal.jpg'
+      ),
+      new Post(
+        'Availity',
+        'https://apps.availity.com/availity/web/public.elegant.login',
+        'Chris',
+        'https://prnewswire2-a.akamaihd.net/p/1893751/sp/189375100/thumbnail/entry_id/0_ibyy2qeg/def_height/1600/def_width/1600/version/100012/type/2/q/100'
+      ),
+      new Post(
+        'PIH EZ-NET',
+        'https://eznetportal.pihhealth.org/EZ-NET60/Login.aspx',
+        'Tim',
+        'https://biz.prlog.org/PIH_Health/logo.jpg'
+      ),
+      new Post(
+        'Medpoint',
+        'https://mpmweb.medpointmanagement.com/2011/Default.aspx',
+        'A. A. Ron',
+        'https://mpmweb.medpointmanagement.com/2011/IMAGES/MedpointLogoNew.jpg'
+      ),
+      new Post(
+        'Navinet',
+        'https://navinet.navimedix.com/sign-in?ReturnUrl=/',
+        'Alex',
+        'http://businessradiox.com/wp-content/uploads/2015/10/navinet.jpeg'
+      ),
+      new Post(
+        'L.A. Care',
+        'https://external.lacare.org/oam/server/obrareq.cgi?encquery%3D2PYm7ygji8Nq9aGhg6Jvh%2B67qcxUwX6JwlIJgmiZn3vP42jzbhOIT0Y5tWwappdzru9LVBbJjJCm3Mcu2a98Id6R4i5Jbftr0yJIOcLE2yGFbWOqEIKEUS4jTfMIfveStpnpHuDRqag8CLNo6FRzFfpYYpUHgU90kjcydc4JXHLSZgGBcb%2BvRZZf%2Bzc482NI%2Fzyl0P00CBQ%2FETbq824GKAuvsuanZ1qpu0L%2BNO6Jfa1l5BJIeE5m9tbFG%2BjS4%2BUgcP1rgc3fto%2Fhru7GVVT2vWtDlM2MKX%2BrEsj5YPjp73Nj3PU0bfkpK3Z1yFeXvx6Jw3FAZeM2Mkwia3gjWqSk3FmnWBr%2BTlaEOR%2FVc%2BUl4i2L4og2Eqm3yA2uqmhqARjqxJ6gBViGUl%2BO20DoPTWYPg%3D%3D%20agentid%3DProdExt_Pinole_Pittsburg%20ver%3D1%20crmethod%3D2&ECID-Context=1.005HOKIhh_1CcpO5yj9DiW0004Qi00021d%3BkXjE',
+        'Chuck',
+        'https://upload.wikimedia.org/wikipedia/en/b/b3/L.A._Care_Health_Plan_official_logo.png'
+      ),
+
+
+
+    ]
+  },
+  methods: {
+    toggleOnOff() {
+      this.onOff = !this.onOff;
+    }
+  },
+  computed: {
+    filteredList() {
+      return this.postList.filter((post) => {
+        return post.title.toLowerCase().includes(this.keyword.toLowerCase());
+      });
+    }
+  }
+});
+}//]]>
+
+</script>
+
+
+</head>
+
+<body>
+  <!-- // thank you: https://codepen.io/sergio_llanos22/pen/JNQRRP -->
+<div id="app">
+  <div class="search-wrapper">
+    <input type="text" v-model="keyword" placeholder="Search"/>
+    <label>Search</label>
+  </div>
+      <div class="wrapper">
+        <div class="card" v-for="post in filteredList">
+          <a v-bind:href="post.link" target="_blank">
+            <img v-bind:src="post.img"/>
+            <small>{{post.author}}</small>{{post.title}}
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+  <script>
+  // tell the embed parent frame the height of the content
+  if (window.parent && window.parent.parent){
+    window.parent.parent.postMessage(["resultsFrame", {
+      height: document.body.getBoundingClientRect().height,
+      slug: "90dmpfv8"
+    }], "*")
+  }
+</script>
+
+</body>
+
+</html>
