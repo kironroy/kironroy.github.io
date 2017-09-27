@@ -4,8 +4,10 @@
 ### HTML
   #### Responsive
   * [Responsinator](https://www.responsinator.com/?url=https%3A%2F%2Fkironroy.github.io%2F)
+
   #### Templates
   * [HTML5 UP](https://html5up.net/)
+  * [W3Schools' Bootstrap](http://getbootstrap.com/)
   * [W3Schools' Bootstrap Templates](https://www.w3schools.com/bootstrap/bootstrap_templates.asp)
   * [Jekyll Themes](http://jekyllthemes.org/)
 * [Google Test Site](https://testmysite.thinkwithgoogle.com/intl/en-us)
@@ -29,8 +31,10 @@
 * [css zen garden](http://www.csszengarden.com/)
 * [World Logos in .svg format](https://worldvectorlogo.com/)
 * [Logo Crunch](http://brandmark.io/logo-crunch/)
-  #### JavaScript
+
+#### JavaScript
   * [Phaser HTML5 Game Framework](https://phaser.io/)
   * [Reveal JavaScript: The HTML Presentation Framework](http://lab.hakim.se/reveal-js/)
-  #### Photography
+
+#### Photography
   * [Affinity Photo](https://affinity.serif.com/en-us/photo/)
