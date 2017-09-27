@@ -20,7 +20,7 @@
 
 ***
 
-**Host your site with GitHub Pages:**
+**GitHub Markdown Cheatsheet:**
 
 * [GitHub Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 

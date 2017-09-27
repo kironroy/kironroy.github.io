@@ -43,8 +43,8 @@
 	  font-family: 'Heebo', sans-serif;
 		font-weight: 300;
 		font-size: 16pt;
-
-		line-height: 1.75em;
+    letter-spacing: -0.5px;
+    line-height: 1.75em;
 		color: #FFF;
 	}
 
@@ -53,40 +53,46 @@
 
 		color: #000;
 		line-height: 1.5em;
+    letter-spacing: -0.5px;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
 		{
 			color: inherit;
 			text-decoration: none;
+      letter-spacing: -0.5px;
 		}
 
 		h1 strong, h2 strong, h4 strong, h5 strong, h6 strong
 		{
 			color: #FFFFFF;
+      letter-spacing: -.50px;
 		}
 
 		h2
 		{
 			font-size: 1.30em;
-			letter-spacing: -.80px;
+			letter-spacing: -.50px;
       color: #FFFFFF;
 		}
 
 			h2.alt
 			{
 				color: #888;
+        letter-spacing: -.50px;
 			}
 
 			h2.alt strong
 			{
 				color: #666;
+        letter-spacing: -.50px;
 			}
 
 		h3
 		{
 			font-size: 1.7em;
       color: #FFFFFF;
+      letter-spacing: -.50px;
 		}
 
 	header
