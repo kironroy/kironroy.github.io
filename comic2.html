@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+
+  
+  
+
+  
+  
+  
+
+  
+
+  <script type="text/javascript" src="/js/lib/dummy.js"></script>
+
+  
+
+  
+
+  
+
+  
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+  
+
+  
+    
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js"></script>
+    
+  
+    
+      <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+  
+    
+      <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+  
+
+  <style type="text/css">
+    /* thank you: https://codepen.io/mikemang/pen/RpNeJj */
+
+@import url('https://fonts.googleapis.com/css?family=Delius+Swash+Caps');
+body {
+  background: #1E6B2B;
+}
+
+.box {
+  position: relative;
+  display: block;
+  margin: auto;
+  margin-top: 3%;
+  width: 498px;
+  height: 335px;
+  border: solid 8px white;
+  border-radius: 4px;
+}
+
+.title {
+  position: relative;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-family: 'Delius Swash Caps', cursive;
+  color: #FFFFFF;
+  font-size: 40px;
+  text-align: center
+}
+
+.sub-title {
+  position: relative;
+  margin-top: 2%;
+  margin-bottom: 0%;
+  font-family: 'Delius Swash Caps', cursive;
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center
+}
+
+.button {
+  cursor: pointer;
+  position: relative;
+  padding: 10px 15px;
+  background: #DCF63D;
+  display: block;
+  margin: auto;
+  margin-top: 1%;
+  width: 200px;
+  font-family: 'Delius Swash Caps', cursive;
+  color: #010915;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  border-radius: 4px;
+}
+
+@media all and (max-width: 600px) {
+  .box {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 175px;
+  }
+}
+
+  </style>
+
+  <title> by kironroy</title>
+
+  
+    
+
+
+
+
+<script type='text/javascript'>//<![CDATA[
+window.onload=function(){
+// thank you: https://codepen.io/mikemang/#
+var text = new Vue({
+  el: "#text",
+  data: {
+    title: "My Forest Trip!",
+    subtitle: "A child's story"
+  },
+  methods: {
+    
+  }
+})
+var button = new Vue({
+  el: "#button",
+  data: {
+    end: false,
+    buttonText: "Begin",
+    buttonTextEnd: "Share via Twitter",
+    count: 0
+  },
+  methods: {
+    processClick: function(){
+      this.count++
+      switch(this.count){
+        case 1:
+         this.buttonText = "Next"
+         scene0.showScene = false
+         scene1.showScene = true
+         text.title = "Scene 1"
+         text.subtitle = "All the trees have been cut! ..."
+       break
+       case 2:
+         this.buttonText = "Next"
+         scene1.showScene = false
+         scene2.showScene = true
+         text.title = "Scene 2"
+         text.subtitle = "But then we saw some!"
+      break
+      case 3:
+         this.buttonText = "Next"
+         scene2.showScene = false
+         scene3.showScene = true
+         text.title = "Scene 3"
+         text.subtitle = "Plants are wet, cause of dew."
+      break
+      case 4:
+         this.buttonText = "Next"
+         scene3.showScene = false
+         scene4.showScene = true
+         text.title = "Scene 4"
+         text.subtitle = "Mushrooms."
+      break
+      case 5:
+         this.buttonText = "Next"
+         scene4.showScene = false
+         scene5.showScene = true
+         text.title = "Scene 5"
+         text.subtitle = "A bee."
+      break
+      case 6:
+         this.buttonText = "Next"
+         scene5.showScene = false
+         scene6.showScene = true
+         text.title = "Scene 6"
+         text.subtitle = "A flower that mom likes."
+      break
+      case 7:
+         this.buttonText = "Next"
+         scene6.showScene = false
+         scene7.showScene = true
+         text.title = "Scene 7"
+         text.subtitle = "And a Frog."
+      break
+      case 8:
+         this.buttonText = "Next"
+         scene7.showScene = false
+         scene8.showScene = true
+         text.title = "Scene 8"
+         text.subtitle = "Super tall trees and roots."
+      break
+      case 9:
+         this.buttonText = "Next"
+         scene8.showScene = false
+         scene9.showScene = true
+         text.title = "Scene 9"
+         text.subtitle = "Super tall trees and roots."
+      break
+  		case 10:
+         this.end = true
+         button2.end = true
+         scene9.showScene = false
+         scene10.showScene = true
+         text.title = "Scene 10"
+         text.subtitle = " Went to Hawaii, will write a story about it later!"
+      break
+
+      }
+    }
+  }
+})
+var button2 = new Vue({
+  el: "#button2",
+  data: {
+    end: false
+  },
+  methods: {
+    
+  }
+})
+var scene0 = new Vue({
+  el: "#scene0",
+  data: {
+    showScene: true
+  },
+  methods: {
+    
+  }
+})
+var scene1 = new Vue({
+  el: "#scene1",
+  data: {
+    showScene: false
+  },
+  methods: {
+    
+  }
+})
+var scene2 = new Vue({
+  el: "#scene2",
+  data: {
+    showScene: false
+  },
+  methods: {
+    
+  }
+})
+var scene3 = new Vue({
+  el: "#scene3",
+  data: {
+    showScene: false
+  },
+  methods: {
+    
+  }
+})
+var scene4 = new Vue({
+  el: "#scene4",
+  data: {
+    showScene: false
+  },
+  methods: {
+    
+  }
+})
+var scene5 = new Vue({
+  el: "#scene5",
+  data: {
+    showScene: false
+  },
+  methods: {
+    
+  }
+})
+var scene6 = new Vue({
+  el: "#scene6",
+  data: {
+    showScene: false
+  },
+  methods: {
+    
+  }
+})
+var scene7 = new Vue({
+  el: "#scene7",
+  data: {
+    showScene: false
+  },
+  methods: {
+    
+  }
+})
+var scene8 = new Vue({
+  el: "#scene8",
+  data: {
+    showScene: false
+  },
+  methods: {
+    
+  }
+})
+var scene9 = new Vue({
+  el: "#scene9",
+  data: {
+    showScene: false
+  },
+  methods: {
+    
+  }
+})
+var scene10 = new Vue({
+  el: "#scene10",
+  data: {
+    showScene: false
+  },
+  methods: {
+    
+  }
+})
+
+}//]]> 
+
+</script>
+
+  
+</head>
+
+<body>
+  <!--thank you: https://codepen.io/mikemang/#-->
+<div id="text">
+  <div class="title">{{title}}</div>
+  <div class="sub-title">{{subtitle}}</div>
+</div>
+
+<div v-if="showScene" id="scene0">
+  <div class="box">
+    
+ <img class="img-responsive" src="https://kironroy.github.io/images/cartoons/leafs.jpg" alt="forest" width="500" height="500"> 
+ </div>
+</div>
+
+<div v-if="showScene" id="scene1">
+  <div class="box">
+     <img class="img-responsive" src="https://kironroy.github.io/images/cartoons/forest1.jpg" alt="forest" width="500" height="500"> 
+  </div>
+</div>
+
+<div v-if="showScene" id="scene2">
+  <div class="box">
+  <img class="img-responsive" src="https://kironroy.github.io/images/cartoons/forest5.jpg" alt="forest" width="500" height="500"> 
+  </div>
+</div>
+
+<div v-if="showScene" id="scene3">
+  <div class="box">
+   <img class="img-responsive" src="https://kironroy.github.io/images/cartoons/fern.jpg" alt="forest" width="500" height="500"> 
+  </div>
+</div>
+
+<div v-if="showScene" id="scene4">
+  <div class="box">
+  <img class="img-responsive" src="https://kironroy.github.io/images/cartoons/forest4.jpg" alt="forest" width="500" height="500"> 
+  </div>
+</div>
+
+<div v-if="showScene" id="scene5">
+  <div class="box">
+  <img class="img-responsive" src="https://kironroy.github.io/images/cartoons/bee.jpg" alt="forest" width="500" height="500"> 
+  </div>
+</div>
+
+<div v-if="showScene" id="scene6">
+  <div class="box">
+  <img class="img-responsive" src="https://kironroy.github.io/images/cartoons/frog.jpg" alt="forest" width="500" height="500"> 
+  </div>
+</div>
+
+<div v-if="showScene" id="scene7">
+  <div class="box">
+  <img class="img-responsive" src="https://kironroy.github.io/images/cartoons/forest3.jpg" alt="forest" width="500" height="500"> 
+  </div>
+</div>
+
+<div v-if="showScene" id="scene8">
+  <div class="box">
+    <img class="img-responsive" src="https://kironroy.github.io/images/cartoons/forest1.jpg" alt="forest" width="500" height="500"> 
+  </div>
+</div>
+
+<div v-if="showScene" id="scene9">
+  <div class="box">
+  <img class="img-responsive" src="https://kironroy.github.io/images/cartoons/forest2.jpg" alt="forest" width="500" height="500"> 
+  </div>
+</div>
+
+<div v-if="showScene" id="scene10">
+  <div class="box">
+  <img class="img-responsive" src="https://kironroy.github.io/images/cartoons/hawaii.jpg" alt="forest" width="500" height="500"> 
+  </div>
+</div>
+
+
+
+
+
+<div v-if="!end" id="button">
+  <div @click="processClick" class="button">
+  {{buttonText}}
+  </div>
+</div>
+
+<div v-if="end" id="button2">
+    <a href="https://twitter.com/home?status=Pencil%20%26%20Eraser%20%7C%20SVG%20%26%20%23VueJS%20Short%20Story%20via%20%40michaelmangial1"><div class="button">
+  Share via Twitter
+  </div></a>
+</div>
+  
+  <script>
+  // tell the embed parent frame the height of the content
+  if (window.parent && window.parent.parent){
+    window.parent.parent.postMessage(["resultsFrame", {
+      height: document.body.getBoundingClientRect().height,
+      slug: "p7fvjb9h"
+    }], "*")
+  }
+</script>
+
+</body>
+
+</html>
+
