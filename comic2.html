@@ -4,48 +4,19 @@
   <title>My Forest Trip!</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link href="https://fonts.googleapis.com/css?family=Delius+Swash+Caps" rel="stylesheet">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
       <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
       <link href="apple-touch-icon-192x192-precomposed.png" rel="icon" sizes="192x192"><!-- For third-generation iPad with high-resolution Retina display: -->
     	<link href="apple-touch-icon-144x144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144"><!-- For iPhone with high-resolution Retina display: -->
     	<link href="apple-touch-icon-114x114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114"><!-- For first- and second-generation iPad: -->
     	<link href="apple-touch-icon-72x72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72"><!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
     	<link href="apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed"><!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
-
-
-
-
-
-
-
-
-
-<script type="text/javascript" src="/js/lib/dummy.js"></script>
-
-
-
-
-
-
-
-
-    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
-
-
-
-
+      <script type="text/javascript" src="/js/lib/dummy.js"></script>
+      <link rel="stylesheet" type="text/css" href="/css/result-light.css">
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js"></script>
-
-
-
       <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
-
       <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-
-
-  <style type="text/css">
+      <style type="text/css">
     /* thank you: https://codepen.io/mikemang/pen/RpNeJj */
 
 @import url('https://fonts.googleapis.com/css?family=Delius+Swash+Caps');
@@ -415,10 +386,6 @@ var scene10 = new Vue({
   </div>
 </div>
 
-
-
-<br>
-
 <div v-if="!end" id="button">
   <div @click="processClick" class="button">
   {{buttonText}}
@@ -427,7 +394,8 @@ var scene10 = new Vue({
 
 <div v-if="end" id="button2">
     <a href="https://twitter.com/home?status=Pencil%20%26%20Eraser%20%7C%20SVG%20%26%20%23VueJS%20Short%20Story%20via%20%40michaelmangial1"><div class="button">
-  Share via Twitter
+  <i class="fa fa-twitter" aria-hidden="true"></i> Tweet this!
+
   </div></a>
 </div>
 
