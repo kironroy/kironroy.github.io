@@ -1,23 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Forest Trip!</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link href="https://fonts.googleapis.com/css?family=Delius+Swash+Caps" rel="stylesheet">
-      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-      <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
-      <link href="apple-touch-icon-192x192-precomposed.png" rel="icon" sizes="192x192"><!-- For third-generation iPad with high-resolution Retina display: -->
-    	<link href="apple-touch-icon-144x144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144"><!-- For iPhone with high-resolution Retina display: -->
-    	<link href="apple-touch-icon-114x114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114"><!-- For first- and second-generation iPad: -->
-    	<link href="apple-touch-icon-72x72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72"><!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
-    	<link href="apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed"><!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
-      <script type="text/javascript" src="/js/lib/dummy.js"></script>
-      <link rel="stylesheet" type="text/css" href="/css/result-light.css">
-      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js"></script>
-      <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-      <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-      <style type="text/css">
-    /* thank you: https://codepen.io/mikemang/pen/RpNeJj */
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <script type="text/javascript" src="/js/lib/dummy.js"></script>
+  <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style type="text/css">
+
+/* thank you: https://codepen.io/mikemang/pen/RpNeJj */
 
 @import url('https://fonts.googleapis.com/css?family=Delius+Swash+Caps');
 body {
@@ -28,10 +23,10 @@ body {
   position: relative;
   display: block;
   margin: auto;
-  margin-top: 3%;
+  -margin-top: 3%;
   width: 498px;
   height: 335px;
-  border: solid 8px white;
+  -border: solid 8px white;
   border-radius: 4px;
 }
 
@@ -47,7 +42,7 @@ body {
 
 .sub-title {
   position: relative;
-  margin-top: 2%;
+  margin-top: 1%;
   margin-bottom: 0%;
   font-family: 'Delius Swash Caps', cursive;
   color: white;
@@ -75,16 +70,17 @@ body {
 
 @media all and (max-width: 600px) {
   .box {
-    margin-top: 100px;
-    margin-bottom: 20px;
-    width: 250px;
-    height: 175px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 350px;
+    height: 275px;
+
   }
 }
 
   </style>
 
-  <title> by kironroy</title>
+  <title>My Forest Trip by kironroy</title>
 
 
 
@@ -311,9 +307,6 @@ var scene10 = new Vue({
 
 <body>
   <!--thank you: https://codepen.io/mikemang/#-->
-<br>
-  <center>&nbsp;&nbsp;<a href="http://kironroy.github.io"><img alt="Kiron Roy Logo" src="logo_forest.svg" style="width:100px;height:100px;"></a></center>
-<br>
 <div id="text">
   <div class="title">{{title}}</div>
   <div class="sub-title">{{subtitle}}</div>
@@ -386,6 +379,10 @@ var scene10 = new Vue({
   </div>
 </div>
 
+
+
+
+
 <div v-if="!end" id="button">
   <div @click="processClick" class="button">
   {{buttonText}}
@@ -394,8 +391,7 @@ var scene10 = new Vue({
 
 <div v-if="end" id="button2">
     <a href="https://twitter.com/home?status=Pencil%20%26%20Eraser%20%7C%20SVG%20%26%20%23VueJS%20Short%20Story%20via%20%40michaelmangial1"><div class="button">
-  <i class="fa fa-twitter" aria-hidden="true"></i> Tweet this!
-
+ <i class="fa fa-twitter" aria-hidden="true"></i> Tweet this!
   </div></a>
 </div>
 
@@ -404,7 +400,7 @@ var scene10 = new Vue({
   if (window.parent && window.parent.parent){
     window.parent.parent.postMessage(["resultsFrame", {
       height: document.body.getBoundingClientRect().height,
-      slug: "p7fvjb9h"
+      slug: "1b5xadey"
     }], "*")
   }
 </script>
