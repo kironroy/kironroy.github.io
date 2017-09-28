@@ -47,4 +47,5 @@
 <li><a href="https://electron.atom.io/">Electron desktop apps with JS</a></li>
 <li><a href="https://p5js.org/get-started/">p5 documentation</a></li>
 <li><a href="https://alpha.editor.p5js.org/">alpha editor</a></li>
+<li><a href="https://www.udacity.com/course/javascript-design-patterns--ud989">JavaScript Design Patterns</a></li>
 </ul>
