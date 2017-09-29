@@ -9,7 +9,7 @@
 
 ***
 
-- c++
+- C++
   - [C++](http://www.learncpp.com/)
 
 ***
