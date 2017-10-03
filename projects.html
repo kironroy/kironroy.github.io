@@ -151,55 +151,41 @@ const app = new Vue({
       new Post(
         'JavaScript',
         'https://github.com/kironroy/kironroy.github.io/wiki/JavaScript',
-        'Chris',
+        'kironroy',
         'https://kironroy.github.io/js.svg'
       ),
       new Post(
         'Ruby',
         'https://github.com/kironroy/kironroy.github.io/wiki/Ruby-Selected-Programs',
-        'Tim',
+        'kironroy',
         'https://kironroy.github.io/ruby.svg'
       ),
       new Post(
         'PHP',
         'https://kironroy.000webhostapp.com/',
-        'Sam',
+        'kironroy',
         'https://kironroy.github.io/php.svg'
       ),
       new Post(
         'GitHub Wiki',
         'https://github.com/kironroy/kironroy.github.io/wiki',
-        'Rachel',
+        'kironroy',
         'https://kironroy.github.io/github.svg'
       ),
-    /*  new Post(
-        'Availity',
-        'https://apps.availity.com/availity/web/public.elegant.login',
-        'Chris',
-        'https://prnewswire2-a.akamaihd.net/p/1893751/sp/189375100/thumbnail/entry_id/0_ibyy2qeg/def_height/1600/def_width/1600/version/100012/type/2/q/100'
-      ),
-      new Post(
-        'PIH EZ-NET',
-        'https://eznetportal.pihhealth.org/EZ-NET60/Login.aspx',
-        'Tim',
-        'https://biz.prlog.org/PIH_Health/logo.jpg'
-      ),
-      new Post(
-        'Medpoint',
-        'https://mpmweb.medpointmanagement.com/2011/Default.aspx',
-        'A. A. Ron',
-        'https://mpmweb.medpointmanagement.com/2011/IMAGES/MedpointLogoNew.jpg'
-      ),
-      new Post(
-        'Navinet',
-        'https://navinet.navimedix.com/sign-in?ReturnUrl=/',
-        'Alex',
-        'http://businessradiox.com/wp-content/uploads/2015/10/navinet.jpeg'
-      ),
-    */
 
+      new Post(
+        'C++',
+        'https://github.com/kironroy/kironroy.github.io/wiki/c++',
+        'kironroy',
+        'https://kironroy.github.io/c++.svg'
+      ),
 
-
+      new Post(
+        'Python',
+        'https://github.com/kironroy/python_hardway',
+        'kironroy',
+        'https://kironroy.github.io/python.svg'
+      ),
     ]
   },
   methods: {
@@ -229,7 +215,7 @@ const app = new Vue({
   </div>
       <div class="wrapper">
         <div class="card" v-for="post in filteredList">
-          <a v-bind:href="post.link" target="_blank">
+          <a v-bind:href="post.link">
             <img v-bind:src="post.img"/>
             <small>{{post.author}}</small>{{post.title}}
           </a>
