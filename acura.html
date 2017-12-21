@@ -6,35 +6,44 @@
 	<meta content="width=device-width, initial-scale=1" name="viewport">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+	</script>
 	<style>
-  @import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
+	 @import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
 
-  body {
-    font-family: 'Pontano Sans', sans-serif;src:
-    background-color: #e6eaee;
+	 body {
+	   font-family: 'Pontano Sans', sans-serif;src:
+	   background-color: #e6eaee;
+	   }
+
+	 #total_service {
+	 font-weight: bold;
+	 font-size: 20px;
+	 color: #072F5E;
+	 text-align: center;
 	}
-
 
 
 
 	</style>
 </head>
 <body>
- <br>
-  <center><a href="http://wikicars.org/en/Acura_RSX"><img alt="Kiron Roy Logo" src="acura2.svg" style="width:90px;height:90px;"></a></center>
- <br>
-  <table class="table table-striped table-responsive">
+	<br>
+	<center>
+		<a href="http://wikicars.org/en/Acura_RSX"><img alt="Kiron Roy Logo" src="acura2.svg" style="width:90px;height:90px;"></a>
+	</center><br>
+	<table class="table table-striped table-responsive">
 		<thead>
 			<tr>
 				<th></th>
 				<th>Service Type</th>
 				<th>Description</th>
 				<th>$ Cost</th>
-        <th>Date</th>
-        <th>Mileage</th>
-        <th># Invoice</th>
+				<th>Date</th>
+				<th>Mileage</th>
+				<th># Invoice</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -43,29 +52,47 @@
 				<td>Struts</td>
 				<td>Four struts: <i>Monroe Gas Struts</i></td>
 				<td>$1,251.64</td>
-        <td>9-11-2017</td>
-        <td>95,422</td>
-        <td>75878</td>
-      </tr>
+				<td>9-11-2017</td>
+				<td>95,422</td>
+				<td>75878</td>
+			</tr>
 			<tr>
 				<th scope="row">2</th>
-        <td>Tires</td>
+				<td>Tires</td>
 				<td>Four Tires Replaced: <i>Goodyear Assurance</i></td>
 				<td>$504.88</td>
-        <td>9-6-2017</td>
-        <td>95,346</td>
-        <td>75722</td>
+				<td>9-6-2017</td>
+				<td>95,346</td>
+				<td>75722</td>
 			</tr>
 			<tr>
 				<th scope="row">3</th>
-        <td>Radiator and headlight</td>
+				<td>Radiator and headlight</td>
 				<td>Radiator Leak and headight replacement bulb</td>
 				<td>$608.64</td>
-        <td>8-29-2017</td>
-        <td>95,227</td>
-        <td>75502</td>
+				<td>8-29-2017</td>
+				<td>95,227</td>
+				<td>75502</td>
 			</tr>
 		</tbody>
 	</table>
+	<div id="total_service"></div>
+
+	<script>
+	const totalCostFunction = () => {
+	   let strutsCost = 1251.64;
+	   let tiresCost = 504.88;
+	   let lightCost = 608.64;
+	   let totalCost = `total costs:  ${ strutsCost + tiresCost + lightCost}`;
+	   return totalCost;
+	 document.getElementById("demo").innerHTML = total_Cost;
+
+	}
+
+	let playGameHTML = document.getElementById("total_service");
+	total_service.innerHTML = (totalCostFunction());
+
+
+	</script>
 </body>
 </html>
