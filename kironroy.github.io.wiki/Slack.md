@@ -6,4 +6,5 @@
 <li><a href="https://thehq.slack.com/"> The Head Quarters</a></li>
 <li><a href="https://learnteachcode.slack.com">Learn Teach Code</a></li>
 <li><a href="https://recyclathon.slack.com">Recyclathon</a></li>
+<li><a href="https://codecademyintensive.slack.com/">codecademy</a></li>
 </ul>

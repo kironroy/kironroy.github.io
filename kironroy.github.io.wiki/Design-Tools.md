@@ -7,7 +7,7 @@
 
   #### Templates
   * [HTML5 UP](https://html5up.net/)
-  * [W3Schools' Bootstrap](http://getbootstrap.com/)
+  * [Bootstrap](http://getbootstrap.com/)
   * [W3Schools' Bootstrap Templates](https://www.w3schools.com/bootstrap/bootstrap_templates.asp)
   * [Jekyll Themes](http://jekyllthemes.org/)
 * [Google Test Site](https://testmysite.thinkwithgoogle.com/intl/en-us)
@@ -23,6 +23,7 @@
 ***
 ### Design Tools & Online Editors
   #### Graphics
+* [HTML Entities](https://www.toptal.com/designers/htmlarrows/symbols/)
 * [Font Awesome](http://fontawesome.io/icons/)
 * [COLOURLovers](http://www.colourlovers.com/palettes/)
 * [8 bit convertor](http://c64.superdefault.com/)

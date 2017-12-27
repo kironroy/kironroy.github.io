@@ -1,4 +1,4 @@
-**Selected Programs:**
+![ruby logo](https://kironroy.github.io/ruby.svg)
 
 * [forest_game2.rb](https://repl.it/GvEJ/11)
 * [forest_game.rb](https://repl.it/GV8s/35)

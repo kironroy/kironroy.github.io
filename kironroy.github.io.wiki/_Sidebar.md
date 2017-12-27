@@ -3,6 +3,14 @@
 
 ***
 
+- BASIC
+  - [Basics of BASIC](https://www.youtube.com/watch?v=seM9SqTsRG4")
+  - [BASIC 256](http://www.basic256.org/index_en)
+  - [BASIC 256 online](https://www.rollapp.com/app/basic256)
+  - [Apple BASIC](http://www.calormen.com/jsbasic/)
+
+***
+
 - Books
   - [Learn Python the Hardway](https://learnpythonthehardway.org/book/)
   - [Learn Ruby the Hardway](https://learnrubythehardway.org/book/)
@@ -10,7 +18,7 @@
 ***
 
 - C++
-  - [C++](http://www.learncpp.com/)
+  - [C++](https://github.com/kironroy/kironroy.github.io/wiki/c++)
 
 ***
 
@@ -54,10 +62,12 @@
 ***
 
 - Job Board
+  - [Built in LA](https://www.builtinla.com/jobs)
   - [Jr. Web Job Board](https://www.jrdevjobs.com/#!)
   - [Jr. Web Job Board Profile](https://www.jrdevjobs.com/profiles/kiron-roy)
   - [Skill Crush](https://skillcrush.com/2015/07/14/job-sites-to-find-your-first-developer-job/)
   - [Cyber Coders](https://www.cybercoders.com/jobs/)
+  - [Built in LA](https://www.builtinla.com/jobs)
 
 
 ***
@@ -75,6 +85,13 @@
 
 - Python
   - [Python](https://github.com/kironroy/kironroy.github.io/wiki/Python)
+***
+
+- React
+  - [React](https://github.com/kironroy/kironroy.github.io/wiki/React)
+    - [React on Glitch](https://glitch.com/edit/#!/create-react-app-sample?path=README.md:1:0)
+
+
 ***
 
 - Repl
@@ -96,10 +113,12 @@
 ***
 
 - Slack  
-  - [Jr Dev Jobs](https://jrdevjobs.slack.com/)
   - [Code and Coffee](https://codeandcoffee.slack.com)
+  - [Codecademy](https://codecademyintensive.slack.com)
   - [The HQ](https://thehq.slack.com/)
+  - [Jr Dev Jobs](https://jrdevjobs.slack.com/)
   - [Learn to Teach Code LA](https://learnteachcode.slack.com)
+
 
 
 ***
