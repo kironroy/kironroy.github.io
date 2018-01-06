@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" fill-rule="nonzero">
+            <g id="nights" transform="translate(1.000000, 21.000000)">
+                <path d="M71.9109079,15.9539778 C72.1674901,16.5292044 71.8505701,17 71.2079429,17 L27.7764217,17 C27.1320371,17 26.827419,16.5343404 27.0998179,15.9659617 L34.2401849,1.03460893 C34.5125839,0.465659617 35.2624132,0 35.9067978,0 L63.6053764,0 C64.2503468,0 64.9867026,0.470795569 65.2450423,1.04602216 L71.9109079,15.9539778 Z" id="Shape" fill="#C5B358"></path>
+                <path d="M5.13795961e-16,10.2366795 C5.13795961e-16,9.00647716 1.05341722,8 2.34054151,8 L94.6594585,8 C95.9471613,8 97,9.00647716 97,10.2366795 L97,55.7633205 C97,56.9929507 95.9471613,58 94.6594585,58 L2.34054151,58 C1.05341722,58 0,56.9929507 0,55.7633205 L5.13795961e-16,10.2366795 Z" id="Shape" fill="#C5B358"></path>
+                <circle id="Oval" fill="#222222" cx="49" cy="34" r="23"></circle>
+                <rect id="Rectangle-path" fill="#1A1A1A" x="0" y="16" width="97" height="34"></rect>
+                <circle id="Oval" fill="#000000" cx="49" cy="34" r="21"></circle>
+                <circle id="Oval" fill="#000000" cx="48.5" cy="33.5" r="18.5"></circle>
+                <circle id="Oval" fill="#C5B358" cx="49" cy="33" r="1"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
