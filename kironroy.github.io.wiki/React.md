@@ -11,14 +11,21 @@
   It was written to be used with React.
   JSX code looks a lot like HTML.
 
+* A basic unit of JSX is called a **JSX element**.
+
+* JSX elements are treated as JavaScript expressions.
+  They can go anywhere that JavaScript expressions can go.
+
+* That means that a JSX element can be saved in a variable,
+  passed to a function, stored in an object or array...you name it.
+
 * JSX is not valid JavaScript. Web browsers can't read it!
 
 * If a JavaScript file contains JSX code, then that file will have to be compiled.
   That means that before the file reaches a web browser,
   a JSX compiler will translate any JSX into regular JavaScript.
 
-  ## React : Components | Props | State (basics)
-
+## Components
   * React applications are made out of components.
 
   * A **component** is a small,
@@ -32,42 +39,90 @@
 
   * A component can pass information to another component.
     Information that gets passed from one component
-    to another is known as **props
-    state** is a way to store and update dynamic information
+    to another is known as **props**
+
+  * Props is a way to store and update dynamic information
     in a React component.
 
-  * Every component has something called props.
-    A component's props is an object.
-    It holds information about that component.
-    To see a component's props object, you use the expression this.props
+    * Every component must come from a component class.
 
-  * Every component must come from a component class.
+    * A component class is like a factory that creates components.
+      If you have a component class, then you can use
+      that class to produce as many components as you want.
 
-  * A component class is like a factory that creates components.
-    If you have a component class, then you can use
-    that class to produce as many components as you want.
+    * To make a component class,
+      you use a base class from the React library: React.Component
 
-  * To make a component class,
-    you use a base class from the React library: React.Component
+    * React.Component is a JavaScript class. To create your own component class,
+      you must **subclass** React.Component.
+      You can do this by using the syntax class
+      **`YourComponentNameGoesHere extends React.Component {}`**
 
-  * React.Component is a JavaScript class. To create your own component class,
-    you must **subclass** React.Component.
-    You can do this by using the syntax class
-    **YourComponentNameGoesHere extends React.Component {}**
+    * A component's props is an **object**.
+      It holds **information** about that component.
+      To see a component's props object, you use the expression **this.props**
 
-    * With **props** and **state** you can create dynamic content in a React component.
-      Updating state from any component to make your applications fully interactive.
+      * Passing a prop by giving an attribute to a component instance
+      * Accessing a passed-in prop via this.props.prop-name
+      * Displaying a prop
+      * Using a prop to make decisions about what to display
+      * Defining an event handler in a component class
+      * Passing an event handler as a prop
+      * Receiving a prop event handler and attaching it to an event listener
+      * Naming event handlers and event handler attributes according to convention
+        **`this.props.children`**
+        **`getDefaultProps`**
 
-      props and state are all that you need to set up an ecosystem of
-      interacting React components.
+## State
+* Unlike props, a component's **state** is not passed in from the outside.
+A component decides its own state.
+To make a component have state, give the component a state property.
+This property should be declared inside of a constructor method, like this:
 
-    *  A React component should use **props** to store information that can be changed,
-       but can only be changed by a different component.
+1. A stateful component class stores information as state.
+2. A stateless component class displays that state.
+3. different stateless component class displays a way to change that state.
 
-    * A React component should use **state** to store information
-      that the component itself can change.
+**It's a common pattern used by React programmers.
+Recognizing it can help you make sense of
+React programs that you encounter,
+and can also help you build better React programs yourself.**
+
+* With **props** and **state** you can create dynamic content in a React component.
+  Updating state from any component to make your applications fully interactive.
+  props and state are all that you need to set up an ecosystem of
+  interacting React components.
+
+* A React component should use **props** to store information that can be changed,
+   but can only be changed by a different component.
+
+* A React component should use **state** to store information
+  that the component itself can change.
+
+* A React app is basically just a lot of components,
+* setting state and passing props to one another.
+
+* A child component updates its parent's state,
+  and the parent passes that state to a sibling component
 
 ***
+
+JSX Elements
+```
+// Here's an example of a JSX element being saved in a variable:
+
+const navBar = <nav>I am a nav bar</nav>;
+
+// Here's an example of several JSX elements being stored in an object:
+
+const myTeam = {
+  center: <li>Benzo Walli</li>,
+  powerForward: <li>Rasha Loa</li>,
+  smallForward: <li>Tayshaun Dasmoto</li>,
+  shootingGuard: <li>Colmar Cumberbatch</li>,
+  pointGuard: <li>Femi Billon</li>
+};
+```
 
 Outer Elements
 ```
@@ -210,6 +265,170 @@ Parent - child
 A <Parent /> is supposed to pass its state to a <Child />.
 Before a <Parent /> can pass anything to a <Child />,
 you need to import Child into Parent.js.
+```
+***
+Requests
+* **GET** requests receive information from other sites by sending a query.
+* A GET request is like a search. If you navigate to
+  Google and search for something
+
+* **POST** requests can change information on another site
+  and will receive information or data in response.
+* POST requests, on the other hand,
+  introduce new information to another website
+Promise
+* A **Promise** is an object that acts as a placeholder for data
+  that has been requested but not yet received.
+  Eventually, a Promise will resolve to the value
+  requested or to a reason why the request failed.
+* If the requested information or any error
+  except a network error is received, the Promise is **fulfilled**
+  and calls a function to handle the response.
+  If there is a network error, the Promise is
+  **rejected** and will call a function to handle the error.
+
+* **fetch() function** uses Promises to handle requests.
+
+The fetch() function
+
+1. creates a request object using the information provided to it
+2. sends that request object to the URL provided
+3. returns a Promise that ultimately resolves to a response object,
+   which contains a lot of information,
+   including (if everything went well), the information requested.
+* Because fetch() is a web API, not all browsers support it.
+  To ensure that all users can run code that uses fetch,
+  we can add a **polyfill** that will be used if a user
+  doesn't have fetch() support in their browser.
+```
+// sends request
+fetch('https://api-to-call.com/endpoint').then(
+response => {
+// converts response object to JSON
+	if (response.ok) {
+   return response.json();
+  }
+// handles errors
+  throw new Error('Request failed!');
+}, networkError => {
+  console.log(networkError.message);
+}).then(jsonResponse => jsonResponse);
+// code to execute with jsonResponse
+```
+
+```
+// GET
+
+const xhr = new XMLHttpRequest();
+const url = 'http://api-to-call.com/endpoint';
+xhr.responseType = 'json';
+xhr.onreadystatechange = function() {
+  if (xhr.readyState === XMLHttpRequest.DONE) {
+    console.log(xhr.response);
+  }
+};
+xhr.open('GET', url);
+xhr.send();
+
+
+// POST
+
+const xhr = new XMLHttpRequest();
+const url = 'http://api-to-call.com/endpoint';
+const data = JSON.stringify({
+  id: '200'
+}); // one for more constant variable is added to
+xhr.responseType = 'json';
+xhr.onreadystatechange = function() {
+  if (xhr.readyState === XMLHttpRequest.DONE) {
+    console.log(xhr.response);
+  }
+};
+xhr.open('POST', url);
+xhr.send(data);
+
+```
+Get (in detail)
+```
+const xhr = new XMLHttpRequest(); // creating XMLHttpRequest(); object
+const url = 'http://api-to-call.com/endpoint'; // url in a constant variable
+
+xhr.responseType = 'json'; // json type (format)
+xhr.onreadystatechange = function () { // event handler -> anonymous function
+  if (xhr.readyState === XMLHttpRequest.DONE) {
+    // Code to execute with response
+  }
+};
+
+xhr.open('GET', url);
+/*
+   open .method with two arguments: get (type of request)
+   url, url we are querying
+   .open() creates and structures the request.
+   It tells the request what method to use,
+   GET or POST, and what URL to query.
+*/
+xhr.send();
+
+/*
+  .send() method on our xhr object and pass it no arguments.
+   This is because data sent in GET requests
+   is sent as part of the URL. Calling the .send()
+   method sends the xhr object with its relevant information to the API URL
+*/
+```
+Post (in Detail)
+```
+const xhr = new XMLHttpRequest(); // creates a new object
+const url = 'http://api-to-call.com/endpoint';
+const data = JSON.stringify({id: '200'}); // converts data to a string
+
+xhr.responseType = 'json';
+xhr.onreadystatechange = function() {
+  if (xhr.readyState === XMLHttpRequest.DONE) {
+   // code to execute with response   
+  }
+};
+
+xhr.open('POST', url);
+xhr.send(data);
+```
+AJAX (Asynchronous JavaScript and XML)
+```
+// jQuery GET
+
+$.ajax({
+  // settings
+  url: 'http://api-to-call.com/endoint',
+  type: 'GET',
+  dataType: 'json',
+  // handles response if successful
+  success(response) {
+    // code to execute with response on success
+   },
+   // handles response if unsuccessful
+  error(jqXHR, status, errorThrown) {
+    // code to execute with response on failure
+   }
+  });
+
+```
+
+```
+// jQuery POST
+$.ajax({
+  url: 'http://api-to-call.com/endpoint',
+  type: 'POST',
+  data: JSON.stringify({id: '200'}),
+  dataType: 'json',
+  success(response) {
+    // code to execute with response on success
+  },
+  error(jqXHR, status, errorThrown) {
+     // code to execute with response on failure
+  }
+ });
+
 ```
 ***
 
