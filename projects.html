@@ -1,238 +1,241 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<meta content="text/html; charset=utf-8" http-equiv="content-type">
-	<meta content="noindex, nofollow" name="robots">
-	<meta content="noindex, nofollow" name="googlebot">
-	<script src="/js/lib/dummy.js" type="text/javascript">
-	</script>
-	<link href="/css/result-light.css" rel="stylesheet" type="text/css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.3/vue.min.js" type="text/javascript">
-	</script>
-	<link href="apple-touch-icon-192x192-precomposed.png" rel="icon" sizes="192x192">
-	<link href="apple-touch-icon-144x144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144">
-	<link href="apple-touch-icon-114x114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114">
-	<link href="apple-touch-icon-72x72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
-	<link href="apple-touch-icon-iphone.png" rel="apple-touch-icon">
-	<style type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <script type="text/javascript" src="/js/lib/dummy.js"></script>
+  <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.3/vue.min.js"></script>
+  <link href="apple-touch-icon-192x192-precomposed.png" rel="icon" sizes="192x192">
+  <link href="apple-touch-icon-144x144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144">
+  <link href="apple-touch-icon-114x114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114">
+  <link href="apple-touch-icon-72x72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
+  <link href="apple-touch-icon-iphone.png" rel="apple-touch-icon">
+<style type="text/css">
 
-	@import url('https://fonts.googleapis.com/css?family=Heebo:300,400');
+@import url('https://fonts.googleapis.com/css?family=Heebo:300,400');
 
-	html, body {
-	   display: flex;
-	   align-items: center;
-	   justify-content: center;
-	   flex-direction: column;
-	   margin-top: 16px;
-	   margin-bottom: 16px;
-	 background-color: #F4F0ED;
-	 font-family: 'Heebo';
-	 font-weight: 300;
-	 letter-spacing: -.50px
-	}
+html, body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 16px;
+	margin-bottom: 16px;
+  background-color: #F4F0ED;
+  font-family: 'Heebo';
+  font-weight: 300;
+}
 
-	div#app {
-	   display: flex;
-	   align-items: center;
-	   justify-content: center;
-	   flex-direction: column;
-	}
+div#app {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
 
-	div#app .search-wrapper {
-	   position: relative;
-	}
+div#app .search-wrapper {
+	position: relative;
+}
 
-	div#app .search-wrapper label {
-	   position: absolute;
-	   font-size: 12px;
-	   color: rgba(0, 0, 0, 0.5);
-	   top: 8px;
-	   left: 12px;
-	   z-index: -1;
-	   transition: .15s all ease-in-out;
-	}
+div#app .search-wrapper label {
+	position: absolute;
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.5);
+	top: 8px;
+	left: 12px;
+	z-index: -1;
+	transition: .15s all ease-in-out;
+}
 
-	div#app .search-wrapper input {
-	   padding: 10px 40px;
-	   color: rgba(0, 0, 0, 0.7);
-	   border: 2px solid rgba(0, 0, 0, 0.12);
-	   transition: .15s all ease-in-out;
-	   background: white;
-	}
+div#app .search-wrapper input {
+	padding: 10px 40px;
+	color: rgba(0, 0, 0, 0.7);
+	border: 2px solid rgba(0, 0, 0, 0.12);
+	transition: .15s all ease-in-out;
+	background: white;
+}
 
-	div#app .search-wrapper input:focus {
-	   outline: none;
-	   transform: scale(1.05);
-	}
+div#app .search-wrapper input:focus {
+	outline: none;
+	transform: scale(1.05);
+}
 
-	div#app .search-wrapper input:focus + label {
-	   font-size: 10px;
-	   transform: translateY(-24px) translateX(-12px);
-	}
+div#app .search-wrapper input:focus + label {
+	font-size: 10px;
+	transform: translateY(-24px) translateX(-12px);
+}
 
-	div#app .search-wrapper input::-webkit-input-placeholder {
-	   font-size: 12px;
-	   color: rgba(0, 0, 0, 0.5);
-	   font-weight: 100;
-	}
+div#app .search-wrapper input::-webkit-input-placeholder {
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.5);
+	font-weight: 100;
+}
 
-	div#app .wrapper {
-	   display: flex;
-	   max-width: 444px;
-	   flex-wrap: wrap;
-	   padding-top: 12px;
-	}
+div#app .wrapper {
+	display: flex;
+	max-width: 444px;
+	flex-wrap: wrap;
+	padding-top: 12px;
+}
 
-	div#app .card {
+div#app .card {
 
-	   max-width: 124px;
-	   margin: 12px;
-	   transition: .15s all ease-in-out;
-	}
+	max-width: 124px;
+	margin: 12px;
+	transition: .15s all ease-in-out;
+}
 
-	div#app .card:hover {
-	   transform: scale(1.1);
-	}
+div#app .card:hover {
+	transform: scale(1.1);
+}
 
-	div#app .card a {
-	   text-decoration: none;
-	   padding: 12px;
-	   color: #03A9F4;
-	   font-size: 18px;
-	   display: flex;
-	   flex-direction: column;
-	   align-items: center;
-	 color: #000000;
-	}
+div#app .card a {
+	text-decoration: none;
+	padding: 12px;
+	color: #03A9F4;
+	font-size: 18px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  color: #000000;
+}
 
-	div#app .card a img {
-	   height: 92px;
-	 width: 100px;
-	}
+div#app .card a img {
+	height: 92px;
+  width: 100px;
+}
 
-	div#app .card a small {
-	   font-size: 1px;
-	   padding: 4px;
-	}
+div#app .card a small {
+	font-size: 1px;
+	padding: 4px;
+}
 
-	div#app .hotpink {
-	   background: hotpink;
-	}
+div#app .hotpink {
+	background: hotpink;
+}
 
-	div#app .green {
-	   background: green;
-	}
+div#app .green {
+	background: green;
+}
 
-	div#app .box {
-	   width: 200px;
-	   height: 200px;
-	   border: 1px solid rgba(0, 0, 0, 0.12);
-	}
-	</style>
-	<title>Script Projects</title>
-	<script type='text/javascript'>
-	//<![CDATA[
-	window.onload=function(){
-	// thank you: https://codepen.io/sergio_llanos22/pen/JNQRRP
+div#app .box {
+	width: 200px;
+	height: 200px;
+	border: 1px solid rgba(0, 0, 0, 0.12);
+}
+  </style>
 
-	class Post {
-	 constructor(title, link, author, img) {
-	   this.title = title;
-	   this.link = link;
-	   //this.author = author;
-	   this.img = img;
-	 }
-	}
+  <title>Script Projects</title>
 
-	const app = new Vue({
-	 el: '#app',
-	 data: {
-	   keyword: '',
-	   postList: [
-	     new Post(
-	       'JavaScript',
-	       'https://jsfiddle.net/user/kironroy/fiddles/',
-	       'kironroy',
-	       'https://kironroy.github.io/js.svg'
-	     ),
-	     new Post(
-	       'Ruby',
-	       'https://github.com/kironroy/kironroy.github.io/wiki/Ruby-Selected-Programs',
-	       'kironroy',
-	       'https://kironroy.github.io/ruby.svg'
-	     ),
-	     new Post(
-	       'PHP',
-	       'https://kironroy.000webhostapp.com/',
-	       'kironroy',
-	       'https://kironroy.github.io/php.svg'
-	     ),
-	     new Post(
-	       'React',
-	       'https://glitch.com/@kironroy',
-	       'kironroy',
-	       'https://kironroy.github.io/react2.svg'
-	     ),
+<script type='text/javascript'>//<![CDATA[
+window.onload=function(){
+// thank you: https://codepen.io/sergio_llanos22/pen/JNQRRP
 
-	     new Post(
-	       'C++',
-	       'https://github.com/kironroy/kironroy.github.io/wiki/c++',
-	       'kironroy',
-	       'https://kironroy.github.io/c++.svg'
-	     ),
+class Post {
+  constructor(title, link, author, img) {
+    this.title = title;
+    this.link = link;
+    //this.author = author;
+    this.img = img;
+  }
+}
 
-	     new Post(
-	       'Python',
-	       'https://github.com/kironroy/python_hardway',
-	       'kironroy',
-	       'https://kironroy.github.io/python.svg'
-	     ),
-	   ]
-	 },
-	 methods: {
-	   toggleOnOff() {
-	     this.onOff = !this.onOff;
-	   }
-	 },
-	 computed: {
-	   filteredList() {
-	     return this.postList.filter((post) => {
-	       return post.title.toLowerCase().includes(this.keyword.toLowerCase());
-	     });
-	   }
-	 }
-	});
-	}//]]>
+const app = new Vue({
+  el: '#app',
+  data: {
+    keyword: '',
+    postList: [
+      new Post(
+        'JavaScript',
+        'https://jsfiddle.net/user/kironroy/fiddles/',
+        'kironroy',
+        'https://kironroy.github.io/js.svg'
+      ),
+      new Post(
+        'Ruby',
+        'https://github.com/kironroy/kironroy.github.io/wiki/Ruby-Selected-Programs',
+        'kironroy',
+        'https://kironroy.github.io/ruby.svg'
+      ),
+      new Post(
+        'PHP',
+        'https://kironroy.000webhostapp.com/',
+        'kironroy',
+        'https://kironroy.github.io/php.svg'
+      ),
+      new Post(
+        'React',
+        'https://glitch.com/@kironroy',
+        'kironroy',
+        'https://kironroy.github.io/react.svg'
+      ),
 
-	</script>
-</head>
-<body>
-	<a href="http://kironroy.github.io"><img alt="Kiron Roy Logo" src="logo2.svg" style="width:80px;height:80px;"></a>
-	<div>
-		Search Scripts
-	</div>
-  <!-- // thank you: https://codepen.io/sergio_llanos22/pen/JNQRRP -->
-	<div id="app">
+      new Post(
+        'C++',
+        'https://github.com/kironroy/kironroy.github.io/wiki/c++',
+        'kironroy',
+        'https://kironroy.github.io/c++.svg'
+      ),
+
+      new Post(
+        'Python',
+        'https://github.com/kironroy/python_hardway',
+        'kironroy',
+        'https://kironroy.github.io/python.svg'
+      ),
+    ]
+  },
+  methods: {
+    toggleOnOff() {
+      this.onOff = !this.onOff;
+    }
+  },
+  computed: {
+    filteredList() {
+      return this.postList.filter((post) => {
+        return post.title.toLowerCase().includes(this.keyword.toLowerCase());
+      });
+    }
+  }
+});
+}//]]>
+
+</script>
+  </head>
+    <body>
+      <a href="http://kironroy.github.io"><img alt="Kiron Roy Logo" src="logo2.svg" style="width:80px;height:80px;"></a>
+<div>
+	Search Scripts
+</div>
+	<!-- // thank you: https://codepen.io/sergio_llanos22/pen/JNQRRP -->
+<div id="app">
+  <div class="search-wrapper">
 		<br>
-		<div class="search-wrapper">
-			<br>
-			<input placeholder="Search" type="text"> <label>Search</label>
-		</div>
-		<div class="wrapper">
-			<div class="card">
-				<a><img> <small>{{post.author}}</small>{{post.title}}</a>
-			</div>
-		</div>
-	</div>
-	<script>
-	 // tell the embed parent frame the height of the content
-	 if (window.parent && window.parent.parent){
-	   window.parent.parent.postMessage(["resultsFrame", {
-	     height: document.body.getBoundingClientRect().height,
-	     slug: "90dmpfv8"
-	   }], "*")
-	 }
-	</script>
-</body>
+    <input type="text" v-model="keyword" placeholder= "Search"/>
+    <label>Search</label>
+  </div>
+      <div class="wrapper">
+        <div class="card" v-for="post in filteredList">
+          <a v-bind:href="post.link">
+            <img v-bind:src="post.img"/>
+            <small>{{post.author}}</small>{{post.title}}
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+  <script>
+  // tell the embed parent frame the height of the content
+  if (window.parent && window.parent.parent){
+    window.parent.parent.postMessage(["resultsFrame", {
+      height: document.body.getBoundingClientRect().height,
+      slug: "90dmpfv8"
+    }], "*")
+  }
+</script>
+  </body>
 </html>
