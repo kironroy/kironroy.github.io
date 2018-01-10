@@ -16,7 +16,7 @@
 	h2
 	{
 		font-size: 1.5em;
-		letter-spacing: 0;
+		letter-spacing: 1.0;
 		font-weight: 300;
 	}
 
@@ -34,12 +34,12 @@
 
 			ul.icons
 			{
-			}	
-			
+			}
+
 				ul.icons li
 				{
 				}
-				
+
 					ul.icons a
 					{
 						width: 1.75em;
@@ -63,16 +63,16 @@
 		{
 			padding: 4em 0em;
 		}
-		
+
 			#main section.cover header
 			{
 				padding: 0 1em;
 			}
-			
+
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
-	
+
 	#footer
 	{
 	}
@@ -80,7 +80,7 @@
 		#footer .copyright
 		{
 		}
-			
+
 			#footer .copyright li
 			{
 				display: block;
@@ -89,7 +89,7 @@
 				padding: 0;
 				margin: 1em 0 0 0;
 			}
-			
+
 			#footer .copyright li:first-child
 			{
 				margin-top: 0;

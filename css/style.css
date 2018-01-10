@@ -1,6 +1,6 @@
 
 @import url("font-awesome.min.css");
-@import url('https://fonts.googleapis.com/css?family=Heebo:300,400');
+
 
 /*
 	Prologue by HTML5 UP
@@ -40,10 +40,10 @@
 
 	body,input,textarea,select
 	{
-	  font-family: 'Heebo', sans-serif;
+	  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 		font-weight: 300;
 		font-size: 16pt;
-    letter-spacing: -0.5px;
+    letter-spacing: -0.20px;
     line-height: 1.75em;
 		color: #FFF;
 	}
@@ -53,14 +53,15 @@
 
 		color: #000;
 		line-height: 1.5em;
-    letter-spacing: -0.5px;
+    letter-spacing: -0.20px;
+    font-weight: 300;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
 		{
 			color: inherit;
 			text-decoration: none;
-      letter-spacing: -0.5px;
+      letter-spacing: -0.20px;
 		}
 
 		h1 strong, h2 strong, h4 strong, h5 strong, h6 strong

@@ -1,6 +1,7 @@
 
 ![design logo](https://kironroy.github.io/react2.svg)
-* [React](https://reactjs.org/)
+*   [How to learn React](https://www.lullabot.com/articles/how-to-learn-react)
+* **[React](https://reactjs.org/)**
   * [React Glitch example](https://glitch.com/edit/#!/create-react-app-sample?path=README.md:1:0)
     * [React Glitch](https://glitch.com/react)
   * [Virtual DOM](http://reactkungfu.com/2015/10/the-difference-between-virtual-dom-and-dom/)
