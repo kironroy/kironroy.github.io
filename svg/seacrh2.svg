@@ -1,25 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="181px" height="150px" viewBox="0 0 181 150" enable-background="new 0 0 181 150" xml:space="preserve">
-<g display="none">
-	<path display="inline" fill="#F4F0ED" d="M89.998,60.19c0,0.211-0.17,0.382-0.383,0.382H56.814c-0.21,0-0.382-0.17-0.382-0.382
-		v-2.864c0-0.211,0.171-0.382,0.382-0.382h32.801c0.213,0,0.385,0.171,0.385,0.382L89.998,60.19L89.998,60.19z"/>
-	<path display="inline" fill="#F4F0ED" d="M89.998,67.85c0,0.211-0.17,0.382-0.383,0.382H56.814c-0.21,0-0.382-0.17-0.382-0.382
-		v-2.864c0-0.211,0.171-0.383,0.382-0.383h32.801c0.213,0,0.385,0.171,0.385,0.383L89.998,67.85L89.998,67.85z"/>
-	<path display="inline" fill="#F4F0ED" d="M89.998,75.51c0,0.21-0.17,0.383-0.383,0.383H56.814c-0.21,0-0.382-0.172-0.382-0.383
-		v-2.865c0-0.211,0.171-0.383,0.382-0.383h32.801c0.213,0,0.385,0.172,0.385,0.383L89.998,75.51L89.998,75.51z"/>
-</g>
-<g>
-	<path fill="#F4F0ED" stroke="#EC1C24" stroke-width="6" stroke-linecap="round" d="M100.29,93.102
-		c14.626-14.896,14.403-38.833-0.493-53.458c-14.9-14.628-38.838-14.406-53.465,0.494c-14.626,14.896-14.406,38.832,0.494,53.46
-		c14.706,14.438,38.264,14.438,52.969,0l42.007,42.01 M119.314,106.691l27.18,27.181l-6.424,6.423l-27.18-27.179"/>
-	<rect x="55.706" y="48.819" fill="#EC1C24" width="13.294" height="8.014"/>
-	<rect x="55.706" y="61.909" fill="#EC1C24" width="13.294" height="8.014"/>
-	<rect x="55.706" y="75" fill="#EC1C24" width="13.294" height="8.014"/>
-	<rect x="76.706" y="48.819" fill="#EC1C24" width="13.294" height="8.014"/>
-	<rect x="76.706" y="61.909" fill="#EC1C24" width="13.294" height="8.014"/>
-	<rect x="76.706" y="75" fill="#EC1C24" width="13.294" height="8.014"/>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="119px" height="120px" viewBox="0 0 119 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>seacrh2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="seacrh2" transform="translate(3.000000, 3.000000)" fill-rule="nonzero">
+            <g id="Group">
+                <path d="M81.4038049,81.6016481 L65.29,65.102 C79.916,50.206 79.693,26.269 64.797,11.644 C49.897,-2.984 25.959,-2.762 11.332,12.138 C-3.294,27.034 -3.074,50.97 11.826,65.598 C26.532,80.036 50.09,80.036 64.795,65.598 L81.1006679,81.9048324 L77.89,85.116 L105.07,112.295 L111.494,105.872 L84.314,78.691 L81.4038049,81.6016481 Z" id="Shape" stroke="#EC1C24" stroke-width="6" fill="#F4F0ED" stroke-linecap="round"></path>
+                <rect id="Rectangle-path" fill="#EC1C24" x="20.706" y="20.819" width="13.294" height="8.014"></rect>
+                <rect id="Rectangle-path" fill="#EC1C24" x="20.706" y="33.909" width="13.294" height="8.014"></rect>
+                <rect id="Rectangle-path" fill="#EC1C24" x="20.706" y="47" width="13.294" height="8.014"></rect>
+                <rect id="Rectangle-path" fill="#EC1C24" x="41.706" y="20.819" width="13.294" height="8.014"></rect>
+                <rect id="Rectangle-path" fill="#EC1C24" x="41.706" y="33.909" width="13.294" height="8.014"></rect>
+                <rect id="Rectangle-path" fill="#EC1C24" x="41.706" y="47" width="13.294" height="8.014"></rect>
+            </g>
+        </g>
+    </g>
 </svg>
