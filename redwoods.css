@@ -1,13 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css?family=Bellefair');
-/*@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i');*/
+
 
 a {
     -background-color:transparent;
     text-decoration: none;
     color: #7F1C25;
     font-style: normal;
-    font-weight: 300;
+
 }
 
 a:hover {
@@ -16,25 +16,17 @@ a:hover {
     color: #612711;
 }
 
-h4 {
+h1, h2, h4 {
    color: #7F1C25;
    font-family: 'Bellefair', serif;
+   letter-spacing: -.50px;
 }
 
-h2 {
-   color: #7F1C25;
-   font-family: 'Bellefair', serif;
-   font-weight: 300;
-}
 
-h1 {
-   color: #7F1C25;
-   font-family: 'Bellefair', serif;
-   font-weight: 300;
-}
 body {
    font-family: 'Bellefair', serif;
    background-color: #E8F2F1;
+   letter-spacing: -.50px;
    padding-top: 50px;
    padding-left: 50px;
    padding-right: 50px;
