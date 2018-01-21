@@ -19,7 +19,7 @@ a:hover {
 h1, h2, h4 {
    color: #7F1C25;
    font-family: 'EB Garamond', serif;
-   letter-spacing: -.30px;
+   letter-spacing: -.80px;
 }
 
 
@@ -44,7 +44,7 @@ body {
 .tabs {
 	clear: both;
 	position: relative;
-   max-width: 650px;
+   max-width: 680px;
    margin: 0 auto;
    /* you can either manually set a min-height here or do it via JS ---> */
 }
@@ -55,7 +55,7 @@ body {
 
 .tab label {
   font-size: 28px;
-  margin-right: 20px;
+  margin-right: 22px;
 	position: relative;
 	top: 0;
 	cursor: pointer;
