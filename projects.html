@@ -149,29 +149,47 @@ const app = new Vue({
   data: {
     keyword: '',
     postList: [
+
+      new Post(
+        'macOS',
+        'https://github.com/kironroy/kironroy.github.io/wiki/Terminal-macOS',
+        'kironroy',
+        'https://kironroy.github.io/apple.svg'
+      ),
+
       new Post(
         'JavaScript',
-        'https://jsfiddle.net/user/kironroy/fiddles/',
+        'https://github.com/kironroy/kironroy.github.io/wiki/JavaScript',
         'kironroy',
         'https://kironroy.github.io/js.svg'
       ),
+
+      new Post(
+        'Vue',
+        'https://jsfiddle.net/user/kironroy/fiddles/',
+        'kironroy',
+        'https://kironroy.github.io/vue.svg'
+      ),
+
+      new Post(
+        'React',
+        'https://glitch.com/@kironroy',
+        'kironroy',
+        'https://kironroy.github.io/react.svg'
+      ),
+
       new Post(
         'Ruby',
         'https://github.com/kironroy/kironroy.github.io/wiki/Ruby-Selected-Programs',
         'kironroy',
         'https://kironroy.github.io/ruby.svg'
       ),
+
       new Post(
         'PHP',
         'https://kironroy.000webhostapp.com/',
         'kironroy',
         'https://kironroy.github.io/php.svg'
-      ),
-      new Post(
-        'React',
-        'https://glitch.com/@kironroy',
-        'kironroy',
-        'https://kironroy.github.io/react.svg'
       ),
 
       new Post(
