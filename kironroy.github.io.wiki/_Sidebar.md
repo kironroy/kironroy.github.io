@@ -134,9 +134,15 @@
 - UX Design
   - [UX Design](https://github.com/kironroy/kironroy.github.io/wiki/UX-Design)
 ***
+- Vue JS
+  - [Vue Documentation](https://vuejs.org/)
+  - [Vue GitHub](https://github.com/vuejs)
+  - [Vue and bootstrap](https://bootstrap-vue.js.org/docs/)
 
+***
 - Windows Powershell
   - [Windows Powershell](https://github.com/kironroy/kironroy.github.io/wiki/Windows-Powershell)
 
+***
 - Wordpress
     - [Wordpress and 000webhosting](https://github.com/kironroy/kironroy.github.io/wiki/Wordpress)
