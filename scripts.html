@@ -39,11 +39,12 @@ div#app {
 
 div#app .search-wrapper {
 	position: relative;
+  font-size: 18px;
 }
 
 div#app .search-wrapper label {
 	position: absolute;
-	font-size: 12px;
+	font-size: 14px;
 	color: rgba(0, 0, 0, 0.5);
 	top: 8px;
 	left: 12px;
@@ -66,12 +67,12 @@ div#app .search-wrapper input:focus {
 }
 
 div#app .search-wrapper input:focus + label {
-	font-size: 10px;
+	font-size: 14px;
 	transform: translateY(-24px) translateX(-12px);
 }
 
 div#app .search-wrapper input::-webkit-input-placeholder {
-	font-size: 12px;
+	font-size: 14px;
 	color: rgba(0, 0, 0, 0.5);
 	font-weight: 100;
 }
@@ -130,7 +131,7 @@ div#app .box {
 }
   </style>
 
-  <title>Art Projects</title>
+  <title>Script Projects</title>
 
 <script type='text/javascript'>//<![CDATA[
 window.onload=function(){
@@ -150,45 +151,62 @@ const app = new Vue({
   data: {
     keyword: '',
     postList: [
+
       new Post(
-        'Night Scene',
-        'https://kironroy.github.io/night3',
+        'macOS',
+        'https://github.com/kironroy/kironroy.github.io/wiki/Terminal-macOS',
         'kironroy',
-        'https://kironroy.github.io/night2.svg'
-      ),
-      new Post(
-        'Sketches',
-        'https://kironroy.github.io/sketches.html',
-        'kironroy',
-        'https://kironroy.github.io/sketches.svg'
-      ),
-      new Post(
-        'Forest Trip',
-        'https://kironroy.github.io/comic2',
-        'kironroy',
-        'https://kironroy.github.io/logo_forest.svg'
-      ),
-      new Post(
-        '8 Bit Game',
-        'https://kironroy.github.io/forest_game',
-        'kironroy',
-        'https://kironroy.github.io/8bit.png'
+        'https://kironroy.github.io/apple.svg'
       ),
 
       new Post(
-        'Menu',
-        'https://menu.glitch.me/',
+        'JavaScript',
+        'https://github.com/kironroy/kironroy.github.io/wiki/JavaScript',
         'kironroy',
-        'https://kironroy.github.io/menu.svg'
-      )
+        'https://kironroy.github.io/js.svg'
+      ),
 
+      new Post(
+        'Vue',
+        'https://jsfiddle.net/user/kironroy/fiddles/',
+        'kironroy',
+        'https://kironroy.github.io/vue.svg'
+      ),
 
-      /*new Post(
+      new Post(
+        'React',
+        'https://glitch.com/@kironroy',
+        'kironroy',
+        'https://kironroy.github.io/react.svg'
+      ),
+
+      new Post(
+        'Ruby',
+        'https://github.com/kironroy/kironroy.github.io/wiki/Ruby-Selected-Programs',
+        'kironroy',
+        'https://kironroy.github.io/ruby.svg'
+      ),
+
+      new Post(
+        'PHP',
+        'https://kironroy.000webhostapp.com/',
+        'kironroy',
+        'https://kironroy.github.io/php.svg'
+      ),
+
+      new Post(
+        'C++',
+        'https://github.com/kironroy/kironroy.github.io/wiki/c++',
+        'kironroy',
+        'https://kironroy.github.io/c++.svg'
+      ),
+
+      new Post(
         'Python',
         'https://github.com/kironroy/python_hardway',
         'kironroy',
         'https://kironroy.github.io/python.svg'
-      ), */
+      ),
     ]
   },
   methods: {
@@ -210,12 +228,13 @@ const app = new Vue({
   </head>
     <body>
       <a href="http://kironroy.github.io"><img alt="Kiron Roy Logo" src="logo2.svg" style="width:80px;height:80px;"></a>
-      <div>
-    		Search Art
-    	</div>
+<div>
+	Search Scripts
+</div>
+	<!-- // thank you: https://codepen.io/sergio_llanos22/pen/JNQRRP -->
 <div id="app">
   <div class="search-wrapper">
-    <br>
+		<br>
     <input type="text" v-model="keyword" placeholder= "Search"/>
     <label>Search</label>
   </div>
