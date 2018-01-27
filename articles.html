@@ -1,28 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
+
 <head>
-	<meta charset="UTF-8">
-	<title>Real-time search with React</title>
-	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<link href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css' rel='stylesheet prefetch'>
+  <meta charset="UTF-8">
+  <title>Tech Articles</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<style>
-	 body {
-   background-color: #f4f0ed;
-   color: #000000;
-	 font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
-	   "Helvetica Neue", Arial, sans-serif;
-	 font-weight: 250;
-	 font-size: 20px;
-	 letter-spacing: -0.2px;
-	 max-width: 1024px;
-	 padding: 20px;
-	 margin: 50px auto;
-	}
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
 
-	p {
-	 -margin-bottom: 30px;
-	}
+
+  <style>
+  body {
+    background-color: #F4F0ED;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  font-weight: 250;
+  font-size: 20px;
+  letter-spacing: -0.2px;
+  max-width: 1024px;
+  padding: 20px;
+  margin: 50px auto;
+}
+
+p {
+  margin-bottom: 50px;
+}
 
 input {
   background-color: #ffffff;
@@ -32,130 +34,31 @@ input {
   letter-spacing: -0.10px;
   line-height: 1.55em;
   font-size: 14px;
-  padding: 15px, 15px;
-  width: 70%;
+  padding: 5px;
+  width: 80%;
 }
 
-</style>
+  </style>
+
+
 </head>
+
 <body>
-	<meta content="width=device-width, initial-scale=1" name="viewport">
-  <a href="http://kironroy.github.io"><img alt="Kiron Roy Logo" src="kironroy.github.io/logo2.svg"></a>
-	<h3>Tech Articles</h3>
-	<p>general programming articles</p></a>
+<center><a href="http://kironroy.github.io"><img alt="Kiron Roy Logo" src="logo2.svg" style="width:90px;height:90px;"></a>
+  <h2>Tech Articles</h2>
+  <p> general programming articles</p>
+</center>
 
-	<div id="content">
-    <br>
-    <br>
-    <!-- REACT SCRIPT IN THIS DIV -->
-
-  </div>
-  <br>
-  <br>
-	<script src='http://cdnjs.cloudflare.com/ajax/libs/react/0.13.0/react.min.js'>
-	</script>
-
-  </script>
-      <!-- REACT SCRIPT STARTS HERE -->
-  <script>
-
-	   var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-	var SearchExample = function (_React$Component) {
-	 _inherits(SearchExample, _React$Component);
-
-	 function SearchExample() {
-	   var _ref;
-
-	   var _temp, _this, _ret;
-
-	   _classCallCheck(this, SearchExample);
-
-	   for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-	     args[_key] = arguments[_key];
-	   }
-
-	   return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = SearchExample.__proto__ || Object.getPrototypeOf(SearchExample)).call.apply(_ref, [this].concat(args))), _this), _this.state = { searchString: '' }, _this.handleChange = function (e) {
-	     _this.setState({ searchString: e.target.value });
-	   }, _temp), _possibleConstructorReturn(_this, _ret);
-	 }
-	 /*  constructor(props) {
-	     super(props);
-	     // var self = this;
-	     this.handleChange = this.handleChange.bind(this);
-	   }*/
+<div id="content"></div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/react/0.13.0/react.min.js'></script>
 
 
-	 _createClass(SearchExample, [{
-	   key: "render",
-	   value: function render() {
-	     var libraries = this.props.items,
-	         searchString = this.state.searchString.trim().toLowerCase();
-	     if (searchString.length > 0) {
-	       libraries = libraries.filter(function (i) {
-	         return i.name.toLowerCase().match(searchString);
-	       });
-	     }
-	     return React.createElement(
-	       "div",
-	       { className: "row" },
-	       React.createElement(
-	         "div",
-	         null,
-	         React.createElement("input", { type: "text", value: this.state.searchString, onChange: this.handleChange, placeholder: "Type here..." }),
-	         React.createElement(
-	           "ul",
-	           null,
-	           libraries.map(function (i) {
-	             return React.createElement(
-	               "li",
-	               null,
-	               i.name,
-	               " ",
-	               React.createElement(
-	                 "a",
-	                 { href: i.url },
-	                 i.url
-	               )
-	             );
-	           })
-	         )
-	       )
-	     );
-	   }
-	 }]);
 
-	 return SearchExample;
-	}(React.Component);
-
-	// Constant, library
+    <script  src="js/articles.js"></script>
 
 
-	var libraries = [{ name: 'Backbone.js', url: 'https://goo.gl/GeQ28x' },
-                   { name: 'AngularJS', url: 'https://angularjs.org/' },
-                   { name: 'jQuery', url: 'https://jquery.com/' },
-                   { name: 'Prototype', url: 'http://www.prototypejs.org/' },
-                   { name: 'React', url: 'https://facebook.github.io/react/' },
-                   { name: 'Ember', url: 'http://emberjs.com/' },
-                   { name: 'Knockout.js', url: 'https://knockoutjs.com/' },
-                   { name: 'Dojo', url: 'http://dojotoolkit.org/' },
-                   { name: 'Mootools', url: 'http://mootools.net/' },
-                   { name: 'Underscore', url: 'https://documentcloud.github.io/underscore/' },
-                   { name: 'Lodash', url: 'http://lodash.com/' },
-                   { name: 'Moment', url: 'https://momentjs.com/' },
-                   { name: 'Express', url: 'http://expressjs.com/' },
-                   { name: 'Koa', url: 'http://koajs.com/'
-                   }];
 
-	// put input and display on page
-	React.render(React.createElement(SearchExample, { items: libraries }), document.getElementById('content'));
 
-	</script> <!-- REACR SCRIPT ENDS -->
 </body>
+
 </html>
