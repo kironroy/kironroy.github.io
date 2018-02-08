@@ -1,37 +1,44 @@
 
 ![github logo](https://kironroy.github.io/github.svg)
 
-1. adding files to GitHub
-2. do steps in this order
+### Adding files to GitHub
 
-> ```git clone https://github.com/kironroy/kironroy.github.io```
+ 1. `git clone https://github.com/kironroy/kironroy.github.io`
 
-> ```git add -A```add all files from computer folder to GitHub (Same for folders, but folders = content)
+ 2. `git add -A`add all files from local project folder to GitHub (Same for folders, but folders must have contents)
 
-> ```git add index.html``` add one file at a time
+ 3. `git add index.html` add one file at a time
 
-> ```git add {index,resume}.html``` adding a few files with same file extenstion
+ 4. `git add {index,resume}.html` adding a few files that have the same file extenstion
 
-> ```git commit -m``` "Add some notes about the commit"
+ 5. `git commit -m  "Add some notes about the commit" `
 
-> ```git push origin master```
+ 6. `git push origin master`
 
-removing files to GitHub:
+***
 
-> ```git rm -r``` one-of-the-directories
+### Removing files to GitHub:
 
-> ```git commit -m``` "Remove duplicated directory"
+   1. `git rm -r` one-of-the-directories
 
-> ```git push origin master```
+   2. `git commit -m` "Remove duplicated directory"
 
-* Commands for working on group projects
+   3. `git push origin master`
 
-> ```git branch``` Lists all a Git project's branches.
+***
 
-> ```git branch branch_name``` Creates a new branch.
+### Commands for working on group projects
 
-> ```git checkout branch_name``` Used to switch from one branch to another.
+1. `git branch` Lists all a Git project's branches.
 
-> ```git merge branch_name``` Used to join file changes from one branch to another.
+2. `git branch branch_name` Creates a new branch.
 
-> ```git branch -d branch_name``` Deletes the branch specified.
+3. `git checkout branch_name` Used to switch from one branch to another.
+
+4. `git merge branch_name` Used to join file changes from one branch to another.
+
+5. `git branch -d branch_name` Deletes the branch specified.
+
+***
+
+### [Adding an existing project to GitHub](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/)

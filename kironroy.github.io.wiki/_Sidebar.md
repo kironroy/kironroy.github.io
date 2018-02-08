@@ -112,7 +112,7 @@
     - [Ruby with Sinatra](https://github.com/kironroy/kironroy.github.io/wiki/Sinatra-Web-Framework)
 ***
 
-- Slack  
+- Slack
   - [Code and Coffee](https://codeandcoffee.slack.com)
   - [Codecademy](https://codecademyintensive.slack.com)
   - [The HQ](https://thehq.slack.com/)
@@ -135,6 +135,7 @@
   - [UX Design](https://github.com/kironroy/kironroy.github.io/wiki/UX-Design)
 ***
 - Vue JS
+  - [Vue](https://github.com/kironroy/kironroy.github.io/wiki/Vue)
   - [Vue Documentation](https://vuejs.org/)
   - [Vue GitHub](https://github.com/vuejs)
   - [Vue and bootstrap](https://bootstrap-vue.js.org/docs/)
