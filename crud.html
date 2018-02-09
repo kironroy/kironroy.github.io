@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Vue.js 2 CRUD application</title>
+  <title>Acura Maintenance </title>
 
 
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css'>
@@ -20,7 +20,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Vue.js CRUD application</title>
+  <title><i>Acura</i> Maintenance Record</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -29,10 +29,11 @@
 <div class="container">
   <header class="page-header">
     <div class="branding">
-      <a href="http://kironroy.github.io"><img alt="Kiron Roy Logo" src="logo2.svg" style="width:90px;height:90px;"></a>
+      <center><a href="http://kironroy.github.io"><img alt="Kiron Roy Logo" src="logo2.svg" style="width:70px;height:70px;"></a></center>
 
-      <h1>Vue.js 2 CRUD application</h1>
+      <h2>Acura Maintenance Record</h2>
       <p>Ported from: <a href="https://codepen.io/-a/pen/amOYGp">Vue.js CRUD application</a></p>
+      <p><a href="http://wikicars.org/en/Acura_RSX"><i>Acura RSX</i></a></p>
     </div>
   </header>
   <main id="app">
@@ -45,19 +46,19 @@
     <div class="actions">
       <router-link class="btn btn-default" v-bind:to="{path: '/add-product'}">
         <span class="glyphicon glyphicon-plus"></span>
-        Add product
+        Add service
       </router-link>
     </div>
     <div class="filters row">
       <div class="form-group col-sm-3">
-        <label for="search-element">Product name</label>
+        <label for="search-element">Service name</label>
         <input v-model="searchKey" class="form-control" id="search-element" requred/>
       </div>
     </div>
     <table class="table">
       <thead>
       <tr>
-        <th>Name</th>
+        <th>Service</th>
         <th>Description</th>
         <th>Price</th>
         <th class="col-sm-2">Actions</th>
@@ -70,8 +71,8 @@
         </td>
         <td>{{ product.description }}</td>
         <td>
-          {{ product.price }}
-          <span class="glyphicon glyphicon-euro" aria-hidden="true"></span>
+          $ {{ product.price }}
+          </span>
         </td>
         <td>
           <router-link class="btn btn-warning btn-xs" v-bind:to="{name: 'product-edit', params: {product_id: product.id}}">Edit</router-link>
@@ -85,7 +86,7 @@
 
 <template id="add-product">
   <div>
-    <h2>Add new product</h2>
+    <h2>Add service</h2>
     <form v-on:submit="createProduct">
       <div class="form-group">
         <label for="add-name">Name</label>
@@ -111,10 +112,10 @@
     <b>Description: </b>
     <div>{{ product.description }}</div>
     <b>Price:</b>
-    <div>{{ product.price }}<span class="glyphicon glyphicon-euro"></span></div>
+    <div>$ {{ product.price }} </div>
     <br/>
     <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-    <router-link v-bind:to="'/'">Back to product list</router-link>
+    <router-link v-bind:to="'/'">Back to service list</router-link>
   </div>
 </template>
 

@@ -1,6 +1,9 @@
 
 ![apple logo](https://kironroy.github.io/apple.svg)
 
+`command + k` = clear the screen
+
+`command + ,` = open preferences for terminal
 
 `cd` = change directory
 

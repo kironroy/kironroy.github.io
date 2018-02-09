@@ -1,7 +1,7 @@
 var products = [
-  {id: 1, name: 'Angular', description: 'Superheroic JavaScript MVW Framework.', price: 100},
-  {id: 2, name: 'Ember', description: 'A framework for creating ambitious web applications.', price: 100},
-  {id: 3, name: 'React', description: 'A JavaScript Library for building user interfaces.', price: 100}
+  {id: 1, name: 'struts', description: 'Four struts: Monroe Gas Struts. 9-11-2017 | #75878 | 95,422 mi',  price: 1251.64},
+  {id: 2, name: 'tires', description: 'Four Tires Replaced: Goodyear Assurance. 9-6-2017 | #75722 | 95,346 mi', price: 504.88},
+  {id: 3, name: 'radiator headlight', description: 'Radiator Leak and headight replacement bulb. 8-29-2017 | #75502 | 95,227 mi', price: 608.64}
 ];
 
 function findProduct (productId) {
