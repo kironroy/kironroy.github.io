@@ -1,6 +1,6 @@
 var products = [
-  {id: 1, name: 'struts', description: 'Four struts: Monroe Gas Struts. 9-11-2017 | #75878 | 95,422 mi',  price: 1251.64},
-  {id: 2, name: 'tires', description: 'Four Tires Replaced: Goodyear Assurance. 9-6-2017 | #75722 | 95,346 mi', price: 504.88},
+  {id: 1, name: 'struts', description: ' 4 struts: Monroe Gas Struts. 9-11-2017 | #75878 | 95,422 mi',  price: 1251.64},
+  {id: 2, name: 'tires', description: ' 4 tires Replaced: Goodyear Assurance. 9-6-2017 | #75722 | 95,346 mi', price: 504.88},
   {id: 3, name: 'radiator headlight', description: 'Radiator Leak and headight replacement bulb. 8-29-2017 | #75502 | 95,227 mi', price: 608.64}
 ];
 
