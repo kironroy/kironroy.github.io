@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="93px" height="74px" viewBox="0 0 93 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>haskell</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 74 93 74 93 0 0 0"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="haskell">
+            <g>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Shape"></g>
+                <g id="Group" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="Shape" fill="#666666" points="0 73.8168988 21.8775205 36.9084494 0 0 16.4079518 0 38.2854723 36.9084494 16.4079518 73.8168988"></polygon>
+                    <polygon id="Shape" fill="#999999" points="21.8775205 73.8168988 43.7550409 36.9084494 21.8775205 0 38.2854723 0 82.0397594 73.8168988 65.6318076 73.8168988 51.9590168 50.7495418 38.2854723 73.8168988"></polygon>
+                    <polygon id="Shape" fill="#666666" points="74.7477552 52.2872525 67.4557508 39.9847186 92.9788965 39.983871 92.9788965 52.2872525"></polygon>
+                    <polygon id="Shape" fill="#666666" points="63.8093719 33.8330279 56.5166136 21.530494 92.9788965 21.5296464 92.9788965 33.8330279"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
