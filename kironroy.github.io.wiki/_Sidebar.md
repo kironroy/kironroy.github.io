@@ -35,12 +35,20 @@
 
 ***
 
+- Elm
+  - [Elm](https://github.com/kironroy/kironroy.github.io/wiki/Elm)
+
+***
+
 - GitHub
   - [GitHub with Terminal](https://github.com/kironroy/kironroy.github.io/wiki/GitHub-with-Terminal)
   - **[GitHub Pages](http://jmcglone.com/guides/github-pages/)**
   - [GitHub Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
+***
 
+- Haskell
+  - [Haskell](https://github.com/kironroy/kironroy.github.io/wiki/Haskell)
 
 ***
 

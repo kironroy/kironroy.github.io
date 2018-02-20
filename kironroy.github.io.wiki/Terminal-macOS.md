@@ -72,3 +72,5 @@ execute the following line in the Terminal:
 `history -c` clear terminal's current history
 
 `rm ~/.bash_history` clear history from the beginning
+
+`echo "" > ~/.zsh_history & exec $SHELL -l` clear history for zsh history on unix systems

@@ -6,7 +6,7 @@
 **Host your site with GitHub Pages:**
 
 * [Creating and Hosting a Personal Site on GitHub](http://jmcglone.com/guides/github-pages/)
-
+* [Why so Many Developers Quit Before Ever Getting a Job. Please — don’t](https://medium.freecodecamp.org/why-so-many-developers-quit-before-ever-getting-a-job-please-dont-1c0fd6459e5e)
 ***
 
 **How to use Pages**
