@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<title>Artboard</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<g id="Artboard">
+		<g id="nights" transform="translate(1.000000, 21.000000)">
+			<path id="Shape" fill="#009245" d="M71.911,15.954C72.168,16.529,71.851,17,71.208,17H27.776c-0.645,0-0.949-0.466-0.677-1.034
+				L34.24,1.035C34.513,0.466,35.262,0,35.907,0h27.699c0.645,0,1.381,0.471,1.64,1.046L71.911,15.954z"/>
+			<path id="Shape_1_" fill="#009245" d="M0,10.237C0,9.006,1.053,8,2.34,8h92.32C95.947,8,97,9.006,97,10.237v45.527
+				C97,56.993,95.947,58,94.66,58H2.34C1.053,58,0,56.993,0,55.764V10.237z"/>
+			<circle id="Oval" fill="#22B573" cx="49" cy="34" r="23"/>
+			<rect id="Rectangle-path" y="16" fill="#22B573" width="97" height="34"/>
+			<circle id="Oval_1_" fill="#39B54A" cx="49" cy="34" r="21"/>
+			<circle id="Oval_2_" display="none" fill="#FFFF00" cx="48.5" cy="33.5" r="18.5"/>
+			<circle id="Oval_3_" fill="#00FF00" cx="49" cy="33" r="1"/>
+		</g>
+	</g>
+</g>
+</svg>
