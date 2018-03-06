@@ -2,21 +2,100 @@
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+	 width="107px" height="64px" viewBox="0 0 107 64" enable-background="new 0 0 107 64" xml:space="preserve">
 <title>Artboard</title>
 <desc>Created with Sketch.</desc>
-<g id="Page-1">
-	<g id="Artboard">
-		<g id="nights" transform="translate(1.000000, 21.000000)">
-			<path id="Shape" fill="#009245" d="M71.911,15.954C72.168,16.529,71.851,17,71.208,17H27.776c-0.645,0-0.949-0.466-0.677-1.034
-				L34.24,1.035C34.513,0.466,35.262,0,35.907,0h27.699c0.645,0,1.381,0.471,1.64,1.046L71.911,15.954z"/>
-			<path id="Shape_1_" fill="#009245" d="M0,10.237C0,9.006,1.053,8,2.34,8h92.32C95.947,8,97,9.006,97,10.237v45.527
-				C97,56.993,95.947,58,94.66,58H2.34C1.053,58,0,56.993,0,55.764V10.237z"/>
-			<circle id="Oval" fill="#22B573" cx="49" cy="34" r="23"/>
-			<rect id="Rectangle-path" y="16" fill="#22B573" width="97" height="34"/>
-			<circle id="Oval_1_" fill="#39B54A" cx="49" cy="34" r="21"/>
-			<circle id="Oval_2_" display="none" fill="#FFFF00" cx="48.5" cy="33.5" r="18.5"/>
-			<circle id="Oval_3_" fill="#00FF00" cx="49" cy="33" r="1"/>
+<g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<path id="SVGID_1_" d="M77.678,17.226c0.275,0.635-0.062,1.153-0.757,1.153h-46.68c-0.691,0-1.019-0.514-0.726-1.138
+							l7.674-16.454c0.292-0.627,1.099-1.141,1.791-1.141h29.77c0.695,0,1.484,0.519,1.764,1.153L77.678,17.226z"/>
+					</defs>
+					<clipPath id="SVGID_2_">
+						<use xlink:href="#SVGID_1_"  overflow="visible"/>
+					</clipPath>
+					<rect x="26.274" y="-3.529" clip-path="url(#SVGID_2_)" fill="#BFBDBA" width="54.63" height="25.083"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<path id="SVGID_3_" d="M0.804,11.472c0-1.353,1.146-2.458,2.547-2.458H103.83c1.398,0,2.547,1.106,2.547,2.458v50.031
+							c0,1.351-1.148,2.458-2.547,2.458H3.351c-1.401,0-2.547-1.107-2.547-2.458V11.472z"/>
+					</defs>
+					<clipPath id="SVGID_4_">
+						<use xlink:href="#SVGID_3_"  overflow="visible"/>
+					</clipPath>
+					<rect x="-2.329" y="5.837" clip-path="url(#SVGID_4_)" fill="#BFBDBA" width="111.838" height="61.299"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<ellipse id="SVGID_5_" cx="53.589" cy="36.831" rx="24.894" ry="24.86"/>
+					</defs>
+					<clipPath id="SVGID_6_">
+						<use xlink:href="#SVGID_5_"  overflow="visible"/>
+					</clipPath>
+					<rect x="25.567" y="8.794" clip-path="url(#SVGID_6_)" fill="#007D50" width="56.048" height="56.072"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_7_" x="0.804" y="17.222" width="105.573" height="37.136"/>
+					</defs>
+					<clipPath id="SVGID_8_">
+						<use xlink:href="#SVGID_7_"  overflow="visible"/>
+					</clipPath>
+					<rect x="-2.329" y="14.043" clip-path="url(#SVGID_8_)" fill="#007D50" width="111.838" height="43.491"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<ellipse id="SVGID_9_" cx="53.589" cy="36.832" rx="22.925" ry="22.893"/>
+					</defs>
+					<clipPath id="SVGID_10_">
+						<use xlink:href="#SVGID_9_"  overflow="visible"/>
+					</clipPath>
+					<rect x="27.536" y="10.762" clip-path="url(#SVGID_10_)" fill="#4D626B" width="52.11" height="52.137"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<defs>
+						<ellipse id="SVGID_11_" cx="53.589" cy="36.831" rx="20.298" ry="20.272"/>
+					</defs>
+					<clipPath id="SVGID_12_">
+						<use xlink:href="#SVGID_11_"  overflow="visible"/>
+					</clipPath>
+					<rect x="30.16" y="13.382" clip-path="url(#SVGID_12_)" fill="#D1B782" width="46.861" height="46.899"/>
+				</g>
+			</g>
 		</g>
 	</g>
 </g>
