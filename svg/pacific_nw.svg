@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="181px" height="150px" viewBox="0 0 181 150" enable-background="new 0 0 181 150" xml:space="preserve">
+<g>
+	<defs>
+		<path id="SVGID_1_" d="M128.037,52.052c0.439,0.998-0.104,1.814-1.208,1.814H52.312c-1.105,0-1.628-0.809-1.16-1.793l12.25-25.9
+			c0.468-0.988,1.754-1.795,2.86-1.795h47.523c1.107,0,2.369,0.817,2.814,1.814L128.037,52.052z"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<rect x="45.98" y="19.378" clip-path="url(#SVGID_2_)" fill="#BFBDBA" width="87.209" height="39.488"/>
+</g>
+<g>
+	<defs>
+		<path id="SVGID_3_" d="M5.318,42.992c0-2.128,1.83-3.87,4.066-3.87h160.401c2.236,0,4.066,1.742,4.066,3.87v78.76
+			c0,2.127-1.83,3.869-4.066,3.869H9.384c-2.236,0-4.066-1.742-4.066-3.869V42.992z"/>
+	</defs>
+	<clipPath id="SVGID_4_">
+		<use xlink:href="#SVGID_3_"  overflow="visible"/>
+	</clipPath>
+	<rect x="0.318" y="34.122" clip-path="url(#SVGID_4_)" fill="#BFBDBA" width="178.534" height="96.499"/>
+</g>
+<g>
+	<defs>
+		<ellipse id="SVGID_5_" cx="89.585" cy="82.912" rx="39.735" ry="39.134"/>
+	</defs>
+	<clipPath id="SVGID_6_">
+		<use xlink:href="#SVGID_5_"  overflow="visible"/>
+	</clipPath>
+	<rect x="44.85" y="38.778" clip-path="url(#SVGID_6_)" fill="#007D50" width="89.47" height="88.268"/>
+</g>
+<g>
+	<defs>
+		<rect id="SVGID_7_" x="5.318" y="52.042" width="168.534" height="58.462"/>
+	</defs>
+	<clipPath id="SVGID_8_">
+		<use xlink:href="#SVGID_7_"  overflow="visible"/>
+	</clipPath>
+	<rect x="0.318" y="47.042" clip-path="url(#SVGID_8_)" fill="#007D50" width="178.534" height="68.462"/>
+</g>
+<g>
+	<defs>
+		<ellipse id="SVGID_9_" cx="89.585" cy="82.912" rx="36.592" ry="36.037"/>
+	</defs>
+	<clipPath id="SVGID_10_">
+		<use xlink:href="#SVGID_9_"  overflow="visible"/>
+	</clipPath>
+	<rect x="47.993" y="41.875" clip-path="url(#SVGID_10_)" fill="#4D626B" width="83.184" height="82.074"/>
+</g>
+<g>
+	<defs>
+		<ellipse id="SVGID_11_" cx="89.585" cy="82.913" rx="32.403" ry="31.913"/>
+	</defs>
+	<clipPath id="SVGID_12_">
+		<use xlink:href="#SVGID_11_"  overflow="visible"/>
+	</clipPath>
+	<rect x="52.182" y="46" clip-path="url(#SVGID_12_)" fill="#D1B782" width="74.806" height="73.826"/>
+</g>
+</svg>
