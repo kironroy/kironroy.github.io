@@ -74,3 +74,32 @@ execute the following line in the Terminal:
 `rm ~/.bash_history` clear history from the beginning
 
 `echo "" > ~/.zsh_history & exec $SHELL -l` clear history for zsh history on unix systems
+
+***
+
+![vim logo](https://kironroy.github.io/vimm.svg)
+
+* [Vim](https://hashrocket.com/blog/posts/elm-by-example-soup-to-nuts-part-1)
+
+* [Vim Wiki](http://vim.wikia.com/wiki/Vim_Tips_Wiki)
+
+`vimtutor` enter vim tutor mode
+
+| Vim basic commands | Result       |
+|--------------|:--------------------|
+|`i`           | insert              |
+|`wq`          | save & quit         |
+|`q`           | quit  no save       | 
+|`:update`     | save & stay	     |
+|`a`           | append              |
+|`:%y`         | select all          |
+| `dw`         | delete	             |
+| `dd`         | delete whole line   |
+| `p`          | place line          |
+| `r`	       | replace 1 letter    |
+| `ce`         | replace >1 letters  |
+| `2dd`        | delete 2 lines      |
+| `u`          | undo                |
+| `0`          | move first of line  |
+| `1w`         | move first word     |
+| `2w`         | move 2nd word       |

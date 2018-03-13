@@ -9,7 +9,7 @@
 * [Why so Many Developers Quit Before Ever Getting a Job. Please — don’t](https://medium.freecodecamp.org/why-so-many-developers-quit-before-ever-getting-a-job-please-dont-1c0fd6459e5e)
 ***
 
-**How to use Pages**
+# How to use Pages
 1. Navigate to the side menu and click **Pages**
 
 ![pages](https://kironroy.github.io/pages.svg)
@@ -20,9 +20,11 @@
 
 ***
 
-**GitHub Markdown Cheatsheet:**
+## GitHub Markdown Cheatsheet:
 
 * [GitHub Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ***
-[Legacy Site](https://kironroy.github.io/github)
+* [Legacy Site](https://kironroy.github.io/github)
+
+* [Base 10 to Base 2](http://www.unitconversion.org/numbers/base-10-to-base-2-conversion.html)

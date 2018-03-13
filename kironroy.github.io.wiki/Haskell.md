@@ -3,7 +3,8 @@
 ### Reference
 
 * [Using GHCi](https://downloads.haskell.org/~ghc/5.04/docs/html/users_guide/ghci.html)
-* [Learn You A Haskell](http://learnyouahaskell.com/introduction)
+* [Learn You A Haskell (web archive)](https://web.archive.org/web/20170725015058/http://learnyouahaskell.com/introduction)
+* [Learn You a A Haskell](http://learnyouahaskell.com/chapters)
 * [Haskell Repo](https://github.com/kironroy/haskell)
 ***
 
