@@ -38,7 +38,7 @@
 
 
 
-    <link rel="stylesheet" type="text/css" href="code-prettify/src/prettify.css">
+    <link rel="stylesheet" type="text/css" href="css/pretty.css">
 
 
 
@@ -80,7 +80,7 @@
             font-family: 'Source Sans Pro', sans-serif;
             color: #000;
             letter-spacing: -.30px;
-            font-weight: 350;
+            font-size: 20px;
         }
 
         body {
@@ -90,6 +90,7 @@
             padding: 10px;
             background-color: #fff;
             font-weight: 300;
+            font-size: 18px;
         }
 
         /* transition answers */
@@ -108,10 +109,10 @@
         }
 
         button {
-            background-color: #006dcc;
+            background-color: #000099;
             color: #ffffff;
             border-radius: 3px;
-            border-color: #006dcc;
+            border-color: #000099;
             padding-top: 4px;
             padding-right: 8px;
             padding-bottom: 4px;
@@ -126,7 +127,7 @@
         #questionStyle {
             font-weight: 500;
             letter-spacing: -.50px;
-            color: #006400;
+            color: #000099;
             font-size: 20px;
         }
 
@@ -187,7 +188,7 @@
 
 
     <div class="code">
-    <pre class="prettyprint lang-js">
+    <pre class="prettyprint linenums:1">
 function isGreaterThan(numberOne, numberTwo) {
   if (numberOne > numberTwo) {
     return true;
@@ -219,14 +220,13 @@ console.log(isGreaterThan(8,6));</pre>
 
 
     <div class="code">
-    <pre class="prettyprint lang-js">
+     <pre class="prettyprint linenums:1">
 var array1 = [1, 4, 9, 16];
 
 const map1 = array1.map(x => x * 2);
 
 console.log(map1);
-
-</pre>
+     </pre>
     </div>
     <div id="questionTwo">
         <button v-on:click="show = !show">
@@ -245,7 +245,7 @@ console.log(map1);
 
 
     <div class="code">
-    <pre class="prettyprint lang-js">
+     <pre class="prettyprint linenums:1">
 const visibleLightWaves = () => {
   let lightWaves = 'Moonlight';
   let region = 'The Arctic';
