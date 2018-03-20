@@ -1,117 +1,53 @@
-
 <!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta name="robots" content="noindex, nofollow">
-    <meta name="googlebot" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-
-
-
-
-
-
-
-
-
-
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/vue/2.2.1/vue.js"></script>
-
-
-
-
-    <link rel="stylesheet" type="text/css" href="/css/normalize.css">
-
-
-
-
-
-    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
-
-
-
-
     <script type="text/javascript" src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
-
-
-
     <link rel="stylesheet" type="text/css" href="css/pretty.css">
-
     <link rel="stylesheet" type="text/css" href="css/js_squiz.css">
+    <title>Js Meetup</title>
 
+        <script type="text/javascript">
+            // vue script for questions
+        window.onload=function(){
+            new Vue({
+                el: '#questionOne',
+                data: {
+                    show: false
+                }
+            })
 
+            new Vue({
+                el: '#questionTwo',
+                data: {
+                    show: false
+                }
+            })
 
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
-
-
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ajax-bootstrap-select/1.4.3/js/ajax-bootstrap-select.min.js"></script>
-
-
-
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-
-
-
-    <title>Js Meetup by kironroy</title>
-
-
-
-
-
-
-
-
-    <script type="text/javascript">//<![CDATA[
-    window.onload=function(){
-        new Vue({
-            el: '#questionOne',
-            data: {
-                show: false
-            }
-        })
-
-        new Vue({
-            el: '#questionTwo',
-            data: {
-                show: false
-            }
-        })
-
-        new Vue({
-            el: '#questionThree',
-            data: {
-                show: false
-            }
-        })
-
-    }//]]>
-
-    </script>
-
-
+            new Vue({
+                el: '#questionThree',
+                data: {
+                    show: false
+                }
+            })
+        }
+        </script>
 </head>
 
 <body>
 <div id="logo">
 
-    <a href="https://www.meetup.com/LearnTeachCode/events/248518312/"><img alt="culver city meetup" src="https://kironroy.github.io/meetup.png" style="width:220px;height:85px;"> </a>
+    <a href="https://www.meetup.com/LearnTeachCode/events/248518312/">
+        <img alt="culver city meetup" src="https://kironroy.github.io/meetup.png" style="width:220px;height:85px;"> </a>
     <div id="text_logo">&nbsp;Culver City Javascript Meetup Quiz </div>
 </div>
-
 <br>
 
 <!--------Question 1--------->
 <div id="questionStyle">
-
     1. This is an example of a?
-
-
     <div class="code">
     <pre class="prettyprint linenums:1">
 function isGreaterThan(numberOne, numberTwo) {
@@ -125,8 +61,6 @@ function isGreaterThan(numberOne, numberTwo) {
 console.log(isGreaterThan(8,6));</pre>
     </div>
 
-
-
     <div id="questionOne">
         <button v-on:click="show = !show">
             Answer
@@ -136,15 +70,11 @@ console.log(isGreaterThan(8,6));</pre>
         </transition>
     </div>
 
-
     <br>
+
     <!--------Question 2--------->
-
-
     2. What does the map() method do?
-
-
-    <div class="code">
+     <div class="code">
      <pre class="prettyprint linenums:1">
 var array1 = [1, 4, 9, 16];
 
@@ -158,11 +88,14 @@ console.log(map1);
             Answer
         </button>
         <transition name="fade">
-            <p v-if="show">The map() method creates a new array with the results of calling a provided function on every element in the calling array. &nbsp;// expected output: Array [2, 8, 18, 32]</p>
+            <p v-if="show">The map() method creates a new array with the results of calling a
+                provided function on every element in the calling array.
+                &nbsp;// expected output: Array [2, 8, 18, 32]</p>
         </transition>
     </div>
 </div>
 <br>
+
 <!--------Question 3--------->
 <div id="questionStyle">
 
@@ -185,9 +118,6 @@ visibleLightWaves();
 </pre>
     </div>
 
-
-
-
     <div id="questionThree">
         <button v-on:click="show = !show">
             Answer
@@ -197,23 +127,9 @@ visibleLightWaves();
                 Moonlight</p>
         </transition>
     </div>
-
-
     <br>
     <br>
     <br>
-
-    <script>
-        // tell the embed parent frame the height of the content
-        if (window.parent && window.parent.parent){
-            window.parent.parent.postMessage(["resultsFrame", {
-                height: document.body.getBoundingClientRect().height,
-                slug: "bbw61ogm"
-            }], "*")
-        }
-    </script>
-
 </body>
-
 </html>
 
