@@ -5,6 +5,10 @@
   #### Responsive
   * [Responsinator](https://www.responsinator.com/?url=https%3A%2F%2Fkironroy.github.io%2F)
 
+  #### Convertor
+   * [html to GitHub markdown](https://domchristie.github.io/turndown/)
+   * [html to Elm](https://mbylstra.github.io/html-to-elm/)
+ 
   #### Templates
   * [HTML5 UP](https://html5up.net/)
   * [Bootstrap](http://getbootstrap.com/)

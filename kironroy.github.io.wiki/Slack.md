@@ -1,10 +1,8 @@
 ![slack logo](https://kironroy.github.io/slack.svg)
 
-<ul>
-<li><a href="https://jrdevjobs.slack.com/">Jr. Dev Jobs Slack</a></li>
-<li><a href="https://codeandcoffee.slack.com">Code and Coffee</a></li>
-<li><a href="https://thehq.slack.com/"> The Head Quarters</a></li>
-<li><a href="https://learnteachcode.slack.com">Learn Teach Code</a></li>
-<li><a href="https://recyclathon.slack.com">Recyclathon</a></li>
-<li><a href="https://codecademyintensive.slack.com/">codecademy</a></li>
-</ul>
+*   [Jr. Dev Jobs Slack](https://jrdevjobs.slack.com/)
+*   [Code and Coffee](https://codeandcoffee.slack.com)
+*   [The Head Quarters](https://thehq.slack.com/)
+*   [Learn Teach Code](https://learnteachcode.slack.com)
+*   [Recyclathon](https://recyclathon.slack.com)
+*   [codecademy](https://codecademyintensive.slack.com/)
