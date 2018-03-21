@@ -1,0 +1,6 @@
+*   [Built in LA](https://www.builtinla.com/jobs)
+*   [Jr. Dev Jon Profile](https://www.jrdevjobs.com/profiles/kiron-roy)
+*   [Jr. Web Job Board](https://www.jrdevjobs.com/#!)
+*   [Skill Crush](https://skillcrush.com/2015/07/14/job-sites-to-find-your-first-developer-job/)
+*   [Cyber Coders](https://www.cybercoders.com/jobs/)
+*   [Built in LA](https://www.builtinla.com/jobs)

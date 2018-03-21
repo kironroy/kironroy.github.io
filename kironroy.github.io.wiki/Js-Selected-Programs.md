@@ -1,0 +1,25 @@
+\*\*Selected Programs:\*\* _Notes for Intro to JavaScript on [Codecademy](https://www.codecademy.com/learn/introduction-to-javascript)_
+
+*   [class\_parent\_child\_practice\_js](https://repl.it/LUqO/50)
+*   [class\_Inheritance\_js](https://repl.it/LU67/5)
+*   [Class\_instances\_js](https://repl.it/LU1M/7)
+*   [setter\_get\_js](https://repl.it/LRhy/5)
+*   [objects_js](https://repl.it/LRZx/17)
+*   [filter_js](https://repl.it/LRDn/3)
+*   [map_js](https://repl.it/LRAs/1)
+*   [forEach_js](https://repl.it/LRAW/2)
+*   [infinite\_loop\_js](https://repl.it/LQk9/0)
+*   [while\_loop\_js](https://repl.it/LQiu/1)
+*   [nested\_arrays\_js](https://repl.it/LQap/3)
+*   [for\_loops\_js](https://repl.it/LQ9Q/4)
+*   [reassignment\_arrays\_js](https://repl.it/LNtY/4)
+*   [block\_scope\_II_js](https://repl.it/LNVc/1)
+*   [block\_scope\_js](https://repl.it/LNUb/2)
+*   [reassignment_js](https://repl.it/LNU8/0)
+*   [global\_scope\_js](https://repl.it/LNUF/1)
+*   [function\_expressions\_js](https://repl.it/LMAg/4)
+*   [function\_declaration\_js](https://repl.it/LMAa/1)
+*   [dosa\_functions\_js](https://repl.it/LLyD/6)
+
+  
+_ES5 scripts_ \* \[square\_html-jss.js\](https://repl.it/IQ4H/19) * \[accessing\_data\_objects.js\](https://repl.it/Hezm/0) * \[tree\_lookup.js\](https://repl.it/Hezv/0) * \[grocery\_list.js\](https://repl.it/HfAF/0) * \[console.log\_function.js\](https://repl.it/HfAZ/0) * \[nested\_objs\_access.js\](https://repl.it/HfBh/1) * \[digit\_count\_dogs\_cats.js.js\](https://repl.it/HfJX) * \[not\_white\_space\_count.js\](https://repl.it/HfJX/1) * \[staccato\_find\_word.js\](https://repl.it/HfJ5/0) * \[white\_space\_count.js\](https://repl.it/HfJ6/1) * \[7!_facotorial.js\](https://repl.it/HfMB/0) * \[contactList.js\](https://repl.it/HfMj/4) * \[Js Quiz\](https://culver-city-js.glitch.me/)

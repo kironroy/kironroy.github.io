@@ -1,0 +1,1 @@
+1. [Learn Python the Hardway](https://learnpythonthehardway.org/book/)

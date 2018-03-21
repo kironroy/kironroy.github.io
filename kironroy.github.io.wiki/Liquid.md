@@ -1,0 +1,6 @@
+*   [Liquid](https://shopify.github.io/liquid/)
+*   [Liquid YouTube](https://www.youtube.com/playlist?list=PLlMkWQ65HlcEJMRRdnqxpbGImqBkIOctd)
+*   [Liquid cheat sheet](http://cheat.markdunkley.com/)
+*   [Timber](http://shopify.github.io/Timber/)
+*   [DropPen to test Liquid](https://droppen.org/?droppen=2jdnoipw)
+*   [Liquid Resources](https://www.reddit.com/r/shopify/comments/3x4ho6/resources_to_learn_liquid/)

@@ -1,0 +1,1 @@
+1. [Learn Ruby The Hardway](https://learnrubythehardway.org/book/)
