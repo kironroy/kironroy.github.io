@@ -24,6 +24,8 @@
 
 * [GitHub Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
+* [Firsttimers Only (GitHub)](https://www.firsttimersonly.com/)
+
 ***
 * [Legacy Site](https://kironroy.github.io/github)
 

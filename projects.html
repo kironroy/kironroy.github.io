@@ -13,121 +13,123 @@
   <link href="apple-touch-icon-114x114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114">
   <link href="apple-touch-icon-72x72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
   <link href="apple-touch-icon-iphone.png" rel="apple-touch-icon">
-<style type="text/css">
+  <style type="text/css">
 
 
 
-html, body {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	margin-top: 16px;
-	margin-bottom: 16px;
-  background-color: #F4F0ED;
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  font-weight: 300;
-  letter-spacing: -.50px
-}
+    html, body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 16px;
+      margin-bottom: 16px;
+      background-color: #F4F0ED;
+      font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+      font-weight: 300;
+      letter-spacing: -.50px
+    }
 
-div#app {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-}
+    div#app {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
 
-div#app .search-wrapper {
-	position: relative;
-}
+    div#app .search-wrapper {
+      position: relative;
+      font-size: 18px;
+    }
 
-div#app .search-wrapper label {
-	position: absolute;
-	font-size: 12px;
-	color: rgba(0, 0, 0, 0.5);
-	top: 8px;
-	left: 12px;
-	z-index: -1;
-	transition: .15s all ease-in-out;
-}
+    div#app .search-wrapper label {
+      position: absolute;
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.5);
+      top: 8px;
+      left: 12px;
+      z-index: -1;
+      transition: .15s all ease-in-out;
+    }
 
-div#app .search-wrapper input {
-	padding: 8px 20px;
-  font-size: 16px;
-	color: rgba(0, 0, 0, 0.7);
-	border: 2px solid rgba(0, 0, 0, 0.12);
-	transition: .15s all ease-in-out;
-	background: white;
-}
+    div#app .search-wrapper input {
+      padding: 8px 20px;
+      font-size: 16px;
+      color: rgba(0, 0, 0, 0.7);
+      border: 2px solid #9ececc;
+      border-radius: 6px;
+      transition: .15s all ease-in-out;
+      background: white;
+    }
 
-div#app .search-wrapper input:focus {
-	outline: none;
-	transform: scale(1.05);
-}
+    div#app .search-wrapper input:focus {
+      outline: none;
+      transform: scale(1.05);
+    }
 
-div#app .search-wrapper input:focus + label {
-	font-size: 10px;
-	transform: translateY(-24px) translateX(-12px);
-}
+    div#app .search-wrapper input:focus + label {
+      font-size: 14px;
+      transform: translateY(-24px) translateX(-12px);
+    }
 
-div#app .search-wrapper input::-webkit-input-placeholder {
-	font-size: 12px;
-	color: rgba(0, 0, 0, 0.5);
-	font-weight: 100;
-}
+    div#app .search-wrapper input::-webkit-input-placeholder {
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.5);
+      font-weight: 100;
+    }
 
-div#app .wrapper {
-	display: flex;
-	max-width: 344px;
-	flex-wrap: wrap;
-	padding-top: 12px;
-}
+    div#app .wrapper {
+      display: flex;
+      max-width: 344px;
+      flex-wrap: wrap;
+      padding-top: 12px;
+    }
 
-div#app .card {
+    div#app .card {
 
-	max-width: 124px;
-	margin: 22px;
-	transition: .15s all ease-in-out;
-}
+      max-width: 124px;
+      margin: 22px;
+      transition: .15s all ease-in-out;
+    }
 
-div#app .card:hover {
-	transform: scale(1.1);
-}
+    div#app .card:hover {
+      transform: scale(1.1);
+    }
 
-div#app .card a {
-	text-decoration: none;
-	padding: 12px;
-	color: #03A9F4;
-	font-size: 18px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-  color: #000000;
-}
+    div#app .card a {
+      text-decoration: none;
+      padding: 12px;
+      color: #03A9F4;
+      font-size: 18px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #000000;
+    }
 
-div#app .card a img {
-	height: 92px;
-  width: 100px;
-}
+    div#app .card a img {
+      height: 92px;
+      width: 100px;
+    }
 
-div#app .card a small {
-	font-size: 1px;
-	padding: 4px;
-}
+    div#app .card a small {
+      font-size: 1px;
+      padding: 4px;
+    }
 
-div#app .hotpink {
-	background: hotpink;
-}
+    div#app .hotpink {
+      background: hotpink;
+    }
 
-div#app .green {
-	background: green;
-}
+    div#app .green {
+      background: green;
+    }
 
-div#app .box {
-	width: 200px;
-	height: 200px;
-	border: 1px solid rgba(0, 0, 0, 0.12);
-}
+    div#app .box {
+      width: 200px;
+      height: 200px;
+      border: 1px solid rgba(0, 0, 0, 0.12);
+    }
   </style>
 
   <title>General Projects</title>
