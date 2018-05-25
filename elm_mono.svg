@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="76px" height="76px" viewBox="0 0 76 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>elm_mono</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="elm_mono" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="elm" fill="#34495E" fill-rule="nonzero">
+            <polygon id="Shape" points="38.5001181 35 55 19 22 19"></polygon>
+            <polygon id="Shape" points="2 0 18.3846588 17 54 17 37.6151084 0"></polygon>
+            <rect id="Rectangle-path" transform="translate(57.500000, 37.500000) rotate(45.000000) translate(-57.500000, -37.500000) " x="45" y="25" width="25" height="25"></rect>
+            <polygon id="Shape" points="76 34 76 0 42 0"></polygon>
+            <polygon id="Shape" points="36 37.9997644 0 2 0 74"></polygon>
+            <polygon id="Shape" points="60 57.999882 76 74 76 42"></polygon>
+            <polygon id="Shape" points="37.9998822 40 2 76 74 76"></polygon>
+        </g>
+    </g>
+</svg>
