@@ -30,9 +30,26 @@ html, body {
   background-color: #FFFFFF;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
-  letter-spacing: -.50px
+  letter-spacing: -.10px
 }
 
+  div#search_for_box {
+    background-color: #35495D;
+    width: 1800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #FFFFFF;
+    padding: 1px;
+    margin: 10px;
+    font-size: 20px;
+  }
+
+div#search_for {
+  justify-content: center;
+  text-align-all: center;
+}
 div#app {
 	display: flex;
 	align-items: center;
@@ -135,7 +152,7 @@ div#app .box {
 }
   </style>
 
-  <title>Script Elm Ellie Scripts</title>
+  <title>Script for elm: tutorials, scripts, docs</title>
 
 <script type='text/javascript'>//<![CDATA[
 window.onload=function(){
@@ -331,11 +348,15 @@ const app = new Vue({
 
 </script>
   </head>
-    <body>
-      <a href="http://kironroy.github.io"><img alt="Kiron Roy Logo" src="logo2.svg" style="width:80px;height:80px;"></a>
-<div>
-	Search Elm (Ellie)
-</div>
+    <div>
+      <a href="http://kironroy.github.io"><img alt="Kiron Roy Logo" src="logo_elm.svg" style="width:80px;height:80px;"></a>
+    </div>
+      <br>
+      <div id="search_for_box"
+      <div id="search_for">
+        <p>Search for elm <span style="color:#81CF46">tutorials scripts docs</span></p>
+      </div>
+    </div>
 	<!-- // thank you: https://codepen.io/sergio_llanos22/pen/JNQRRP -->
 <div id="app">
   <div class="search-wrapper">
