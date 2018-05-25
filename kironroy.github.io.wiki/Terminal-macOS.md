@@ -81,7 +81,7 @@ execute the following line in the Terminal:
 
 * [Vim](https://hashrocket.com/blog/posts/elm-by-example-soup-to-nuts-part-1)
 
-* [Vim Wiki](http://vim.wikia.com/wiki/Vim_Tips_Wiki)
+* [Vim Myth](https://robots.thoughtbot.com/the-vim-learning-curve-is-a-myth)
 
 `vimtutor` enter vim tutor mode
 
@@ -103,3 +103,11 @@ execute the following line in the Terminal:
 | `0`          | move first of line  |
 | `1w`         | move first word     |
 | `2w`         | move 2nd word       |
+| `:$`         | bottom of page      |
+
+1. Position the cursor where you want to begin cutting.
+2. Press v to select characters (or uppercase V to select whole lines).
+3. Move the cursor to the end of what you want to cut.
+4. Press d to cut (or y to copy).
+5. Move to where you would like to paste.
+6. Press P to paste before the cursor, or p to paste after.
