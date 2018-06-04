@@ -7,13 +7,12 @@
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="cash_flow">
             <rect id="biz_act" fill="#EC1C24" x="0" y="0" width="89" height="89" rx="8"></rect>
-            <circle id="Oval-2" stroke="#FFFFFF" stroke-width="2" cx="45" cy="45" r="28"></circle>
-            <path d="M45.5,73.5 L76.1757233,73.5" id="Line-2" stroke="#FFFFFF" fill="#FFFFFF" stroke-linecap="square"></path>
-            <path id="Line-2-decoration-1" d="M76.1757233,73.5 L65.3757233,70.5 L65.3757233,76.5 L76.1757233,73.5 Z" stroke="#FFFFFF" fill="#FFFFFF" stroke-linecap="square"></path>
-            <path d="M12.5,16.5 L43.1757233,16.5" id="Line-2-Copy" stroke="#FFFFFF" fill="#FFFFFF" stroke-linecap="square" transform="translate(28.000000, 16.500000) scale(-1, 1) translate(-28.000000, -16.500000) "></path>
-            <path id="Line-2-Copy-decoration-1" d="M43.1757233,16.5 L32.3757233,13.5 L32.3757233,19.5 L43.1757233,16.5 Z" stroke="#FFFFFF" fill="#FFFFFF" stroke-linecap="square"></path>
-            <text id="$" font-family="ArialMT, Arial" font-size="30" font-weight="normal" letter-spacing="-0.7894737" fill="#FFFFFF">
-                <tspan x="36.5524517" y="56">$</tspan>
+            <g id="149122" transform="translate(19.000000, 11.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                <path d="M1,22.964 C1.553,22.964 2,22.517 2,21.964 C2,15.899 6.935,10.964 13,10.964 L37,10.964 L37,19.928 L50.7,9.964 L37,0 L37,8.964 L13,8.964 C5.832,8.964 0,14.796 0,21.964 C-2.88657986e-15,22.517 0.447,22.964 1,22.964 Z M39,3.928 L47.3,9.964 L39,16 L39,3.928 Z" id="Shape"></path>
+                <path d="M49.7,42 C49.147,42 48.7,42.447 48.7,43 C48.7,49.065 43.765,54 37.7,54 L13.7,54 L13.7,45.036 L0,55 L13.7,64.964 L13.7,56 L37.7,56 C44.868,56 50.7,50.168 50.7,43 C50.7,42.447 50.253,42 49.7,42 Z M11.7,61.036 L3.4,55 L11.7,48.964 L11.7,61.036 Z" id="Shape"></path>
+            </g>
+            <text id="$" font-family="ArialMT, Arial" font-size="24" font-weight="normal" letter-spacing="-0.631578982" fill="#FFFFFF">
+                <tspan x="38.1419614" y="53">$</tspan>
             </text>
         </g>
     </g>
