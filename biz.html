@@ -1,412 +1,237 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link href="biz.css" rel="stylesheet" type="text/css">
-	<title>Business Page</title>
-	<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
-	<link href="/favicon.ico" rel="icon" type="image/x-icon">
-	<title>Business Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="robots" content="noindex, nofollow">
+	<meta name="googlebot" content="noindex, nofollow">
+	<script type="text/javascript" src="/js/lib/dummy.js"></script>
+	<link rel="stylesheet" type="text/css" href="/css/result-light.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.3/vue.min.js"></script>
+	<link href="apple-touch-icon-192x192-precomposed.png" rel="icon" sizes="192x192">
+	<link href="apple-touch-icon-144x144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144">
+	<link href="apple-touch-icon-114x114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114">
+	<link href="apple-touch-icon-72x72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
+	<link href="apple-touch-icon-iphone.png" rel="apple-touch-icon">
+	<style type="text/css">
+
+
+
+		html, body {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			margin-top: 16px;
+			margin-bottom: 16px;
+			background-color: #F4F0ED;
+			font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+			font-weight: 300;
+			letter-spacing: -.50px
+		}
+
+		div#app {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+		}
+
+		div#app .search-wrapper {
+			position: relative;
+			font-size: 18px;
+		}
+
+		div#app .search-wrapper label {
+			position: absolute;
+			font-size: 14px;
+			color: rgba(0, 0, 0, 0.5);
+			top: 8px;
+			left: 12px;
+			z-index: -1;
+			transition: .15s all ease-in-out;
+		}
+
+		div#app .search-wrapper input {
+			padding: 8px 20px;
+			font-size: 16px;
+			color: rgba(0, 0, 0, 0.7);
+			border: 2px solid #9ececc;
+			border-radius: 6px;
+			transition: .15s all ease-in-out;
+			background: white;
+		}
+
+		div#app .search-wrapper input:focus {
+			outline: none;
+			transform: scale(1.05);
+		}
+
+		div#app .search-wrapper input:focus + label {
+			font-size: 14px;
+			transform: translateY(-24px) translateX(-12px);
+		}
+
+		div#app .search-wrapper input::-webkit-input-placeholder {
+			font-size: 14px;
+			color: rgba(0, 0, 0, 0.5);
+			font-weight: 100;
+		}
+
+		div#app .wrapper {
+			display: flex;
+			max-width: 344px;
+			flex-wrap: wrap;
+			padding-top: 12px;
+		}
+
+		div#app .card {
+
+			max-width: 124px;
+			margin: 22px;
+			transition: .15s all ease-in-out;
+		}
+
+		div#app .card:hover {
+			transform: scale(1.1);
+		}
+
+		div#app .card a {
+			text-decoration: none;
+			padding: 12px;
+			color: #03A9F4;
+			font-size: 18px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			color: #000000;
+		}
+
+		div#app .card a img {
+			height: 92px;
+			width: 100px;
+		}
+
+		div#app .card a small {
+			font-size: 1px;
+			padding: 4px;
+		}
+
+		div#app .hotpink {
+			background: hotpink;
+		}
+
+		div#app .green {
+			background: green;
+		}
+
+		div#app .box {
+			width: 200px;
+			height: 200px;
+			border: 1px solid rgba(0, 0, 0, 0.12);
+		}
+	</style>
+
+	<title>General Projects</title>
+
+	<script type='text/javascript'>//<![CDATA[
+    window.onload=function(){
+// thank you: https://codepen.io/sergio_llanos22/pen/JNQRRP
+
+        class Post {
+            constructor(title, link, author, img) {
+                this.title = title;
+                this.link = link;
+                //this.author = author;
+                this.img = img;
+            }
+        }
+
+        const app = new Vue({
+            el: '#app',
+            data: {
+                keyword: '',
+                postList: [
+                    new Post(
+                        'Income',
+                        'https://kironroy.github.io/income',
+                        'kironroy',
+                        'https://kironroy.github.io/income.svg'
+                    ),
+                    new Post(
+                        'Cash flow',
+                        'https://kironroy.github.io/cash_flow.html',
+                        'kironroy',
+                        'https://kironroy.github.io/cash_flow.svg'
+                    ),
+                    new Post(
+                        'Business',
+                        'https://kironroy.github.io/biz_oper',
+                        'kironroy',
+                        'https://kironroy.github.io/biz_oper.svg'
+                    ),
+                    new Post(
+                        'Equity',
+                        'https://kironroy.github.io/equity',
+                        'kironroy',
+                        'https://kironroy.github.io/a=l+e.svg'
+                    )
+					// end of objects
+
+
+
+
+
+
+                ]
+            },
+            methods: {
+                toggleOnOff() {
+                    this.onOff = !this.onOff;
+                }
+            },
+            computed: {
+                filteredList() {
+                    return this.postList.filter((post) => {
+                        return post.title.toLowerCase().includes(this.keyword.toLowerCase());
+                });
+                }
+            }
+        });
+    }//]]>
+
+	</script>
 </head>
 <body>
-	<div class="left">
+<a href="http://kironroy.github.io"><img alt="Kiron Roy Logo" src="logo2.svg" style="width:80px;height:80px;"></a>
+<div>
+	Search Business
+</div>
+<div id="app">
+	<div class="search-wrapper">
 		<br>
-		<br>
-		<!--<center><a href="http://kironroy.net/"><img src="logored.png" alt="Gis Logo for homepage" height="100" width="62"></a></center> -->
-	</div><!--Navigation starts here-->
-	<div class="right1">
-		<div class="navtop">
-			<a id="top" name="top"></a> <a href="http://kironroy.github.io">Kiron Roy</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#accounting">Accounting</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#banks">Banks</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#bonds">Bonds</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#keyturn">Keyturn</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#investing">Investing</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#real">Real Estate</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#tax">Tax</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		</div>
-	</div><br>
-	<div class="right2">
-		<!-- Dashboard starts -->
-		<h3><a id="accounting" name="accounting"><strong>Dashboard</strong></a></h3>
-		<ul>
-			<li>
-				<a href="https://www.ally.com/bank/high-yield-cd/"><strong>Ally Bank</strong></a>
-			</li>
-			<li>
-				<a href="https://www.bankofamerica.com/"><strong>Bank of America</strong></a>
-			</li>
-			<li>
-				<a href="https://www.wellsfargo.com/"><strong>Wells Fargo</strong></a>
-			</li>
-			<li>
-				<a href="https://countyoforangedcplan.gwrs.com/login.do?accu=OrangeCntyWR"><strong>County of Orange Defined Contribution Program</strong></a>
-			</li>
-			<li>
-				<a href="https://www.annualcreditreport.com/index.action"><strong>Annual Credit Report</strong></a>
-			</li>
-			<li>
-				<a href="https://www.treasurydirect.gov/RS/UN-Display.do"><strong>Treasury Direct</strong></a>
-			</li>
-			<li>
-				<a href="https://personal.vanguard.com/us/hnwnesc/nesc/LoginPage?TYPE=33554433&REALMOID=06-35a82a6b-90ae-4827-a86c-b29c7d095e8b&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=personalprd02&TARGET=$SM$%2fus%2fMyHome"><strong>Vanguard</strong></a>
-			</li>
-			<li style="list-style: none">
-				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.morningstar.com/funds/XNAS/VFINX/quote.html"><i>Vanguard 500 Index Inv (VFINX)</i></a><br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://pe.newriver.com/summary.asp?doctype=pros&cid=Vangpst&fid=922908108"><i>Vanguard 500 Index Inv (VFINX) Prospectus</i></a><br>
-				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.morningstar.com/funds/xnas/vdigx/quote.html"><i>Vanguard Dividend Growth Inv (VDIGX)</i></a><br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://pe.newriver.com/summary.asp?cid=Vangpst&fid=921908604"><i>Vanguard Dividend Growth Inv (VDIGX) Prospectus</i></a><br>
-				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.morningstar.com/funds/XNAS/VIPSX/quote.html"><i>Vanguard Inflation-Protected Securities Fund Investor Shares (VIPSX)</i></a><br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://pe.newriver.com/summary.asp?cid=Vangpst&fid=922031869"><i>Vanguard Inflation-Protected Securities Fund Investor Shares (VIPSX) Prospectus</i></a><br>
-			</li>
-			<li>
-				<a href="https://west-a-60ols.csi-cloudapp.net/losalamitos/Login.aspx?isKiosk=False"><strong>Los Alamitos Log on</strong></a>
-			</li>
-			<li>
-				<a href="https://jobs.piasc.org/Default.cfm?fuseaction=Home.Login"><strong>PIASC</strong></a>
-			</li>
-			<li>
-				<a href="https://www.ocvote.com/voting/vote-by-mail-voting/vote-by-mail-status-lookup/"><strong>Voting information</strong></a>
-			</li>
-			<li>
-				<a href="http://www.ipl.org/div/potus//"><strong>POTUS info</strong></a>
-			</li>
-			<li>
-				<a href="https://www.youtube.com/watch?v=LIVuqeAj3xM"><strong>3 branches of government</strong></a>
-			</li>
-			<li>
-				<a href="https://www.govtrack.us/congress/votes#chamber[]=2"><strong>House of Rep. voting</strong></a>
-			</li>
-			<li>
-				<a href="https://www.govtrack.us/congress/votes/compare/1/trump-nominations"><strong>Trump Cabinet</strong></a>
-			</li>
-			<li>
-				<a href="https://www.nytimes.com/interactive/2017/01/31/us/politics/trump-cabinet-confirmation-votes.html?_r=0"><strong>NY Times</strong></a>
-			</li>
-			<li>
-				<a href="https://en.wikipedia.org/wiki/List_of_executive_actions_by_Donald_Trump"><strong>Trump Executive orders</strong></a>
-			</li>
-			<li>
-				<a href="https://simple.wikipedia.org/wiki/U.S._Presidential_line_of_succession"><strong>Presidential line of succession</strong></a>
-			</li>
-		</ul><!-- Dashboard starts -->
-		<div id="underbar">
-			<a href="#accounting">Accounting</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#banks">Banks</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#biz">Business</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#bonds">Bonds</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#investing">Investing</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#keyturn">Keyturn</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#real">Real Estate</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#tax">Tax</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		</div><!-- Accounting starts -->
-		<h3><a id="accounting" name="accounting">Accounting</a></h3>
-		<ul>
-			<li>
-				<a href="http://www.freshbooks.com/">Fresh Books</a>
-			</li>
-			<li>
-				<a href="http://quickbooks.intuit.com/online/">Quick Books Online</a>
-			</li>
-			<li>
-				<a href="https://www.mint.com/">Mint accounting</a>
-			</li>
-			<li>
-				<a href="http://www.princeton.edu/jrc/conferences/financial-markets/Merrill_Lynch_How_to_Read_A_Financial_Report.pdf">How to Read a Financial Statement</a>
-			</li>
-			<li>
-				<a href="https://www.waveapps.com/accounting/">Wave Apps Accounting</a>
-			</li>
-			<li>
-				<a href="http://kironroy.net/statements">Financial Statements</a>
-			</li>
-			<li>
-				<a href="https://kb.wisc.edu/helpdesk/page.php?id=2100">Excel, SUM formala from other sheets</a>
-			</li>
-			<li>
-				<a href="https://www.youtube.com/watch?v=_jho-gLENjw">How to Calculate EBITDA (YouTube)</a>
-			</li>
-			<li>
-				<a href="https://www.youtube.com/channel/UC4LeewYWZ3ruS3Bc64ldXuw">Various Tutorials</a>
-			</li>
-			<li>
-				<a href="http://www.investopedia.com/articles/analyst/020602.asp">EBITDA: Challenging The Calculation (Investopedia)
-				<ul>
-					<li></li>
-					<li style="list-style: none">EBITDA 2 (Investopedia)</li>
-				</ul></a>
-			</li>
-			<li>
-				<a href="https://www.youtube.com/watch?v=2H3MdQAJHUU">Accounting 101: Balance Sheet</a>
-			</li>
-			<li>
-				<a href="https://www.youtube.com/watch?v=lA4R_T7_2LY">Accounting 101: Retained Earnings</a>
-			</li>
-			<li>
-				<a href="https://www.youtube.com/watch?v=I6tNbhSa5W4">Accounting 101: Cashflow</a>
-			</li>
-			<li>
-				<a href="https://www.youtube.com/watch?v=HeX6nmkqYX0">Accounting 101: Income</a>
-			</li>
-			<li>
-				<a href="https://www.youtube.com/watch?v=Yiyn6v2jvRw"><b>Accounting 101: Integrated Financial Statements in Excel</b></a>
-			</li>
-			<li>
-				<a href="https://www.youtube.com/playlist?list=PL41BF20388A0E8CD0"><b>Accounting YouTube</b></a>
-			</li>
-		</ul><!-- Accounting starts -->
-		<div id="underbar">
-			<a href="#accounting">Accounting</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#banks">Banks</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#biz">Business</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#bonds">Bonds</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#investing">Investing</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#keyturn">Keyturn</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#real">Real Estate</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#tax">Tax</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		</div><!-- Banks starts -->
-		<h3><a id="banks" name="banks">Banks</a></h3>
-		<ul>
-			<li>
-				<a href="http://www.nerdwallet.com/rates/cds/best-cd-rates/">Best CD rates</a>
-			</li>
-			<li>
-				<a href="http://www.bankrate.com/calculators/savings/bank-cd-calculator.aspx">CD Calculator</a>
-			</li>
-			<li>
-				<a href="http://www.thesimpledollar.com/best-cd-rates/">CD Calculator</a>
-			</li>
-			<li>
-				<a href="https://www.ally.com/bank/high-yield-cd/">Ally Bank</a>
-			</li>
-			<li>
-				<a href="https://www.bankofamerica.com/">Bank of America</a>
-			</li>
-			<li>
-				<a href="https://ucpi.sco.ca.gov/UCP/">Unclaimed Property Search</a>
-			</li>
-			<li>
-				<a href="https://homemetry.com/house/10481+EL+DORADO+WAY,+Los+Alamitos+CA">HomeMetry</a>
-			</li>
-		</ul><!-- Banks ends -->
-		<div id="underbar">
-			<a href="#accounting">Accounting</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#banks">Banks</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#biz">Business</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#bonds">Bonds</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#investing">Investing</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#keyturn">Keyturn</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#real">Real Estate</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#tax">Tax</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		</div><!-- Bonds starts -->
-		<h3><a id="bonds" name="bonds">Bonds</a></h3>
-		<ul>
-			<li>
-				<a href="http://www.investopedia.com/university/bonds/bonds4.asp">Bond Differences</a>
-			</li>
-			<li>
-				<a href="https://www.treasurydirect.gov/RS/UN-Display.do">Treasury Direct</a>
-			</li>
-			<li>
-				<a href="http://www.treasurydirect.gov/indiv/help/TDHelp/help_ug_209-SecTypesLearnMore.htm">Treasury Direct Guide</a>
-			</li>
-		</ul><!-- Bonds end -->
-		<div id="underbar">
-			<a href="#accounting">Accounting</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#banks">Banks</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#biz">Business</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#bonds">Bonds</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#investing">Investing</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#keyturn">Keyturn</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#real">Real Estate</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#tax">Tax</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		</div><!-- Biz Starts -->
-		<h3><a id="biz" name="biz">Business</a></h3>
-		<ul>
-			<li>
-				<a href="http://www.bizben.com/">Biz Ben</a>
-			</li>
-			<li>
-				<a href="http://www.businessforsale.com/">Business for Sale</a>
-			</li>
-			<li>
-				<a href="http://www.bizquest.com//">Biz Quest</a>
-			</li>
-			<li>
-				<a href="http://www.bizbuysell.com/">Biz Buy Sell</a>
-			</li>
-			<li>
-				<a href="http://www.wsj.com/public/page/small-business.html?mg=reno64-wsj">WSJ Biz Page</a>
-			</li>
-			<li>
-				<a href="http://www.frannet.com/">Franchise Net</a>
-			</li>
-		</ul><!-- Biz Ends -->
-		<div id="underbar">
-			<a href="#accounting">Accounting</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#banks">Banks</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#biz">Business</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#bonds">Bonds</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#investing">Investing</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#keyturn">Keyturn</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#real">Real Estate</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#tax">Tax</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		</div><!-- Investing starts -->
-		<h3><a id="investing" name="investing">Investing</a></h3>
-		<ul>
-			<li>
-				<a href="http://www.sec.gov/edgar/searchedgar/companysearch.html">SEC</a>
-			</li>
-			<li>
-				<a href="https://www.youtube.com/watch?v=WEDIj9JBTC8">William Ackman: Everything You Need to Know About Finance and Investing in Under an Hour</a>
-			</li>
-			<li>
-				<a href="https://www.youtube.com/watch?v=rfjkktrJi70&feature=iv&src_vid=xZeDJ2bdBoE&annotation_id=annotation_3336556241">Passive Investing</a>
-			</li>
-			<li>
-				<a href="https://www.youtube.com/watch?v=Nbiib0IBGZY">Invest like Warren Buffet</a>
-			</li>
-			<li>
-				<a href="https://www.youtube.com/watch?v=hfiFTZDwLlQ">6 things to understand about ROCE</a>
-			</li>
-			<li>
-				<a href="http://www.investopedia.com/terms/r/roce.asp">ROCE Investopdeia</a>
-			</li>
-			<li>
-				<a href="http://www.investopedia.com/articles/stocks/05/010305.asp">Spottinng ROCE Investopdeia</a>
-			</li>
-			<li>
-				<a href="https://en.wikipedia.org/wiki/Exchange-traded_fund">ETF wiki</a>
-			</li>
-			<li>
-				<a href="http://www.investopedia.com/terms/e/etf.asp">ETF Investopida</a>
-			</li>
-			<li>
-				<a href="https://www.youtube.com/watch?v=FM6KnD75QrE">ETF UK YouTube</a>
-			</li>
-			<li>
-				<a href="http://www.marketwatch.com/story/picking-fidelity-schwab-and-td-ameritrades-best-etfs-2016-02-02">ETF Guide</a>
-			</li>
-			<li>
-				<a href="https://www.merrilledge.com/article/6-things-you-should-know-about-etfs-ose">6 things: ETF Guide</a>
-			</li>
-			<li>
-				<a href="http://www.investopedia.com/articles/mutualfund/07/etf_downside.asp">ETF flaws</a>
-			</li>
-			<li>
-				<a href="https://www.merrilledge.com/article/getting-to-know-exchange-traded-funds">Getting to know ETFs</a>
-			</li>
-			<li>
-				<a href="https://en.wikipedia.org/wiki/Mutual_fund">Mutual Funds Wiki</a>
-			</li>
-			<li>
-				<a href="http://www.investopedia.com/articles/mutualfund/07/picktherightmutualfund.asp">Mutual Funds</a>
-			</li>
-			<li>
-				<a href="http://www.investopedia.com/university/mutualfunds/">Mutual Funds Tutorial</a>
-			</li>
-			<li>
-				<a href="http://mfea.com/">Mutual Funds Eductaion</a>
-			</li>
-			<li>
-				<a href="https://www.ici.org/pdf/bro_understanding_mfs_p.pdf">Mutual Funds pdf 1</a>
-			</li>
-			<li>
-				<a href="https://www.sec.gov/investor/pubs/sec-guide-to-mutual-funds.pdf">Mutual Funds pdf 2</a>
-			</li>
-			<li>
-				<a href="http://www.kiplinger.com/article/investing/T041-C009-S001-great-mutual-funds-for-young-investors.html">Mutual Funds for Young</a>
-			</li>
-			<li>
-				<a href="https://countyoforangedcplan.gwrs.com/login.do?accu=OrangeCntyWR">County of Orange Defined Contribution Program</a>
-			</li>
-		</ul><!-- Investing ends -->
-		<div id="underbar">
-			<a href="#accounting">Accounting</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#banks">Banks</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#biz">Business</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#bonds">Bonds</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#investing">Investing</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#keyturn">Keyturn</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#stocks">Stocks</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#tax">Tax</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		</div><!-- Keyturn starts -->
-		<h3><a id="keyturn" name="keyturn">Keyturn</a></h3>
-		<ul>
-			<li>
-				<a href="http://www.bizben.com/">Biz Ben</a>
-			</li>
-			<li>
-				<a href="http://www.businessforsale.com/">Business for Sale</a>
-			</li>
-			<li>
-				<a href="http://www.bizquest.com//">Biz Quest</a>
-			</li>
-			<li>
-				<a href="http://www.bizbuysell.com/">Biz Buy Sell</a>
-			</li>
-			<li>
-				<a href="http://www.wsj.com/public/page/small-business.html?mg=reno64-wsj">WSJ Biz Page</a>
-			</li>
-			<li>
-				<a href="http://www.frannet.com/">Franchise Net</a>
-			</li>
-			<li>
-				<a href="https://www.youtube.com/watch?v=QBrF9HiSPd8">The Pros and Cons of Owning Laundromats</a>
-			</li>
-			<li>
-				<a href="http://www.hklaundry.com/coin-laundry/laundromats-101/">Laundromats 101</a>
-			</li>
-			<li>
-				<a href="https://www.google.com/search?q=laundramats+in+oc&ie=utf-8&oe=utf-8#q=laundromats%20in%20cypress%2C%20ca&rflfq=1&rlha=0&tbm=lcl&tbs=lf:1,lf_ui:2&oll=33.827406971148385,-118.05029308045653&ospn=0.04691724065123992,0.06926699364410638&oz=14&fll=33.82512530481835,-118.04552947724608&fspn=0.09383920195874396,0.13853725973811493&fz=13&qop=1&rlfi=hd:;si:">Laundromats Google Maps (General Area)</a>
-			</li>
-			<li>
-				<a href="https://www.google.com/search?q=laundry+equipment+oc&ie=utf-8&oe=utf-8#q=laundry%20equipment%20oc&tbs=lf:1,lf_ui:2&rflfq=1&rlha=0&tbm=lcl&oll=33.91472567246153,-118.07634552070311&ospn=0.38755749388005256,0.5659068395932252&oz=11&fll=33.844037994865005,-117.92322357246093&fspn=0.38787875064950583,0.565906949105738&fz=11&qop=1&rlfi=hd:;si:">Laundromat equipment and services in the Orange County Area</a>
-			</li>
-			<li>
-				<a href="http://acelaundry.com/">Ace Laundry, Westminster</a>
-			</li>
-			<li>
-				<a href="http://www.expresslaundry.com/">Express Laundry (turn-key)</a>
-			</li>
-			<li>
-				<a href="http://archive.constantcontact.com/fs158/1102433540429/archive/1112638244330.html">Turns Per Day numbers (TPD)</a>
-			</li>
-			<li>
-				<a href="http://www.huebsch.com/"><em>Huebsch Commercial Laundry</em></a>
-			</li>
-			<li>
-				<a href="http://www.continentalgirbau.com/"><em>Continental Girbau</em></a>
-			</li>
-			<li>
-				<a href="https://www.youtube.com/channel/UCkRLlT4oJRNtx6ctChOdyIg">Coin Laundry Assn YouTube</a>
-			</li>
-			<li>
-				<a href="http://www.coinlaundry.org/home">Coin Laundry Assn</a>
-			</li>
-		</ul><!-- Keyturn ends -->
-		<div id="underbar">
-			<a href="#accounting">Accounting</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#banks">Banks</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#biz">Business</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#bonds">Bonds</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#investing">Investing</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#keyturn">Keyturn</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#real">Real Estate</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#tax">Tax</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		</div><!-- Real Estate Starts -->
-		<h3><a id="real" name="real">Real Estate</a></h3>
-		<ul>
-			<li>
-				<a href="https://cr.ocgov.com/recorderworks/">Orange County Recorder's Office</a>
-			</li>
-			<li>
-				<a href="https://www.irs.gov/uac/Like-Kind-Exchanges-Under-IRC-Code-Section-1031">Like-Kind Exchanges Under IRC Code Section 1031</a>
-			</li>
-			<li>
-				<a href="http://www.zillow.com/how-much-is-my-home-worth/">Zillow Estimate</a>
-			</li>
-		</ul>
-		<p><br>
-		<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cypress Apartments = 4 units</b><br>
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La Salle Street 8570-8576<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cypress CA 90630<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;United States</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.google.com/maps/place/8570+La+Salle+St/@33.8378698,-118.0473668,150m/data=!3m1!1e3!4m3!3m2!1s0x80dd2c235dafbc6b:0x80fa6238b829bc93!4b1">Google Map of Cypress</a><br>
-		<strong><br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Managed by: <a href="http://orangecountypropertymanagement.com/">Orange County Management</a></strong><br>
-		<strong><br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Insurance: <a href="https://www.statefarm.com/">State Farm</a></strong><br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agent: Emma Hightower Phone: (714) - 637 - 5900
-		<p><br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Orange County Property Management Inc.<br>
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16742 Gothard St #117<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Huntington Beach, CA 92647<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(714) 840-1700</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a>Google Map of Orange County Management</a><br>
-		<br>
-		<p><br>
-		<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Las Vegas = 1 unit</b><br>
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5462 South Maryland Parkway<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Las Vegas, NV 89119</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.google.com/maps/place/5462+S+Maryland+Pkwy,+Las+Vegas,+NV+89119/@36.0907301,-115.1368422,719m/data=!3m1!1e3!4m2!3m1!1s0x80c8c50b52f9265d:0x3292806f8a4615ef!6m1!1e1">Google Map of Las Vegas</a><br>
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Managed by: <a href="https://www.property-mgmt.com/">Atlas Group LC</a><br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://atlasgrouplc.appfolio.com/oportal/users/log_in"><b>Owner's Portal Atlas Group LC</b></a>
-		<p><br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4033 W Charleston Blvd,<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Las Vegas, NV 89102<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(725) 244-4700</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.google.com/maps/place/atlas+group+lc/data=!4m2!3m1!1s0x0:0xae2019c8e3fdaf78?sa=X&ved=0CDIQrwswAGoVChMIlcji5aW2yAIVBDCICh08TQ6p">Google Map of Atlas Management LC</a> <!-- Real Estate Ends -->
-		<div id="underbar">
-			<a href="#accounting">Accounting</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#banks">Banks</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#biz">Business</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#bonds">Bonds</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#investing">Investing</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#keyturn">Keyturn</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#stocks">Stocks</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#tax">Tax</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		</div><!-- Tax Starts -->
-		<h3><a id="tax" name="tax">Tax</a></h3>
-		<ul>
-			<li>
-				<a href="https://www.ftb.ca.gov/businesses/">California Franchise Tax Board</a>
-			</li>
-			<li>
-				<a href="http://www.taxes.ca.gov/">California Taxes</a>
-			</li>
-			<li>
-				<a href="http://www.taxes.ca.gov/strikinggoldbus.shtml">California Small Business Portal</a>
-			</li>
-			<li>
-				<a href="http://www.kiplinger.com/tool/taxes/T055-S001-kiplinger-tax-map/">Kiplinger Tax information</a>
-			</li>
-			<li>
-				<a href="https://squareup.com/payroll"><em>Square</em> Payroll</a>
-			</li>
-		</ul><!-- Tax Ends -->
-		<div id="underbar">
-			<a href="#accounting">Accounting</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#banks">Banks</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#biz">Business</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#bonds">Bonds</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#investing">Investing</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#keyturn">Keyturn</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#real">Real Estate</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#tax">Tax</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		</div><!--help ends-->
+		<input type="text" v-model="keyword" placeholder= "Search"/>
+		<label>Search</label>
 	</div>
+	<div class="wrapper">
+		<div class="card" v-for="post in filteredList">
+			<a v-bind:href="post.link">
+				<img v-bind:src="post.img"/>
+				<small>{{post.author}}</small>{{post.title}}
+			</a>
+		</div>
+	</div>
+</div>
+
+
+<script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+        window.parent.parent.postMessage(["resultsFrame", {
+            height: document.body.getBoundingClientRect().height,
+            slug: "90dmpfv8"
+        }], "*")
+    }
+</script>
 </body>
 </html>
