@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="89px" height="89px" viewBox="0 0 89 89" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>cash_flow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cash_flow">
+            <rect id="biz_act" fill="#EC1C24" x="0" y="0" width="89" height="89" rx="8"></rect>
+            <circle id="Oval-2" stroke="#FFFFFF" stroke-width="2" cx="45" cy="45" r="28"></circle>
+            <path d="M45.5,73.5 L76.1757233,73.5" id="Line-2" stroke="#FFFFFF" fill="#FFFFFF" stroke-linecap="square"></path>
+            <path id="Line-2-decoration-1" d="M76.1757233,73.5 L65.3757233,70.5 L65.3757233,76.5 L76.1757233,73.5 Z" stroke="#FFFFFF" fill="#FFFFFF" stroke-linecap="square"></path>
+            <path d="M12.5,16.5 L43.1757233,16.5" id="Line-2-Copy" stroke="#FFFFFF" fill="#FFFFFF" stroke-linecap="square" transform="translate(28.000000, 16.500000) scale(-1, 1) translate(-28.000000, -16.500000) "></path>
+            <path id="Line-2-Copy-decoration-1" d="M43.1757233,16.5 L32.3757233,13.5 L32.3757233,19.5 L43.1757233,16.5 Z" stroke="#FFFFFF" fill="#FFFFFF" stroke-linecap="square"></path>
+            <text id="$" font-family="ArialMT, Arial" font-size="30" font-weight="normal" letter-spacing="-0.7894737" fill="#FFFFFF">
+                <tspan x="36.5524517" y="56">$</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
