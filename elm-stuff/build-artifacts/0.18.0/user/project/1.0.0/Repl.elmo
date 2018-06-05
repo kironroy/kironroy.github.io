@@ -1,0 +1,15 @@
+var _user$project$Repl$t_s_o_l = {ctor: '_Tuple0'};
+var _user$project$Repl$sortByEpisodes = F2(
+	function (tvShow1, tvShow2) {
+		return A2(_elm_lang$core$Basics$compare, tvShow1.episodes, tvShow2.episodes);
+	});
+var _user$project$Repl$hasCreator = function (tvShow) {
+	return _elm_lang$core$Native_Utils.cmp(
+		_elm_lang$core$String$length(tvShow.creator),
+		0) > 0;
+};
+var _user$project$Repl$TVShow = F3(
+	function (a, b, c) {
+		return {name: a, creator: b, episodes: c};
+	});
+var _user$project$Repl$firefly = A3(_user$project$Repl$TVShow, 'Firefly', 'Joss Whedon', 14);
