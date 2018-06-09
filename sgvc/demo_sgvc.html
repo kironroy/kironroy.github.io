@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="googlebot" content="noindex, nofollow">
+    <script type="text/javascript" src="/js/lib/dummy.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.3/vue.min.js"></script>
+    <link href="apple-touch-icon-192x192-precomposed.png" rel="icon" sizes="192x192">
+    <link href="apple-touch-icon-144x144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144">
+    <link href="apple-touch-icon-114x114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114">
+    <link href="apple-touch-icon-72x72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
+    <link href="apple-touch-icon-iphone.png" rel="apple-touch-icon">
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+
+        * {
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+        html, body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 16px;
+            margin-bottom: 16px;
+            background-color: #ffffff;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-weight: 400;
+            letter-spacing: -.10px
+        }
+
+
+        div#app {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        div#app .search-wrapper {
+            position: relative;
+            font-size: 18px;
+        }
+
+        div#app .search-wrapper label {
+            position: absolute;
+            font-size: 14px;
+            color: rgba(0, 0, 0, 0.5);
+            top: 8px;
+            left: 12px;
+            z-index: -1;
+            transition: .15s all ease-in-out;
+        }
+
+        div#app .search-wrapper input {
+            padding: 8px 20px;
+            font-size: 16px;
+            color: rgba(0, 0, 0, 0.7);
+            border: 2px solid #9ececc;
+            border-radius: 6px;
+            transition: .15s all ease-in-out;
+            background: white;
+        }
+
+        div#app .search-wrapper input:focus {
+            outline: none;
+            transform: scale(1.05);
+        }
+
+        div#app .search-wrapper input:focus + label {
+            font-size: 14px;
+            transform: translateY(-24px) translateX(-12px);
+        }
+
+        div#app .search-wrapper input::-webkit-input-placeholder {
+            font-size: 14px;
+            color: rgba(0, 0, 0, 0.5);
+            font-weight: 100;
+        }
+
+        div#app .wrapper {
+            display: flex;
+            max-width: 344px;
+            flex-wrap: wrap;
+            padding-top: 12px;
+        }
+
+        div#app .card {
+
+            max-width: 124px;
+            margin: 22px;
+            transition: .15s all ease-in-out;
+        }
+
+        div#app .card:hover {
+            transform: scale(1.1);
+        }
+
+        div#app .card a {
+            text-decoration: none;
+            padding: 12px;
+            color: #03A9F4;
+            font-size: 16px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #000000;
+        }
+
+        div#app .card a img {
+            height: 92px;
+            width: 100px;
+        }
+
+        div#app .card a small {
+            font-size: 1px;
+            padding: 4px;
+        }
+
+        div#app .hotpink {
+            background: hotpink;
+        }
+
+        div#app .green {
+            background: green;
+        }
+
+        div#app .box {
+            width: 200px;
+            height: 200px;
+            border: 1px solid rgba(0, 0, 0, 0.12);
+        }
+    </style>
+
+    <title>Script for elm: tutorials, scripts, docs, libraries</title>
+
+    <script type='text/javascript'>//<![CDATA[
+    window.onload=function(){
+// thank you: https://codepen.io/sergio_llanos22/pen/JNQRRP
+
+        class Post {
+            constructor(title, link, author, img) {
+                this.title = title;
+                this.link = link;
+                //this.author = author;
+                this.img = img;
+            }
+        }
+
+        const app = new Vue({
+            el: '#app',
+            data: {
+                keyword: '',
+                postList: [
+
+                    new Post(
+                        'gitHub wiki',
+                        'https://github.com/kironroy/kironroy.github.io/wiki/Elm',
+                        'kironroy',
+                        'https://kironroy.github.io/github.svg'
+                    ),
+
+                    new Post(
+                        'documentation',
+                        'http://elm-lang.org/docs',
+                        'kironroy',
+                        'https://kironroy.github.io/elm.svg'
+                    ),
+
+                    new Post(
+                        'core libraries',
+                        'http://package.elm-lang.org/packages/elm-lang/core/5.1.1/',
+                        'kironroy',
+                        'https://kironroy.github.io/elm.svg'
+                    ),
+
+                    new Post(
+                        'beginning elm, tutorial',
+                        'http://elmprogramming.com/',
+                        'pawanpoudel',
+                        'https://kironroy.github.io/begin_elm.svg'
+                    ),
+
+                    new Post(
+                        'elm bridge, tutorial',
+                        'https://elmbridge.github.io/curriculum/',
+                        'kironroy',
+                        'https://kironroy.github.io/elm.svg'
+                    ),
+
+                    new Post(
+                        'if/else let',
+                        'https://ellie-app.com/jJdxBzPzgda1',
+                        'kironroy',
+                        'https://kironroy.github.io/elm_mono.svg'
+                    ),
+
+                    new Post(
+                        'mapping lists',
+                        'https://ellie-app.com/jJNfPsYJzSa1',
+                        'kironroy',
+                        'https://kironroy.github.io/elm_mono.svg'
+                    ),
+
+                    new Post(
+                        'filtering lists',
+                        'https://ellie-app.com/jK3PrVKgpZa1',
+                        'kironroy',
+                        'https://kironroy.github.io/elm_mono.svg'
+                    ),
+
+                    new Post(
+                        'anonymous',
+                        'https://ellie-app.com/kkLVgT9q2ra1',
+                        'kironroy',
+                        'https://kironroy.github.io/elm_mono.svg'
+                    ),
+
+                    new Post(
+                        'palindrome',
+                        'https://ellie-app.com/jJ8h7YzFLfa1',
+                        'kironroy',
+                        'https://kironroy.github.io/elm_mono.svg'
+                    ),
+
+                    new Post(
+                        'repeat, string',
+                        'https://ellie-app.com/jJ2tLMmqqwa1',
+                        'kironroy',
+                        'https://kironroy.github.io/elm_mono.svg'
+                    ),
+
+                    new Post(
+                        'slice, string',
+                        'https://ellie-app.com/jJ37vTNNwqa1',
+                        'kironroy',
+                        'https://kironroy.github.io/elm_mono.svg'
+                    ),
+
+                    new Post(
+                        'ascending, descending, list',
+                        'https://ellie-app.com/jJpXpMrf6ma1',
+                        'kironroy',
+                        'https://kironroy.github.io/elm_mono.svg'
+                    ),
+
+                    new Post(
+                        'random, subscriptions',
+                        'https://ellie-app.com/jJ8H9q7Sk5a1',
+                        'kironroy',
+                        'https://kironroy.github.io/elm_mono.svg'
+                    ),
+
+                    new Post(
+                        'let, string, filter',
+                        'https://ellie-app.com/jHS5yTHqhsa1',
+                        'kironroy',
+                        'https://kironroy.github.io/elm_mono.svg'
+                    ),
+
+                    new Post(
+                        'event-listener, subscriptions',
+                        'https://ellie-app.com/jJ9wcGBzj9a1',
+                        'kironroy',
+                        'https://kironroy.github.io/elm_mono.svg'
+                    ),
+
+                    new Post(
+                        'scorekeeper app',
+                        'https://ellie-app.com/k5zFQzsccDa1',
+                        'kironroy',
+                        'https://kironroy.github.io/elm_mono.svg'
+                    ),
+
+                    new Post(
+                        'signup app',
+                        'https://ellie-app.com/jJ8yk675Nma1',
+                        'kironroy',
+                        'https://kironroy.github.io/elm_mono.svg'
+                    ),
+
+                    new Post(
+                        'case',
+                        'https://ellie-app.com/jJ7CcvLRpTa1',
+                        'kironroy',
+                        'https://kironroy.github.io/elm_mono.svg'
+                    ),
+
+                    new Post(
+                        'string interpolation, record',
+                        'https://ellie-app.com/jHXVsHvWFYa1',
+                        'kironroy',
+                        'https://kironroy.github.io/elm_mono.svg'
+                    ),
+
+                    new Post(
+                        'tuples, vector',
+                        'https://ellie-app.com/jHTyvdFRcra1',
+                        'kironroy',
+                        'https://kironroy.github.io/elm_mono.svg'
+                    ),
+
+                    new Post(
+                        'tuples, regex',
+                        'https://ellie-app.com/jP8DZnXtHBa1',
+                        'kironroy',
+                        'https://kironroy.github.io/elm_mono.svg'
+                    ),
+
+                    new Post(
+                        'tuples, triangle, perimeter',
+                        'https://ellie-app.com/k4PYRHKhJ4a1',
+                        'kironroy',
+                        'https://kironroy.github.io/elm_mono.svg'
+                    ),
+
+
+                    new Post(
+                        'records, type alias, mapping',
+                        'https://ellie-app.com/k5nBSqzqH6a1',
+                        'kironroy',
+                        'https://kironroy.github.io/elm_mono.svg'
+                    ),
+
+                    new Post(
+                        'records, updating fields',
+                        'https://ellie-app.com/k5w6yMSJ4Qa1',
+                        'kironroy',
+                        'https://kironroy.github.io/elm_mono.svg'
+                    )
+
+                ]
+            },
+            methods: {
+                toggleOnOff() {
+                    this.onOff = !this.onOff;
+                }
+            },
+            computed: {
+                filteredList() {
+                    return this.postList.filter((post) => {
+                        return post.title.toLowerCase().includes(this.keyword.toLowerCase());
+                });
+                }
+            }
+        });
+    }//]]>
+
+    </script>
+</head>
+<div>
+    <a href="http://sgvc.org/index.php"><img alt="SGVC logo" src="https://kironroy.github.io/sgvc/sgvc_logo.svg" style="width:85px;height:85px;"></a>
+</div>
+<br>
+
+<p>search maps for: <span style="color:#377d75">health, food, jobs, shelter...</span></p>
+
+
+<!-- // thank you: https://codepen.io/sergio_llanos22/pen/JNQRRP -->
+<div id="app">
+    <div class="search-wrapper">
+        <br>
+        <input type="text" v-model="keyword" placeholder= "Type here"/>
+        <label>Search</label>
+    </div>
+    <div class="wrapper">
+        <div class="card" v-for="post in filteredList">
+            <a v-bind:href="post.link">
+                <img v-bind:src="post.img"/>
+                <small>{{post.author}}</small>{{post.title}}
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+        window.parent.parent.postMessage(["resultsFrame", {
+            height: document.body.getBoundingClientRect().height,
+            slug: "90dmpfv8"
+        }], "*")
+    }
+</script>
+</body>
+</html>
