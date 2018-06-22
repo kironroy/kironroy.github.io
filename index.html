@@ -474,11 +474,24 @@
   </section>
 </div><!-- Footer -->
 <div id="footer">
-  <center>
-    <div class="copyright">
-      <a href="http://html5up.net">Html5 UP</a> &nbsp;&nbsp; <a href="https://kironroy.github.io">Kiron Roy</a>
-    </div>
-  </center>
+  <div class="copyright" style="margin-left: 2em">
+    <a href="http://html5up.net">HTML5 UP</a> &nbsp; <a href="http://kironroy.github.io/">Kiron Roy</a>
+    <script>
+        var div = document.getElementById('quote');
+        var quotes = [
+            'Photography',
+            'Wep Mapping',
+            'Front End Web Development'
+        ];
+        var pos = 1;
+        setInterval(function(){
+            if (pos >= quotes.length - 1) pos = -1;
+            pos++;
+            div.innerHTML = quotes[pos];
+        }, 2000) // every 4 seconds
+    </script>
+  </div>
 </div>
 </body>
 </html>
+
