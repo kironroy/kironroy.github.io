@@ -7,28 +7,41 @@
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.css' rel='stylesheet' />
     <style>
-        body { margin:0; padding:0; }
-        #map { position:absolute; top:0; bottom:0; width:100%; }
+        body {
+            margin:0;
+            padding:0;
+        }
+
+        #map {
+            position:absolute;
+            top:0;
+            bottom:0;
+            width:100%;
+            font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+            font-weight: 300;
+            letter-spacing: -.10px;
+            font-size: 20px;
+            color: #ed1c25;
+        }
+
+        #marker {
+            background-image: url('https://kironroy.github.io/camera_map2.svg');
+            background-size: cover;
+            width: 63px;
+            height: 110px;
+            -border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .mapboxgl-popup {
+            max-width: 206px;
+        }
+
     </style>
 </head>
 <body>
 
-<style>
 
-    #marker {
-        background-image: url('https://kironroy.github.io/camera_map2.svg');
-        background-size: cover;
-        width: 63px;
-        height: 110px;
-       -border-radius: 50%;
-        cursor: pointer;
-    }
-
-    .mapboxgl-popup {
-        max-width: 206px;
-    }
-
-</style>
 
 <div id='map'></div>
 
