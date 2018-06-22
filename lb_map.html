@@ -17,11 +17,8 @@
             top:0;
             bottom:0;
             width:100%;
-            font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-            font-weight: 300;
-            letter-spacing: -.10px;
-            font-size: 20px;
-            color: #ed1c25;
+
+
         }
 
         #marker {
@@ -34,7 +31,16 @@
         }
 
         .mapboxgl-popup {
-            max-width: 206px;
+            max-width: 300px;
+            color: #ed1c25;
+            background-color: #1b1464;
+            border-radius: 0px;
+            text-align: center;
+            font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+            font-weight: 300;
+            letter-spacing: -.10px;
+            font-size: 20px;
+
         }
 
     </style>
@@ -43,7 +49,7 @@
 
 
 
-<div id='map'></div>
+<div id='map'>
 
 <script>
     mapboxgl.accessToken = 'pk.eyJ1Ijoia2lyb25yb3ltYXBzIiwiYSI6Ijg1MzYyYjYxOGUyZTZmZjQ2MTBjY2EyNGFiNjU2YTUwIn0.xZ6rI7mUH2xSewoxdm_GkQ';
@@ -73,6 +79,6 @@
         .addTo(map);
 
 </script>
-
+</div>
 </body>
 </html>
