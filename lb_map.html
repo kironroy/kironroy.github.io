@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Attach a popup to a marker instance</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+</head>
+<body>
+
+<style>
+
+    #marker {
+        background-image: url('https://lh3.googleusercontent.com/-82sauOdXcgc/VPAUkqM-10I/AAAAAAAAEUs/L6K_rYIieis/s912/5302337348_be28e10ea7_o.jpg');
+        background-size: cover;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        -cursor: pointer;
+    }
+
+    .mapboxgl-popup {
+        max-width: 200px;
+    }
+
+</style>
+
+<div id='map'></div>
+
+<script>
+    mapboxgl.accessToken = 'pk.eyJ1Ijoia2lyb25yb3ltYXBzIiwiYSI6Ijg1MzYyYjYxOGUyZTZmZjQ2MTBjY2EyNGFiNjU2YTUwIn0.xZ6rI7mUH2xSewoxdm_GkQ';
+
+    var monument = [-118.1489299, 33.7572002];
+    var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/kironroymaps/cjipp6d363a5r2rnp24od6unf',
+        center: monument,
+        zoom: 11,
+        bearing: -17,
+        pitch: 90
+    });
+
+    // create the popup
+    var popup = new mapboxgl.Popup({ offset: 25 })
+        .setText('Long Beach');
+
+    // create DOM element for the marker
+    var el = document.createElement('div');
+    el.id = 'marker';
+
+    // create the marker
+    new mapboxgl.Marker(el)
+        .setLngLat(monument)
+        .setPopup(popup) // sets a popup on this marker
+        .addTo(map);
+
+</script>
+
+</body>
+</html>
