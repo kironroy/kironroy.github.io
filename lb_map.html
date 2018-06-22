@@ -40,14 +40,14 @@
         container: 'map',
         style: 'mapbox://styles/kironroymaps/cjipp6d363a5r2rnp24od6unf',
         center: monument,
-        zoom: 11,
+        zoom: 5,
         bearing: -17,
-        pitch: 90
+        pitch: 95
     });
 
     // create the popup
     var popup = new mapboxgl.Popup({ offset: 25 })
-        .setText('Long Beach');
+        .setText('I am from the Long Beach area');
 
     // create DOM element for the marker
     var el = document.createElement('div');
