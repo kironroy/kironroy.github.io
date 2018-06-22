@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="162px" height="286px" viewBox="0 0 162 286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="178px" height="299px" viewBox="0 0 178 299" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
     <title>camera_map</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="camera_map" transform="translate(1.000000, 1.000000)">
+    <g id="camera_map" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(13.000000, 10.000000)">
             <g id="usa" fill="#EC1C24" fill-rule="nonzero" stroke="#EC1C24">
-                <path d="M0,90.8258551 C0,40.6640329 35.8192172,0 80,0 C124.1779,0 160,40.6640329 160,90.8258551 C160,140.984794 80,285 80,285 C80,285 0,140.984794 0,90.8258551 Z" id="Shape"></path>
+                <path d="M0,87.9576702 C0,39.3799055 34.6998667,0 77.5,0 C120.297341,0 155,39.3799055 155,87.9576702 C155,136.532643 77.5,276 77.5,276 C77.5,276 0,136.532643 0,87.9576702 Z" id="Shape"></path>
             </g>
-            <g id="logo2" transform="translate(17.000000, 40.000000)">
+            <g id="logo2" transform="translate(16.000000, 39.000000)">
                 <g id="Group">
                     <g id="logo">
                         <g id="camera">
-                            <path d="M38.655744,13.8602683 L46.4109383,0.922175503 C46.7133972,0.414888389 47.5416258,0 48.262439,0 L79.1952206,0 C79.9169761,0 80.7414357,0.423041218 81.0278765,0.933045941 L88.2666063,13.8602683 L115.183777,13.8602683 C116.639537,13.8602683 117.83147,14.982641 117.83147,16.3532221 L117.83147,67.1236035 C117.83147,68.4914669 116.635768,69.6129338 115.183777,69.6129338 L10.7940013,69.6129338 C9.337299,69.6129338 8.1538462,68.4914669 8.1538462,67.1236035 L8.1547884,16.3532221 C8.1547884,14.9808293 9.3401257,13.8602683 10.7949436,13.8602683 L38.655744,13.8602683 Z" id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
-                            <path d="M0.538738769,21 L124.083591,21" id="Line" stroke="#EC1C24" stroke-width="5" stroke-linecap="square"></path>
-                            <path d="M0.796103766,28 L124.340956,28" id="Line-Copy" stroke="#EC1C24" stroke-width="5" stroke-linecap="square"></path>
-                            <path d="M0.796103766,35 L124.340956,35" id="Line-Copy-2" stroke="#EC1C24" stroke-width="5" stroke-linecap="square"></path>
-                            <path d="M0.796103766,42 L124.340956,42" id="Line-Copy-3" stroke="#EC1C24" stroke-width="5" stroke-linecap="square"></path>
-                            <path d="M0.796103766,49 L124.340956,49" id="Line-Copy-4" stroke="#EC1C24" stroke-width="5" stroke-linecap="square"></path>
-                            <path d="M0.796103766,56 L124.340956,56" id="Line-Copy-5" stroke="#EC1C24" stroke-width="5" stroke-linecap="square"></path>
-                            <path d="M0.796103766,63 L124.340956,63" id="Line-Copy-6" stroke="#EC1C24" stroke-width="5" stroke-linecap="square"></path>
-                            <path d="M62.8692582,67.1538462 C48.5129196,67.1538462 36.8717949,55.5264117 36.8717949,41.1518526 C36.8717949,26.7942387 48.5129196,15.1538462 62.8692582,15.1538462 C77.2367581,15.1548429 88.8717949,26.7962323 88.8717949,41.1518526 C88.8717949,55.5274085 77.2337141,67.1538462 62.8692582,67.1538462 Z" id="red_lens" stroke="#FFFFFF" stroke-width="2" fill="#EC1C24" fill-rule="nonzero"></path>
+                            <path d="M37.4187602,13.4642606 L44.9257883,0.895827631 C45.2185685,0.403034435 46.0202938,0 46.718041,0 L76.6609735,0 C77.3596329,0 78.1577098,0.410954326 78.4349845,0.906387486 L85.4420749,13.4642606 L111.497896,13.4642606 C112.907072,13.4642606 114.060863,14.5545655 114.060863,15.8859872 L114.060863,65.2057863 C114.060863,66.5345678 112.903423,67.6239928 111.497896,67.6239928 L10.4485933,67.6239928 C9.03850543,67.6239928 7.89292312,66.5345678 7.89292312,65.2057863 L7.89383517,15.8859872 C7.89383517,14.5528056 9.04124168,13.4642606 10.4495054,13.4642606 L37.4187602,13.4642606 Z" id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                            <path d="M0.521499128,20.4 L120.112916,20.4" id="Line" stroke="#EC1C24" stroke-width="5" stroke-linecap="square"></path>
+                            <path d="M0.770628445,27.2 L120.362045,27.2" id="Line-Copy" stroke="#EC1C24" stroke-width="5" stroke-linecap="square"></path>
+                            <path d="M0.770628445,34 L120.362045,34" id="Line-Copy-2" stroke="#EC1C24" stroke-width="5" stroke-linecap="square"></path>
+                            <path d="M0.770628445,40.8 L120.362045,40.8" id="Line-Copy-3" stroke="#EC1C24" stroke-width="5" stroke-linecap="square"></path>
+                            <path d="M0.770628445,47.6 L120.362045,47.6" id="Line-Copy-4" stroke="#EC1C24" stroke-width="5" stroke-linecap="square"></path>
+                            <path d="M0.770628445,54.4 L120.362045,54.4" id="Line-Copy-5" stroke="#EC1C24" stroke-width="5" stroke-linecap="square"></path>
+                            <path d="M0.770628445,61.2 L120.362045,61.2" id="Line-Copy-6" stroke="#EC1C24" stroke-width="5" stroke-linecap="square"></path>
+                            <path d="M60.8574419,65.2351649 C46.9605062,65.2351649 35.6918975,53.9399428 35.6918975,39.9760854 C35.6918975,26.028689 46.9605062,14.7208792 60.8574419,14.7208792 C74.7651818,14.7218474 86.0278975,26.0306257 86.0278975,39.9760854 C86.0278975,53.9409111 74.7622352,65.2351649 60.8574419,65.2351649 Z" id="red_lens" stroke="#FFFFFF" stroke-width="2" fill="#EC1C24" fill-rule="nonzero"></path>
                         </g>
                     </g>
                 </g>
