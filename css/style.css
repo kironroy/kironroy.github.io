@@ -15,8 +15,11 @@
 /*********************************************************************************/
 
   #quote {
-		font-style: italic;
-		color: #383838;
+	  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+	  color: #000000;
+	  letter-spacing: -0.20px;
+
+
 	}
 
 	body
