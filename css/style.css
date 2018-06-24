@@ -467,7 +467,7 @@
 			display: inline-block;
 		    text-decoration: none;
 			padding: 0.75em 2.5em 0.75em 2.5em;
-			background-color: #9ececc;
+			background-color: #f4f0ed;
 			border-radius: 0.20em;
 			-border-color: #000;
 
@@ -478,7 +478,7 @@
 			input[type="reset"]:hover,
 			.button:hover
 			{
-				background-color: #373737;
+				background-color: #ffcd01;
 			}
 
 			input[type="button"]:active,
