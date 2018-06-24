@@ -8,7 +8,7 @@
 
     <!-- import the webpage's stylesheet -->
     <style>
-        @import url('https://fonts.googleapis.com/css?family=Bubbler+One');
+
 
         body {
             background: #8e1016;
@@ -22,17 +22,7 @@
             left: 0;
         }
 
-        a {
-            display: block;
-            position: fixed;
-            top: 0px; left: 0px;
-            color: #fcc;
-            text-decoration: none;
-            padding: 4px;
-            background: rgba(52,52,52,0.5);
-            font: 12px 'Bubbler One', sans-serif;
-            z-index: 1;
-        }
+
 
         .clock {
             position: absolute;
@@ -137,7 +127,9 @@
             position: absolute;
             font: 30px -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
             color: white;
+            letter-spacing: -1px;
             transform: translate(-50%,-50%);
+
         }
 
         .hour-10 {
@@ -151,6 +143,7 @@
             position: absolute;
             font: 12px -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
             color: white;
+            letter-spacing: -1px;
             transform: translate(-50%,-50%);
         }
 
@@ -159,18 +152,15 @@
             width: 1px;
             height: 9px;
             transform: translate(-50%,-100%) translateY(-131px);
-            opacity: 0.34;
+            opacity: 0.55;
         }
     </style>
 
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
+
 </head>
 <body>
-<!--
-Recreating Apple Watch's Utility face <https://www.apple.com/watch/design/> in HTML+CSS+JS
--->
-<!--<a <!href="https://codepen.io/dtinth/pen/cGxhl" target="_top">Check out the newer version!</a>-->
+
+<!-- THANK YOU: href="https://codepen.io/dtinth/pen/tDihg" -->
 
 <div class="fill">
     <div class="reference"></div>
