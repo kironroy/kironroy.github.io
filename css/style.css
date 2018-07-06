@@ -705,7 +705,7 @@
 	{
 		margin-left: 375px;
 		text-align: center;
-		background-color: #F9F7F6;
+		background-color: #ffffff;
 
 		color: #000000;
 		padding: 1em 0 2em 0;
@@ -812,6 +812,8 @@
 			#main > section.four
 			{
                 background-color: #f9f7f6;
+                -background: linear-gradient(#FFFFFF, #fefefe, #f9f7f6);
+                background: linear-gradient(#f9f7f6, #fefefe, #ffffff);
 
 
             }
