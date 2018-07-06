@@ -706,6 +706,7 @@
 		margin-left: 375px;
 		text-align: center;
 		background-color: #F9F7F6;
+
 		color: #000000;
 		padding: 1em 0 2em 0;
 		-box-shadow: inset 0 1px 0 0 rgba(0,0,0,0.05), inset 0 0.1em 0.1em 0 rgba(0,0,0,0.025);
@@ -791,21 +792,28 @@
 
 			#main > section.one
 			{
-				background-color: #F9F7F6;
+                background-color: #f9f7f6;
+                background: linear-gradient(#FFFFFF, #fefefe, #f9f7f6);
 
 			}
 
 			#main > section.two
 			{
 				background-color: #2a52be;
+                --background: linear-gradient(#4e629a, #214dc7, #0f44d9);
+                background: linear-gradient(#0f44d9, #214dc7, #4e629a);
+
 			}
 
 			#main > section.three
 			{
 				background-color: #214198;
+                background: linear-gradient(#39b9e9, #2bc8d3, #22beb6);
 			}
 
 			#main > section.four
 			{
-				background-color: #F9F7F6;
-			}
+                background-color: #f9f7f6;
+
+
+            }
