@@ -800,7 +800,6 @@
 			#main > section.two
 			{
 				background-color: #2a52be;
-                --background: linear-gradient(#4e629a, #214dc7, #0f44d9);
                 background: linear-gradient(#0f44d9, #214dc7, #4e629a);
 
 			}
@@ -808,7 +807,7 @@
 			#main > section.three
 			{
 				background-color: #214198;
-                background: linear-gradient(#39b9e9, #2bc8d3, #22beb6);
+                background: linear-gradient(#566692, #5f6a89, #686e80);
 			}
 
 			#main > section.four
