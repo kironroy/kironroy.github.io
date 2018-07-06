@@ -787,8 +787,7 @@
 				padding: 6em 0;
 				background-size: cover;
 				background-position: center center;
-				-background-image: url("bands.jpg");
-			}
+            }
 
 			#main > section.one
 			{
