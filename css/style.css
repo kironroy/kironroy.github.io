@@ -806,13 +806,12 @@
 			#main > section.three
 			{
 				background-color: #214198;
-                background: linear-gradient(#566692, #5f6a89, #686e80);
+                background: linear-gradient(#566692, #5f6a89, #76ccf2);
 			}
 
 			#main > section.four
 			{
                 background-color: #f9f7f6;
-                -background: linear-gradient(#FFFFFF, #fefefe, #f9f7f6);
                 background: linear-gradient(#f9f7f6, #fefefe, #ffffff);
 
 
