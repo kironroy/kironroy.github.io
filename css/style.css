@@ -1,6 +1,6 @@
 
 @import url("font-awesome.min.css");
-
+@import url('https://fonts.googleapis.com/css?family=Lato:400i');
 
 /*
 	Prologue by HTML5 UP
@@ -814,5 +814,12 @@
                 background-color: #f9f7f6;
                 background: linear-gradient(#f9f7f6, #fefefe, #ffffff);
 
+
+            }
+
+            #quote {
+                -font-family: 'Lato', sans-serif;
+                font-size: 22px;
+                font-style: italic;
 
             }
