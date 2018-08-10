@@ -24,7 +24,10 @@
       flex-direction: column;
       margin-top: 16px;
       margin-bottom: 16px;
-      background-color: #F9F7F6;
+        background-color: #2a62f9;
+
+
+
       font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
       font-weight: 300;
       letter-spacing: -.50px
@@ -99,12 +102,12 @@
     div#app .card a {
       text-decoration: none;
       padding: 12px;
-      color: #03A9F4;
+      color: #3b65d4;
       font-size: 18px;
       display: flex;
       flex-direction: column;
       align-items: center;
-      color: #000000;
+      color: #FFFFFF;
     }
 
     div#app .card a img {
@@ -153,7 +156,7 @@ const app = new Vue({
     keyword: '',
     postList: [
         new Post(
-          'California Tour',
+          'California',
           'https://www.arcgis.com/apps/MapTour/index.html?appid=10b9ea571f8e41c6a8e3881738021075',
           'kironroy',
           'https://kironroy.github.io/cal.svg'
@@ -233,7 +236,7 @@ const app = new Vue({
     <body>
       <a href="http://kironroy.github.io"><img alt="Kiron Roy Logo" src="logo2.svg" style="width:80px;height:80px;"></a>
       <div>
-    		Search Projects
+           <span style="color:#FFFFFF">Search Projects</span>
     	</div>
 <div id="app">
   <div class="search-wrapper">
