@@ -6,7 +6,7 @@
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="logo_forest_white" transform="translate(1.000000, 1.000000)">
-            <rect id="Rectangle-2" stroke="#FFFFFF" fill="#1E6B2B" fill-rule="nonzero" x="0" y="0" width="184" height="184" rx="92"></rect>
+            <rect id="Rectangle-2" stroke="#FFFFFF" stroke-width="2" fill="#1E6B2B" fill-rule="nonzero" x="0" y="0" width="184" height="184" rx="92"></rect>
             <g id="Group" transform="translate(21.000000, 51.000000)">
                 <g id="logo">
                     <g id="camera">
