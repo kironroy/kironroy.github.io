@@ -1,9 +1,18 @@
 
 ![design logo](https://kironroy.github.io/design.svg)
 
+### ART
+  * [General Public Art](http://www.generalpublic.art/)
+  * [Google Museum Views](https://artsandculture.google.com/project/streetviews)
+
 ### HTML
-  #### Responsive
+  #### Responsive/Tools
   * [Responsinator](https://www.responsinator.com/?url=https%3A%2F%2Fkironroy.github.io%2F)
+  * [Alphabetize List](https://alphabetizer.flap.tv/)
+  * [HTML <li> maker](http://www.limaker.com/)
+    * [Convert web page to .pdf](https://www.web2pdfconvert.com/)
+    * [Compress .pdf](https://www.ilovepdf.com/compress_pdf)
+    * [Compress .pdf 2](https://smallpdf.com/compress-pdf)
 
   #### Convertor
    * [html to GitHub markdown](https://domchristie.github.io/turndown/)

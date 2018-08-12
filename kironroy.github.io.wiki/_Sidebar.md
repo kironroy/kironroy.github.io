@@ -23,6 +23,11 @@
 
 ***
 
+- C#
+  - [C#](https://github.com/kironroy/kironroy.github.io/wiki/C-Sharp)
+
+***
+
 - CSS
   - [Clean CSS](https://github.com/kironroy/kironroy.github.io/wiki/Clean-HTML-CSS-markup)
   - [Clean HTML](https://github.com/kironroy/kironroy.github.io/wiki/Clean-HTML-CSS-markup)
@@ -128,6 +133,11 @@
   - [Jr Dev Jobs](https://jrdevjobs.slack.com/)
   - [Learn to Teach Code LA](https://learnteachcode.slack.com)
 
+***
+
+- Spreadsheets
+  - [Spreadsheets](https://github.com/kironroy/kironroy.github.io/wiki/Spreadsheets)
+
 
 
 ***
@@ -148,6 +158,11 @@
   - [Vue Documentation](https://vuejs.org/)
   - [Vue GitHub](https://github.com/vuejs)
   - [Vue and bootstrap](https://bootstrap-vue.js.org/docs/)
+
+***
+- Web Mapping | GIS
+  - [Web Mapping | GIS](https://github.com/kironroy/kironroy.github.io/wiki/Web-mapping_GIS)
+
 
 ***
 - Windows Powershell

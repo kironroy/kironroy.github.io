@@ -25,7 +25,8 @@ h1, h2, h4 {
 
 body {
    font-family: 'EB Garamond', serif;
-   background-color: #E8F2F1;
+   -background-color: #E8F2F1;
+    background: linear-gradient(#e8f2f1, #e8eef2, #e8f2ec);
    letter-spacing: -.30px;
    padding-top: 50px;
    padding-left: 50px;

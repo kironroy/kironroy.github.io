@@ -1,20 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
-    <title>Artboard</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" fill-rule="nonzero">
-            <g id="nights" transform="translate(1.000000, 21.000000)">
-                <path d="M71.9109079,15.9539778 C72.1674901,16.5292044 71.8505701,17 71.2079429,17 L27.7764217,17 C27.1320371,17 26.827419,16.5343404 27.0998179,15.9659617 L34.2401849,1.03460893 C34.5125839,0.465659617 35.2624132,0 35.9067978,0 L63.6053764,0 C64.2503468,0 64.9867026,0.470795569 65.2450423,1.04602216 L71.9109079,15.9539778 Z" id="Shape" fill="#C5B358"></path>
-                <path d="M5.13795961e-16,10.2366795 C5.13795961e-16,9.00647716 1.05341722,8 2.34054151,8 L94.6594585,8 C95.9471613,8 97,9.00647716 97,10.2366795 L97,55.7633205 C97,56.9929507 95.9471613,58 94.6594585,58 L2.34054151,58 C1.05341722,58 0,56.9929507 0,55.7633205 L5.13795961e-16,10.2366795 Z" id="Shape" fill="#C5B358"></path>
-                <circle id="Oval" fill="#222222" cx="49" cy="34" r="23"></circle>
-                <rect id="Rectangle-path" fill="#1A1A1A" x="0" y="16" width="97" height="34"></rect>
-                <circle id="Oval" fill="#000000" cx="49" cy="34" r="21"></circle>
-                <circle id="Oval" fill="#000000" cx="48.5" cy="33.5" r="18.5"></circle>
-                <circle id="Oval" fill="#C5B358" cx="49" cy="33" r="1"></circle>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<title>Artboard</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<g id="Artboard">
+		<g id="nights" transform="translate(1.000000, 21.000000)">
+			<path id="Shape" fill="#C5B358" d="M71.911,15.954C72.168,16.529,71.851,17,71.208,17H27.776c-0.645,0-0.949-0.466-0.677-1.034
+				L34.24,1.035C34.513,0.466,35.262,0,35.907,0h27.699c0.645,0,1.381,0.471,1.64,1.046L71.911,15.954z"/>
+			<path id="Shape_1_" fill="#C5B358" d="M0,10.237C0,9.006,1.053,8,2.34,8h92.32C95.947,8,97,9.006,97,10.237v45.527
+				C97,56.993,95.947,58,94.66,58H2.34C1.053,58,0,56.993,0,55.764V10.237z"/>
+			<circle id="Oval" fill="#1A1A1A" cx="49" cy="34" r="23"/>
+			<rect id="Rectangle-path" y="16" fill="#1A1A1A" width="97" height="34"/>
+			<circle id="Oval_1_" cx="49" cy="34" r="21"/>
+			<circle id="Oval_2_" cx="48.5" cy="33.5" r="18.5"/>
+			<circle id="Oval_3_" fill="#C5B358" cx="49" cy="33" r="1"/>
+		</g>
+	</g>
+</g>
 </svg>

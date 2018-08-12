@@ -467,7 +467,7 @@
 			display: inline-block;
 		    text-decoration: none;
 			padding: 0.75em 2.5em 0.75em 2.5em;
-			background-color: #ec1c24;
+			background-color: #0f44d8;
 			border-radius: 0.20em;
 			-border-color: #000;
 
@@ -682,7 +682,7 @@
 
 					#nav ul li a.active
 					{
-						background: #EC1C24;
+						background: #0f44d8;
 						-box-shadow: inset 0 0 0.25em 0 rgba(0,0,0,0.125);
 						color: #fff;
 						font-weight: bold;
