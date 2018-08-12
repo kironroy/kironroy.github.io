@@ -1,7 +1,7 @@
 
 
 
-[![logo](https://kironroy.github.io/logo_wiki_home.svg)](https://kironroy.github.io/)
+[![logo](https://kironroy.github.io/new_logo_sm.svg)](https://kironroy.github.io/)
 
 **Host your site with GitHub Pages:**
 
