@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="115px" height="133px" viewBox="0 0 115 133" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="119px" height="135px" viewBox="0 0 119 135" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
-    <title>newLogo Copy</title>
+    <title>new_logo_sm</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <linearGradient x1="0.25781251%" y1="49.7500002%" x2="101.257813%" y2="49.7500002%" id="linearGradient-1">
@@ -11,43 +11,55 @@
         </linearGradient>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="newLogo-Copy" transform="translate(-27.000000, -22.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
-            <g id="Group-2" transform="translate(46.000000, 0.000000)">
-                <g id="Group-2-Copy-5" transform="translate(0.000000, 58.423453)">
-                    <g id="Group-2-Copy-3" transform="translate(61.486904, 59.048800) scale(-1, 1) rotate(-163.000000) translate(-61.486904, -59.048800) translate(11.986904, 12.548800)">
-                        <g id="Group" transform="translate(49.471151, 46.532956) rotate(-11.000000) translate(-49.471151, -46.532956) translate(6.971151, 7.532956)">
-                            <polygon id="Triangle-Copy-2" transform="translate(44.497261, 52.833531) rotate(-15.000000) translate(-44.497261, -52.833531) " points="7.56360707 68.834814 81.430915 36.8322485 70.4315245 58.4959169"></polygon>
-                            <polygon id="Triangle-Copy-4" transform="translate(39.685659, 45.549457) rotate(-30.000000) translate(-39.685659, -45.549457) " points="2.75200513 60.7727765 76.619313 30.3261368 65.6199225 50.9365443"></polygon>
-                            <polygon id="Triangle-Copy-5" transform="translate(38.035968, 36.048494) rotate(-41.000000) translate(-38.035968, -36.048494) " points="1.10231393 51.2718145 74.9696222 20.8251745 63.9702311 41.435582"></polygon>
+        <g id="new_logo_sm" transform="translate(-25.000000, -21.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="Group-2-Copy" transform="translate(108.355442, 88.500000) scale(-1, 1) translate(-108.355442, -88.500000) translate(47.710884, 0.000000)">
+                <g id="newLogo">
+                    <g id="Group-2-Copy-6" transform="translate(60.644558, 118.753994) scale(-1, 1) translate(-60.644558, -118.753994) translate(0.000000, 60.507987)">
+                        <g id="Group-2-Copy-5" transform="translate(0.000000, 0.188498)">
+                            <g id="Group-2-Copy-3" transform="translate(60.818503, 58.100619) scale(-1, 1) rotate(-163.000000) translate(-60.818503, -58.100619) translate(11.957959, 12.578255)">
+                                <g id="Group" transform="translate(48.882683, 45.615527) rotate(-11.000000) translate(-48.882683, -45.615527) translate(6.920098, 7.444600)">
+                                    <polygon id="Triangle-Copy-2" transform="translate(44.237979, 51.820748) rotate(-15.000000) translate(-44.237979, -51.820748) " points="7.51953453 67.5152968 80.9564235 36.126199 70.0211256 57.3745894"></polygon>
+                                    <polygon id="Triangle-Copy-5" transform="translate(37.814335, 35.357469) rotate(-41.000000) translate(-37.814335, -35.357469) " points="1.09589084 50.2889682 74.5327801 20.4259698 63.5974816 40.6412897"></polygon>
+                                    <polygon id="Triangle-Copy-4" transform="translate(40.989198, 43.094529) rotate(-30.000000) translate(-40.989198, -43.094529) " points="4.27075401 58.3087755 77.7076429 27.8802819 66.772345 48.4784057"></polygon>
+                                </g>
+                            </g>
                         </g>
                     </g>
-                </g>
-                <g id="Group-2-Copy-7" transform="translate(61.500000, 59.576547) scale(-1, 1) rotate(-180.000000) translate(-61.500000, -59.576547) translate(0.000000, 0.576547)">
-                    <g id="Group-2-Copy-3" transform="translate(61.486904, 59.048800) scale(-1, 1) rotate(-163.000000) translate(-61.486904, -59.048800) translate(11.986904, 12.548800)">
-                        <g id="Group" transform="translate(49.471151, 46.532956) rotate(-11.000000) translate(-49.471151, -46.532956) translate(6.971151, 7.532956)">
-                            <polygon id="Triangle-Copy-2" transform="translate(44.497261, 52.833531) rotate(-15.000000) translate(-44.497261, -52.833531) " points="7.56360707 68.834814 81.430915 36.8322485 70.4315245 58.4959169"></polygon>
-                            <polygon id="Triangle-Copy-4" transform="translate(39.685659, 45.549457) rotate(-30.000000) translate(-39.685659, -45.549457) " points="2.75200513 60.7727765 76.619313 30.3261368 65.6199225 50.9365443"></polygon>
-                            <polygon id="Triangle-Copy-5" transform="translate(38.035968, 36.048494) rotate(-41.000000) translate(-38.035968, -36.048494) " points="1.10231393 51.2718145 74.9696222 20.8251745 63.9702311 41.435582"></polygon>
+                    <g id="Group-2-Copy-6-Copy" transform="translate(60.644558, 58.246006) scale(-1, -1) translate(-60.644558, -58.246006) ">
+                        <g id="Group-2-Copy-5" transform="translate(0.000000, 0.188498)">
+                            <g id="Group-2-Copy-3" transform="translate(60.818503, 58.100619) scale(-1, 1) rotate(-163.000000) translate(-60.818503, -58.100619) translate(11.957959, 12.578255)">
+                                <g id="Group" transform="translate(48.882683, 45.615527) rotate(-11.000000) translate(-48.882683, -45.615527) translate(6.920098, 7.444600)">
+                                    <polygon id="Triangle-Copy-2" transform="translate(44.237979, 51.820748) rotate(-15.000000) translate(-44.237979, -51.820748) " points="7.51953453 67.5152968 80.9564235 36.126199 70.0211256 57.3745894"></polygon>
+                                    <polygon id="Triangle-Copy-5" transform="translate(37.814335, 35.357469) rotate(-41.000000) translate(-37.814335, -35.357469) " points="1.09589084 50.2889682 74.5327801 20.4259698 63.5974816 40.6412897"></polygon>
+                                    <polygon id="Triangle-Copy-4" transform="translate(40.989198, 43.094529) rotate(-30.000000) translate(-40.989198, -43.094529) " points="4.27075401 58.3087755 77.7076429 27.8802819 66.772345 48.4784057"></polygon>
+                                </g>
+                            </g>
                         </g>
                     </g>
                 </g>
             </g>
-            <g id="Group-2-Copy-6" transform="translate(61.500000, 88.500000) scale(-1, 1) translate(-61.500000, -88.500000) ">
-                <g id="Group-2-Copy-5" transform="translate(0.000000, 58.423453)">
-                    <g id="Group-2-Copy-3" transform="translate(61.486904, 59.048800) scale(-1, 1) rotate(-163.000000) translate(-61.486904, -59.048800) translate(11.986904, 12.548800)">
-                        <g id="Group" transform="translate(49.471151, 46.532956) rotate(-11.000000) translate(-49.471151, -46.532956) translate(6.971151, 7.532956)">
-                            <polygon id="Triangle-Copy-2" transform="translate(44.497261, 52.833531) rotate(-15.000000) translate(-44.497261, -52.833531) " points="7.56360707 68.834814 81.430915 36.8322485 70.4315245 58.4959169"></polygon>
-                            <polygon id="Triangle-Copy-4" transform="translate(39.685659, 45.549457) rotate(-30.000000) translate(-39.685659, -45.549457) " points="2.75200513 60.7727765 76.619313 30.3261368 65.6199225 50.9365443"></polygon>
-                            <polygon id="Triangle-Copy-5" transform="translate(38.035968, 36.048494) rotate(-41.000000) translate(-38.035968, -36.048494) " points="1.10231393 51.2718145 74.9696222 20.8251745 63.9702311 41.435582"></polygon>
+            <g id="Group-2">
+                <g id="newLogo">
+                    <g id="Group-2-Copy-6" transform="translate(60.644558, 118.753994) scale(-1, 1) translate(-60.644558, -118.753994) translate(0.000000, 60.507987)">
+                        <g id="Group-2-Copy-5" transform="translate(0.000000, 0.188498)">
+                            <g id="Group-2-Copy-3" transform="translate(60.818503, 58.100619) scale(-1, 1) rotate(-163.000000) translate(-60.818503, -58.100619) translate(11.957959, 12.578255)">
+                                <g id="Group" transform="translate(48.882683, 45.615527) rotate(-11.000000) translate(-48.882683, -45.615527) translate(6.920098, 7.444600)">
+                                    <polygon id="Triangle-Copy-2" transform="translate(44.237979, 51.820748) rotate(-15.000000) translate(-44.237979, -51.820748) " points="7.51953453 67.5152968 80.9564235 36.126199 70.0211256 57.3745894"></polygon>
+                                    <polygon id="Triangle-Copy-5" transform="translate(37.814335, 35.357469) rotate(-41.000000) translate(-37.814335, -35.357469) " points="1.09589084 50.2889682 74.5327801 20.4259698 63.5974816 40.6412897"></polygon>
+                                    <polygon id="Triangle-Copy-4" transform="translate(40.989198, 43.094529) rotate(-30.000000) translate(-40.989198, -43.094529) " points="4.27075401 58.3087755 77.7076429 27.8802819 66.772345 48.4784057"></polygon>
+                                </g>
+                            </g>
                         </g>
                     </g>
-                </g>
-                <g id="Group-2-Copy-7" transform="translate(61.500000, 59.576547) scale(-1, 1) rotate(-180.000000) translate(-61.500000, -59.576547) translate(0.000000, 0.576547)">
-                    <g id="Group-2-Copy-3" transform="translate(61.486904, 59.048800) scale(-1, 1) rotate(-163.000000) translate(-61.486904, -59.048800) translate(11.986904, 12.548800)">
-                        <g id="Group" transform="translate(49.471151, 46.532956) rotate(-11.000000) translate(-49.471151, -46.532956) translate(6.971151, 7.532956)">
-                            <polygon id="Triangle-Copy-2" transform="translate(44.497261, 52.833531) rotate(-15.000000) translate(-44.497261, -52.833531) " points="7.56360707 68.834814 81.430915 36.8322485 70.4315245 58.4959169"></polygon>
-                            <polygon id="Triangle-Copy-4" transform="translate(39.685659, 45.549457) rotate(-30.000000) translate(-39.685659, -45.549457) " points="2.75200513 60.7727765 76.619313 30.3261368 65.6199225 50.9365443"></polygon>
-                            <polygon id="Triangle-Copy-5" transform="translate(38.035968, 36.048494) rotate(-41.000000) translate(-38.035968, -36.048494) " points="1.10231393 51.2718145 74.9696222 20.8251745 63.9702311 41.435582"></polygon>
+                    <g id="Group-2-Copy-6-Copy" transform="translate(60.644558, 58.246006) scale(-1, -1) translate(-60.644558, -58.246006) ">
+                        <g id="Group-2-Copy-5" transform="translate(0.000000, 0.188498)">
+                            <g id="Group-2-Copy-3" transform="translate(60.818503, 58.100619) scale(-1, 1) rotate(-163.000000) translate(-60.818503, -58.100619) translate(11.957959, 12.578255)">
+                                <g id="Group" transform="translate(48.882683, 45.615527) rotate(-11.000000) translate(-48.882683, -45.615527) translate(6.920098, 7.444600)">
+                                    <polygon id="Triangle-Copy-2" transform="translate(44.237979, 51.820748) rotate(-15.000000) translate(-44.237979, -51.820748) " points="7.51953453 67.5152968 80.9564235 36.126199 70.0211256 57.3745894"></polygon>
+                                    <polygon id="Triangle-Copy-5" transform="translate(37.814335, 35.357469) rotate(-41.000000) translate(-37.814335, -35.357469) " points="1.09589084 50.2889682 74.5327801 20.4259698 63.5974816 40.6412897"></polygon>
+                                    <polygon id="Triangle-Copy-4" transform="translate(40.989198, 43.094529) rotate(-30.000000) translate(-40.989198, -43.094529) " points="4.27075401 58.3087755 77.7076429 27.8802819 66.772345 48.4784057"></polygon>
+                                </g>
+                            </g>
                         </g>
                     </g>
                 </g>
