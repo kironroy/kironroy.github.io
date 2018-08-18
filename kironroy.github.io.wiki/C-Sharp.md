@@ -14,4 +14,8 @@
   * [Pass by value/ref](https://blog.udemy.com/csharp-pass-by-reference/)
   * [sorting Arrays Alpha](https://social.msdn.microsoft.com/Forums/en-US/8e73cea7-c63e-4387-885f-538d33658fac/sorting-arrays-alphabetically?forum=csharpgeneral)
   * [_Code_](https://bobcarp.files.wordpress.com/2014/07/code-charles-petzold.pdf)
+  * [Storing user input _Slack Overflow_](https://stackoverflow.com/questions/19146058/storing-user-input-integers-in-an-array)
+  * [C# Storing Value In Array](https://www.completecsharptutorial.com/basic/storing-values.php)
+  * [Storing user input](https://social.msdn.microsoft.com/Forums/vstudio/en-US/5aac0051-9b48-4d0f-8f38-7727e1ac83fa/im-confused-about-how-to-store-user-inputted-strings-to-an-array-and-display-all-of-the-entered?forum=csharpgeneral)
+  
  
