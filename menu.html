@@ -1,0 +1,234 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="googlebot" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="/js/lib/dummy.js"></script>
+
+
+
+
+
+
+
+
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+
+
+
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css?family=Amiri:400,400i');
+        body {
+            color: #000;
+            background-color: #F4F0ED;
+            padding-top: 10px;
+            padding-right: 30px;
+            padding-bottom: 30px;
+            padding-left: 30px;
+            font-size: 22px;
+            font-family: "Amiri", sans-serif;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 1.4em;
+        }
+
+        img {
+            display: block;
+            margin: auto;
+            width: 25%;
+            height: 20%;
+        }
+
+        h1 {
+            font-family: "Amiri", sans-serif;
+            color: #000;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        h2 {
+            font-family: "Amiri", sans-serif;
+            color: #CF142B;
+            text-align: center;
+        }
+
+    </style>
+
+    <title>menu by kironroy</title>
+
+
+
+
+
+
+
+    <script type="text/javascript">//<![CDATA[
+    window.onload=function(){
+// source: https://gist.github.com/simonblakemore/1e916a5e73dea1bb172f33a973fc4f43
+
+// menu is an Object
+
+        const menu = {
+            _courses: {
+                _appetizers: [], // empty arrays
+                _mains: [],
+                _desserts: [],
+                // getter and setters
+                get appetizers() {
+                    return this._appetizers;
+                },
+                set appetizers(appetizersIn) {
+                    this.appetizers = appetizersIn;
+                },
+                get mains() {
+                    return this._mains;
+                },
+                set mains(mainsIn) {
+                    this._mains = mainsIn;
+                },
+                get desserts() {
+                    return this._desserts;
+                },
+                set desserts(dessertsIn) {
+                    this._desserts = dessertsIn;
+                },
+
+            },
+
+            get courses() {
+                return {
+                    appetizers: this._courses.appetizers,
+                    mains: this.courses.mains,
+                    desserts: this._courses.desserts,
+                };
+            },
+
+            // adding courses dish names and prices
+
+            addDishToCourse(courseName, dishName, dishPrice) {
+                const dish = {
+                    name: dishName,
+                    price: dishPrice,
+                };
+
+                this._courses[courseName].push(dish); // push courses in array
+            },
+
+            getRandomDishFromCourse(courseName) {
+                const dishes = this._courses[courseName];
+                const randomIndex = Math.floor(Math.random() * dishes.length);
+                return dishes[randomIndex];
+            },
+
+            createRandomMeal() {
+                const appetizer = this.getRandomDishFromCourse('appetizers'); // courses
+                const main = this.getRandomDishFromCourse('mains');
+                const dessert = this.getRandomDishFromCourse('desserts');
+                const totalBill = appetizer.price + main.price + dessert.price;
+
+                return `Appetizer: ${appetizer.name}, main item: ${main.name} and dessert: ${dessert.name}.
+    <br>
+    <br>
+    Total bill = &#8364; ${totalBill.toFixed(2)}`;
+            },
+
+        }; // end of object menu;
+
+        menu.addDishToCourse('appetizers', 'French Salad', 4.25);
+        menu.addDishToCourse('appetizers', 'Prawn Cocktail', 4.25);
+        menu.addDishToCourse('appetizers', 'Garlic Bread', 3.50);
+
+        menu.addDishToCourse('mains', "Duck à l'orange", 18.75);
+        menu.addDishToCourse('mains', 'Steamed Salmon', 15.95);
+        menu.addDishToCourse('mains', 'Filet mignon', 13.95);
+
+        menu.addDishToCourse('desserts', 'Cheese Cake', 4.50);
+        menu.addDishToCourse('desserts', 'Crème brûlée', 4.25);
+        menu.addDishToCourse('desserts', 'Crêpe', 3.25);
+
+// output
+        let meal_printout = menu.createRandomMeal();
+        let resturant_name = "Grenouille en Peluche";
+        let merci_printout = "merci beaucoup";
+
+
+
+// HTML output
+        let resturantHTML = document.getElementById("resturant_id");
+        resturant_id.innerHTML = resturant_name;
+
+        let mealHTML = document.getElementById("meal_id");
+        meal_id.innerHTML = meal_printout;
+
+        let merciHTML = document.getElementById("merci_id");
+        merci_id.innerHTML = merci_printout;
+
+    }//]]>
+
+    </script>
+
+
+</head>
+
+<body>
+<a href="http://kironroy.github.io/projects"><img alt="Kiron Roy Logo" src="https://kironroy.github.io/new_logo_sm2.svg" style="width:50px;height:50px;"></a>
+<h1>
+    <div id="resturant_id"></div>
+</h1>
+
+<br>
+<img src="https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg" alt="France">
+<br>
+<div id="meal_id"></div>
+
+<br>
+<center><button onclick="myFunction()">Reload page</button></center>
+<script>
+    function myFunction() {
+        location.reload();
+    }
+</script>
+<h2>
+    <div id="merci_id"></div>
+</h2>
+
+<script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+        window.parent.parent.postMessage(["resultsFrame", {
+            height: document.body.getBoundingClientRect().height,
+            slug: "fdw37gmu"
+        }], "*")
+    }
+</script>
+
+</body>
+
+</html>
+
