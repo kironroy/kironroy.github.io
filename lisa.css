@@ -24,8 +24,8 @@ h1, h2, h4 {
 
 
 body {
-   font-family: 'EB Garamond', serif;
-   -background-color: #E8F2F1;
+   font-family: font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+   -background-color: #FFFFFF;
     background: linear-gradient(#e8f2f1, #e8eef2, #e8f2ec);
    letter-spacing: -.30px;
    padding-top: 50px;
