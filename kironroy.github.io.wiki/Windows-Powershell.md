@@ -28,12 +28,12 @@
 
 ```ls = ls``` list items
 
-```new-item "name.txt" = touch name.txt``` make a new file
+```new-item "name.txt" = touch name.txt``` make a new text file
 
-```Copy-Item c:\scripts\test.txt c:\test = cp scripts/test.txt test/ # copy test.txt and put in test dir```   
+```copy-item c:\scripts\test.txt c:\test = cp scripts/test.txt test/ # copy test.txt and put in test dir```   
 copy directories/files
 
-```Copy-Item c:\scripts\* c:\test = cp scripts/*test/ # copy all files from script and put in test dir```
+```copy-item c:\scripts\* c:\test = cp scripts/*test/ # copy all files from script and put in test dir```
 copy all
 
 ```rm = rm``` remove item, with warning
