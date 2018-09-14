@@ -1,3 +1,5 @@
+![js logo](https://kironroy.github.io/js.svg)
+
 **Code Snippets:**
 *  variables
 

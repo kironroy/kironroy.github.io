@@ -90,3 +90,7 @@ $ 3
 <li><a href="https://alpha.editor.p5js.org/">alpha editor</a></li>
 <li><a href="https://www.udacity.com/course/javascript-design-patterns--ud989">JavaScript Design Patterns</a></li>
 </ul>
+
+#### Code Snippets & Selected Programs
+  - [Js Code Snippets](https://github.com/kironroy/kironroy.github.io/wiki/JavaScript-Code-Snippets)
+  - [Js Selected Programs](https://github.com/kironroy/kironroy.github.io/wiki/Js-Selected-Programs)
