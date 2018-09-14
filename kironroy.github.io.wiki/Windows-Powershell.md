@@ -30,12 +30,21 @@
  
 ```new-Item "name.txt" = touch name.txt``` make a new file
 
+<<<<<<< HEAD
 ```start name.txt = open a  text file```
 
 ```copy-Item c:\scripts\test.txt c:\test = cp scripts/test.txt test/ # copy test.txt and put in test dir```   
 copy directories/files
 
 ```copy-Item c:\scripts\* c:\test = cp scripts/*test/ # copy all files from script and put in test dir```
+=======
+```new-item "name.txt" = touch name.txt``` make a new text file
+
+```copy-item c:\scripts\test.txt c:\test = cp scripts/test.txt test/ # copy test.txt and put in test dir```   
+copy directories/files
+
+```copy-item c:\scripts\* c:\test = cp scripts/*test/ # copy all files from script and put in test dir```
+>>>>>>> a4d88744e4f49cb398f290212a01481a0be1af84
 copy all
 
 ```rm = rm``` remove item, with warning
@@ -45,3 +54,5 @@ copy all
 ```clear = clear``` clear powershell / terminal
 
 ```exit = exit``` exit powershell / terminal
+
+ffff  
