@@ -4,6 +4,9 @@
 
 * [What Can I Do With Windows PowerShell?](https://technet.microsoft.com/en-us/library/5a761ad4-9a3e-4bd7-abe8-27bf7c54af36/)
 
+* [How to Clear All Cache in Windows 10](https://www.youtube.com/watch?v=z3cjTqCQemU&vl=en)
+
+
 ***
 
 **Youtube:**
@@ -18,7 +21,7 @@
 # powershell = terminal (macOS)
 ```
 
-```get-location = pwd``` present working directory
+```pwd = pwd``` present working directory
 
 ```cd = cd``` Current Directory
 
@@ -28,24 +31,9 @@
 
 ```ls = ls``` list items
  
-```new-Item "name.txt" = touch name.txt``` make a new file
 
-<<<<<<< HEAD
-```start name.txt = open a  text file```
-
-```copy-Item c:\scripts\test.txt c:\test = cp scripts/test.txt test/ # copy test.txt and put in test dir```   
-copy directories/files
-
-```copy-Item c:\scripts\* c:\test = cp scripts/*test/ # copy all files from script and put in test dir```
-=======
 ```new-item "name.txt" = touch name.txt``` make a new text file
 
-```copy-item c:\scripts\test.txt c:\test = cp scripts/test.txt test/ # copy test.txt and put in test dir```   
-copy directories/files
-
-```copy-item c:\scripts\* c:\test = cp scripts/*test/ # copy all files from script and put in test dir```
->>>>>>> a4d88744e4f49cb398f290212a01481a0be1af84
-copy all
 
 ```rm = rm``` remove item, with warning
 
@@ -55,4 +43,4 @@ copy all
 
 ```exit = exit``` exit powershell / terminal
 
-ffff  
+
