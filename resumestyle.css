@@ -72,6 +72,7 @@ p {
 }
 
 #name h2 {
+
 	font-size: 2em;
 	margin-left: 2px;
 	font-weight: 300;
@@ -158,7 +159,7 @@ section:last-child {
 	font-weight: 300;
 	font-style: italic;
 	font-size: 1.5em;
-	color: #0f44d8;
+    color: #4c619b;
   letter-spacing: -.50px;
 }
 
@@ -168,6 +169,7 @@ section:last-child {
 	font-size: 1.5em;
 	margin-bottom: -2px;
   letter-spacing: -.50px;
+    color: #0f44d8;
 }
 
 .subDetails {
@@ -187,7 +189,13 @@ section:last-child {
 }
 
 .presentDetails {
-  font-weight: bold;
+     font-weight: bold;
+
+ }
+
+.companyName {
+    font-weight: bold;
+    font-size: 17px;
 }
 
 .keySkills {
