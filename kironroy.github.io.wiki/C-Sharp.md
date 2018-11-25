@@ -22,8 +22,10 @@
   * [Classes intro](http://www.tutorialsteacher.com/csharp/csharp-class)
   * [Difference between types](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
   * [C# skills test](https://www.proprofs.com/quiz-school/story.php?title=c-skills-test)
- * [Method Overloading vs Overriding](https://www.c-sharpcorner.com/UploadFile/8a67c0/method-overloading-and-method-overriding-in-C-Sharp/)
- * [_Meadow: Full-stack .NET Standard IoT platform_](https://www.kickstarter.com/projects/meadow/meadow-full-stack-net-standard-iot-platform?utm_source=BryanC&utm_medium=Social&utm_campaign=Kickstarter) 
+  * [Method Overloading vs Overriding](https://www.c-sharpcorner.com/UploadFile/8a67c0/method-overloading-and-method-overriding-in-C-Sharp/)
+  * [MS Docs Interfaces](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/interfaces/)
+  * [_Meadow: Full-stack .NET Standard IoT platform_](https://www.kickstarter.com/projects/meadow/meadow-full-stack-net-standard-iot-platform?utm_source=BryanC&utm_medium=Social&utm_campaign=Kickstarter) 
+  * [C# interview questions](https://www.softwaretestinghelp.com/c-sharp-interview-questions/)
   
   ### Topics
 
@@ -57,6 +59,8 @@
    * [Refs vs Value](https://repl.it/@kironroy/refvsvalue)
 
    * [Refs vs Value 2](https://repl.it/@kironroy/refvsvalue2)
+
+   * [ Ref vs Value 3](https://repl.it/@kironroy/referencevaluetype?language=csharp)
    
    * [Classes, Structs, Enums](https://repl.it/@kironroy/ClassesStructsEnum)
 
@@ -101,6 +105,23 @@
    * [Abstract Classes](https://repl.it/@kironroy/abstractclasses)
    
    * [Interfaces](https://repl.it/@kironroy/interfaces)
+
+ #### _Additional Topics_
+   * [Generics](https://repl.it/@kironroy/generics)
+   
+   * [Lambda Expressions](https://repl.it/@kironroy/lambda)
+   
+   * [Lambda Expressions 2](https://repl.it/@kironroy/lambda2)
+
+   * [Delegates](https://repl.it/@kironroy/delegates)
+
+   * [Nullable Types](https://repl.it/@kironroy/nullabletypes)
+
+   * [Dynamic](https://repl.it/@kironroy/dynamic)
+
+   * [Extenstion Methods](https://repl.it/@kironroy/extenstionmethods)
+
+   * [LINQ](https://repl.it/@kironroy/linq)
 
 #### Small Console Programs
    * _[C# Quiz](https://repl.it/@kironroy/cSharpQuiz)_
