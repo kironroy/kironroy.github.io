@@ -1,0 +1,5 @@
+~ downloaded visual code for windows
+~ created a note to write this down, lol
+~ upload this note via powershell
+
+~ make sure to git pull this on local machine (mac)
