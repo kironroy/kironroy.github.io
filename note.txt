@@ -2,6 +2,6 @@
 ~ created a note to write this down, lol
 ~ upload this note via powershell
 
-~ make sure to gi
-t pull this on local machine (mac)
+~ make sure to git pull
+~ pull this on local machine (mac)
 ~ ok it worked!!!
