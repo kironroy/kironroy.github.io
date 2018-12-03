@@ -10,6 +10,9 @@
 
 
 
+* [Number Munchers](https://classicreload.com/number-munchers.html)
+
+* [Geography games](http://world-geography-games.com/)
 
 * [Base 10 to Base 2](http://www.unitconversion.org/numbers/base-10-to-base-2-conversion.html)
 

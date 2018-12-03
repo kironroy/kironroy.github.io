@@ -11,6 +11,8 @@
   * [UML (Unified Modeling Language)](https://www.tutorialspoint.com/uml/)
   * [Windows Powershell](https://github.com/kironroy/kironroy.github.io/wiki/Windows-Powershell)
 
+---
+
 ### Articles
   * [Anders Hejlsberg](https://en.wikipedia.org/wiki/Anders_Hejlsberg)
   * [Pass by value/ref](https://blog.udemy.com/csharp-pass-by-reference/)
@@ -25,9 +27,22 @@
   * [Method Overloading vs Overriding](https://www.c-sharpcorner.com/UploadFile/8a67c0/method-overloading-and-method-overriding-in-C-Sharp/)
   * [MS Docs Interfaces](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/interfaces/)
   * [_Meadow: Full-stack .NET Standard IoT platform_](https://www.kickstarter.com/projects/meadow/meadow-full-stack-net-standard-iot-platform?utm_source=BryanC&utm_medium=Social&utm_campaign=Kickstarter) 
-  * [C# interview questions](https://www.softwaretestinghelp.com/c-sharp-interview-questions/)
-  
-  ### Topics
+  * [Interview questions](https://www.softwaretestinghelp.com/c-sharp-interview-questions/)
+  * [HackerRank](https://www.hackerrank.com/)
+  * [C# Algorithms](https://www.csharpstar.com/towers-of-hanoi-in-csharp/)
+  * [Algorithms](https://medium.com/coderbyte/how-to-get-good-at-algorithms-data-structures-d33d5163353f)
+  * [C Sharp game](http://programmingisfun.com/learn/c-sharp-adventure-game/)
+  * [RPG Game](https://scottlilly.com/build-a-cwpf-rpg/)
+  * [Let's Code in C# Making a Game, Movement, Enemy AI, Items](https://www.youtube.com/watch?v=ZD-QOSswwDI)
+
+---  
+
+### Tools
+* [_Rider IDE_](https://www.jetbrains.com/rider/)
+
+---
+
+### Topics
 
    #### _Scope_ 
    * [Scope](https://repl.it/@kironroy/csharpscope)
@@ -109,6 +124,8 @@
  #### _Additional Topics_
    * [Generics](https://repl.it/@kironroy/generics)
    
+   * [Generics 2](https://repl.it/@kironroy/genericstwo)
+   
    * [Lambda Expressions](https://repl.it/@kironroy/lambda)
    
    * [Lambda Expressions 2](https://repl.it/@kironroy/lambda2)
@@ -123,6 +140,9 @@
 
    * [LINQ](https://repl.it/@kironroy/linq)
 
+   * [Exception Handling](https://repl.it/@kironroy/exceptionhandling)
+
+---
 #### Small Console Programs
    * _[C# Quiz](https://repl.it/@kironroy/cSharpQuiz)_
    * _[C# Quiz Do loop](https://repl.it/@kironroy/cSharpQuiz-1)_
@@ -130,9 +150,61 @@
    * _[Image size](https://repl.it/@kironroy/imagesize)_
    * _[Time Keeper](https://repl.it/@kironroy/TimeKeeper)_
    * _[Post Likes](https://repl.it/@kironroy/postlikes)_
+   * _[FizzBuzzes](https://repl.it/@kironroy/fizzbuzzes)_
+   * _[Adventure Game](https://repl.it/@kironroy/adventuregame)_
+   * _[Number Guessing Game](https://repl.it/@kironroy/numberguessgame?language=csharp)_
 
+---
+#### Unit Testing
+_Automated Testing_
+   * Writing code to check production code
+     * Then run those tests in an automated fashion
+   * Automated code cam be divided 
+     * Production code 
+     * Test code
 
+As an application grows with time and complexity, the costs of testing increase exponentially without 
+automated testing.  Automated tests are repeatable and benefits include: testing can be done frequently and catching bugs before deployment of application.
 
+Different types of testing:
+  1. **Unit tests**: Test a unit test of an application without externals (files, Database connections...)
+  2. **Integration tests**: Test component with its external dependencies (this test takes longer to execute)
+  3. **End-to-End**: drives and application through its UI (longest test)
+
+**Test pyramid**: Developers should strive to conduct all three tests in a pyramid form.  More unit tests and less end to end tests, although this is not a hard rule.
+
+**Triple AAA testing below**  
+  1. Specify a method of test 
+  2. Scenario of test  
+  3. Expected result
+```
+using System;
+using TestNinja.Fundamentals;
+using NUnit.Framework;
+
+namespace TestNinja.UnitTests
+{ 
+    [TestFixture]
+    public class ReservationTests
+    {
+        [Test]
+        public void CanBeCancelledBy_UserIsAdmin_ReturnsTrue()
+        {
+            // Arrange = initialize an object
+
+            var reservation = new Reservation();
+
+            // Act = call a method 
+
+            var result = reservation.CanBeCancelledBy(new User { IsAdmin = true });
+
+            // Assert
+            
+            Assert.That(result, Is.True); // helper function 
+
+ ```        
+        
+---
 <br>
 
 ![vs logo](https://kironroy.github.io/vs_logo.svg)
@@ -161,6 +233,12 @@
    ``` control + tab = get back to another file```
    
    ```type /// private static void addTwoNumbers ... = add /// <summary> comments </summary>```
+
+   ```Control R + R = change name of a class```
+
+   ```Control . = Recognize a class from another namespace```
+
+   ```Control R, A = run test```
    
    #### Debugging
    
