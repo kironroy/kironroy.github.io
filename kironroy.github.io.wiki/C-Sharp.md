@@ -1,6 +1,23 @@
 
 ![c sharp logo](https://kironroy.github.io/c_sharp.svg)
 
+#### _Microsoft Web Development_
+   * **_MVC_** designed in the 1970s for Desktop applications and then used for the web
+     
+     * _**Model:**_ The applications data and behavior are in terms of their problem domain and are independent of the UI
+       Therefore, these classes are CLRs (POCOs) and can be used in desktop applications.
+     * _**View:**_ Represent the HTML markup that we display to the user
+     * _**Controller:**_ Handling of HTTP requests.  _Better separation of concerns_
+     * _**Router:**_ Selects the right controller to handle a request. Methods to a controller are known as an _action_
+   
+   * _[Bootswatch 3](https://bootswatch.com/3/)_
+     * [Bootswatch theme not working correctly](https://stackoverflow.com/questions/47984619/bootswatch-theme-not-working-correctly)
+
+[Tutorial: Get started with Razor Pages in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/razor-pages-start?ranMID=24542&ranEAID=je6NUbpObpQ&ranSiteID=je6NUbpObpQ-Buf6ZrYe3SLjiHAz.QsicQ&epi=je6NUbpObpQ-Buf6ZrYe3SLjiHAz.QsicQ&irgwc=1&OCID=AID681541_aff_7593_1243925&tduid=(ir__1och2s6lcbmo2gz0zxrvbuzqou2xh1pnsovrxwmz00)(7593)(1243925)(je6NUbpObpQ-Buf6ZrYe3SLjiHAz.QsicQ)()&irclickid=_1och2s6lcbmo2gz0zxrvbuzqou2xh1pnsovrxwmz00&view=aspnetcore-2.2&tabs=visual-studio)
+
+
+---
+
 ### C# Introduction
   * [C# with Mosh](https://sso.teachable.com/secure/146684/users/sign_in?clean_login=true&reset_purchase_session=1)
   * [C# Station](https://csharp-station.com/)
@@ -143,7 +160,10 @@
    * [Exception Handling](https://repl.it/@kironroy/exceptionhandling)
 
 ---
-#### Small Console Programs
+
+
+
+#### Console Programs
    * _[C# Quiz](https://repl.it/@kironroy/cSharpQuiz)_
    * _[C# Quiz Do loop](https://repl.it/@kironroy/cSharpQuiz-1)_
    * _[Trees Polymorphism](https://repl.it/@kironroy/ctrees)_
@@ -153,8 +173,18 @@
    * _[FizzBuzzes](https://repl.it/@kironroy/fizzbuzzes)_
    * _[Adventure Game](https://repl.it/@kironroy/adventuregame)_
    * _[Number Guessing Game](https://repl.it/@kironroy/numberguessgame?language=csharp)_
-
+   * _[Word Guessing Game](https://repl.it/@kironroy/wordguessinggame)_
+   * _[Madlip](https://repl.it/@kironroy/madlip?language=csharp)_
+   
 ---
+#### C# Repos
+   * _[Adventure Game](https://github.com/kironroy/AdventureGame)_
+   * _[Word Guessing Game](https://github.com/kironroy/WordGuessingGame)_
+   * _[Number Guessing Game](https://github.com/kironroy/NumberGuessingGame)_
+   * _[MadLib](https://github.com/kironroy/MadLib)_
+   * _[Simple Moving Game](https://github.com/kironroy/SimpleMovingGame)_
+---
+
 #### Unit Testing
 _Automated Testing_
    * Writing code to check production code
@@ -239,6 +269,10 @@ namespace TestNinja.UnitTests
    ```Control . = Recognize a class from another namespace```
 
    ```Control R, A = run test```
+    
+   ```mvcaction4 + tab = create a ActionResult (MVC)```
+
+[In case mvcaction4 snippet does not work click here](https://stackoverflow.com/questions/42748460/why-mvcaction4-code-snippet-does-not-react)
    
    #### Debugging
    

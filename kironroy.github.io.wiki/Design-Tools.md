@@ -49,6 +49,7 @@
 * [css zen garden](http://www.csszengarden.com/)
 * [World Logos in .svg format](https://worldvectorlogo.com/)
 * [Logo Crunch](http://brandmark.io/logo-crunch/)
+* [Gif Maker](https://ezgif.com/maker)
 
 #### JavaScript
   * [Phaser HTML5 Game Framework](https://phaser.io/)
