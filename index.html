@@ -146,18 +146,8 @@
             </center><!--**************************************SVG CODE AFTER THIS LOGO ENDS *****************************************-->
             <br>
             <header>
-               <div class="typewriter">
-                   <h1>
-                    Front End Development
-                   </h1>
-               </div>
+                <div id="quote"></div>
 
-
-
-                <!--<div id='quote'>
-                    <!-- quotes -->
-
-                <!--</div>-->
             </header><!--<a class="button scrolly" href="http://kironroy.github.io/resume">Résumé</a>-->
         </div>
     </section><!-- Portfolio -->
@@ -422,6 +412,22 @@
     <div class="copyright">
         <a href="http://html5up.net">HTML5 UP</a> &nbsp; <a href="https://kironroy.github.io/">Kiron Roy</a>
     </div>
+    <script>
+        var div = document.getElementById('quote');
+        var quotes = [
+            'Graphic Design',
+            'Photography',
+            'Front End Development',
+            'Web Mapping',
+            'Sketching'
+        ];
+        var pos = 1;
+        setInterval(function(){
+            if (pos >= quotes.length - 1) pos = -1;
+            pos++;
+            div.innerHTML = quotes[pos];
+        }, 2000) // every 4 seconds
+    </script> <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 
 
     <script src="js/jquery.min.js">
