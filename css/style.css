@@ -1,4 +1,3 @@
-
 @import url("font-awesome.min.css");
 @import url('https://fonts.googleapis.com/css?family=Lato:400i');
 
@@ -13,16 +12,38 @@
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
-
-  #quote {
-	  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-	  color: #000000;
-	  letter-spacing: -0.20px;
+.typewriter h1 {
 
 
-	}
+    color: #333;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .20em solid #fc0; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .05em; /* Adjust as needed */
+    font-size: 16px;
+    animation:
+            typing 3.8s steps(50, end),
+            blink-caret .9s step-end infinite;
+}
 
-	body
+
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 50px }
+    to { width: 50% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #fc0 }
+}
+
+
+body
 	{
 		background: #FFFFFF;
 	}
