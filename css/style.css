@@ -5,7 +5,6 @@
 /*********************************************************************************/
 /* Basic */
 /*********************************************************************************/
-<<<<<<< HEAD
 
   #quote {
 	  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
@@ -40,27 +39,6 @@
 	 
 		font-weight: 300;
 		font-size: 16pt;
-=======
-body {
-    background: #FFFFFF;
-}
-body.is-loading * {
-    -moz-transition: none !important;
-    -webkit-transition: none !important;
-    -o-transition: none !important;
-    -ms-transition: none !important;
-    transition: none !important;
-    -moz-animation: none !important;
-    -webkit-animation: none !important;
-    -o-animation: none !important;
-    -ms-animation: none !important;
-    animation: none !important;
-}
-body,input,textarea,select {
-    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-    font-weight: 300;
-    font-size: 16pt;
->>>>>>> f1b07ab8c6beca90ef27c9bc198c81c902933161
     letter-spacing: -0.20px;
     line-height: 1.75em;
     color: #FFF;
