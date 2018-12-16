@@ -34,6 +34,7 @@
 
 ```new-item "name.txt" = touch name.txt``` make a new text file
 
+```start "README.md" = open "README.md``` open file
 
 ```rm = rm``` remove item, with warning
 
