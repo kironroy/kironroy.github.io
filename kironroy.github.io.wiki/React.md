@@ -14,7 +14,7 @@
 
 * **JSX** is a syntax extension for JavaScript.
   It was written to be used with React.
-  JSX code looks a lot like HTML.
+  JSX code looks a lot like HTML, similar.
 
 * A basic unit of JSX is called a **JSX element**.
 
