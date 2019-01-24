@@ -1,4 +1,8 @@
 # [Home](https://github.com/kironroy/kironroy.github.io/wiki)
+
+***
+### [Algorithms](https://github.com/kironroy/kironroy.github.io/wiki/Algorithms)
+
 ***
 ### [BASIC](https://github.com/kironroy/kironroy.github.io/wiki/BASIC)
  

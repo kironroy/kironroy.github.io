@@ -1,61 +1,95 @@
 
 ![c sharp logo](https://kironroy.github.io/c_sharp.svg)
 
-#### _Microsoft Web Development_
-   * **_MVC_** designed in the 1970s for Desktop applications and then used for the web
-     
-     * _**Model:**_ The applications data and behavior are in terms of their problem domain and are independent of the UI
-       Therefore, these classes are CLRs (POCOs) and can be used in desktop applications.
-     * _**View:**_ Represent the HTML markup that we display to the user
-     * _**Controller:**_ Handling of HTTP requests.  _Better separation of concerns_
-     * _**Router:**_ Selects the right controller to handle a request. Methods to a controller are known as an _action_
-   
-   * _[Bootswatch 3](https://bootswatch.com/3/)_
-     * [Bootswatch theme not working correctly](https://stackoverflow.com/questions/47984619/bootswatch-theme-not-working-correctly)
-
-[Tutorial: Get started with Razor Pages in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/razor-pages-start?ranMID=24542&ranEAID=je6NUbpObpQ&ranSiteID=je6NUbpObpQ-Buf6ZrYe3SLjiHAz.QsicQ&epi=je6NUbpObpQ-Buf6ZrYe3SLjiHAz.QsicQ&irgwc=1&OCID=AID681541_aff_7593_1243925&tduid=(ir__1och2s6lcbmo2gz0zxrvbuzqou2xh1pnsovrxwmz00)(7593)(1243925)(je6NUbpObpQ-Buf6ZrYe3SLjiHAz.QsicQ)()&irclickid=_1och2s6lcbmo2gz0zxrvbuzqou2xh1pnsovrxwmz00&view=aspnetcore-2.2&tabs=visual-studio)
-
-
----
-
 ### C# Introduction
-  * [C# with Mosh](https://sso.teachable.com/secure/146684/users/sign_in?clean_login=true&reset_purchase_session=1)
-  * [C# Station](https://csharp-station.com/)
+  * **[C#](https://docs.microsoft.com/en-us/dotnet/csharp/)**
+  
   * [C# Tutorials Point](https://www.tutorialspoint.com/csharp/index.htm)
+  
   * [C# Compiler](https://www.jdoodle.com/compile-c-sharp-online)
+  
   * [C# Formatter](https://codebeautify.org/csharpviewer)
-  * [_Beginning C# Object-Oriented Programming_](https://www.apress.com/us/book/9781430235309)
-  * [UML (Unified Modeling Language)](https://www.tutorialspoint.com/uml/)
+  
   * [Windows Powershell](https://github.com/kironroy/kironroy.github.io/wiki/Windows-Powershell)
 
 ---
 
+ASP.NET Websites
+* [Get Started with ASP.NET Websites](https://www.asp.net/get-started/websites)
+
+* [ASP.NET MVC](https://www.youtube.com/watch?v=phyV-OQNeRM)
+
+---
+
 ### Articles
-  * [Anders Hejlsberg](https://en.wikipedia.org/wiki/Anders_Hejlsberg)
+* [_Code_](https://bobcarp.files.wordpress.com/2014/07/code-charles-petzold.pdf)
+
+* [_Anders Hejlsberg_](https://en.wikipedia.org/wiki/Anders_Hejlsberg)
+ 
+#### Stack and Heap
+  * [Heap and Stack](https://www.c-sharpcorner.com/article/C-Sharp-heaping-vs-stacking-in-net-part-i/)
+  
+  * [Stack vs Heap](http://net-informations.com/faq/net/stack-heap.htm)
+  
   * [Pass by value/ref](https://blog.udemy.com/csharp-pass-by-reference/)
+  
+  * [Stack and Heap Location](https://stackoverflow.com/questions/79923/what-and-where-are-the-stack-and-heap)
+
+  * [.NET Stack and Heap](https://www.youtube.com/watch?v=clOUdVDDzIM)
+
+#### Programming Features Help
   * [Sorting Arrays Alpha](https://social.msdn.microsoft.com/Forums/en-US/8e73cea7-c63e-4387-885f-538d33658fac/sorting-arrays-alphabetically?forum=csharpgeneral)
-  * [_Code_](https://bobcarp.files.wordpress.com/2014/07/code-charles-petzold.pdf)
+
   * [Storing user input _Slack Overflow_](https://stackoverflow.com/questions/19146058/storing-user-input-integers-in-an-array)
   * [C# Storing Value In Array](https://www.completecsharptutorial.com/basic/storing-values.php)
+  
   * [Storing user input](https://social.msdn.microsoft.com/Forums/vstudio/en-US/5aac0051-9b48-4d0f-8f38-7727e1ac83fa/im-confused-about-how-to-store-user-inputted-strings-to-an-array-and-display-all-of-the-entered?forum=csharpgeneral)
-  * [Classes intro](http://www.tutorialsteacher.com/csharp/csharp-class)
+
   * [Difference between types](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
+  
+  * [What is the difference between a field and a property?](https://stackoverflow.com/questions/295104/what-is-the-difference-between-a-field-and-a-property)
+  
   * [C# skills test](https://www.proprofs.com/quiz-school/story.php?title=c-skills-test)
+  
   * [Method Overloading vs Overriding](https://www.c-sharpcorner.com/UploadFile/8a67c0/method-overloading-and-method-overriding-in-C-Sharp/)
+  
   * [MS Docs Interfaces](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/interfaces/)
-  * [_Meadow: Full-stack .NET Standard IoT platform_](https://www.kickstarter.com/projects/meadow/meadow-full-stack-net-standard-iot-platform?utm_source=BryanC&utm_medium=Social&utm_campaign=Kickstarter) 
-  * [Interview questions](https://www.softwaretestinghelp.com/c-sharp-interview-questions/)
-  * [HackerRank](https://www.hackerrank.com/)
-  * [C# Algorithms](https://www.csharpstar.com/towers-of-hanoi-in-csharp/)
-  * [Algorithms](https://medium.com/coderbyte/how-to-get-good-at-algorithms-data-structures-d33d5163353f)
-  * [C Sharp game](http://programmingisfun.com/learn/c-sharp-adventure-game/)
-  * [RPG Game](https://scottlilly.com/build-a-cwpf-rpg/)
-  * [Let's Code in C# Making a Game, Movement, Enemy AI, Items](https://www.youtube.com/watch?v=ZD-QOSswwDI)
+ 
+  #### Algorithms
+   * [Interview questions](https://www.softwaretestinghelp.com/c-sharp-interview-questions/)
+   
+   * [HackerRank](https://www.hackerrank.com/)
+   
+   * [C# Algorithms](https://www.csharpstar.com/towers-of-hanoi-in-csharp/)
+   
+   * [Algorithms](https://medium.com/coderbyte/how-to-get-good-at-algorithms-data-structures-d33d5163353f)
+
+  
+  #### Console Games
+   * [RPG Game](https://scottlilly.com/build-a-cwpf-rpg/)
+   
+   * [Let's Code in C# Making a Game, Movement, Enemy AI, Items](https://www.youtube.com/watch?v=ZD-QOSswwDI)
+   
+   * [A Basic C# Console Game Movement Engine](https://www.dreamincode.net/forums/topic/215620-a-basic-c%23-console-game-movement-engine/)
+   
+   * [C Sharp game](http://programmingisfun.com/learn/c-sharp-adventure-game/)
+  
+  #### IOT (Internet of Things)
+   * [_Meadow: Full-stack .NET Standard IoT platform_](https://www.wildernesslabs.co/meadow) 
 
 ---  
 
+  #### Open Source
+   * [Microsoft .NET](https://github.com/Microsoft/dotnet/blob/master/dotnet-developer-projects.md) 
+   
+   * [Up For Grabs](https://up-for-grabs.net/#/) 
+
+--- 
+
 ### Tools
 * [_Rider IDE_](https://www.jetbrains.com/rider/)
+
+* [JSON Lint](https://jsonlint.com/)
 
 ---
 
@@ -69,8 +103,11 @@
    
    #### _Arrays and Lists_
    * [Arrays and Lists](https://repl.it/@kironroy/arraylists)
-  
    
+   * [List in Order](https://repl.it/@kironroy/studentList?language=csharp)
+
+   * [Dictionaries](https://repl.it/@kironroy/dictionaries?language=csharp)
+  
    #### _Strings_
    * [Strings](https://repl.it/@kironroy/strings)
    
@@ -92,7 +129,7 @@
 
    * [Refs vs Value 2](https://repl.it/@kironroy/refvsvalue2)
 
-   * [ Ref vs Value 3](https://repl.it/@kironroy/referencevaluetype?language=csharp)
+   * [Ref vs Value 3](https://repl.it/@kironroy/referencevaluetype?language=csharp)
    
    * [Classes, Structs, Enums](https://repl.it/@kironroy/ClassesStructsEnum)
 
@@ -144,6 +181,8 @@
    * [Generics 2](https://repl.it/@kironroy/genericstwo)
    
    * [Lambda Expressions](https://repl.it/@kironroy/lambda)
+
+   * [Lambda Expressions Treehouse](https://repl.it/@kironroy/lambdatreehouse)
    
    * [Lambda Expressions 2](https://repl.it/@kironroy/lambda2)
 
@@ -156,6 +195,14 @@
    * [Extenstion Methods](https://repl.it/@kironroy/extenstionmethods)
 
    * [LINQ](https://repl.it/@kironroy/linq)
+   
+   * [LINQ and a number list](https://repl.it/@kironroy/LINQnumberslist)
+
+   * [List of birds](https://repl.it/@kironroy/listofbirds?language=csharp)
+
+   * [Actions and Funcs](https://repl.it/@kironroy/actionfuncs?language=csharp)
+
+   * [Query with LINQ](https://repl.it/@kironroy/querywithlinq?language=csharp&folderId=)
 
    * [Exception Handling](https://repl.it/@kironroy/exceptionhandling)
 
@@ -177,12 +224,9 @@
    * _[Madlip](https://repl.it/@kironroy/madlip?language=csharp)_
    
 ---
-#### C# Repos
-   * _[Adventure Game](https://github.com/kironroy/AdventureGame)_
-   * _[Word Guessing Game](https://github.com/kironroy/WordGuessingGame)_
-   * _[Number Guessing Game](https://github.com/kironroy/NumberGuessingGame)_
-   * _[MadLib](https://github.com/kironroy/MadLib)_
-   * _[Simple Moving Game](https://github.com/kironroy/SimpleMovingGame)_
+#### C# Repositories
+   * _[ALL Repositories](https://github.com/kironroy?utf8=%E2%9C%93&tab=repositories&q=&type=&language=c%23)_
+
 ---
 
 #### Unit Testing
@@ -239,22 +283,34 @@ namespace TestNinja.UnitTests
 
 ![vs logo](https://kironroy.github.io/vs_logo.svg)
 
-
+  
+  #### C# Repl
+``` > #r "C:\Users\yourusername\source\repos\BirdWatcher\BirdWatcher\BirdWatcher.dll"  = your project will be linked to C# Interactive (REPL)```
 
 
    #### Code Snippets
 
+   ``` Alt UP ARROW / DOWN ARROW = move a single or multiple lines of code up or down ```
+
+   ``` control + j = brings back intellisense ```
+
+   ``` control + x = cut a single line ```
+
    ``` control + kc = // comment several lines out```
+   
+   ``` control + . = // using System ...```
    
    ``` control + k = uncomment several lines out```
    
    ``` shift + tab = unindent lines of code```
 
-   ``` control shift b = complie ```
+   ``` control shift b = complie (build) ```
+   
+   ``` control shift d = copy and past previous line ```
    
    ``` cw + tab tab = Control.WriteLine()  (press tab twice)```
    
-   ``` try tab = try block created```
+   ``` try tab = try block created  (works for if, while, do, for and foreach statements as well)```
 
    ``` ctor = Makes a constructor```
 
@@ -286,5 +342,5 @@ namespace TestNinja.UnitTests
    
    ``` Shift + F5 = exit debug mode```
 
-
+hi
    
