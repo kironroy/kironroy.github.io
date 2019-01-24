@@ -307,7 +307,8 @@ input[type="button"], input[type="submit"], input[type="reset"], .button {
     display: inline-block;
     text-decoration: none;
     padding: 0.75em 2.5em 0.75em 2.5em;
-    background-color: #0f44d8;
+    background: #0f44d8;
+    background: linear-gradient(#000099, #214dc7, #a0dd76);
     border-radius: 0.20em;
     -border-color: #000;
 }
@@ -532,7 +533,6 @@ input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:ac
     background-position: center center;
 }
 #main > section.one {
-    -background-color: #f9f7f6;
     background: linear-gradient(#FFFFFF, #fefefe, #f9f7f6);
     -background-image: url('https://cdn.glitch.com/8965a477-ca60-4955-b9f9-41258c7b8ece%2Fgrid.svg?1534571958835');
 }
@@ -554,3 +554,5 @@ input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:ac
     font-style: italic;
     transition: 1s opacity;
 }
+
+
