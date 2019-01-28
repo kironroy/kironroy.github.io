@@ -31,8 +31,9 @@
 
 ```ls = ls``` list items
  
-
 ```new-item "name.txt" = touch name.txt``` make a new text file
+
+```copy-item .\resume.html csharp.html```
 
 ```start "README.md" = open "README.md``` open file
 

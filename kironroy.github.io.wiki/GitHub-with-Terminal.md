@@ -13,7 +13,7 @@
 
  5. `git commit -m  "Add some notes about the commit" `
 
- 6. `git push origin master`
+ 6. `git push -u origin master`
 
 ***
 

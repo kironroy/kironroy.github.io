@@ -1,19 +1,21 @@
-
-
-
 [![logo](https://kironroy.github.io/new_logo_sm2.svg)](https://kironroy.github.io/)
 
+### [Algorithms](https://github.com/kironroy/kironroy.github.io/wiki/Algorithms)
+***
 
+### [C# Github Wiki Page](https://github.com/kironroy/kironroy.github.io/wiki/C-Sharp)
+***
+
+* [How a CPU works](https://www.youtube.com/watch?v=cNN_tTXABUA)
+  * [Computer Hardware & Software Lesson Part 1](https://www.youtube.com/watch?v=8UyJMiYqvs4)
+  * [Computer Hardware & Software Lesson Part 2](https://www.youtube.com/watch?v=gaN1SKti3ts)
 
 ### [Creating and Hosting a Personal Site on GitHub](http://jmcglone.com/guides/github-pages/)
 ***
 
+### [GitHub commands via Terminal/Powershell](https://github.com/kironroy/kironroy.github.io/wiki/GitHub-with-Terminal)
+***
 
-
-* [Number Munchers](https://classicreload.com/number-munchers.html)
-
-* [Geography games](http://world-geography-games.com/)
-
-* [Base 10 to Base 2](http://www.unitconversion.org/numbers/base-10-to-base-2-conversion.html)
+* [Stack & Heap](https://stackoverflow.com/questions/79923/what-and-where-are-the-stack-and-heap)
 
 * [Legacy Site](https://kironroy.github.io/github)
