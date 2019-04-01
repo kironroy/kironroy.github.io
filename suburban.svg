@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="135px" height="100px" viewBox="0 0 135 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>suburban</title>
+    <desc>Created with Sketch.</desc>
+    <g id="suburban" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cal" transform="translate(46.000000, 6.000000)" fill="#222222" fill-rule="nonzero">
+            <path d="M-23.5,26.3313872 C-23.5,25.2954543 -22.5226026,24.4479167 -21.3283635,24.4479167 L64.3283635,24.4479167 C65.5231393,24.4479167 66.5,25.2954543 66.5,26.3313872 L66.5,64.6686128 C66.5,65.7040639 65.5231393,66.5520833 64.3283635,66.5520833 L-21.3283635,66.5520833 C-22.5226026,66.5520833 -23.5,65.7040639 -23.5,64.6686128 L-23.5,26.3313872 Z" id="Shape" transform="translate(21.500000, 45.500000) rotate(-90.000000) translate(-21.500000, -45.500000) "></path>
+        </g>
+        <rect id="Rectangle" fill="#FFFFFF" x="48" y="9" width="39" height="80" rx="1"></rect>
+        <circle id="Oval" stroke="#4A4A4A" stroke-width="0.5" cx="67.5" cy="92.5" r="2.5"></circle>
+        <rect id="Rectangle" fill="#D0021B" x="59" y="12" width="17" height="18"></rect>
+        <rect id="Rectangle-Copy" fill="#F8E71C" x="59" y="31" width="17" height="18"></rect>
+        <rect id="Rectangle-Copy-2" fill="#BD10E0" x="59" y="50" width="17" height="18"></rect>
+        <rect id="Rectangle-Copy-3" fill="#B8E986" x="59" y="69" width="17" height="18"></rect>
+    </g>
+</svg>
