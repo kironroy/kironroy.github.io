@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My Forest Trip!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Delius+Swash+Caps" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+  <!-- ios icons -->
+  <link href="https://kironroy.github.io/apple-touch-icon.png" rel="apple-touch-icon" />
+  <link href="https://kironroy.github.io/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+  <link href="https://kironroy.github.io/apple-touch-icon-167x167.png" rel="apple-touch-icon" sizes="167x167" />
+  <link href="https://kironroy.github.io/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+  <link href="https://kironroy.github.io/icon-hires.png" rel="icon" sizes="192x192" />
+  <link href="https://kironroy.github.io/icon-normal.png" rel="icon" sizes="128x128" />
+
+  <!-- These are the styles for the comic -->
+  <style>
+    body {
+      background-color: #1e6b2b;
+      font-family: 'Delius Swash Caps', cursive;
+      line-height: 1.2;
+      text-align: center;
+      padding: 40px 10 10 20px;
+    }
+
+    h1 {
+      -text-transform: uppercase;
+      font-size: 40px;
+      color: #F9F7F6
+    }
+
+    .comic {
+      max-width: 826px;
+      margin: 40px auto 0;
+    }
+
+    .scene {
+      width: 250px;
+      height: 200px;
+      border: 4px solid #F9F7F6;
+      border-radius: 4px;
+      background: white;
+      margin: 8px;
+      display: inline-block;
+      position: relative;
+    }
+
+    .scene img {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .caption {
+      padding: 3px;
+      margin: 0;
+      position: absolute;
+      left: 0;
+      right: 0;
+      background: #F9F7F6;
+      text-align: center;
+      top: 0;
+    }
+
+    .caption.bottom {
+      bottom: 0;
+      top: auto;
+      -border-top: 1px solid black;
+    }
+
+    .caption.top {
+      top: 0;
+      -border-bottom: 1px solid black;
+    }
+
+    .speech {
+      width: 40%;
+      border-radius: 50%;
+      border: 2px solid black;
+      margin: 0;
+      position: absolute;
+      z-index: 1;
+      background: snow;
+      padding: 20px;
+      top: -15px;
+      text-align: center;
+    }
+
+    /* Advanced CSS for the speech pointer */
+    .speech:after {
+      border-color: snow transparent;
+      border-style: solid;
+      border-width: 13px 13px 0;
+      bottom: -11px;
+      content: "";
+      display: block;
+      left: 50%;
+      margin-left: -14px;
+      position: absolute;
+      width: 0;
+    }
+
+    .speech:before {
+      border-color: black transparent;
+      border-style: solid;
+      border-width: 16px 16px 0;
+      bottom: -15px;
+      content: "";
+      display: block;
+      left: 50%;
+      margin-left: -17px;
+      position: absolute;
+      width: 0;
+    }
+
+    .speech.left {
+      left: -15px;
+    }
+
+    .speech.right {
+      right: -15px;
+    }
+
+    footer {
+      clear: both;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Step 1: This is where you can edit the title of your comic -->
+  <br>
+
+  <center>&nbsp;&nbsp;<a href="http://kironroy.github.io/projects"><img alt="Kiron Roy Logo" src="new_logo_sm2.svg"
+        style="width:100px;height:100px;"></a></center>
+  <br>
+
+  <h1>My Forest Trip!</h1>
+
+  <!--
+This is where the comic starts.
+The 'comic' <div> wraps around each comic 'scene' to contain them all.
+-->
+  <div class="comic">
+
+    <!--
+Steps 2, 3, and 4:
+The below HTML is the first scene of the comic.
+Start by changing the images in the scene to one of your own photos.
+-->
+    <div class="scene">
+      <p class="caption bottom">All the trees have been cut! ...</p>
+      <!--<p class="speech left">Look at the view!</p>-->
+      <img src="https://kironroy.github.io/images/cartoons/subrub6.jpg" alt="" />
+    </div>
+
+    <!-- This is the second scene in the comic-->
+    <div class="scene">
+      <p class="caption bottom">But then we saw some!</p>
+      <img src="https://kironroy.github.io/images/cartoons/forest5.jpg" alt="" />
+    </div>
+
+    <!-- This is the third scene -->
+    <div class="scene">
+      <!--<p class="speech left">Speech bubbles OMG!</p>-->
+      <p class="caption bottom">Plants are wet, cause of dew</p>
+      <img src="https://kironroy.github.io/images/cartoons/fern.jpg" alt="" />
+    </div>
+
+    <!-- This is the fourth scene -->
+    <div class="scene">
+      <p class="caption bottom"> Mushrooms</p>
+      <!--<p class="speech right">What is this?</p>-->
+      <img src="https://kironroy.github.io/images/cartoons/forest4.jpg" alt="" />
+    </div>
+
+    <!-- This is the fifth scene -->
+    <div class="scene">
+      <p class="caption bottom"> A bee</p>
+      <!--<p class="speech right">What is this?</p>-->
+      <img src="https://kironroy.github.io/images/cartoons/bee.jpg" alt="" />
+    </div>
+
+    <!-- This is the sixth scene -->
+    <div class="scene">
+      <p class="caption bottom"> A flower that mom likes</p>
+      <!--<p class="speech right">What is this?</p>-->
+      <img src="https://kironroy.github.io/images/cartoons/flower.jpg" alt="" />
+    </div>
+
+    <!-- This is the seventh scene -->
+    <div class="scene">
+      <p class="caption bottom"> And a Frog</p>
+      <!--<p class="speech right">What is this?</p>-->
+      <img src="https://kironroy.github.io/images/cartoons/frog.jpg" alt="" />
+    </div>
+
+    <!-- This is the eight scene -->
+    <div class="scene">
+      <p class="caption bottom">Super tall trees and roots</p>
+      <!--<p class="speech right">What is this?</p>-->
+      <img src="https://kironroy.github.io/images/cartoons/forest3.jpg" alt="" />
+    </div>
+
+    <!-- This is the nineth scene -->
+    <div class="scene">
+      <p class="caption bottom">Waterfall, the end!</p>
+      <img src="https://kironroy.github.io/images/cartoons/forest2.jpg" alt="" />
+    </div>
+
+    <!--
+This is the end of the comic :(
+Want to create a larger comic?
+
+Step 6:
+Copy the HTML for a 'scene' and paste it below this comment
+-->
+
+  </div>
+
+  <!-- Disclaimer for images -->
+  <br>
+  <footer>
+    Images: <a href="https://kironroy.github.io/">Kiron Roy</a>
+  </footer>
+  <br>
+
+</body>
+
+</html>
