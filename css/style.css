@@ -684,7 +684,7 @@ input[type="reset"]:active,
 
 #main>section.two {
     background-color: #2a52be;
-    background: linear-gradient(#0f44d9, #214dc7, #4e629a);
+    background: linear-gradient(navy, #0f44d9, #214dc7);
 }
 
 #main>section.three {
