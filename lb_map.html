@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8' />
     <title>Attach a popup to a marker instance</title>
@@ -8,15 +9,15 @@
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.css' rel='stylesheet' />
     <style>
         body {
-            margin:0;
-            padding:0;
+            margin: 0;
+            padding: 0;
         }
 
         #map {
-            position:absolute;
-            top:0;
-            bottom:0;
-            width:100%;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
 
         }
 
@@ -32,52 +33,55 @@
         .mapboxgl-popup {
             max-width: 250px;
             color: #000000;
-            background-color: #566692;
+            background: navy;
             border-radius: 0px;
             text-align: center;
-            font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             letter-spacing: -.50px;
             font-size: 16px;
             font-weight: 400;
 
         }
-
     </style>
 </head>
+
 <body>
 
 
 
-<div id='map'>
+    <div id='map'>
 
-<script>
-    mapboxgl.accessToken = 'pk.eyJ1Ijoia2lyb25yb3ltYXBzIiwiYSI6Ijg1MzYyYjYxOGUyZTZmZjQ2MTBjY2EyNGFiNjU2YTUwIn0.xZ6rI7mUH2xSewoxdm_GkQ';
+        <script>
+            mapboxgl.accessToken =
+                'pk.eyJ1Ijoia2lyb25yb3ltYXBzIiwiYSI6Ijg1MzYyYjYxOGUyZTZmZjQ2MTBjY2EyNGFiNjU2YTUwIn0.xZ6rI7mUH2xSewoxdm_GkQ';
 
-    var monument = [-118.1151968, 33.7475956];
-    var map = new mapboxgl.Map({
-        container: 'map',
-        style: 'mapbox://styles/kironroymaps/cjipp6d363a5r2rnp24od6unf',
-        center: monument,
-        zoom: 10,
-        bearing: -17,
-        pitch: 95
-    });
+            var monument = [-118.1151968, 33.7475956];
+            var map = new mapboxgl.Map({
+                container: 'map',
+                style: 'mapbox://styles/kironroymaps/cjipp6d363a5r2rnp24od6unf',
+                center: monument,
+                zoom: 10,
+                bearing: -17,
+                pitch: 95
+            });
 
-    // create the popup
-    var popup = new mapboxgl.Popup({ offset: 25 })
-        .setText('I reside and design in the Long Beach area.');
+            // create the popup
+            var popup = new mapboxgl.Popup({
+                    offset: 25
+                })
+                .setText('I reside and design in the Long Beach area.');
 
-    // create DOM element for the marker
-    var el = document.createElement('div');
-    el.id = 'marker';
+            // create DOM element for the marker
+            var el = document.createElement('div');
+            el.id = 'marker';
 
-    // create the marker
-    new mapboxgl.Marker(el)
-        .setLngLat(monument)
-        .setPopup(popup) // sets a popup on this marker
-        .addTo(map);
-
-</script>
-</div>
+            // create the marker
+            new mapboxgl.Marker(el)
+                .setLngLat(monument)
+                .setPopup(popup) // sets a popup on this marker
+                .addTo(map);
+        </script>
+    </div>
 </body>
+
 </html>

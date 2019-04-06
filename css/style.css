@@ -123,7 +123,6 @@ i {
 a {
     text-decoration: none;
     color: inherit;
-    -border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
     -moz-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
     -webkit-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
     -o-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -244,7 +243,6 @@ article:last-child {
 }
 
 /* List */
-ul {}
 
 ul.default {
     list-style: disc;
@@ -272,7 +270,6 @@ ul.icons a {
     border: 0;
 }
 
-ol {}
 
 ol.default {
     list-style: decimal;
@@ -284,7 +281,6 @@ ol.default li {
 }
 
 /* Form */
-form {}
 
 form label {
     display: block;
@@ -382,7 +378,6 @@ table.default th {
     text-align: left;
     padding: 0.5em 1em 0.5em 1em;
     color: #fff;
-    -background: #222729 url('images/overlay.png');
 }
 
 table.default thead {
@@ -394,7 +389,6 @@ table.default tfoot {
     background: #eee;
 }
 
-table.default tbody {}
 
 /* Button */
 input[type="button"],
@@ -408,7 +402,6 @@ input[type="reset"],
     background: #0f44d8;
     background: linear-gradient(#000099, #214dc7, #a0dd76);
     border-radius: 0.20em;
-    -border-color: #000;
 }
 
 input[type="button"]:hover,
@@ -422,7 +415,7 @@ input[type="button"]:active,
 input[type="submit"]:active,
 input[type="reset"]:active,
 .button:active {
-    -background-color: #7eaeac;
+    background-color: #7eaeac;
 }
 
 /* Item */
@@ -551,11 +544,8 @@ input[type="reset"]:active,
     top: 0;
 }
 
-#nav {}
 
-#nav ul {}
 
-#nav ul li {}
 
 #nav ul li a {
     display: block;
@@ -593,7 +583,6 @@ input[type="reset"]:active,
     font-weight: bold;
 }
 
-#nav ul li a.active span {}
 
 #nav ul li a.active span:before {
     color: #e27689;
