@@ -15,33 +15,123 @@
     <link href="https://kironroy.github.io/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
     <link href="https://kironroy.github.io/icon-hires.png" rel="icon" sizes="192x192" />
     <link href="https://kironroy.github.io/icon-normal.png" rel="icon" sizes="128x128" />
-    <style>
-
+    <style type="text/css">
+        html,
         body {
-            font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-            font-weight: 300;
-            color: #32292C;
-            background-color: #FFFFFF;
-            text-align: center;
-            font-size: 16px;
-            letter-spacing: -0.10px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          margin-top: 16px;
+          margin-bottom: 16px;
+          background-color: #ffffff;
+          font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+          font-weight: 300;
+          letter-spacing: -.50px
         }
-
-        h2 {
-            font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-            font-weight: 300;
+    
+        div#app {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
         }
-
-        a {
-            text-decoration: none;
-            color: #0072d1;
-            font-weight: 400;
+    
+        div#app .search-wrapper {
+          position: relative;
+          font-size: 18px;
         }
-
-
-
-    </style>
-    <title>Sketches</title>
+    
+        div#app .search-wrapper label {
+          position: absolute;
+          font-size: 14px;
+          color: rgba(0, 0, 0, 0.5);
+          top: 8px;
+          left: 12px;
+          z-index: -1;
+          transition: .15s all ease-in-out;
+        }
+    
+        div#app .search-wrapper input {
+          padding: 8px 20px;
+          font-size: 16px;
+          color: rgba(0, 0, 0, 0.7);
+          border: 2px solid #9ececc;
+          border-radius: 6px;
+          transition: .15s all ease-in-out;
+          background: white;
+        }
+    
+        div#app .search-wrapper input:focus {
+          outline: none;
+          transform: scale(1.05);
+        }
+    
+        div#app .search-wrapper input:focus+label {
+          font-size: 14px;
+          transform: translateY(-24px) translateX(-12px);
+        }
+    
+        div#app .search-wrapper input::-webkit-input-placeholder {
+          font-size: 14px;
+          color: rgba(0, 0, 0, 0.5);
+          font-weight: 100;
+        }
+    
+        div#app .wrapper {
+          display: flex;
+          max-width: 344px;
+          flex-wrap: wrap;
+          padding-top: 12px;
+        }
+    
+        div#app .card {
+    
+          max-width: 124px;
+          margin: 22px;
+          transition: .15s all ease-in-out;
+        }
+    
+        div#app .card:hover {
+          transform: scale(1.1);
+        }
+    
+        div#app .card a {
+          text-decoration: none;
+          padding: 12px;
+          color: #03A9F4;
+          font-size: 18px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          color: #000000;
+        }
+    
+        div#app .card a img {
+          height: 92px;
+          width: 100px;
+        }
+    
+        div#app .card a small {
+          font-size: 1px;
+          padding: 4px;
+        }
+    
+        div#app .hotpink {
+          background: hotpink;
+        }
+    
+        div#app .green {
+          background: green;
+        }
+    
+        div#app .box {
+          width: 200px;
+          height: 200px;
+          border: 1px solid rgba(0, 0, 0, 0.12);
+        }
+      </style>
+    <title>Debugging</title>
 
     <script type="text/javascript">
         //<![CDATA[
@@ -65,7 +155,7 @@
             </a>
             <br>
             <br>
-            <center>Ink Sketches</center>
+            <center>Debugging</center>
         </center>
     </div>
     <br>
