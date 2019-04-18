@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	
+	<style>
+
+ * {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #ffffff;
+    }
+  
+  body {
+      background-color: #ffffff;
+    font-size: 20px;
+    line-height: 1.6;
+    padding: 14px;
+    font-weight: 350;
+     }
+
+ h3,h4 {
+    color: #0f44d8;
+    letter-spacing: -.50px;
+    font-weight: 500;
+
+
+ }
+  
+	img {
+	   max-width: 100%;
+	   height: auto;
+	}
+
+	a {
+	text-align: center;
+    letter-spacing: -.50px;
+	font-size: 33px;
+	color: #000282;
+	text-decoration: none;
+	font-weight: 300;
+	letter-spacing: -.50px
+	}
+
+    .answers {
+	
+    font-style: italic;
+    font-weight: 500;
+	
+}
+	</style>
+	<title></title>
+</head>
+<body>
+	<center>
+            <a href="http://kironroy.github.io/"><img alt="Kiron Roy Logo" src="new_logo_sm2.svg"
+                style="width:80px;height:80px;"></a>
+    </center>
+    <center> <h3>BattleShip Notes</h3></center>
+   
+   <h3>WOULD Framework</h3>
+
+  <h4>Basic Requirements</h4> 
+  <ul>
+        <li>    Is the same console, or two different consoles working together? <div class="answers">Same console</div></li>
+        <li>	Does the other player get one last chance after being sunk? <div class="answers">No</div></li>
+        <li>	Do we want to capture/display stats such as hit/miss ratio etc.? <div class="answers">Just how many shots it took to win</div></li>
+        <li>	Only one ship per spot. </li>
+        <li>	Do we allow a player to shoot the same spot twice? <div class="answers">No</div></li>
+        <li>	Do we show a visual of the grid? <div class="answers">Yes</div></li>
+        <li>	Do we store game data? <div class="answers">No</div></li>
+        <li>	Are we ever going to change number of players <div class="answers">Maybe</div></li>
+        <li>	Will we add a computer player? <div class="answers">Maybe</div></li>
+    </ul>
+
+
+<h4>Additional Questions / Requirements</h4>
+
+
+    
+<ul>
+        <li>Is the same console, or two different consoles working together? Same console</li>
+        <li>	Does the other player get one last chance after being sunk? No</li>
+        <li>	Do we want to capture/display stats such as hit/miss ratio etc.? Just how many shots it took to win</li>
+        <li>	Only one ship per spot. </li>
+        <li>	Do we allow a player to shoot the same spot twice? No</li>
+        <li>	Do we show a visual of the grid? Yes</li>
+        <li>	Do we store game data? No</li>
+        <li>	Are we ever going to change number of players Maybe</li>
+        <li>	Will we add a computer player? Maybe</li>
+    </ul>
+
+
+
+<h4>Full Requirements</h4>
+<ul>
+        <li>Is the same console, or two different consoles working together? Same console</li>
+        <li>	Does the other player get one last chance after being sunk? No</li>
+        <li>	Do we want to capture/display stats such as hit/miss ratio etc.? Just how many shots it took to win</li>
+        <li>	Only one ship per spot. </li>
+        <li>	Do we allow a player to shoot the same spot twice? No</li>
+        <li>	Do we show a visual of the grid? Yes</li>
+        <li>	Do we store game data? No</li>
+        <li>	Are we ever going to change number of players Maybe</li>
+        <li>	Will we add a computer player? Maybe</li>
+    </ul>
+
+
+<h4>General Flow</h4>
+
+<ol>
+        <li> &nbsp; Two users open up the console</li>
+        <li> &nbsp; Ask user 1 where to place their ships</li>
+        <li> &nbsp; Ask user 2 where to place their ships</li>
+        <li> &nbsp; Ask user 1 for a shot</li>
+        <li>	 &nbsp; &nbsp; &nbsp; &nbsp;Determine hit or miss</li>
+        <li>	 &nbsp; &nbsp; &nbsp; &nbsp;Determine if the game is over</li>
+        <li> &nbsp; Ask user 2 for a shot</li>
+        <li>	 &nbsp; &nbsp; &nbsp; &nbsp;Determine hit or miss</li>
+        <li>	 &nbsp; &nbsp; &nbsp; &nbsp;Determine if game is over</li>
+        <li> &nbsp; Repeat until someone wins</li>
+        <li> &nbsp; Identify who the winner is</li>
+        <li> &nbsp; Exit the application</li>
+    </ol>
+
+<h4>UI Design</h4>
+   
+
+<ol>
+        <li> &nbsp; Welcome  message</li>
+        <li> &nbsp; Add user 1 for their name</li>
+        <li> &nbsp; Add user 2 for their 5 ship placements</li>
+        <li> &nbsp; &nbsp; &nbsp; &nbsp;Ask for placement</li>
+        <li> &nbsp; &nbsp; &nbsp; &nbsp;Determine if is valid spot</li>
+        <li> &nbsp; &nbsp; &nbsp; &nbsp;Store</li>
+        <li> &nbsp; &nbsp; &nbsp; &nbsp;Clear</li>
+        <li> &nbsp; Ask user 2 for their name</li>
+        <li> &nbsp; Ask user 2 for their 5 ship placements</li>
+        <li> &nbsp; &nbsp; &nbsp; &nbsp;Ask for placement</li>
+        <li> &nbsp; &nbsp; &nbsp; &nbsp;Determine if is a valid spot</li>
+        <li> &nbsp; &nbsp; &nbsp; &nbsp;Store</li>
+        <li> &nbsp; &nbsp; &nbsp; &nbsp;Clear</li>
+        <li> &nbsp; Display grid of where user 1 is fired</li>
+        <li> &nbsp; Ask user 1: where would you like to fire on</li>
+        <li> &nbsp; &nbsp; &nbsp; &nbsp;Verify a valid spot</li>
+        <li> &nbsp; &nbsp; &nbsp; &nbsp;Check results</li>
+        <li> &nbsp; &nbsp; &nbsp; &nbsp;Store shot</li>
+        <li> &nbsp; &nbsp; &nbsp; &nbsp;Clear</li>
+        <li> &nbsp; Display the score (user 1: 2 ships left, user 2: 4 ships left)</li>
+        <li> &nbsp; Repeat with user 2</li>
+        <li> &nbsp; Loop until someone wins</li>
+        <li> &nbsp; Print out Winner's name and number of shots taken</li>
+        <li> &nbsp; Wait for the user to say they are done</li>
+        <li> &nbsp; Exit</li>
+    </ol>
+
+Grid Design:
+
+<ul>
+        &nbsp; &nbsp; &nbsp; &nbsp;A1 A2 A3 O A5 
+        <br>
+        &nbsp; &nbsp; &nbsp; &nbsp;B1 B2 B3 O B5 
+        <br>
+        &nbsp; &nbsp; &nbsp; &nbsp;C1 C2 C3 X C5 
+        <br>
+        &nbsp; &nbsp; &nbsp; &nbsp;D1 D2 D3 O D5 
+        <br>
+        &nbsp; &nbsp; &nbsp; &nbsp;E1 E2 E3 O E5
+    </ul>
+
+    <h4>Logic Design</h4>
+
+    <ul>
+            <li>Clear display</li>
+            <li>Method: Asking for name </li>
+            <li>Method: Get ship placement</li>
+            <li>Method: Determine if valid spot for ship</li>
+            <li>Storing ship information List per user?</li>
+            <li>Storing shot information List per user?</li>
+            <li>Method: create the grid for each user</li>
+            <li>Method: print out grid</li>
+            <li>Method: fire on opponent</li>
+            <li>Method: determine if a shot can be taken & outcome</li>
+            <li>Method: display score</li>
+            <li>Method: print winner and shots taken</li>
+        </ul>
+
+<h4>Data Design</h4>
+
+<ul>
+        <li>PlayerInfo</li>
+        <li>User's Name</li>
+        <li>Users 5 ship locations: List<GridSpot></li>
+        <li>User's shot/grid: List<GridSpot></li>
+        <li>GridSpot</li>
+        <li>SpotLetter: string</li>
+        <li>SpotNumber: int</li>
+        <li>Status string (possible enum)</li>
+    </ul>
+
+
+  
+
+</body>
+</html>
