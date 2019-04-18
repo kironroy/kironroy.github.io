@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="448px" height="448px" viewBox="0 0 448 448" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="341px" height="341px" viewBox="0 0 341 341" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
     <title>debug</title>
     <desc>Created with Sketch.</desc>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" transform="translate(-1705.000000, -203.000000)">
-            <g id="debug" transform="translate(1705.000000, 203.000000)">
-                <path d="M400,0 L48,0 C21.5,0 0,21.5 0,48 L0,400 C0,426.5 21.5,448 48,448 L400,448 C426.5,448 448,426.5 448,400 L448,48 C448,21.5 426.5,0 400,0 Z" id="Shape" fill="#F8E71C" fill-rule="nonzero"></path>
-                <g id="Group" transform="translate(109.000000, 109.000000)">
-                    <circle id="Oval-Copy" stroke="#D0021B" stroke-width="24" cx="115" cy="116" r="85"></circle>
-                    <rect id="Rectangle" fill="#D0021B" x="106" y="0" width="22" height="58"></rect>
-                    <polygon id="Rectangle" fill="#D0021B" points="189.990096 26 205.316828 41.3267316 164.326732 82.3168279 149 66.9900962"></polygon>
-                    <rect id="Rectangle" fill="#D0021B" x="174" y="105" width="57.96875" height="21.6752717"></rect>
-                    <polygon id="Rectangle" fill="#D0021B" points="205.316828 189.990096 189.990096 205.316828 149 164.326732 164.326732 149"></polygon>
-                    <rect id="Rectangle" fill="#D0021B" x="106" y="174" width="22" height="58"></rect>
-                    <polygon id="Rectangle" fill="#D0021B" points="41.3267316 205.316828 26 189.990096 66.9900962 149 82.3168279 164.326732"></polygon>
-                    <rect id="Rectangle" fill="#D0021B" x="0" y="105" width="57.96875" height="21.6752717"></rect>
-                    <polygon id="Rectangle" fill="#D0021B" points="26 41.3267316 41.3267316 26 82.3168279 66.9900962 66.9900962 82.3168279"></polygon>
-                </g>
-                <path d="M224.5,383 C136.962867,383 66,312.037133 66,224.5 C66,136.962867 136.962867,66 224.5,66 C312.037133,66 383,136.962867 383,224.5 C383,312.037133 312.037133,383 224.5,383 Z" id="Oval-2" stroke="#F5A623" stroke-width="24"></path>
+        <g id="debug" transform="translate(12.000000, 12.000000)">
+            <g id="Group" transform="translate(43.000000, 43.000000)">
+                <circle id="Oval-Copy" stroke="#D0021B" stroke-width="24" cx="115" cy="116" r="85"></circle>
+                <rect id="Rectangle" fill="#D0021B" x="106" y="0" width="22" height="58"></rect>
+                <polygon id="Rectangle" fill="#D0021B" points="189.990096 26 205.316828 41.3267316 164.326732 82.3168279 149 66.9900962"></polygon>
+                <rect id="Rectangle" fill="#D0021B" x="174" y="105" width="57.96875" height="21.6752717"></rect>
+                <polygon id="Rectangle" fill="#D0021B" points="205.316828 189.990096 189.990096 205.316828 149 164.326732 164.326732 149"></polygon>
+                <rect id="Rectangle" fill="#D0021B" x="106" y="174" width="22" height="58"></rect>
+                <polygon id="Rectangle" fill="#D0021B" points="41.3267316 205.316828 26 189.990096 66.9900962 149 82.3168279 164.326732"></polygon>
+                <rect id="Rectangle" fill="#D0021B" x="0" y="105" width="57.96875" height="21.6752717"></rect>
+                <polygon id="Rectangle" fill="#D0021B" points="26 41.3267316 41.3267316 26 82.3168279 66.9900962 66.9900962 82.3168279"></polygon>
             </g>
+            <path d="M158.5,317 C70.9628672,317 0,246.037133 0,158.5 C0,70.9628672 70.9628672,0 158.5,0 C246.037133,0 317,70.9628672 317,158.5 C317,246.037133 246.037133,317 158.5,317 Z" id="Oval-2" stroke="#F5A623" stroke-width="24"></path>
         </g>
     </g>
 </svg>
