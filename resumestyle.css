@@ -2,6 +2,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 border:0;
 font:inherit;
 font-size:100%;
+font-weight: 350;
 margin:0;
 padding:0;
 vertical-align:baseline;
@@ -9,6 +10,8 @@ vertical-align:baseline;
 
 
 /* no animations */
+
+
 
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 display:block;
@@ -48,6 +51,7 @@ p {
 	line-height: 1.4em;
 	margin-bottom: 20px;
 	color: #444;
+	font-weight: 350;
 }
 
 #cv {
@@ -76,7 +80,7 @@ p {
 
 	font-size: 2em;
 	margin-left: 2px;
-	font-weight: 300;
+	font-weight: 350;
 	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif; 'Heebo', Helvetica, Arial, sans-serif;
 }
 
@@ -93,7 +97,6 @@ p {
 #headshot img {
 	width: 50%;
 	height: 50%;
-	webkit-border-radius: 50px;
 	-border-radius: 50px;
 }
 
@@ -156,21 +159,21 @@ section:last-child {
 }
 
 .sectionTitle h1 {
-	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif; 'Heebo', Helvetica, Arial, sans-serif;
-	font-weight: 300;
+	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif, Helvetica, Arial, sans-serif;
+	font-weight: 350;
 	font-style: italic;
 	font-size: 1.5em;
-    color: #4c619b;
+  color: #0c36ad;
   letter-spacing: -.50px;
 }
 
 .sectionContent h2 {
-	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif; 'Heebo', Helvetica, Arial, sans-serif;
-	font-weight: 300;
+	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif, Helvetica, Arial, sans-serif;
+  font-weight: 350;
 	font-size: 1.5em;
 	margin-bottom: -2px;
   letter-spacing: -.50px;
-    color: #0f44d8;
+  color: #0f44d8;
 }
 
 .subDetails {
