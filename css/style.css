@@ -399,7 +399,7 @@ input[type="reset"],
     display: inline-block;
     text-decoration: none;
     padding: 0.75em 2.5em 0.75em 2.5em;
-    background: #0c36ad;
+    background: #428bca;
     border-radius: 0.20em;
 }
 
@@ -407,7 +407,7 @@ input[type="button"]:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 .button:hover {
-    background-color: #ffcd01;
+    background-color: #0c36ad;
 }
 
 input[type="button"]:active,
