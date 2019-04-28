@@ -399,8 +399,7 @@ input[type="reset"],
     display: inline-block;
     text-decoration: none;
     padding: 0.75em 2.5em 0.75em 2.5em;
-    background: #0f44d8;
-    background: linear-gradient(#000099, #214dc7, #a0dd76);
+    background: #0c36ad;
     border-radius: 0.20em;
 }
 
@@ -577,7 +576,7 @@ input[type="reset"]:active,
 }
 
 #nav ul li a.active {
-    background: linear-gradient(#000099, #214dc7, #a0dd76);
+    background:#0c36ad;
     -box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
     color: #fff;
     font-weight: bold;
@@ -672,13 +671,12 @@ input[type="reset"]:active,
 }
 
 #main>section.two {
-    background-color: #2a52be;
-    background: linear-gradient(navy, #0f44d9, #214dc7);
+    background: linear-gradient(#0c36ad, #0f44d9, #214dc7);
 }
 
 #main>section.three {
     background-color: #214198;
-    background: linear-gradient(#214dc7, #5f6a89, #a0dd76);
+    background: linear-gradient(#214dc7, #375ecc, #4d70d2);
 }
 
 #main>section.four {
