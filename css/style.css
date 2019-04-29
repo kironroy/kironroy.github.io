@@ -671,12 +671,12 @@ input[type="reset"]:active,
 }
 
 #main>section.two {
-    background: linear-gradient(#0c36ad, #0f44d9, #214dc7);
+    background: linear-gradient(#2474de, #2d76d5, #3777cb);
 }
 
 #main>section.three {
     background-color: #214198;
-    background: linear-gradient(#214dc7, #375ecc, #4d70d2);
+    background: linear-gradient(#3777cb, #4178c1, #4a7ab8);
 }
 
 #main>section.four {
