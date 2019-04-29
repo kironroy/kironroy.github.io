@@ -576,7 +576,7 @@ input[type="reset"]:active,
 }
 
 #nav ul li a.active {
-    background:#0c36ad;
+    background:#1A73E8;
     -box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
     color: #fff;
     font-weight: bold;
@@ -666,7 +666,7 @@ input[type="reset"]:active,
 }
 
 #main>section.one {
-    background: linear-gradient(#FFFFFF, #fefefe, #f9f7f6);
+    background: linear-gradient(#ffffff, #fefefe, #fdfdfd);
     -background-image: url('https://cdn.glitch.com/8965a477-ca60-4955-b9f9-41258c7b8ece%2Fgrid.svg?1534571958835');
 }
 
@@ -680,8 +680,7 @@ input[type="reset"]:active,
 }
 
 #main>section.four {
-    background-color: #f9f7f6;
-    background: linear-gradient(#f9f7f6, #fefefe, #ffffff);
+    background: linear-gradient(#fdfdfd, #fefefe, #ffffff);
 }
 
 #quote {
