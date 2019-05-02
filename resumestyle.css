@@ -19,7 +19,7 @@ display:block;
 
 html, body {
   background: #FFFFFF;
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   font-size: 16px;
   font-weight: 300;
   color: #222;}
@@ -48,7 +48,7 @@ a:hover, a:focus {
 
 p {
 	font-size: 1em;
-	line-height: 1.4em;
+	line-height: 1.6;
 	margin-bottom: 20px;
 	color: #444;
 	font-weight: 350;
