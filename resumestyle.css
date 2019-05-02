@@ -34,7 +34,7 @@ a:link {
 a:link {
 
   text-decoration: none;
-	color: #274fc2;
+	color: #000099;
 }
 a:visited {
   font-weight: bold;
@@ -71,7 +71,7 @@ p {
 #name h1 {
 	font-size: 2.5em;
 	font-weight: 400;
-	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif; 'Heebo', Helvetica, Arial, sans-serif;
+	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif; 
 	margin-bottom: -6px;
   letter-spacing: -.50px;
 }
@@ -81,7 +81,7 @@ p {
 	font-size: 2em;
 	margin-left: 2px;
 	font-weight: 350;
-	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif; 'Heebo', Helvetica, Arial, sans-serif;
+	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif; 
 }
 
 #mainArea {
@@ -119,7 +119,7 @@ p {
 	color: #444;
 }
 
-#contactDetails ul li a, a[href^=tel] {
+#contactDetails ul li a {
 	color: #0f44d8;
 	text-decoration: none;
 	a hover: underline overline;
@@ -163,7 +163,7 @@ section:last-child {
 	font-weight: 350;
 	font-style: italic;
 	font-size: 1.5em;
-  color: #0c36ad;
+  color: #000099;
   letter-spacing: -.50px;
 }
 
@@ -173,7 +173,7 @@ section:last-child {
 	font-size: 1.5em;
 	margin-bottom: -2px;
   letter-spacing: -.50px;
-  color: #0f44d8;
+  color: #1a73e8;
 }
 
 .subDetails {
@@ -185,10 +185,10 @@ section:last-child {
 }
 
 .subDetailsTwo {
-    font-size: 17px;
+    font-size: 16px;
     margin-bottom: 4px;
-    font-weight: 300;
-    font-family: "Times New Roman", serif;
+    font-weight: 400;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif, Helvetica, Arial, sans-serif;
 
 }
 
