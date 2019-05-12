@@ -1,5 +1,5 @@
 
-![design logo](https://kironroy.github.io/spread.svg)
+![design logo](https://kironroy.github.io/excel.svg)
 
 ### Articles
   * [15 simple, yet powerful Excel functions](https://www.pcworld.com/article/2995399/software-productivity/15-simple-yet-powerful-excel-functions-you-need-to-know.html)
