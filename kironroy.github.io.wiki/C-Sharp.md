@@ -1,6 +1,60 @@
 
 ![c sharp logo](https://kironroy.github.io/c_sharp.svg)
 
+### Console Programs
+   * _[C# Quiz Do loop](https://repl.it/@kironroy/cSharpQuiz-1)_  
+   * _[Inheritance & Interfaces](https://repl.it/@kironroy/inheritinterfaceproject)_
+   * _[Events](https://repl.it/@kironroy/events)_
+   * _[Person model with extension methods](https://repl.it/@kironroy/personextensionmethods)_
+   * _[Address Book](https://repl.it/@kironroy/addressbook)_
+   * _[Battleship Project](https://repl.it/@kironroy/Battleship-Console-Application)_
+   * _[Static Class Demo](https://repl.it/@kironroy/staticclassdemo)_ 
+   * _[Instantiated Class Demo](https://repl.it/@kironroy/instantiatedclasses)_
+   * _[Property Types](https://repl.it/@kironroy/propertytypes?language=csharp&folderId=)_
+   * _[C# Quiz](https://repl.it/@kironroy/cSharpQuiz)_
+   * _[C# Quiz methods](https://repl.it/@kironroy/csharpquizwithmethods?language=csharp&folderId=)_
+   * _[Guest List](https://repl.it/@kironroy/guestlist)_
+   * _[Trees Polymorphism](https://repl.it/@kironroy/ctrees)_
+   * _[Image size](https://repl.it/@kironroy/imagesize)_
+   * _[Time Keeper](https://repl.it/@kironroy/TimeKeeper)_
+   * _[Post Likes](https://repl.it/@kironroy/postlikes)_
+   * _[FizzBuzzes](https://repl.it/@kironroy/fizzbuzzes)_
+   * _[Generics](https://repl.it/@kironroy/generics2)
+   * _[FizzBuzz Genric](https://repl.it/@kironroy/fizzbuzz2)_
+   * _[Adventure Game](https://repl.it/@kironroy/adventuregame)_
+   * _[Number Guessing Game](https://repl.it/@kironroy/numberguessgame?language=csharp)_
+   * _[Word Guessing Game](https://repl.it/@kironroy/wordguessinggame)_
+   * _[Madlip](https://repl.it/@kironroy/madlip?language=csharp)_
+   
+---
+
+### Notes
+**_Static Classes_** = one copy for the entire lifetime of the application.  Storing data inside a static class is not a good idea, because it increases the application's memory footprint.  They aren't instantiated (look below)
+
+[**_Instantiated Classes_**](https://repl.it/@kironroy/instantiatedclasses2)
+
+**_Auto Properties_** = are more common because auto-properties target many types of applications WinForms, WPF, ASP.NET MVC...
+
+**_Constructor_** = (ctor) is a method that is not static.  It is part of the instantiated class.  A constructor is a special type of method when a "car/house" (object) is built.
+
+[**_Method overloading_**](https://repl.it/@kironroy/methodoverloading2)
+
+[**_Extension Methods_**](https://repl.it/@kironroy/extensionmethods2)
+
+[**_Inheritance_**](https://repl.it/@kironroy/inheritance2)
+
+[**_Interface_**](https://repl.it/@kironroy/interfaces2)
+
+[**_Abstract Classes_**](https://repl.it/@kironroy/abstractclasses2)
+
+[**_Abstract Classes and Interface_**](https://repl.it/@kironroy/abstractclasses3)
+
+---
+
+### [C# GitHubRepositories](https://github.com/kironroy?utf8=%E2%9C%93&tab=repositories&q=&type=&language=c%23)
+
+---
+
 ### C# Introduction
   * **[C#](https://docs.microsoft.com/en-us/dotnet/csharp/)**
   
@@ -12,6 +66,8 @@
   
   * [Windows Powershell](https://github.com/kironroy/kironroy.github.io/wiki/Windows-Powershell)
 
+  * [DotNet](https://dotnet.github.io/)
+
 ---
 
 ASP.NET Websites
@@ -21,12 +77,26 @@ ASP.NET Websites
 
 ---
 
-### Articles
+### Articles C# applications Troubleshooting
 * [_Code_](https://bobcarp.files.wordpress.com/2014/07/code-charles-petzold.pdf)
 
 * [_Anders Hejlsberg_](https://en.wikipedia.org/wiki/Anders_Hejlsberg)
- 
-#### Stack and Heap
+
+* [_PowerBuilder_](https://en.wikipedia.org/wiki/PowerBuilder)
+
+* [_Using Statements_](https://www.techopedia.com/definition/25646/using-statement-c)
+---
+
+### Troubleshooting
+
+* [_DB Lock Error_](https://stackoverflow.com/questions/47460039/vs-2017-git-local-commit-db-lock-error-on-every-commit/47472811)
+
+---
+
+### Meetups
+* [LA Dot NET](https://www.meetup.com/LADOTNET/messages/boards/thread/51573371)
+---
+### Stack and Heap
   * [Heap and Stack](https://www.c-sharpcorner.com/article/C-Sharp-heaping-vs-stacking-in-net-part-i/)
   
   * [Stack vs Heap](http://net-informations.com/faq/net/stack-heap.htm)
@@ -36,8 +106,8 @@ ASP.NET Websites
   * [Stack and Heap Location](https://stackoverflow.com/questions/79923/what-and-where-are-the-stack-and-heap)
 
   * [.NET Stack and Heap](https://www.youtube.com/watch?v=clOUdVDDzIM)
-
-#### Programming Features Help
+---
+### Programming Features Help
   * [Sorting Arrays Alpha](https://social.msdn.microsoft.com/Forums/en-US/8e73cea7-c63e-4387-885f-538d33658fac/sorting-arrays-alphabetically?forum=csharpgeneral)
 
   * [Storing user input _Slack Overflow_](https://stackoverflow.com/questions/19146058/storing-user-input-integers-in-an-array)
@@ -54,8 +124,8 @@ ASP.NET Websites
   * [Method Overloading vs Overriding](https://www.c-sharpcorner.com/UploadFile/8a67c0/method-overloading-and-method-overriding-in-C-Sharp/)
   
   * [MS Docs Interfaces](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/interfaces/)
- 
-  #### Algorithms
+ ---
+  ### Algorithms
    * [Interview questions](https://www.softwaretestinghelp.com/c-sharp-interview-questions/)
    
    * [HackerRank](https://www.hackerrank.com/)
@@ -64,8 +134,8 @@ ASP.NET Websites
    
    * [Algorithms](https://medium.com/coderbyte/how-to-get-good-at-algorithms-data-structures-d33d5163353f)
 
-  
-  #### Console Games
+---  
+  ### Console Games
    * [RPG Game](https://scottlilly.com/build-a-cwpf-rpg/)
    
    * [Let's Code in C# Making a Game, Movement, Enemy AI, Items](https://www.youtube.com/watch?v=ZD-QOSswwDI)
@@ -74,12 +144,12 @@ ASP.NET Websites
    
    * [C Sharp game](http://programmingisfun.com/learn/c-sharp-adventure-game/)
   
-  #### IOT (Internet of Things)
+  ### IOT (Internet of Things)
    * [_Meadow: Full-stack .NET Standard IoT platform_](https://www.wildernesslabs.co/meadow) 
 
 ---  
 
-  #### Open Source
+  ### Open Source
    * [Microsoft .NET](https://github.com/Microsoft/dotnet/blob/master/dotnet-developer-projects.md) 
    
    * [Up For Grabs](https://up-for-grabs.net/#/) 
@@ -209,86 +279,15 @@ ASP.NET Websites
 ---
 
 
-
-#### Console Programs
-   * _[C# Quiz](https://repl.it/@kironroy/cSharpQuiz)_
-   * _[C# Quiz Do loop](https://repl.it/@kironroy/cSharpQuiz-1)_
-   * _[Trees Polymorphism](https://repl.it/@kironroy/ctrees)_
-   * _[Image size](https://repl.it/@kironroy/imagesize)_
-   * _[Time Keeper](https://repl.it/@kironroy/TimeKeeper)_
-   * _[Post Likes](https://repl.it/@kironroy/postlikes)_
-   * _[FizzBuzzes](https://repl.it/@kironroy/fizzbuzzes)_
-   * _[Adventure Game](https://repl.it/@kironroy/adventuregame)_
-   * _[Number Guessing Game](https://repl.it/@kironroy/numberguessgame?language=csharp)_
-   * _[Word Guessing Game](https://repl.it/@kironroy/wordguessinggame)_
-   * _[Madlip](https://repl.it/@kironroy/madlip?language=csharp)_
-   
----
-#### C# Repositories
-   * _[ALL Repositories](https://github.com/kironroy?utf8=%E2%9C%93&tab=repositories&q=&type=&language=c%23)_
-
----
-
-#### Unit Testing
-_Automated Testing_
-   * Writing code to check production code
-     * Then run those tests in an automated fashion
-   * Automated code cam be divided 
-     * Production code 
-     * Test code
-
-As an application grows with time and complexity, the costs of testing increase exponentially without 
-automated testing.  Automated tests are repeatable and benefits include: testing can be done frequently and catching bugs before deployment of application.
-
-Different types of testing:
-  1. **Unit tests**: Test a unit test of an application without externals (files, Database connections...)
-  2. **Integration tests**: Test component with its external dependencies (this test takes longer to execute)
-  3. **End-to-End**: drives and application through its UI (longest test)
-
-**Test pyramid**: Developers should strive to conduct all three tests in a pyramid form.  More unit tests and less end to end tests, although this is not a hard rule.
-
-**Triple AAA testing below**  
-  1. Specify a method of test 
-  2. Scenario of test  
-  3. Expected result
-```
-using System;
-using TestNinja.Fundamentals;
-using NUnit.Framework;
-
-namespace TestNinja.UnitTests
-{ 
-    [TestFixture]
-    public class ReservationTests
-    {
-        [Test]
-        public void CanBeCancelledBy_UserIsAdmin_ReturnsTrue()
-        {
-            // Arrange = initialize an object
-
-            var reservation = new Reservation();
-
-            // Act = call a method 
-
-            var result = reservation.CanBeCancelledBy(new User { IsAdmin = true });
-
-            // Assert
-            
-            Assert.That(result, Is.True); // helper function 
-
- ```        
-        
----
-<br>
-
-![vs logo](https://kironroy.github.io/vs_logo.svg)
-
+![c sharp logo](https://kironroy.github.io/vsicon.svg)
   
   #### C# Repl
 ``` > #r "C:\Users\yourusername\source\repos\BirdWatcher\BirdWatcher\BirdWatcher.dll"  = your project will be linked to C# Interactive (REPL)```
 
 
    #### Code Snippets
+
+   ``` Control + Shift N = start a new project ```
 
    ``` Alt UP ARROW / DOWN ARROW = move a single or multiple lines of code up or down ```
 
@@ -314,7 +313,9 @@ namespace TestNinja.UnitTests
 
    ``` ctor = Makes a constructor```
 
-   ``` prop + tab = declare properties```
+   ``` prop + tab tab = declare auto-properties```
+   
+   ``` propfull + tab tab = declare full on properties```
 
    ``` control + tab = get back to another file```
    
@@ -342,5 +343,5 @@ namespace TestNinja.UnitTests
    
    ``` Shift + F5 = exit debug mode```
 
-hi
+
    
