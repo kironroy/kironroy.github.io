@@ -392,7 +392,7 @@ input[type="reset"],
     display: inline-block;
     text-decoration: none;
     padding: 0.75em 2.5em 0.75em 2.5em;
-    background: #1A73E8;
+    background: #6928e6;
     border-radius: 0.20em;
 }
 
@@ -568,8 +568,9 @@ input[type="reset"]:active,
     line-height: 1.75em;
 }
 
+
 #nav ul li a.active {
-    background: #1A73E8;
+    background: #6928E6;
     -box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
     color: #fff;
     font-weight: bold;
@@ -664,12 +665,12 @@ input[type="reset"]:active,
 }
 
 #main>section.two {
-    background: linear-gradient(#2474de, #2d76d5, #3777cb);
+    background: linear-gradient(#793fe9, #8956eb, #996dee);
 }
 
 #main>section.three {
     background-color: #214198;
-    background: linear-gradient(#3777cb, #4178c1, #4a7ab8);
+    background: linear-gradient(#996dee, #a984f1, #b99bf3);
 }
 
 #main>section.four {
