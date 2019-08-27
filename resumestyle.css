@@ -1,11 +1,79 @@
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
-border:0;
-font:inherit;
-font-size:100%;
-font-weight: 350;
-margin:0;
-padding:0;
-vertical-align:baseline;
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	font-weight: 350;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
 }
 
 
@@ -13,36 +81,53 @@ vertical-align:baseline;
 
 
 
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
-display:block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
 }
 
-html, body {
-  background: #FFFFFF;
-	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  color: #222;}
+html,
+body {
+	background: #FFFFFF;
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: #222;
+}
 
-.clear {clear: both;}
+.clear {
+	clear: both;
+}
 
 a:link {
-    text-decoration: bold;
-	color:#000000;
+	text-decoration: bold;
+	color: #000000;
 }
 
 a:link {
 
-  text-decoration: none;
-	color: #000099;
+	text-decoration: none;
+	color: #6928e6;
 }
+
 a:visited {
-  font-weight: bold;
-  text-decoration: line-through;
+	font-weight: bold;
+	text-decoration: line-through;
 }
-a:hover, a:focus {
-  text-decoration: underline overline;
-	color: #4c619b;
+
+a:hover,
+a:focus {
+	text-decoration: underline overline;
+	color: #996dee;
 }
 
 
@@ -64,16 +149,16 @@ p {
 .mainDetails {
 	padding: 25px 35px;
 	border-bottom: 2px solid #c7c7c7;
-  font-weight: 300;
+	font-weight: 300;
 	background: #ffffff;
 }
 
 #name h1 {
 	font-size: 2.5em;
 	font-weight: 400;
-	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif; 
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	margin-bottom: -6px;
-  letter-spacing: -.50px;
+	letter-spacing: -.50px;
 }
 
 #name h2 {
@@ -81,7 +166,7 @@ p {
 	font-size: 2em;
 	margin-left: 2px;
 	font-weight: 350;
-	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif; 
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 #mainArea {
@@ -120,7 +205,7 @@ p {
 }
 
 #contactDetails ul li a {
-	color: #0f44d8;
+	color: #6928e6;
 	text-decoration: none;
 	-webkit-transition: all .3s ease-in;
 	-moz-transition: all .3s ease-in;
@@ -159,21 +244,21 @@ section:last-child {
 }
 
 .sectionTitle h1 {
-	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif, Helvetica, Arial, sans-serif;
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, Helvetica, Arial, sans-serif;
 	font-weight: 350;
 	font-style: italic;
 	font-size: 1.5em;
-  color: #000099;
-  letter-spacing: -.50px;
+	color: #6928e6;
+	letter-spacing: -.50px;
 }
 
 .sectionContent h2 {
-	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif, Helvetica, Arial, sans-serif;
-  font-weight: 350;
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, Helvetica, Arial, sans-serif;
+	font-weight: 350;
 	font-size: 1.5em;
 	margin-bottom: -2px;
-  letter-spacing: -.50px;
-  color: #1a73e8;
+	letter-spacing: -.50px;
+	color: #8956eb;
 }
 
 .subDetails {
@@ -185,28 +270,28 @@ section:last-child {
 }
 
 .subDetailsTwo {
-    font-size: 16px;
-    margin-bottom: 4px;
-    font-weight: 400;
-    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	margin-bottom: 4px;
+	font-weight: 400;
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, Helvetica, Arial, sans-serif;
 
 }
 
 .presentDetails {
-     font-weight: bold;
+	font-weight: bold;
 
- }
+}
 
 .companyName {
-    font-weight: bold;
-    font-size: 17px;
+	font-weight: bold;
+	font-size: 17px;
 }
 
 .keySkills {
 	list-style-type: none;
-	-moz-column-count:3;
-	-webkit-column-count:3;
-	column-count:3;
+	-moz-column-count: 3;
+	-webkit-column-count: 3;
+	column-count: 3;
 	margin-bottom: 20px;
 	font-weight: 300;
 	font-size: 1em;
@@ -223,9 +308,9 @@ section:last-child {
 	}
 
 	.keySkills {
-	-moz-column-count:2;
-	-webkit-column-count:2;
-	column-count:2;
+		-moz-column-count: 2;
+		-webkit-column-count: 2;
+		column-count: 2;
 	}
 }
 
@@ -240,13 +325,15 @@ section:last-child {
 		display: none;
 	}
 
-	#name, #contactDetails {
+	#name,
+	#contactDetails {
 		float: none;
 		width: 100%;
 		text-align: center;
 	}
 
-	.sectionTitle, .sectionContent {
+	.sectionTitle,
+	.sectionContent {
 		float: none;
 		width: 100%;
 	}
@@ -257,9 +344,9 @@ section:last-child {
 	}
 
 	.keySkills {
-		-moz-column-count:2;
-		-webkit-column-count:2;
-		column-count:2;
+		-moz-column-count: 2;
+		-webkit-column-count: 2;
+		column-count: 2;
 		font-weight: 300;
 	}
 }
@@ -279,9 +366,9 @@ section:last-child {
 
 
 	.keySkills {
-	-moz-column-count:1;
-	-webkit-column-count:1;
-	column-count:1;
+		-moz-column-count: 1;
+		-webkit-column-count: 1;
+		column-count: 1;
 	}
 
 	#name h1 {
@@ -291,15 +378,16 @@ section:last-child {
 }
 
 @media print {
-    #cv {
-        width: 100%;
-    }
+	#cv {
+		width: 100%;
+	}
 }
 
 @-webkit-keyframes reset {
 	0% {
 		opacity: 0;
 	}
+
 	100% {
 		opacity: 0;
 	}
@@ -309,9 +397,11 @@ section:last-child {
 	0% {
 		opacity: 0;
 	}
+
 	40% {
 		opacity: 0;
 	}
+
 	100% {
 		opacity: 1;
 	}
@@ -321,6 +411,7 @@ section:last-child {
 	0% {
 		opacity: 0;
 	}
+
 	100% {
 		opacity: 0;
 	}
@@ -330,9 +421,11 @@ section:last-child {
 	0% {
 		opacity: 0;
 	}
+
 	40% {
 		opacity: 0;
 	}
+
 	100% {
 		opacity: 1;
 	}
@@ -342,6 +435,7 @@ section:last-child {
 	0% {
 		opacity: 0;
 	}
+
 	100% {
 		opacity: 0;
 	}
@@ -351,9 +445,11 @@ section:last-child {
 	0% {
 		opacity: 0;
 	}
+
 	40% {
 		opacity: 0;
 	}
+
 	100% {
 		opacity: 1;
 	}
