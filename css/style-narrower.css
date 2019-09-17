@@ -67,11 +67,7 @@ ul.icons a {
 	margin: 1.5em 1.25em 1.25em 1.25em;
 }
 
-#nav {}
 
-#nav ul {}
-
-#nav ul li {}
 
 #nav ul li a {
 	padding: 0.5em 1.25em 0.5em 1.25em;
@@ -134,7 +130,7 @@ ul.icons a {
 	background: #1d08a9;
 	font-size: 20px;
 	line-height: 2em;
-	-border-radius: 0.20em;
+	border-radius: 0.20em;
 	text-align: center;
 	position: absolute;
 	left: 0.5em;
