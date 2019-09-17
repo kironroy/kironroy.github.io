@@ -15,7 +15,7 @@ select {
 	font-size: 16pt;
 }
 
-header {}
+
 
 header br {
 	display: none;
@@ -33,11 +33,7 @@ header br {
 
 /* List */
 
-ul {}
 
-ul.icons {}
-
-ul.icons li {}
 
 ul.icons a {
 	width: 1.75em;
