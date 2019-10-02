@@ -32,7 +32,7 @@ select {
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "SF Text", "Helvetica Neue", Arial, sans-serif;
     font-weight: 200;
     font-size: 16pt;
-    letter-spacing: -0.20px;
+    -letter-spacing: -0.10px;
     line-height: 1.75em;
     color: #FFF;
 }
@@ -44,7 +44,7 @@ h5,
 h6 {
     color: #000;
     line-height: 1.5em;
-    letter-spacing: -0.20px;
+    letter-spacing: -0.10px;
     font-weight: 300;
 }
 
@@ -391,9 +391,9 @@ input[type="reset"],
     position: relative;
     display: inline-block;
     text-decoration: none;
-    padding: 0.75em 2.5em 0.75em 2.5em;
+    padding: 0.75em 2.5em 0.65em 2.5em;
     background: #6928e6;
-    border-radius: 0.20em;
+    -border-radius: 0.20em;
 }
 
 input[type="button"]:hover,
