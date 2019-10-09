@@ -120,15 +120,15 @@ ul.icons a {
 #sidePanelToggle .toggle:before {
 	font-family: FontAwesome;
 	text-decoration: none;
-	font-style: normal;
+	font-style: bold;
 	font-weight: normal;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 
 	content: '\f0c9';
-	color: #ffffff;
-	background: #1d08a9;
-	border-color: red;
+	color: #6928E6;
+	background: #F5EAF8;
+	border-color: #ffffff;
 	font-size: 20px;
 	line-height: 2em;
 	-border-radius: 0.20em;
