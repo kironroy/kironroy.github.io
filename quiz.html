@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Source: https://www.sitepoint.com/simple-javascript-quiz/ -->
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon"
+        href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+    <link rel="mask-icon" type=""
+        href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg"
+        color="#111" />
+    <title>C# and SQL Quiz</title>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
+
+        body {
+            font-size: 20px;
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            color: #333;
+            font-weight: 300;
+            text-align: center;
+            background-color: #ffffff;
+        }
+
+        h1 {
+            font-weight: 300;
+            margin: 0px;
+            padding: 10px;
+            font-size: 40px;
+            color: #000000;
+        }
+
+        .question {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        .answers {
+            margin-bottom: 20px;
+            text-align: left;
+            display: inline-block;
+        }
+
+        .answers label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        button {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            font-size: 22px;
+            background-color: #5042d3;
+            color: #fff;
+            border: 0px;
+            padding: 18px;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+
+        button:hover {
+            background-color: #5cb85c
+        }
+
+
+
+
+
+        .slide {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            z-index: 1;
+            opacity: 0;
+            transition: opacity 0.5s;
+        }
+
+        .active-slide {
+            opacity: 1;
+            z-index: 2;
+        }
+
+        .quiz-container {
+            position: relative;
+            height: 200px;
+            margin-top: 40px;
+        }
+    </style>
+    <script>
+        window.console = window.console || function (t) {};
+    </script>
+    <script>
+        if (document.location.search.match(/type=embed/gi)) {
+            window.parent.postMessage("resize", "*");
+        }
+    </script>
+</head>
+
+<body translate="no">
+    <h1>C# and SQL Quiz 16 Questions</h1>
+    <div class="quiz-container">
+        <div id="quiz"></div>
+    </div>
+    <br>
+
+    <br>
+
+    <br>
+
+    <br>
+
+    <br>
+
+
+
+
+
+    <button id="previous">Previous Question</button>
+    <button id="next">Next Question</button>
+    <button id="submit">Submit Quiz</button>
+    <div id="results"></div>
+    <script
+        src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js">
+    </script>
+    <script id="rendered-js">
+        (function () {
+
+            // 1
+            const myQuestions = [{
+                    question: "1. When was C# invented?",
+                    answers: {
+                        a: " 1983",
+                        b: "2002",
+                        c: "2000",
+                        d: "1995"
+                    },
+
+                    correctAnswer: "c"
+                },
+                // 2
+                {
+                    question: "2. Who created C#?",
+                    answers: {
+                        a: " Guido van Rossum",
+                        b: "Ken Thompson",
+                        c: "Anders Hejlsberg",
+                        d: "Bjarne Stroustrup",
+                    },
+
+                    correctAnswer: "c"
+                },
+                // 3
+                {
+                    question: "3. Is C# a complied language?",
+                    answers: {
+                        a: "No",
+                        b: "Yes",
+                        c: "Dynamic",
+                        d: "Hybrid"
+                    },
+
+                    correctAnswer: "b"
+                },
+
+                // 4
+                {
+                    question: "4. Does C# allow multiple inheritance?",
+                    answers: {
+                        a: "No",
+                        b: "Yes",
+                        c: "Dynamic",
+                        d: "Hybrid"
+                    },
+
+                    correctAnswer: "a"
+                },
+
+                // 5
+                {
+                    question: "5. Is method overloading just another name for method overriding?",
+                    answers: {
+                        a: " They can be swapped",
+                        b: " Yes",
+                        c: " No",
+                        d: " C# does not have methods"
+                    },
+
+                    correctAnswer: "c"
+                },
+
+                // 6
+                {
+                    question: "6. Does C# have global variables?",
+                    answers: {
+                        a: " Only if you use the G_Selector",
+                        b: " Yes",
+                        c: " C# does not have methods",
+                        d: " No"
+                    },
+
+                    correctAnswer: "d"
+                },
+
+                // 7
+                {
+                    question: "7. XAML stands for",
+                    answers: {
+                        a: " It's just a nickname for HTML",
+                        b: " Extensible Application Markup Language",
+                        c: " CSS extenstions",
+                        d: " Legacy code from C",
+                    },
+
+                    correctAnswer: "b"
+                },
+
+                // 8
+                {
+                    question: "8. XAML is used for",
+                    answers: {
+                        a: " MVC",
+                        b: " WinForms",
+                        c: " WPF",
+                        d: " WebForms",
+                    },
+
+                    correctAnswer: "c"
+                },
+
+                // 9
+                {
+                    question: "9. Which is NOT a numerical data type in C#",
+                    answers: {
+                        a: " Int",
+                        b: " Double",
+                        c: " Real",
+                        d: " Float",
+                    },
+
+                    correctAnswer: "c"
+                },
+
+                // 10
+                {
+                    question: "10. SQL stands for",
+                    answers: {
+                        a: " Strategic Query Language",
+                        b: " Strong Query Language",
+                        c: " Structured Query Logic",
+                        d: " Structured Query Language",
+                    },
+
+                    correctAnswer: "d"
+                },
+
+                // 11
+                {
+                    question: "11. Normalization provides databases with what benefit",
+                    answers: {
+                        a: " Improves data quality",
+                        b: " Speed issue",
+                        c: " Faster compile times",
+                        d: " Conversion to JSON",
+                    },
+
+                    correctAnswer: "a"
+                },
+
+                // 12
+                {
+                    question: "This middle layer is used to connect a user interface to a database",
+                    answers: {
+                        a: " C# Foundatioanl Framework",
+                        b: " MVC layer",
+                        c: " Class Library",
+                        d: " Razor Pages",
+                    },
+
+                    correctAnswer: "c"
+                },
+
+                // 13
+                {
+                    question: "Which is the most commonly used database with C#",
+                    answers: {
+                        a: " GraphQL",
+                        b: " Cosmos DB",
+                        c: " SQL Server",
+                        d: " SQLite",
+                    },
+
+                    correctAnswer: "c"
+                },
+
+                // 14
+                {
+                    question: "14. ORM stands for",
+                    answers: {
+                        a: " Object Releational Mapping",
+                        b: " Oriented Releational Mapping",
+                        c: " Object Read Map",
+                        d: " Oriented Read Map",
+                    },
+
+                    correctAnswer: "a"
+                },
+
+                // 15
+                {
+                    question: "What alternative datatype does SQL instead of a bool",
+                    answers: {
+                        a: " nil",
+                        b: " bits",
+                        c: " bit",
+                        d: " megabits",
+                    },
+
+                    correctAnswer: "c"
+                },
+
+
+                // 16
+                {
+                    question: "What is the preferred datatype to use for datetime",
+                    answers: {
+                        a: " datetime",
+                        b: " int",
+                        c: " dateime2(7)",
+                        d: " decimal",
+                    },
+
+                    correctAnswer: "c"
+                }
+
+
+
+            ]; // end of Objects
+
+
+
+            function buildQuiz() {
+                // we'll need a place to store the HTML output
+                const output = [];
+
+                // for each question...
+                myQuestions.forEach((currentQuestion, questionNumber) => {
+                    // we'll want to store the list of answer choices
+                    const answers = [];
+
+                    // and for each available answer...
+                    for (letter in currentQuestion.answers) {
+                        // ...add an HTML radio button
+                        answers.push(
+                            `<label>
+             <input type="radio" name="question${questionNumber}" value="${letter}">
+              ${letter} :
+              ${currentQuestion.answers[letter]}
+           </label>`);
+
+                    }
+
+                    // add this question and its answers to the output
+                    output.push(
+                        `<div class="slide">
+           <div class="question"> ${currentQuestion.question} </div>
+           <div class="answers"> ${answers.join("")} </div>
+         </div>`);
+
+                });
+
+                // finally combine our output list into one string of HTML and put it on the page
+                quizContainer.innerHTML = output.join("");
+            }
+
+            function showResults() {
+                // gather answer containers from our quiz
+                const answerContainers = quizContainer.querySelectorAll(".answers");
+
+                // keep track of user's answers
+                let numCorrect = 0;
+
+                // for each question...
+                myQuestions.forEach((currentQuestion, questionNumber) => {
+                    // find selected answer
+                    const answerContainer = answerContainers[questionNumber];
+                    const selector = `input[name=question${questionNumber}]:checked`;
+                    const userAnswer = (answerContainer.querySelector(selector) || {}).value;
+
+                    // if answer is correct
+                    if (userAnswer === currentQuestion.correctAnswer) {
+                        // add to the number of correct answers
+                        numCorrect++;
+
+                        // color the answers green
+                        answerContainers[questionNumber].style.color = "lightgreen";
+                    } else {
+                        // if answer is wrong or blank
+                        // color the answers red
+                        answerContainers[questionNumber].style.color = "red";
+                    }
+                });
+
+                // show number of correct answers out of total
+                resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
+            }
+
+            function showSlide(n) {
+                slides[currentSlide].classList.remove("active-slide");
+                slides[n].classList.add("active-slide");
+                currentSlide = n;
+
+                if (currentSlide === 0) {
+                    previousButton.style.display = "none";
+                } else {
+                    previousButton.style.display = "inline-block";
+                }
+
+                if (currentSlide === slides.length - 1) {
+                    nextButton.style.display = "none";
+                    submitButton.style.display = "inline-block";
+                } else {
+                    nextButton.style.display = "inline-block";
+                    submitButton.style.display = "none";
+                }
+            }
+
+            function showNextSlide() {
+                showSlide(currentSlide + 1);
+            }
+
+            function showPreviousSlide() {
+                showSlide(currentSlide - 1);
+            }
+
+            const quizContainer = document.getElementById("quiz");
+            const resultsContainer = document.getElementById("results");
+            const submitButton = document.getElementById("submit");
+
+            // display quiz right away
+            buildQuiz();
+
+            const previousButton = document.getElementById("previous");
+            const nextButton = document.getElementById("next");
+            const slides = document.querySelectorAll(".slide");
+            let currentSlide = 0;
+
+            showSlide(0);
+
+            // on submit, show results
+            submitButton.addEventListener("click", showResults);
+            previousButton.addEventListener("click", showPreviousSlide);
+            nextButton.addEventListener("click", showNextSlide);
+        })();
+        //# sourceURL=pen.js
+    </script>
+</body>
+
+</html>
