@@ -5,10 +5,10 @@ div {
 body {
 	font-family: 'Arial', sans-serif;
 	font-size: 14px;
-    -font-weight: 400;
-	color:#000000;
-    background-color: #d3d3d3;
-    min-width: 1500px;
+	-font-weight: 400;
+	color: #000000;
+	background-color: #ffffff;
+	min-width: 1500px;
 	-text-align: center;
 
 }
@@ -17,11 +17,11 @@ body {
 #underbar {
 	font-family: 'Arial', sans-serif;
 	font-size: 13px;
-    font-weight: 400;
-	color:#000000;
-    -background-color: #FFFFFF;
-	text-align:left;
-	padding:.05px;
+	font-weight: 400;
+	color: #000000;
+	-background-color: #FFFFFF;
+	text-align: left;
+	padding: .05px;
 	margin-top: 55px;
 	margin-bottom: 55px;
 	margin-left: 35px;
@@ -32,18 +32,17 @@ body {
 
 
 
-hr { 
-	color:#09c;
-	width: 100%; 
-	height: 1px; 
+hr {
+	color: #09c;
+	width: 100%;
+	height: 1px;
 }
 
 #sections {
-    -background-color:#BDBDBD;
-    background-color:#FFFFFF;
-   	text-align:center;
-   	width: 100%;
-    padding:.05px;
+	background-color: #FFFFFF;
+	text-align: center;
+	width: 100%;
+	padding: .05px;
 }
 
 #header {
@@ -53,26 +52,25 @@ hr {
 	margin-top: -16px;
 	height: 60px;
 	background-color: #000000;
-	-box-shadow: 2px 2px 2px #888888;
 	margin-bottom: 10px;
 }
 
 #name {
-	float:left;
+	float: left;
 	margin-left: 5px;
 	padding-top: 5px;
 	font-size: 21px;
-    font-family: 'Tahoma', sans-serif;
-	color:#9C6;
+	font-family: 'Tahoma', sans-serif;
+	color: #9C6;
 }
 
-#email{
-	float:right;
+#email {
+	float: right;
 	margin-right: 5px;
 	padding-top: 5px;
 	font-size: 20px;
-    font-family: 'Tahoma', sans-serif;
-	color:#9C6;
+	font-family: 'Tahoma', sans-serif;
+	color: #9C6;
 }
 
 h2 {
@@ -80,28 +78,28 @@ h2 {
 	margin-bottom: 15px;
 	font-family: 'Arial', sans-serif;
 	font-size: 13px;
-    -text-transform: uppercase;
-	
+	-text-transform: uppercase;
+
 }
 
 h3 {
-    margin-left: 5px;
+	margin-left: 5px;
 	margin-bottom: 15px;
-    font-family: 'Arial', sans-serif;
+	font-family: 'Arial', sans-serif;
 	font-size: 16px;
-    letter-spacing: -.60px;
-    font-weight: 300;
-    -text-transform: uppercase;
-	
+	letter-spacing: -.60px;
+	font-weight: 300;
+	-text-transform: uppercase;
+
 }
 
 h4 {
-   
+
 	font-family: 'Arial';
 	font-size: 11px;
-    
-    text-transform: lowercase;
-	
+
+	text-transform: lowercase;
+
 }
 
 .right p {
@@ -114,22 +112,22 @@ h4 {
 }
 
 li {
-	
+
 	font-family: 'Arial', sans-serif;
 	margin: 1.2em 0;
-    font-size: 14px;
+	font-size: 14px;
 }
 
 a:hover {
 	font-weight: bold;
 	color: #000;
-	
+
 }
 
 a:link {
 	text-decoration: none;
-    color: #000;
-	
+	color: #000;
+
 }
 
 .left {
@@ -143,8 +141,8 @@ a:link {
 	-margin: 20px 11px 13px 2px;
 	font-family: 'Arial', sans-serif;
 	font-size: 16px;
-	color:#09c;
- 
+	color: #09c;
+
 }
 
 .right1 {
@@ -153,30 +151,30 @@ a:link {
 	margin-top: 40px;
 	width: 83%;
 	height: 40px;
-	-background:#FFFFFF;
+	-background: #FFFFFF;
 	-margin-bottom: 0.1px;
-    margin-right: 86px;
-    -margin-left: 3px;
-    
-	
+	margin-right: 86px;
+	-margin-left: 3px;
+
+
 }
 
-.navtop {  
-    -position: fixed;
-    margin-right: 110px;
-    float: left;
-    margin-bottom: 11115px;
-    font-family: 'Arial', sans-serif;
-    -font-weight: 300;
-    font-size: 15px;
-    
-    letter-spacing: -.60px;
-    -text-transform: uppercase;
-    -background-color: red;
+.navtop {
+	-position: fixed;
+	margin-right: 110px;
+	float: left;
+	margin-bottom: 11115px;
+	font-family: 'Arial', sans-serif;
+	-font-weight: 300;
+	font-size: 15px;
+
+	letter-spacing: -.60px;
+	-text-transform: uppercase;
+	-background-color: red;
 }
 
 
-    
+
 
 
 .right2 {
@@ -184,11 +182,11 @@ a:link {
 	float: right;
 	margin-top: -11px;
 	width: 88.9%;
-    -padding: 0px 0px 0px 5px;
+	-padding: 0px 0px 0px 5px;
 	height: 6000px;
-	background:#f6f6f6;
+	background: #f6f6f6;
 	margin-bottom: 10px;
-	
+
 }
 
 #footer {
@@ -199,7 +197,7 @@ a:link {
 	font-family: 'Arial', sans-serif;
 	font-size: 16px;
 	text-align: center;
-	color:#000000;
+	color: #000000;
 	-box-shadow: 2px 2px 2px #888888;
 }
 
@@ -209,17 +207,17 @@ a:link {
 }
 
 .my-icon {
-    position: relative;
-}
-.my-icon > i {
-    position: absolute;
-    display: inline-block;
-    width: 0;
-    height: 0;
-    line-height: 0;
-    border: 1.5em solid #ff0000;
-    border-radius: 1.5em;
-    left: 0em;
-    top: 0em;
+	position: relative;
 }
 
+.my-icon>i {
+	position: absolute;
+	display: inline-block;
+	width: 0;
+	height: 0;
+	line-height: 0;
+	border: 1.5em solid #ff0000;
+	border-radius: 1.5em;
+	left: 0em;
+	top: 0em;
+}

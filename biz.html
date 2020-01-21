@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -8,25 +9,23 @@
 	<script type="text/javascript" src="/js/lib/dummy.js"></script>
 	<link rel="stylesheet" type="text/css" href="/css/result-light.css">
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.3/vue.min.js"></script>
-    <link href="https://kironroy.github.io/apple-touch-icon.png" rel="apple-touch-icon" />
-    <link href="https://kironroy.github.io/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
-    <link href="https://kironroy.github.io/apple-touch-icon-167x167.png" rel="apple-touch-icon" sizes="167x167" />
-    <link href="https://kironroy.github.io/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
-    <link href="https://kironroy.github.io/icon-hires.png" rel="icon" sizes="192x192" />
-    <link href="https://kironroy.github.io/icon-normal.png" rel="icon" sizes="128x128" />
+	<link href="https://kironroy.github.io/apple-touch-icon.png" rel="apple-touch-icon" />
+	<link href="https://kironroy.github.io/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+	<link href="https://kironroy.github.io/apple-touch-icon-167x167.png" rel="apple-touch-icon" sizes="167x167" />
+	<link href="https://kironroy.github.io/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+	<link href="https://kironroy.github.io/icon-hires.png" rel="icon" sizes="192x192" />
+	<link href="https://kironroy.github.io/icon-normal.png" rel="icon" sizes="128x128" />
 	<style type="text/css">
-
-
-
-		html, body {
+		html,
+		body {
 			display: flex;
 			align-items: center;
 			justify-content: center;
 			flex-direction: column;
 			margin-top: 16px;
 			margin-bottom: 16px;
-			background-color: #F4F0ED;
-			font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+			background-color: #ffffff;
+			font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 			font-weight: 300;
 			letter-spacing: -.50px
 		}
@@ -68,7 +67,7 @@
 			transform: scale(1.05);
 		}
 
-		div#app .search-wrapper input:focus + label {
+		div#app .search-wrapper input:focus+label {
 			font-size: 14px;
 			transform: translateY(-24px) translateX(-12px);
 		}
@@ -135,139 +134,142 @@
 
 	<title>Business</title>
 
-	<script type='text/javascript'>//<![CDATA[
-    window.onload=function(){
-// thank you: https://codepen.io/sergio_llanos22/pen/JNQRRP
+	<script type='text/javascript'>
+		//<![CDATA[
+		window.onload = function () {
+			// thank you: https://codepen.io/sergio_llanos22/pen/JNQRRP
 
-        class Post {
-            constructor(title, link, author, img) {
-                this.title = title;
-                this.link = link;
-                //this.author = author;
-                this.img = img;
-            }
-        }
+			class Post {
+				constructor(title, link, author, img) {
+					this.title = title;
+					this.link = link;
+					//this.author = author;
+					this.img = img;
+				}
+			}
 
-        const app = new Vue({
-            el: '#app',
-            data: {
-                keyword: '',
-                postList: [
-                    new Post(
-                        'Notes',
-                        'https://kironroy.github.io/notes',
-                        'kironroy',
-                        'https://kironroy.github.io/notes.svg'
-                    ),
+			const app = new Vue({
+				el: '#app',
+				data: {
+					keyword: '',
+					postList: [
+						new Post(
+							'Notes',
+							'https://kironroy.github.io/notes',
+							'kironroy',
+							'https://kironroy.github.io/notes.svg'
+						),
 
-					new Post(
-                        'Four 4',
-                        'https://kironroy.github.io/four',
-                        'kironroy',
-                        'https://kironroy.github.io/four.svg'
-                    ),
+						new Post(
+							'Four 4',
+							'https://kironroy.github.io/four',
+							'kironroy',
+							'https://kironroy.github.io/four.svg'
+						),
 
-					new Post(
-                        'Score',
-                        'https://orangecounty.score.org/',
-                        'kironroy',
-                        'https://kironroy.github.io/score.svg'
-                    ),
-
-
-                    new Post(
-                        'Cypress',
-                        'https://kironroy.github.io/cypress',
-                        'kironroy',
-                        'https://kironroy.github.io/cypress.svg'
-					),
-
-                    new Post(
-                        'B of A',
-                        'https://www.bankofamerica.com/',
-                        'kironroy',
-                        'https://kironroy.github.io/bank_america.svg'
-                    ),
-
-                    new Post(
-                        'Ally',
-                        'https://www.ally.com/?nt=g&d=c&ag=38751348605&key=aud-305992479570:kwd-12959110249&ad=272852314037&ex=&cid=71700000021383903&agid=58700002191242926&kwid=p18373258380&CP=ppc-google-bkws-bank-ally-bank-exact&source=Paid-Search-Web&gclid=EAIaIQobChMI5NCahrK72wIVE9tkCh1LWQEqEAAYASAAEgIHevD_BwE',
-                        'kironroy',
-                        'https://kironroy.github.io/ally.svg'
-                    ),
-
-                    new Post(
-                        'Vanguard',
-                        'https://investor.vanguard.com/my-account/log-on',
-                        'kironroy',
-                        'https://kironroy.github.io/vanguard3.svg'
-                    ),
-
-                    new Post(
-                        'Wells Fargo',
-                        'https://www.wellsfargo.com/',
-                        'kironroy',
-                        'https://kironroy.github.io/wells.svg'
-                    )
+						new Post(
+							'Score',
+							'https://orangecounty.score.org/',
+							'kironroy',
+							'https://kironroy.github.io/score.svg'
+						),
 
 
+						new Post(
+							'Cypress',
+							'https://kironroy.github.io/cypress',
+							'kironroy',
+							'https://kironroy.github.io/cypress.svg'
+						),
 
-                    // end of objects
+						new Post(
+							'B of A',
+							'https://www.bankofamerica.com/',
+							'kironroy',
+							'https://kironroy.github.io/bank_america.svg'
+						),
+
+						new Post(
+							'Ally',
+							'https://www.ally.com/?nt=g&d=c&ag=38751348605&key=aud-305992479570:kwd-12959110249&ad=272852314037&ex=&cid=71700000021383903&agid=58700002191242926&kwid=p18373258380&CP=ppc-google-bkws-bank-ally-bank-exact&source=Paid-Search-Web&gclid=EAIaIQobChMI5NCahrK72wIVE9tkCh1LWQEqEAAYASAAEgIHevD_BwE',
+							'kironroy',
+							'https://kironroy.github.io/ally.svg'
+						),
+
+						new Post(
+							'Vanguard',
+							'https://investor.vanguard.com/my-account/log-on',
+							'kironroy',
+							'https://kironroy.github.io/vanguard3.svg'
+						),
+
+						new Post(
+							'Wells Fargo',
+							'https://www.wellsfargo.com/',
+							'kironroy',
+							'https://kironroy.github.io/wells.svg'
+						)
 
 
 
+						// end of objects
 
 
 
-                ]
-            },
-            methods: {
-                toggleOnOff() {
-                    this.onOff = !this.onOff;
-                }
-            },
-            computed: {
-                filteredList() {
-                    return this.postList.filter((post) => {
-                        return post.title.toLowerCase().includes(this.keyword.toLowerCase());
-                });
-                }
-            }
-        });
-    }//]]>
 
+
+
+					]
+				},
+				methods: {
+					toggleOnOff() {
+						this.onOff = !this.onOff;
+					}
+				},
+				computed: {
+					filteredList() {
+						return this.postList.filter((post) => {
+							return post.title.toLowerCase().includes(this.keyword.toLowerCase());
+						});
+					}
+				}
+			});
+		} //]]>
 	</script>
 </head>
+
 <body>
-<a href="http://kironroy.github.io/"><img alt="Kiron Roy Logo" src="crest.svg" style="width:80px;height:80px;"></a>
-<div>
-	Search Business
-</div>
-<div id="app">
-	<div class="search-wrapper">
-		<br>
-		<input type="text" v-model="keyword" placeholder= "Search"/>
-		<label>Search</label>
+	<a href="http://kironroy.github.io"><img alt="Kiron Roy Logo" src="new_logo_sm2.svg"
+			style="width:80px;height:80px;"></a>
+	<div>
+		Search Business
 	</div>
-	<div class="wrapper">
-		<div class="card" v-for="post in filteredList">
-			<a v-bind:href="post.link">
-				<img v-bind:src="post.img"/>
-				<small>{{post.author}}</small>{{post.title}}
-			</a>
+	<div id="app">
+		<div class="search-wrapper">
+			<br>
+			<input type="text" v-model="keyword" placeholder="Search" />
+			<label>Search</label>
+		</div>
+		<div class="wrapper">
+			<div class="card" v-for="post in filteredList">
+				<a v-bind:href="post.link">
+					<img v-bind:src="post.img" />
+					<small>{{post.author}}</small>{{post.title}}
+				</a>
+			</div>
 		</div>
 	</div>
-</div>
 
 
-<script>
-    // tell the embed parent frame the height of the content
-    if (window.parent && window.parent.parent){
-        window.parent.parent.postMessage(["resultsFrame", {
-            height: document.body.getBoundingClientRect().height,
-            slug: "90dmpfv8"
-        }], "*")
-    }
-</script>
+	<script>
+		// tell the embed parent frame the height of the content
+		if (window.parent && window.parent.parent) {
+			window.parent.parent.postMessage(["resultsFrame", {
+				height: document.body.getBoundingClientRect().height,
+				slug: "90dmpfv8"
+			}], "*")
+		}
+	</script>
 </body>
+
 </html>
