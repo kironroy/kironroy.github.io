@@ -6,7 +6,7 @@
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="ally">
-            <rect id="biz_act" fill-opacity="0.993772645" fill="#BABABA" x="0" y="0" width="89" height="89" rx="8"></rect>
+            <rect id="biz_act" fill-opacity="0.993772645" fill="#f2f2f2" x="0" y="0" width="89" height="89" rx="8"></rect>
             <g id="Ally_Bank_logo" transform="translate(13.000000, 27.000000)" fill="#3E0046" fill-rule="nonzero">
                 <polygon id="rect3252" points="24 0 30 0 30 28 24 28"></polygon>
                 <polygon id="rect3254" points="33 0 39 0 39 28 33 28"></polygon>
