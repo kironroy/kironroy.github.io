@@ -13,602 +13,664 @@
   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═══╝  ╚══════╝╚══════╝
 
   -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta content="text/html; charset=utf-8" http-equiv="content-type">
-<title>Welcome to Archives</title>
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<link href='https://fonts.googleapis.com/css?family=Heebo:300' rel='stylesheet' type='text/css'>
-<link href="apple-touch-icon-192x192-precomposed.png" rel="icon" sizes="192x192"><!-- For third-generation iPad with high-resolution Retina display: -->
-<link href="apple-touch-icon-144x144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144"><!-- For iPhone with high-resolution Retina display: -->
-<link href="apple-touch-icon-114x114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114"><!-- For first- and second-generation iPad: -->
-<link href="apple-touch-icon-72x72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72"><!-- For iPhone: -->
-<link href="apple-touch-icon-iphone.png" rel="apple-touch-icon"><!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
-<link href="apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed"><!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]--><!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-<script type="text/javascript">
- if ( window.addEventListener ) {
-   var state = 0, hackers = [72,65,67,75,69,82,83];
-   window.addEventListener("keydown", function(e) {
-     if ( e.keyCode == hackers[state] ) state++;
-     else state = 0;
-     if ( state == 7 )
-       window.location = "https://www.youtube.com/watch?v=Ah7Mx38Sguo";
-     }, true);
- }
- </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <title>Welcome to Archives</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Heebo:300' rel='stylesheet' type='text/css'>
+  <link href="apple-touch-icon-192x192-precomposed.png" rel="icon" sizes="192x192">
+  <!-- For third-generation iPad with high-resolution Retina display: -->
+  <link href="apple-touch-icon-144x144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144">
+  <!-- For iPhone with high-resolution Retina display: -->
+  <link href="apple-touch-icon-114x114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114">
+  <!-- For first- and second-generation iPad: -->
+  <link href="apple-touch-icon-72x72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
+  <!-- For iPhone: -->
+  <link href="apple-touch-icon-iphone.png" rel="apple-touch-icon">
+  <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+  <link href="apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed">
+  <!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+  <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+  <script type="text/javascript">
+    if (window.addEventListener) {
+      //var state = 0, hackers = [72,65,67,75,69,82,83];
+      var state = 0,
+        mario = [77, 65, 82, 73, 79];
+
+      window.addEventListener("keydown", function (e) {
+        if (e.keyCode == mario[state]) state++;
+        else state = 0;
+        if (state == 5)
+          window.location = "https://www.youtube.com/watch?v=HU80R7jGanE";
+      }, true);
+    }
+  </script>
 </head>
 
 <title>Welcome to Archives</title>
 <style>
-body {
-  font-family: "Heebo", sans-serif;
-  font-weight: 300;
-  background-color: #32292C;
-  margin: 0;
-}
+  body {
+    font-family: "Heebo", sans-serif;
+    font-weight: 300;
+    background-color: #32292C;
+    margin: 0;
+  }
 
-* {
-  box-sizing: border-box;
-}
+  * {
+    box-sizing: border-box;
+  }
 
-h4 {
- color: white;
- text-align: center;
- font-family: "Heebo", sans-serif;
- font-weight: 300;
- font-size: 15px;
- }
+  h4 {
+    color: white;
+    text-align: center;
+    font-family: "Heebo", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+  }
 
-.row > .column {
-  padding: 0 px;
-}
+  .row>.column {
+    padding: 0 px;
+  }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
-.tap {
-  font-style: italic;
-  color: grey;
-}
+  .tap {
+    font-style: italic;
+    color: grey;
+  }
 
-.column {
-  float: center;
-  width: 70%;
-  padding: 10;
-}
+  .column {
+    float: center;
+    width: 70%;
+    padding: 10;
+  }
 
-/* The Modal (background) */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: black;
-}
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+  }
 
-/* Modal Content */
-.modal-content {
-  position: relative;
-  background-color: black;
-  margin: auto;
-  padding: 0;
-  width: 100%;
-  max-width: 1000px;
-}
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: black;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    max-width: 1000px;
+  }
 
-/* The Close Button */
-.close {
-  color: #EC1C24;
-  position: absolute;
-  top: 10px;
-  right: 25px;
-  font-size: 35px;
-  font-weight: bold;
-}
+  /* The Close Button */
+  .close {
+    color: #EC1C24;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
 
-.close:hover,
-.close:focus {
-  color: white;
-  text-decoration: none;
-  cursor: pointer;
-}
+  .close:hover,
+  .close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
 
-.mySlides {
-  display: none;
-}
+  .mySlides {
+    display: none;
+  }
 
-.cursor {
-  cursor: pointer
-}
+  .cursor {
+    cursor: pointer
+  }
 
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: #EC1C24;
-  font-weight: bold;
-  font-size: 50px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: #EC1C24;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0);
-}
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0);
+  }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #EC1C24;
-  font-size: 18px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #EC1C24;
+    font-size: 18px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
 
-img {
-  margin-bottom: -4px;
-}
+  img {
+    margin-bottom: -4px;
+  }
 
-.caption-container {
-  text-align: center;
-  background-color: black;
-  padding: 2px 16px;
-  color: white;
-}
+  .caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+  }
 
-.demo {
-  opacity: 0.6;
-}
+  .demo {
+    opacity: 0.6;
+  }
 
-.active,
-.demo:hover {
-  opacity: 1;
-}
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
 
-img.hover-shadow {
-  transition: 0.3s
-}
+  img.hover-shadow {
+    transition: 0.3s
+  }
 
-.hover-shadow:hover {
-  -box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
-}
+  .hover-shadow:hover {
+    -box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+  }
 </style>
+
 <body>
 
-<!-- first items user sees -->
+  <!-- first items user sees -->
 
-<h2 style="text-align:center">&nbsp;&nbsp;<a href="http://kironroy.github.io"><img alt="Kiron Roy Logo" src="https://kironroy.github.io/new_logo_sm2.svg" style="width:70px;height:70px;"></a></h2>
-<h4>&nbsp;&nbsp;Archives <div class="tap">&nbsp;&nbsp;<i class="fa fa-hand-o-up" aria-hidden="true"></i> tap or click a photo</div> </h4>
+  <h2 style="text-align:center">&nbsp;&nbsp;<a href="http://kironroy.github.io"><img alt="Kiron Roy Logo"
+        src="https://kironroy.github.io/new_logo_sm2.svg" style="width:70px;height:70px;"></a></h2>
+  <h4>&nbsp;&nbsp;Archives <div class="tap">&nbsp;&nbsp;<i class="fa fa-hand-o-up" aria-hidden="true"></i> tap or click
+      a photo</div>
+  </h4>
 
-<div class="row">
-  <center>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  <div class="row">
+    <center>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF1.jpg" style="width:100%"
+          onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF2.jpg" style="width:100%"
+          onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF3.jpg" style="width:100%"
+          onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF4.jpg" style="width:100%"
+          onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF5.jpg" style="width:100%"
+          onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF6.jpg" style="width:100%"
+          onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF7.jpg" style="width:100%"
+          onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF8.jpg" style="width:100%"
+          onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF9.jpg" style="width:100%"
+          onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF10.jpg" style="width:100%"
+          onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF11.jpg" style="width:100%"
+          onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF12.jpg" style="width:100%"
+          onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF13.jpg" style="width:100%"
+          onclick="openModal();currentSlide(13)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF14.jpg" style="width:100%"
+          onclick="openModal();currentSlide(14)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF15.jpg" style="width:100%"
+          onclick="openModal();currentSlide(15)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF16.jpg" style="width:100%"
+          onclick="openModal();currentSlide(16)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF17.jpg" style="width:100%"
+          onclick="openModal();currentSlide(17)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF18.jpg" style="width:100%"
+          onclick="openModal();currentSlide(18)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF19.jpg" style="width:100%"
+          onclick="openModal();currentSlide(19)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF20.jpg" style="width:100%"
+          onclick="openModal();currentSlide(20)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF21.jpg" style="width:100%"
+          onclick="openModal();currentSlide(21)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF22.jpg" style="width:100%"
+          onclick="openModal();currentSlide(22)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF23.jpg" style="width:100%"
+          onclick="openModal();currentSlide(23)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF24.jpg" style="width:100%"
+          onclick="openModal();currentSlide(24)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF25.jpg" style="width:100%"
+          onclick="openModal();currentSlide(25)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF26.jpg" style="width:100%"
+          onclick="openModal();currentSlide(26)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF27.jpg" style="width:100%"
+          onclick="openModal();currentSlide(27)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF28.jpg" style="width:100%"
+          onclick="openModal();currentSlide(28)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF29.jpg" style="width:100%"
+          onclick="openModal();currentSlide(29)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF30.jpg" style="width:100%"
+          onclick="openModal();currentSlide(31)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF32.jpg" style="width:100%"
+          onclick="openModal();currentSlide(32)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF33.jpg" style="width:100%"
+          onclick="openModal();currentSlide(33)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF34.jpg" style="width:100%"
+          onclick="openModal();currentSlide(34)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF35.jpg" style="width:100%"
+          onclick="openModal();currentSlide(35)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF36.jpg" style="width:100%"
+          onclick="openModal();currentSlide(36)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF37.jpg" style="width:100%"
+          onclick="openModal();currentSlide(37)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF38.jpg" style="width:100%"
+          onclick="openModal();currentSlide(38)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF39.jpg" style="width:100%"
+          onclick="openModal();currentSlide(39)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF40.jpg" style="width:100%"
+          onclick="openModal();currentSlide(40)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF41.jpg" style="width:100%"
+          onclick="openModal();currentSlide(41)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF42.jpg" style="width:100%"
+          onclick="openModal();currentSlide(42)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF43.jpg" style="width:100%"
+          onclick="openModal();currentSlide(43)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="https://kironroy.github.io/images/fulls/archF44.jpg" style="width:100%"
+          onclick="openModal();currentSlide(44)" class="hover-shadow cursor">
+      </div>
+    </center>
   </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
-  </div>
-   <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF5.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF6.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF7.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF8.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF9.jpg" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF10.jpg" style="width:100%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF11.jpg" style="width:100%" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF12.jpg" style="width:100%" onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF13.jpg" style="width:100%" onclick="openModal();currentSlide(13)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF14.jpg" style="width:100%" onclick="openModal();currentSlide(14)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF15.jpg" style="width:100%" onclick="openModal();currentSlide(15)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF16.jpg" style="width:100%" onclick="openModal();currentSlide(16)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF17.jpg" style="width:100%" onclick="openModal();currentSlide(17)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF18.jpg" style="width:100%" onclick="openModal();currentSlide(18)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF19.jpg" style="width:100%" onclick="openModal();currentSlide(19)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF20.jpg" style="width:100%" onclick="openModal();currentSlide(20)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF21.jpg" style="width:100%" onclick="openModal();currentSlide(21)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF22.jpg" style="width:100%" onclick="openModal();currentSlide(22)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF23.jpg" style="width:100%" onclick="openModal();currentSlide(23)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF24.jpg" style="width:100%" onclick="openModal();currentSlide(24)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF25.jpg" style="width:100%" onclick="openModal();currentSlide(25)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF26.jpg" style="width:100%" onclick="openModal();currentSlide(26)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF27.jpg" style="width:100%" onclick="openModal();currentSlide(27)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF28.jpg" style="width:100%" onclick="openModal();currentSlide(28)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF29.jpg" style="width:100%" onclick="openModal();currentSlide(29)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF30.jpg" style="width:100%" onclick="openModal();currentSlide(31)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF32.jpg" style="width:100%" onclick="openModal();currentSlide(32)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF33.jpg" style="width:100%" onclick="openModal();currentSlide(33)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF34.jpg" style="width:100%" onclick="openModal();currentSlide(34)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF35.jpg" style="width:100%" onclick="openModal();currentSlide(35)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF36.jpg" style="width:100%" onclick="openModal();currentSlide(36)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF37.jpg" style="width:100%" onclick="openModal();currentSlide(37)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF38.jpg" style="width:100%" onclick="openModal();currentSlide(38)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF39.jpg" style="width:100%" onclick="openModal();currentSlide(39)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF40.jpg" style="width:100%" onclick="openModal();currentSlide(40)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF41.jpg" style="width:100%" onclick="openModal();currentSlide(41)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF42.jpg" style="width:100%" onclick="openModal();currentSlide(42)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF43.jpg" style="width:100%" onclick="openModal();currentSlide(43)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="https://kironroy.github.io/images/fulls/archF44.jpg" style="width:100%" onclick="openModal();currentSlide(44)" class="hover-shadow cursor">
-  </div>
- </center>
-</div>
 
-<!-- inside styling on thumbs 21 items -->
-<div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="modal-content">
+  <!-- inside styling on thumbs 21 items -->
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
 
-    <div class="mySlides">
-      <div class="numbertext">1/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF1.jpg" style="width:100%">
+      <div class="mySlides">
+        <div class="numbertext">1/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF1.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF2.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF3.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF4.jpg" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">5/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF5.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF6.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">7/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF7.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">8/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF8.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">9/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF9.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">10/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF10.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">11/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF11.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">12/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF12.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">13/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF13.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">14/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF14.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">15/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF15.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">16/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF16.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">17/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF17.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">18/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF18.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">19/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF19.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">20/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF20.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">21/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF21.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">22/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF22.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">23/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF23.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">24/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF24.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">25/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF25.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">26/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF26.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">27/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF27.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">28/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF28.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">29/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF29.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">30/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF30.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">31/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF31.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">32/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF32.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">33/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF33.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">34/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF34.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">35/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF35.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">36/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF36.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">37/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF37.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">38/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF38.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">39/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF39.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">40/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF40.jpg" style="width:100%">
+      </div>
+
+
+      <div class="mySlides">
+        <div class="numbertext">41/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF41.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">42/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF42.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">43/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF43.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">43/44</div>
+        <img src="https://kironroy.github.io/images/fulls/archF44.jpg" style="width:100%">
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+
     </div>
 
-    <div class="mySlides">
-      <div class="numbertext">2/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF2.jpg" style="width:100%">
-    </div>
+    <script>
+      function openModal() {
+        document.getElementById('myModal').style.display = "block";
+      }
 
-    <div class="mySlides">
-      <div class="numbertext">3/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF3.jpg" style="width:100%">
-    </div>
+      function closeModal() {
+        document.getElementById('myModal').style.display = "none";
+      }
 
-    <div class="mySlides">
-      <div class="numbertext">4/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF4.jpg" style="width:100%">
-    </div>
-     <div class="mySlides">
-      <div class="numbertext">5/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF5.jpg" style="width:100%">
-    </div>
+      var slideIndex = 1;
+      showSlides(slideIndex);
 
-    <div class="mySlides">
-      <div class="numbertext">6/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF6.jpg" style="width:100%">
-    </div>
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
 
-    <div class="mySlides">
-      <div class="numbertext">7/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF7.jpg" style="width:100%">
-    </div>
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
 
-    <div class="mySlides">
-      <div class="numbertext">8/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF8.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">9/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF9.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">10/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF10.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">11/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF11.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">12/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF12.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">13/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF13.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">14/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF14.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">15/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF15.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">16/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF16.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">17/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF17.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">18/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF18.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">19/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF19.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">20/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF20.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">21/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF21.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">22/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF22.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">23/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF23.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">24/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF24.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">25/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF25.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">26/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF26.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">27/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF27.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">28/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF28.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">29/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF29.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">30/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF30.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">31/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF31.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">32/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF32.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">33/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF33.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">34/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF34.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">35/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF35.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">36/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF36.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">37/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF37.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">38/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF38.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">39/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF39.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">40/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF40.jpg" style="width:100%">
-    </div>
-
-
-    <div class="mySlides">
-      <div class="numbertext">41/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF41.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">42/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF42.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">43/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF43.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">43/44</div>
-      <img src="https://kironroy.github.io/images/fulls/archF44.jpg" style="width:100%">
-    </div>
-
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
-
-
-</div>
-
-<script>
-function openModal() {
-  document.getElementById('myModal').style.display = "block";
-}
-
-function closeModal() {
-  document.getElementById('myModal').style.display = "none";
-}
-
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
-</script>
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {
+          slideIndex = 1
+        }
+        if (n < 1) {
+          slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        captionText.innerHTML = dots[slideIndex - 1].alt;
+      }
+    </script>
 
 </body>
+
 </html>
