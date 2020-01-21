@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="89px" height="89px" viewBox="0 0 89 89" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>union</title>
+    <desc>Created with Sketch.</desc>
+    <g id="union" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="89" height="89"></rect>
+        <g id="Group" transform="translate(44.000000, 44.000000) rotate(-180.000000) translate(-44.000000, -44.000000) translate(12.000000, 5.000000)" fill="#DB1F26">
+            <path d="M64,59 L64,30.2383597 C64,6.5676963 43.618022,-2.3724397 25,0.527513944 C31.5314046,2.2689135 37.5656325,6.86268748 37.5656325,19.3736442 L37.5656325,32.5626048 C37.5656325,45.0069505 41.279702,56.9231669 64,59" id="Path"></path>
+            <path d="M0,78 L0,27.9530335 C0,5.25023821 13.069601,1.84529447 17.3301858,1.14147928 C21.8032288,0.404375535 27.512184,2.59904249 30,6.52233661 C26.8816631,8.48160592 26.6006701,15.0798733 26.6006701,22.8479957 L26.6006701,52.4676774 C26.6006701,71.5824419 13.5836125,78 0,78" id="Path"></path>
+        </g>
+    </g>
+</svg>
