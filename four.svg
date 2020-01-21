@@ -11,7 +11,7 @@
             <rect id="Rectangle-Copy" fill="#FFFFFF" x="48" y="10" width="32" height="32"></rect>
             <rect id="Rectangle-Copy-2" fill="#FFFFFF" x="48" y="47" width="32" height="32"></rect>
             <rect id="Rectangle-Copy-3" fill="#FFFFFF" x="10" y="47" width="32" height="32"></rect>
-            <path d="M10.5,40.5 L41.5,10.5" id="Line" stroke="#EC1C24" stroke-width="5" stroke-linecap="square"></path>
+            <path d="M10.5,40.5 L41.5,10.5" id="Line" stroke="#FFFFFF" stroke-width="5" stroke-linecap="square"></path>
         </g>
     </g>
 </svg>
