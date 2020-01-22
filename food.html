@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Food choices</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <script
+    type="text/javascript"
+    src="//vuejs.org/js/vue.js"
+    
+  ></script>
+
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+
+
+  <style id="compiled-css" type="text/css">
+      * {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe  UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16pt;
+  letter-spacing: -0.50px;
+  line-height: 1.55em;
+  padding: 8px 12px;
+}
+
+.flip-list-move {
+  transition: transform 1s;
+}
+
+button {
+  background-color: #5042D3;
+  color: #ffffff;
+  border-radius: 6px;
+  border-color:#5042D3;
+
+}
+  </style>
+
+
+  <!-- TODO: Missing CoffeeScript 2 -->
+
+  <script type="text/javascript">//<![CDATA[
+
+    window.onload=function(){
+      
+new Vue({
+  el: '#flip-list-demo',
+  data: {
+    items: 
+    ["Humus + black olives + red bell pepper diced + red grapes"
+    ,"Salmon + french green beans or baked rosemary potato onion yellow squash dish"
+    ,"Steak + salad or red tomatoes"
+    ,"Chicken sausage + red tomatoes or green salad with apples italian dressing "
+    ,"Chicken soup + bread"
+    ,"Shrimp fried rice"
+    ,"Shake and bake chicken + pineapples"
+    
+    ]
+  },
+  methods: {
+    shuffle: function () {
+      this.items = _.shuffle(this.items)
+    }
+  }
+})
+
+    }
+
+  //]]></script>
+
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.14.1/lodash.min.js"></script>
+
+<div id="flip-list-demo" class="demo">
+  <button v-on:click="shuffle">Shuffle</button>
+  <transition-group name="flip-list" tag="ul">
+    <li v-for="item in items" v-bind:key="item">
+      {{ item }}
+    </li>
+  </transition-group>
+</div>
+
+  
+  <script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: "61zdyu0j"
+      }], "*")
+    }
+
+    // always overwrite window.name, in case users try to set it manually
+    window.name = "result"
+  </script>
+</body>
+</html>
