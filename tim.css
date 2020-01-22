@@ -1,69 +1,73 @@
-
-
 body {
-  background-color: #F4F0ED;
+  background-color: #ffffff;
   marigin-top: 60px;
   font-family: 'Heebo', arial;
   color: #32292C;
 
 }
 
+a:link {
+
+  text-decoration: none;
+  color: #5042d3;
+}
+
 h1 {
   text-align: center;
-  font-family: 'Heebo', arial;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 30px;
 
 }
 
 h2 {
   text-align: center;
-   color: #32292C;
-  font-family: 'Heebo', arial;
- font-size: 58px;
-  font-weignt; 300px;
+  color: #32292C;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 58px;
+  font-weignt;
+  300px;
 
 
 }
 
 h4 {
   text-align: center;
-  font-family: 'Heebo', arial;
-  font-weight:300;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 300;
 }
 
 h5 {
   text-align: center;
-  font-family: 'Heebo', arial;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 300;
 }
 
 img {
-    display: block;
-    margin: auto;
-    width: 100%;
+  display: block;
+  margin: auto;
+  width: 100%;
 
 
 }
 
 p {
-    text-align: left;
-    margin: auto;
-    width: 50%;
-    color: #F9F7F6;
-    font-family: 'Heebo', arial;
+  text-align: left;
+  margin: auto;
+  width: 50%;
+  color: #ffffff font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 ul {
-    text-align: left;
-    margin: auto;
-    width: 50%;
+  text-align: left;
+  margin: auto;
+  width: 50%;
 }
 
 p.italic {
-    font-style: italic;
-    font-size: 16px;
-    font-family: 'Heebo', arial;
+  font-style: italic;
+  font-size: 16px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 300;
-   color: #32292C;
+  color: #32292C;
 
 }
