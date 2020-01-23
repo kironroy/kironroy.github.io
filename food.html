@@ -40,8 +40,21 @@
   transition: transform 1s;
 }
 
+
+
 button {
   background-color: #5042D3;
+  color: #ffffff;
+  padding: 0.70em 2.5em 0.70em 2.5em;
+  border-color:#ffffff;
+  border: 0;
+  box-shadow: none;
+  border-radius: 0px;
+
+}
+
+buttonTwo {
+  background-color: tomato;
   color: #ffffff;
   padding: 0.70em 2.5em 0.70em 2.5em;
   border-color:#ffffff;
@@ -87,7 +100,28 @@ new Vue({
   }
 })
 
+
+
+new Vue({
+  el: '#flip-list-demo2',
+  data: {
+    items: 
+    ["Jimmy John's Sandwich"
+    ,"Korean Wings"
+    ,"Chili"
+    ,"Taco Bell "
+    ,"Sushi"
+    ,"India Grill"
+    ]
+  },
+  methods: {
+    shuffle: function () {
+      this.items = _.shuffle(this.items)
     }
+  }
+})
+
+} // end bracket
 
   //]]></script>
 
@@ -96,14 +130,27 @@ new Vue({
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.14.1/lodash.min.js"></script>
 
 <div id="flip-list-demo" class="demo">
-  <center>Food Choices</center>
+  <center><h2>Food Choices</h2></center>
   <br>
   <center>
-  <button v-on:click="shuffle">Shuffle</button>
+  <button v-on:click="shuffle">Cook Prepare</button>
 </center>
   <transition-group name="flip-list" tag="ul">
     <li v-for="item in items" v-bind:key="item">
       {{ item }}
+    </li>
+  </transition-group>
+</div>
+
+<div id="flip-list-demo2" class="demo">
+  <br>
+  <center>
+  <buttonTwo v-on:click="shuffle">Carry Out</buttonTwo>
+</center>
+  <transition-group name="flip-list" tag="ul">
+    <li v-for="item in items" v-bind:key="item">
+     <i> {{ item }} </i> 
+    
     </li>
   </transition-group>
 </div>
