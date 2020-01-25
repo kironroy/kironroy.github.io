@@ -1,133 +1,149 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Dead</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
-    <link href="apple-touch-icon-192x192-precomposed.png" rel="icon" sizes="192x192"><!-- For third-generation iPad with high-resolution Retina display: -->
-    <link href="apple-touch-icon-144x144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144"><!-- For iPhone with high-resolution Retina display: -->
-    <link href="apple-touch-icon-114x114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114"><!-- For first- and second-generation iPad: -->
-    <link href="apple-touch-icon-72x72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72"><!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
-    <link href="apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed"><!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 
-    <!-- These are the styles for the comic -->
-    <style>
-      body {
-        background-color: #32292C;
-        color: #F9F7F6;
-        font-family: 'VT323', monospace;
-        font-size: 120%;
-        line-height: 1.2;
-        text-align: center;
-        padding: 40px 10 10 20px;
-      }
-      h1 {
-        -text-transform: uppercase;
-        font-size: 45px;
-        color: #EC1C24;
+<head>
+  <title>Dead</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+    rel="stylesheet">
+  <link href="apple-touch-icon-192x192-precomposed.png" rel="icon" sizes="192x192">
+  <!-- For third-generation iPad with high-resolution Retina display: -->
+  <link href="apple-touch-icon-144x144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144">
+  <!-- For iPhone with high-resolution Retina display: -->
+  <link href="apple-touch-icon-114x114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114">
+  <!-- For first- and second-generation iPad: -->
+  <link href="apple-touch-icon-72x72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
+  <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+  <link href="apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed">
+  <!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 
-      }
-      .comic {
-        max-width: 826px;
-        margin: 40px auto 0;
-      }
-      .scene {
-        width: 280px;
-        height: 230px;
-        border: 5px solid black;
-        -border-radius: 8px;
-        background: white;
-        margin: 8px;
-        display: inline-block;
-        position: relative;
-      }
-      .scene img {
-        width: 100%;
-        height: 100%;
-        display: block;
-      }
-      .caption {
-        padding: 0px;
-        margin: 0;
-        position: absolute;
-        left: 0;
-        right: 0;
-        -background: #FFFF66;
-        text-align: center;
-        top: 0;
+  <!-- These are the styles for the comic -->
+  <style>
+    body {
+      background-color: #32292C;
+      color: #F9F7F6;
+      font-family: 'VT323', monospace;
+      font-size: 120%;
+      line-height: 1.2;
+      text-align: center;
+      padding: 40px 10 10 20px;
+    }
 
-      }
-      .caption.bottom {
-        bottom: 0;
-        top:auto;
-        -border-top: 1px solid black;
-        color:#FFFF66;
-        font-style: italic;
-      }
-      .caption.top {
-        top: 0;
-        -border-bottom: 1px solid black;
-      }
-ght:-15px;
-      }
-      footer {
-        clear: both;
-        text-align: center;
-      }
+    h1 {
+      font-size: 45px;
+      color: #EC1C24;
 
-      a:link {
-        text-decoration: none;
-      }
+    }
 
+    .comic {
+      max-width: 826px;
+      margin: 40px auto 0;
+    }
 
+    .scene {
+      width: 280px;
+      height: 230px;
+      border: 5px solid black;
+      -border-radius: 8px;
+      background: white;
+      margin: 8px;
+      display: inline-block;
+      position: relative;
+    }
 
-    </style>
+    .scene img {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
 
-  </head>
-  <body>
+    .caption {
+      padding: 0px;
+      margin: 0;
+      position: absolute;
+      left: 0;
+      right: 0;
+      -background: #FFFF66;
+      text-align: center;
+      top: 0;
 
-    <!-- Step 1: This is where you can edit the title of your comic -->
-    &nbsp;<center><a href="http://kironroy.github.io"><img alt="Kiron Roy Logo" src="https://kironroy.github.io/new_logo_sm.svg" style="width:90px;height:90px;"></a></center>
-    <h1> You're Dead :(</h1>
+    }
 
-    <!--
+    .caption.bottom {
+      bottom: 0;
+      top: auto;
+      -border-top: 1px solid black;
+      color: #FFFF66;
+      font-style: italic;
+    }
+
+    .caption.top {
+      top: 0;
+    }
+
+    ght:-15px;
+    }
+
+    footer {
+      clear: both;
+      text-align: center;
+    }
+
+    a:link {
+      text-decoration: none;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Step 1: This is where you can edit the title of your comic -->
+  &nbsp;
+  <center>
+    <a href="http://kironroy.github.io/projects"><img alt="Kiron Roy Logo"
+        src="https://kironroy.github.io/new_logo_sm2.svg" style="width:90px;height:90px;"></a>
+  </center>
+  <h1> You're Dead :(</h1>
+
+  <!--
 This is where the comic starts.
 The 'comic' <div> wraps around each comic 'scene' to contain them all.
 -->
-    <div class="comic">
+  <div class="comic">
 
-      <!--
+    <!--
 Steps 2, 3, and 4:
 The below HTML is the first scene of the comic.
 Start by changing the images in the scene to one of your own photos.
 -->
-    <div>  GAME OVER ! </div>
+    <div> GAME OVER ! </div>
 
-      <div class="scene">
-        <p class="caption bottom">Your grave site</p>
-        <!--<p class="speech left">Look at the view!</p>-->
-        <img src="https://kironroy.github.io/images/cartoons/cross8bit.jpg" alt="" />
-      </div>
+    <div class="scene">
+      <p class="caption bottom">Your grave site</p>
+      <!--<p class="speech left">Look at the view!</p>-->
+      <img src="https://kironroy.github.io/images/cartoons/cross8bit.jpg" alt="" />
+    </div>
 
 
-      <!-- This is the second scene in the comic-->
-      <div class="scene">
-        <p class="caption bottom">Play Again? </p>
-        <!--<p class="speech left">Look at the view!</p>--><a href="https://kironroy.github.io/forest_game">
+    <!-- This is the second scene in the comic-->
+    <div class="scene">
+      <p class="caption bottom">Play Again? </p>
+      <!--<p class="speech left">Look at the view!</p>--><a href="https://kironroy.github.io/forest_game">
         <img src="https://kironroy.github.io/images/cartoons/play_again.jpg" alt="" /> </a>
-      </div>
+    </div>
 
-      <div class="scene">
-        <p class="caption bottom">Exit</p>
-        <a href="https://www.google.com/">
+    <div class="scene">
+      <p class="caption bottom">Exit</p>
+      <a href="https://dev.to/kironroy">
         <img src="https://kironroy.github.io/images/cartoons/exit.jpg" alt="" /> </a>
-        <br>
+      <br>
 
-      </div>
+    </div>
 
 
-      <!--
+    <!--
 This is the end of the comic :(
 Want to create a larger comic?
 
@@ -135,11 +151,11 @@ Step 6:
 Copy the HTML for a 'scene' and paste it below this comment
 -->
 
-    </div>
+  </div>
 
-    <!-- Images Citied -->
-    Images cited <span style="color:#FFFF66;">in </span>html code:
-    <!--
+  <!-- Images Citied -->
+  Images cited <span style="color:#FFFF66;">in </span>html code:
+  <!--
 bob =https://i.ytimg.com/vi/r_HPZ6ooyk8/maxresdefault.jpg
 
 sling shot: https://huckberry.imgix.net/spree/products/164017/original/ivSb3Wm7z3_slingshot_0_original.jpg
@@ -149,11 +165,12 @@ https://www.tattooedmomphilly.com/wp-content/uploads/2017/03/firewalkwithme.jpg
 
 
 -->
-    <br>
-    <footer>
+  <br>
+  <footer>
 
-    </footer>
-    <br>
+  </footer>
+  <br>
 
-  </body>
+</body>
+
 </html>

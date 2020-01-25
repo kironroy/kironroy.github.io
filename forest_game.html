@@ -1,99 +1,107 @@
 <!--<!DOCTYPE html>-->
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>8 bit Game</title>
 	<meta content="width=device-width, initial-scale=1" name="viewport">
 	<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
-    <!-- ios icons -->
-    <link href="https://kironroy.github.io/apple-touch-icon.png" rel="apple-touch-icon" />
-    <link href="https://kironroy.github.io/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
-    <link href="https://kironroy.github.io/apple-touch-icon-167x167.png" rel="apple-touch-icon" sizes="167x167" />
-    <link href="https://kironroy.github.io/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
-    <link href="https://kironroy.github.io/icon-hires.png" rel="icon" sizes="192x192" />
-    <link href="https://kironroy.github.io/icon-normal.png" rel="icon" sizes="128x128" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+		rel="stylesheet">
+	<!-- ios icons -->
+	<link href="https://kironroy.github.io/apple-touch-icon.png" rel="apple-touch-icon" />
+	<link href="https://kironroy.github.io/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+	<link href="https://kironroy.github.io/apple-touch-icon-167x167.png" rel="apple-touch-icon" sizes="167x167" />
+	<link href="https://kironroy.github.io/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+	<link href="https://kironroy.github.io/icon-hires.png" rel="icon" sizes="192x192" />
+	<link href="https://kironroy.github.io/icon-normal.png" rel="icon" sizes="128x128" />
 	<!-- These are the styles for the comic -->
 
 	<style>
-	     body {
-	       background-color: #32292C;
-	       color: #F9F7F6;
-	       font-family: 'VT323', monospace;
-	       font-size: 120%;
-	       line-height: 1.2;
-	       text-align: center;
-	       padding: 40px 10 10 20px;
-	     }
-	     h1 {
-	       -text-transform: uppercase;
-	       font-size: 45px;
-	       color: #FFFF66;
+		body {
+			background-color: #32292C;
+			color: #F9F7F6;
+			font-family: 'VT323', monospace;
+			font-size: 120%;
+			line-height: 1.2;
+			text-align: center;
+			padding: 40px 10 10 20px;
+		}
 
-	     }
-	     .comic {
-	       max-width: 826px;
-	       margin: 40px auto 0;
-	     }
-	     .scene {
-	       width: 280px;
-	       height: 230px;
-	       border: 5px solid black;
-	       -border-radius: 8px;
-	       background: white;
-	       margin: 8px;
-	       display: inline-block;
-	       position: relative;
-	     }
-	     .scene img {
-	       width: 100%;
-	       height: 100%;
-	       display: block;
-	     }
-	     .caption {
-	       padding: 0px;
-	       margin: 0;
-	       position: absolute;
-	       left: 0;
-	       right: 0;
-	       -background: #FFFF66;
-	       text-align: center;
-	       top: 0;
+		h1 {
+			font-size: 45px;
+			color: #FFFF66;
 
-	     }
-	     .caption.bottom {
-	       bottom: 0;
-	       top:auto;
-	       -border-top: 1px solid black;
-	       color:#FFFF66;
-	       font-style: italic;
-	     }
-	     .caption.top {
-	       top: 0;
-	       -border-bottom: 1px solid black;
-	     }
+		}
 
-	     }
-	     footer {
-	       clear: both;
-	       text-align: center;
-	     }
+		.comic {
+			max-width: 826px;
+			margin: 40px auto 0;
+		}
 
-	     a:link {
-	       text-decoration: none;
-	     }
+		.scene {
+			width: 280px;
+			height: 230px;
+			border: 5px solid black;
+			-border-radius: 8px;
+			background: white;
+			margin: 8px;
+			display: inline-block;
+			position: relative;
+		}
 
+		.scene img {
+			width: 100%;
+			height: 100%;
+			display: block;
+		}
 
+		.caption {
+			padding: 0px;
+			margin: 0;
+			position: absolute;
+			left: 0;
+			right: 0;
+			-background: #FFFF66;
+			text-align: center;
+			top: 0;
 
+		}
+
+		.caption.bottom {
+			bottom: 0;
+			top: auto;
+			-border-top: 1px solid black;
+			color: #FFFF66;
+			font-style: italic;
+		}
+
+		.caption.top {
+			top: 0;
+		}
+
+		}
+
+		footer {
+			clear: both;
+			text-align: center;
+		}
+
+		a:link {
+			text-decoration: none;
+		}
 	</style>
 </head>
+
 <body>
 	<!-- Step 1: This is where you can edit the title of your comic -->
 	&nbsp;
 	<center>
-		<a href="http://kironroy.github.io/projects"><img alt="Kiron Roy Logo" src="https://kironroy.github.io/new_logo_sm2.svg" style="width:90px;height:90px;"></a>
+		<a href="http://kironroy.github.io/projects"><img alt="Kiron Roy Logo"
+				src="https://kironroy.github.io/new_logo_sm2.svg" style="width:90px;height:90px;"></a>
 	</center>
-	<h1>8 bit Game</h1><!--
+	<h1>8 bit Game</h1>
+	<!--
 This is where the comic starts.
 The 'comic' <div> wraps around each comic 'scene' to contain them all.
 -->
@@ -107,20 +115,27 @@ Start by changing the images in the scene to one of your own photos.
 			You're in the Redwood forest, home of the world's tallests trees. But it's a weird place
 		</div><br>
 		<div class="scene">
-		<p class="caption bottom">Bob from Twin Peaks is here</p><!--<p class="speech left">Look at the view!</p>-->
-		<img alt="" src="https://kironroy.github.io/images/cartoons/bob.jpg"></div>
+			<p class="caption bottom">Bob from Twin Peaks is here</p>
+			<!--<p class="speech left">Look at the view!</p>-->
+			<img alt="" src="https://kironroy.github.io/images/cartoons/bob.jpg">
+		</div>
 		<div>
 			Either kill Bob or reason with him
 		</div><!-- This is the second scene in the comic-->
 		<div class="scene">
-			<p class="caption bottom">Kill with sling shot?</p><!--<p class="speech left">Look at the view!</p>--> <a href="https://kironroy.github.io/dead"><img alt="" src="https://kironroy.github.io/images/cartoons/sling.jpg"></a>
+			<p class="caption bottom">Kill with sling shot?</p>
+			<!--<p class="speech left">Look at the view!</p>--> <a href="https://kironroy.github.io/dead"><img alt=""
+					src="https://kironroy.github.io/images/cartoons/sling.jpg"></a>
 		</div>
 		<div class="scene">
-			<p class="caption bottom">Reason with him?</p><a href="http://www.instructables.com/id/Create-Your-Own-Adventure-Game-HTML/"><img alt="" src="https://kironroy.github.io/images/cartoons/fire.jpg"></a><br>
+			<p class="caption bottom">Reason with him?</p><a
+				href="http://www.instructables.com/id/Create-Your-Own-Adventure-Game-HTML/"><img alt=""
+					src="https://kironroy.github.io/images/cartoons/fire.jpg"></a><br>
 		</div>
 		<div>
 			Images cited <span style="color:#FFFF66;">in</span> html code:
-		</div><!--
+		</div>
+		<!--
 This is the end of the comic :(
 Want to create a larger comic?
 
@@ -131,4 +146,5 @@ Copy the HTML for a 'scene' and paste it below this comment
 	<br>
 	<footer></footer><br>
 </body>
+
 </html>
