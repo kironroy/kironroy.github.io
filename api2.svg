@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="69px" height="74px" viewBox="0 0 69 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-7.000000, -5.000000)">
+            <g id="Group-2" transform="translate(7.000000, 5.000000)">
+                <ellipse id="Oval" fill="#9013FE" cx="42" cy="21.5" rx="21" ry="21.5"></ellipse>
+                <circle id="Oval-Copy" fill="#9013FE" cx="22.5" cy="21.5" r="14.5"></circle>
+                <rect id="Rectangle" fill="#9013FE" x="0" y="19" width="69" height="24" rx="12"></rect>
+                <g id="Group" transform="translate(10.000000, 22.000000)" stroke="#9013FE">
+                    <polyline id="Path" stroke-width="1.5" points="0 0 0 16.1001434 11.6828613 34.3901367 11.6828613 44.1300659"></polyline>
+                    <ellipse id="Oval" stroke-width="1.4" cx="11.75" cy="47.2956081" rx="3" ry="3.1875"></ellipse>
+                </g>
+                <g id="Group-Copy" transform="translate(37.500000, 42.500000) scale(-1, 1) translate(-37.500000, -42.500000) translate(30.000000, 17.000000)" stroke="#9013FE">
+                    <polyline id="Path" stroke-width="1.5" points="0 0 0 16.1001434 11.6828613 34.3901367 11.6828613 44.1300659"></polyline>
+                    <ellipse id="Oval" stroke-width="1.4" cx="11.75" cy="47.2956081" rx="3" ry="3.1875"></ellipse>
+                </g>
+                <g id="Group-Copy-4" transform="translate(47.500000, 31.500000) scale(-1, 1) translate(-47.500000, -31.500000) translate(40.000000, 6.000000)" stroke="#9013FE">
+                    <polyline id="Path" stroke-width="1.5" points="0 0 0 16.1001434 11.6828613 34.3901367 11.6828613 44.1300659"></polyline>
+                    <ellipse id="Oval" stroke-width="1.4" cx="11.75" cy="47.2956081" rx="3" ry="3.1875"></ellipse>
+                </g>
+                <g id="Group-Copy-5" transform="translate(30.500000, 31.500000) scale(-1, 1) translate(-30.500000, -31.500000) translate(23.000000, 6.000000)" stroke="#9013FE">
+                    <polyline id="Path" stroke-width="1.5" points="0 0 0 16.1001434 11.6828613 34.3901367 11.6828613 44.1300659"></polyline>
+                    <ellipse id="Oval" stroke-width="1.4" cx="11.75" cy="47.2956081" rx="3" ry="3.1875"></ellipse>
+                </g>
+                <g id="Group-Copy-2" transform="translate(52.500000, 47.500000) scale(-1, 1) translate(-52.500000, -47.500000) translate(45.000000, 22.000000)" stroke="#9013FE">
+                    <polyline id="Path" stroke-width="1.5" points="0 0 0 16.1001434 11.6828613 34.3901367 11.6828613 44.1300659"></polyline>
+                    <ellipse id="Oval" stroke-width="1.4" cx="11.75" cy="47.2956081" rx="3" ry="3.1875"></ellipse>
+                </g>
+                <text id="API" font-family="ArialMT, Arial" font-size="18" font-weight="normal" letter-spacing="-0.353684098" fill="#FFFFFF">
+                    <tspan x="20.0241785" y="32">API</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
