@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>webprojectslogo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="199.298519%" gradientTransform="translate(0.500000,0.000000),scale(1.000000,0.501760),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-1">
+            <stop stop-color="#F45C5C" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="199.298519%" gradientTransform="translate(0.500000,0.000000),scale(1.000000,0.501760),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-2">
+            <stop stop-color="#6161CF" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="199.298519%" gradientTransform="translate(0.500000,0.000000),scale(1.000000,0.501760),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-3">
+            <stop stop-color="#5C83F4" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="199.298519%" gradientTransform="translate(0.500000,0.000000),scale(1.000000,0.501760),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-4">
+            <stop stop-color="#5CF479" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="199.298519%" gradientTransform="translate(0.500000,0.000000),scale(1.000000,0.501760),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-5">
+            <stop stop-color="#99F45C" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="174.830273%" id="radialGradient-6">
+            <stop stop-color="#2827A3" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="154.552168%" id="radialGradient-7">
+            <stop stop-color="#4DE425" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </radialGradient>
+        <circle id="path-8" cx="11" cy="12" r="11"></circle>
+        <filter x="-31.8%" y="-22.7%" width="163.6%" height="163.6%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-27.3%" y="-18.2%" width="154.5%" height="154.5%" filterUnits="objectBoundingBox" id="filter-10">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="150.512096%" id="radialGradient-11">
+            <stop stop-color="#DA2B2B" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="webprojectslogo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#000000" x="0" y="0" width="80" height="80"></rect>
+        <polyline id="Path" stroke="url(#radialGradient-1)" points="24.6699219 -27 -0.847229033 23.8553039 -48 117.830078"></polyline>
+        <polyline id="Path-Copy" stroke="url(#radialGradient-1)" points="39.6699219 -27 14.152771 23.8553039 -33 117.830078"></polyline>
+        <polyline id="Path-Copy-2" stroke="url(#radialGradient-1)" points="54.6699219 -27 29.152771 23.8553039 -18 117.830078"></polyline>
+        <polyline id="Path-Copy-3" stroke="url(#radialGradient-2)" points="69.6699219 -27 44.152771 23.8553039 -3 117.830078"></polyline>
+        <polyline id="Path-Copy-4" stroke="url(#radialGradient-3)" points="84.6699219 -27 59.152771 23.8553039 12 117.830078"></polyline>
+        <polyline id="Path-Copy-5" stroke="url(#radialGradient-4)" points="99.6699219 -27 74.152771 23.8553039 27 117.830078"></polyline>
+        <polyline id="Path-Copy-6" stroke="url(#radialGradient-5)" points="114.669922 -27 89.152771 23.8553039 42 117.830078"></polyline>
+        <g id="shapes" transform="translate(2.000000, 29.000000)">
+            <rect id="Rectangle" stroke="url(#radialGradient-6)" stroke-width="2" fill="#000000" x="28" y="1" width="20" height="20"></rect>
+            <g id="Oval">
+                <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                <use fill="#000000" fill-rule="evenodd" xlink:href="#path-8"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-8"></use>
+                <circle stroke="url(#radialGradient-7)" stroke-width="2" stroke-linejoin="square" cx="11" cy="12" r="10"></circle>
+            </g>
+            <polygon id="Triangle" stroke="url(#radialGradient-11)" stroke-width="2" fill="#000000" points="66.5 2 76 21 57 21"></polygon>
+        </g>
+    </g>
+</svg>
