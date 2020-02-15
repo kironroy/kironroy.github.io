@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="415px" height="115px" viewBox="0 0 415 115" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>design</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="88.3914096%" gradientTransform="translate(0.500000,0.000000),scale(1.000000,0.815476),rotate(87.291359),translate(-0.500000,-0.000000)" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#D2A411" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="51.6999737%" cy="29.3022502%" fx="51.6999737%" fy="29.3022502%" r="52.4185328%" gradientTransform="translate(0.517000,0.293023),scale(1.000000,0.815476),rotate(87.291359),translate(-0.517000,-0.293023)" id="radialGradient-2">
+            <stop stop-color="#355C98" offset="0%"></stop>
+            <stop stop-color="#D2A411" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="88.3914096%" gradientTransform="translate(0.500000,0.000000),scale(1.000000,0.815476),rotate(87.291359),translate(-0.500000,-0.000000)" id="radialGradient-3">
+            <stop stop-color="#355C98" offset="40.6972543%"></stop>
+            <stop stop-color="#D2A411" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="94.2974453%" cy="71.1774554%" fx="94.2974453%" fy="71.1774554%" r="35.8015107%" gradientTransform="translate(0.942974,0.711775),scale(1.000000,0.815476),rotate(80.834747),scale(1.000000,1.105179),translate(-0.942974,-0.711775)" id="radialGradient-4">
+            <stop stop-color="#983550" offset="0%"></stop>
+            <stop stop-color="#651B0E" offset="46.5216972%"></stop>
+            <stop stop-color="#D2A411" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="94.2974453%" cy="71.1774554%" fx="94.2974453%" fy="71.1774554%" r="35.8015107%" gradientTransform="translate(0.942974,0.711775),scale(1.000000,0.815476),rotate(80.834747),scale(1.000000,1.105179),translate(-0.942974,-0.711775)" id="radialGradient-5">
+            <stop stop-color="#983550" offset="0%"></stop>
+            <stop stop-color="#650E0E" offset="98.1710621%"></stop>
+            <stop stop-color="#D2A411" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="174.830273%" id="radialGradient-6">
+            <stop stop-color="#2827A3" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="150.512096%" id="radialGradient-7">
+            <stop stop-color="#DA2B2B" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="154.552168%" id="radialGradient-8">
+            <stop stop-color="#4DE425" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </radialGradient>
+        <circle id="path-9" cx="27" cy="27" r="27"></circle>
+        <filter x="-13.0%" y="-9.3%" width="125.9%" height="125.9%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-11.1%" y="-7.4%" width="122.2%" height="122.2%" filterUnits="objectBoundingBox" id="filter-11">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#000000" x="0" y="0" width="415" height="115"></rect>
+        <g id="lines" transform="translate(-58.000000, -53.000000)" stroke-linecap="square" stroke-width="3">
+            <path d="M136.5,0.5 L0.5,168" id="Line-Copy-5" stroke="url(#radialGradient-1)"></path>
+            <path d="M166.5,0.5 L30.5,168" id="Line-Copy-6" stroke="url(#radialGradient-1)"></path>
+            <path d="M196.5,0.5 L60.5,168" id="Line-Copy-7" stroke="url(#radialGradient-1)"></path>
+            <path d="M226.5,0.5 L90.5,168" id="Line-Copy-8" stroke="url(#radialGradient-2)"></path>
+            <path d="M256.5,0.5 L120.5,168" id="Line-Copy-9" stroke="url(#radialGradient-3)"></path>
+            <path d="M286.5,0.5 L150.5,168" id="Line-Copy-10" stroke="url(#radialGradient-3)"></path>
+            <path d="M316.5,0.5 L180.5,168" id="Line-Copy-11" stroke="url(#radialGradient-3)"></path>
+            <path d="M346.5,0.5 L210.5,168" id="Line-Copy-12" stroke="url(#radialGradient-3)"></path>
+            <path d="M376.5,0.5 L240.5,168" id="Line-Copy-13" stroke="url(#radialGradient-4)"></path>
+            <path d="M406.5,0.5 L270.5,168" id="Line-Copy-14" stroke="url(#radialGradient-4)"></path>
+            <path d="M436.5,0.5 L300.5,168" id="Line-Copy-15" stroke="url(#radialGradient-5)"></path>
+            <path d="M466.5,0.5 L330.5,168" id="Line-Copy-16" stroke="url(#radialGradient-5)"></path>
+            <path d="M496.5,0.5 L360.5,168" id="Line-Copy-17" stroke="url(#radialGradient-5)"></path>
+            <path d="M526.5,0.5 L390.5,168" id="Line-Copy-18" stroke="url(#radialGradient-5)"></path>
+            <path d="M556.5,0.5 L420.5,168" id="Line-Copy-19" stroke="url(#radialGradient-5)"></path>
+        </g>
+        <g id="shapes" transform="translate(55.000000, 31.000000)">
+            <rect id="Rectangle" stroke="url(#radialGradient-6)" stroke-width="5" fill="#000000" x="128.5" y="2.5" width="49" height="49"></rect>
+            <polygon id="Triangle" stroke="url(#radialGradient-7)" stroke-width="4" fill="#000000" points="279 0 306 54 252 54"></polygon>
+            <g id="Oval">
+                <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                <use fill="#000000" fill-rule="evenodd" xlink:href="#path-9"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-9"></use>
+                <circle stroke="url(#radialGradient-8)" stroke-width="4" stroke-linejoin="square" cx="27" cy="27" r="25"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
