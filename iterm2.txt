@@ -1,1 +1,0 @@
-installed iterm2 and ZSH and made a profile with custom profiles
