@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
 #text_logo {
     font-weight: bold;
     font-family: 'Source Sans Pro', sans-serif;
@@ -45,9 +46,9 @@ body {
 
 .fade-enter,
 .fade-leave-to
-    /* .fade-leave-active below version 2.1.8 */
+/* .fade-leave-active below version 2.1.8 */
 
-{
+    {
     opacity: 0;
 }
 
