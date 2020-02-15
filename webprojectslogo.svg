@@ -4,70 +4,12 @@
     <title>webprojectslogo</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="199.298519%" gradientTransform="translate(0.500000,0.000000),scale(1.000000,0.501760),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-1">
-            <stop stop-color="#F45C5C" offset="0%"></stop>
-            <stop stop-color="#000000" offset="100%"></stop>
-        </radialGradient>
-        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="199.298519%" gradientTransform="translate(0.500000,0.000000),scale(1.000000,0.501760),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-2">
-            <stop stop-color="#6161CF" offset="0%"></stop>
-            <stop stop-color="#000000" offset="100%"></stop>
-        </radialGradient>
-        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="199.298519%" gradientTransform="translate(0.500000,0.000000),scale(1.000000,0.501760),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-3">
-            <stop stop-color="#5C83F4" offset="0%"></stop>
-            <stop stop-color="#000000" offset="100%"></stop>
-        </radialGradient>
-        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="199.298519%" gradientTransform="translate(0.500000,0.000000),scale(1.000000,0.501760),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-4">
-            <stop stop-color="#5CF479" offset="0%"></stop>
-            <stop stop-color="#000000" offset="100%"></stop>
-        </radialGradient>
-        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="199.298519%" gradientTransform="translate(0.500000,0.000000),scale(1.000000,0.501760),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-5">
-            <stop stop-color="#99F45C" offset="0%"></stop>
-            <stop stop-color="#000000" offset="100%"></stop>
-        </radialGradient>
-        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="174.830273%" id="radialGradient-6">
-            <stop stop-color="#2827A3" offset="0%"></stop>
-            <stop stop-color="#000000" offset="100%"></stop>
-        </radialGradient>
-        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="154.552168%" id="radialGradient-7">
-            <stop stop-color="#4DE425" offset="0%"></stop>
-            <stop stop-color="#000000" offset="100%"></stop>
-        </radialGradient>
-        <circle id="path-8" cx="11" cy="12" r="11"></circle>
-        <filter x="-31.8%" y="-22.7%" width="163.6%" height="163.6%" filterUnits="objectBoundingBox" id="filter-9">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
-        <filter x="-27.3%" y="-18.2%" width="154.5%" height="154.5%" filterUnits="objectBoundingBox" id="filter-10">
-            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
-            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
-            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
-        </filter>
-        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="150.512096%" id="radialGradient-11">
-            <stop stop-color="#DA2B2B" offset="0%"></stop>
-            <stop stop-color="#000000" offset="100%"></stop>
-        </radialGradient>
+        <linearGradient x1="50%" y1="50%" x2="50%" y2="111.0001%" id="linearGradient-1">
+            <stop stop-color="#5042D3" offset="0%"></stop>
+            <stop stop-color="#75971D" offset="100%"></stop>
+        </linearGradient>
     </defs>
     <g id="webprojectslogo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect fill="#000000" x="0" y="0" width="80" height="80"></rect>
-        <polyline id="Path" stroke="url(#radialGradient-1)" points="24.6699219 -27 -0.847229033 23.8553039 -48 117.830078"></polyline>
-        <polyline id="Path-Copy" stroke="url(#radialGradient-1)" points="39.6699219 -27 14.152771 23.8553039 -33 117.830078"></polyline>
-        <polyline id="Path-Copy-2" stroke="url(#radialGradient-1)" points="54.6699219 -27 29.152771 23.8553039 -18 117.830078"></polyline>
-        <polyline id="Path-Copy-3" stroke="url(#radialGradient-2)" points="69.6699219 -27 44.152771 23.8553039 -3 117.830078"></polyline>
-        <polyline id="Path-Copy-4" stroke="url(#radialGradient-3)" points="84.6699219 -27 59.152771 23.8553039 12 117.830078"></polyline>
-        <polyline id="Path-Copy-5" stroke="url(#radialGradient-4)" points="99.6699219 -27 74.152771 23.8553039 27 117.830078"></polyline>
-        <polyline id="Path-Copy-6" stroke="url(#radialGradient-5)" points="114.669922 -27 89.152771 23.8553039 42 117.830078"></polyline>
-        <g id="shapes" transform="translate(2.000000, 29.000000)">
-            <rect id="Rectangle" stroke="url(#radialGradient-6)" stroke-width="2" fill="#000000" x="28" y="1" width="20" height="20"></rect>
-            <g id="Oval">
-                <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
-                <use fill="#000000" fill-rule="evenodd" xlink:href="#path-8"></use>
-                <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-8"></use>
-                <circle stroke="url(#radialGradient-7)" stroke-width="2" stroke-linejoin="square" cx="11" cy="12" r="10"></circle>
-            </g>
-            <polygon id="Triangle" stroke="url(#radialGradient-11)" stroke-width="2" fill="#000000" points="66.5 2 76 21 57 21"></polygon>
-        </g>
+        <path d="M40,4 C41.6568542,4 43,5.34314575 43,7 L43,28 C43,29.6568542 41.6568542,31 40,31 C38.3431458,31 37,29.6568542 37,28 L37,7 C37,5.34314575 38.3431458,4 40,4 Z M62.4975663,12.1884445 C63.7667903,13.2534499 63.9323422,15.1457167 62.8673368,16.4149406 L49.368797,32.501874 C48.3037917,33.7710979 46.4115249,33.9366498 45.1423009,32.8716445 C43.8730769,31.8066391 43.707525,29.9143723 44.7725304,28.6451483 L58.2710702,12.558215 C59.3360756,11.288991 61.2283423,11.1234391 62.4975663,12.1884445 Z M74.4682714,32.9223138 C74.7559811,34.5539967 73.6664755,36.1099719 72.0347926,36.3976816 L51.3538298,40.0442933 C49.7221469,40.332003 48.1661717,39.2424975 47.878462,37.6108146 C47.5907523,35.9791317 48.6802578,34.4231565 50.3119408,34.1354468 L70.9929036,30.4888351 C72.6245865,30.2011253 74.1805616,31.2906309 74.4682714,32.9223138 Z M70.3108891,56.5 C69.482462,57.9348779 67.6476908,58.4265033 66.2128129,57.5980762 L48.0262794,47.0980762 C46.5914016,46.2696491 46.0997761,44.4348779 46.9282032,43 C47.7566304,41.5651221 49.5914016,41.0734967 51.0262794,41.9019238 L69.2128129,52.4019238 C70.6476908,53.2303509 71.1393163,55.0651221 70.3108891,56.5 Z M51.970705,71.8892417 C50.4137713,72.4559193 48.6922443,71.653158 48.1255667,70.0962243 L40.9431437,50.3626793 C40.3764662,48.8057455 41.1792274,47.0842185 42.7361611,46.517541 C44.2930949,45.9508634 46.0146219,46.7536247 46.5812994,48.3105584 L53.7637224,68.0441034 C54.3304,69.6010371 53.5276387,71.3225642 51.970705,71.8892417 Z M28.029295,71.8892417 C26.4723613,71.3225642 25.6696,69.6010371 26.2362776,68.0441034 L33.4187006,48.3105584 C33.9853781,46.7536247 35.7069051,45.9508634 37.2638389,46.517541 C38.8207726,47.0842185 39.6235338,48.8057455 39.0568563,50.3626793 L31.8744333,70.0962243 C31.3077557,71.653158 29.5862287,72.4559193 28.029295,71.8892417 Z M9.68911087,56.5 C8.86068374,55.0651221 9.35230921,53.2303509 10.7871871,52.4019238 L28.9737206,41.9019238 C30.4085984,41.0734967 32.2433696,41.5651221 33.0717968,43 C33.9002239,44.4348779 33.4085984,46.2696491 31.9737206,47.0980762 L13.7871871,57.5980762 C12.3523092,58.4265033 10.517538,57.9348779 9.68911087,56.5 Z M5.53172864,32.9223138 C5.81943837,31.2906309 7.37541353,30.2011253 9.00709644,30.4888351 L29.6880592,34.1354468 C31.3197422,34.4231565 32.4092477,35.9791317 32.121538,37.6108146 C31.8338283,39.2424975 30.2778531,40.332003 28.6461702,40.0442933 L7.96520737,36.3976816 C6.33352446,36.1099719 5.24401892,34.5539967 5.53172864,32.9223138 Z M17.5024337,12.1884445 C18.7716577,11.1234391 20.6639244,11.288991 21.7289298,12.558215 L35.2274696,28.6451483 C36.292475,29.9143723 36.1269231,31.8066391 34.8576991,32.8716445 C33.5884751,33.9366498 31.6962083,33.7710979 30.631203,32.501874 L17.1326632,16.4149406 C16.0676578,15.1457167 16.2332097,13.2534499 17.5024337,12.1884445 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
     </g>
 </svg>
