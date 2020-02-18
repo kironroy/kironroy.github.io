@@ -1,0 +1,116 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<link href="https://kironroy.github.io/apple-touch-icon.png" rel="apple-touch-icon" />
+<link href="https://kironroy.github.io/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+<link href="https://kironroy.github.io/apple-touch-icon-167x167.png" rel="apple-touch-icon" sizes="167x167" />
+<link href="https://kironroy.github.io/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+<link href="https://kironroy.github.io/icon-hires.png" rel="icon" sizes="192x192" />
+<link href="https://kironroy.github.io/icon-normal.png" rel="icon" sizes="128x128" />
+<title>C# Help Search</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel='stylesheet' href='https://bootswatch.com/4/superhero/bootstrap.css'>
+<style>
+body {
+  
+  font-weight: 400;
+  font-size: 22px;
+  max-width: 1024px;
+  padding: 21px;
+  margin: 10px auto;
+}
+
+p {
+  margin-bottom: 50px;
+}
+
+li {
+  padding: 5px;
+}
+
+input {
+  margin-left: 25px;
+  margin-bottom: 25px;
+  padding: 5px;
+
+}
+
+h1 {
+  margin-left: 23px;
+
+}
+</style>
+<script>
+  window.console = window.console || function(t) {};
+</script>
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+</head>
+<body translate="no">
+  <center>
+    <a href="http://kironroy.github.io/projects"><img alt="Kiron Roy Logo" src="new_logo_sm2.svg"
+      style="width:90px;height:90px;"></a>
+  </center>
+  <br>
+  <br>
+    <h1>C# Help</h1>
+<br>
+<div id="content"></div>
+<script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-db44b196776521ea816683afab021f757616c80860d31da6232dedb8d7cc4862.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/react/0.13.0/react.min.js'></script>
+<script id="rendered-js">
+function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}class SearchExample extends React.Component {constructor(...args) {super(...args);_defineProperty(this, "state",
+
+    { searchString: '' });_defineProperty(this, "handleChange",
+    e => {
+      this.setState({ searchString: e.target.value });
+    });}
+  render() {
+    var libraries = this.props.items,
+    searchString = this.state.searchString.trim().toLowerCase();
+    if (searchString.length > 0) {
+      libraries = libraries.filter(function (i) {
+        return i.name.toLowerCase().match(searchString);
+      });
+    }
+    return (
+      React.createElement("div", null,
+      React.createElement("input", { type: "text", value: this.state.searchString, onChange: this.handleChange, placeholder: "Type here..." }),
+      React.createElement("ul", null,
+      libraries.map(function (i) {
+        return React.createElement("li", null, i.name, " ", React.createElement("a", { href: i.url }, i.url));
+      }))));
+
+
+
+  }}
+
+
+// Constant, library
+var libraries = [
+
+{ name: 'I am Tim Corey (YouTube)', url: 'https://www.youtube.com/channel/UC-ptWR16ITQyYOglXyQmpzw' },
+{ name: 'Microsoft C# Documentation', url: 'https://docs.microsoft.com/en-us/dotnet/csharp/' },
+{ name: 'C# Wiki', url: 'https://github.com/kironroy/kironroy.github.io/wiki/C-Sharp' },
+{ name: 'I am Tim Corey', url: 'https://www.iamtimcorey.com/' },
+{ name: 'C# Repos', url: 'https://github.com/kironroy?utf8=%E2%9C%93&tab=repositories&q=&type=&language=c%23' },
+{ name: 'Windows Powershell', url: 'https://github.com/kironroy/kironroy.github.io/wiki/Windows-Powershell' },
+{ name: 'Design Tool', url: 'https://github.com/kironroy/kironroy.github.io/wiki/Design-Tools' }];
+
+
+
+// put input and display on page
+React.render(
+React.createElement(SearchExample, { items: libraries }),
+document.getElementById('content'));
+//# sourceURL=pen.js
+    </script>
+</body>
+</html>
