@@ -70,7 +70,7 @@ video {
 	border: 0;
 	font: inherit;
 	font-size: 100%;
-	font-weight: 350;
+	font-weight: 400;
 	margin: 0;
 	padding: 0;
 	vertical-align: baseline;
@@ -100,7 +100,7 @@ body {
 	background: #FFFFFF;
 	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-size: 16px;
-	font-weight: 300;
+	font-weight: 400;
 	color: #222;
 }
 
@@ -136,7 +136,7 @@ p {
 	line-height: 1.6;
 	margin-bottom: 20px;
 	color: #444;
-	font-weight: 350;
+	font-weight: 400;
 }
 
 #cv {
@@ -149,7 +149,7 @@ p {
 .mainDetails {
 	padding: 25px 35px;
 	border-bottom: 2px solid #c7c7c7;
-	font-weight: 300;
+	font-weight: 400;
 	background: #ffffff;
 }
 
@@ -165,7 +165,7 @@ p {
 
 	font-size: 2em;
 	margin-left: 2px;
-	font-weight: 350;
+	font-weight: 400;
 	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -245,7 +245,7 @@ section:last-child {
 
 .sectionTitle h1 {
 	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, Helvetica, Arial, sans-serif;
-	font-weight: 350;
+	font-weight: 400;
 	font-style: italic;
 	font-size: 1.5em;
 	color: #5042d3;
@@ -265,7 +265,7 @@ section:last-child {
 	font-size: 0.8em;
 	font-style: italic;
 	margin-bottom: 3px;
-	font-weight: 300;
+	font-weight: 400;
 
 }
 
@@ -293,7 +293,7 @@ section:last-child {
 	-webkit-column-count: 3;
 	column-count: 3;
 	margin-bottom: 20px;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 1em;
 	color: #000;
 }
@@ -347,7 +347,7 @@ section:last-child {
 		-moz-column-count: 2;
 		-webkit-column-count: 2;
 		column-count: 2;
-		font-weight: 300;
+		font-weight: 400;
 	}
 }
 
