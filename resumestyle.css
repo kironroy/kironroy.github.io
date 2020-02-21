@@ -132,7 +132,7 @@ a:focus {
 
 
 p {
-	font-size: 1em;
+	font-size: 18px;
 	line-height: 1.6;
 	margin-bottom: 20px;
 	color: #444;
@@ -262,7 +262,7 @@ section:last-child {
 }
 
 .subDetails {
-	font-size: 0.8em;
+	font-size: 18px;
 	font-style: italic;
 	margin-bottom: 3px;
 	font-weight: 400;
@@ -270,7 +270,7 @@ section:last-child {
 }
 
 .subDetailsTwo {
-	font-size: 16px;
+	font-size: 18px;
 	margin-bottom: 4px;
 	font-weight: 400;
 	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, Helvetica, Arial, sans-serif;
