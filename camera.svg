@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="82px" height="85px" viewBox="0 0 82 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="150px" height="110px" viewBox="0 0 150 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
     <title>camera</title>
     <desc>Created with Sketch.</desc>
     <g id="camera" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="camerabody" transform="translate(5.000000, 19.000000)">
-            <polygon id="camera" stroke="#5042D3" points="0 10.2643678 0 47 72 47 72 10.2643678 51.868446 10.2643678 46.1263634 0 25.8736366 0 20.1315542 10.2643678"></polygon>
-            <g id="lens" transform="translate(20.000000, 8.000000)"></g>
+        <g id="camerabody" transform="translate(8.000000, 11.000000)">
+            <polygon id="camera" stroke="#5042D3" points="0 19.2183908 0 88 135 88 135 19.2183908 97.2533363 19.2183908 86.4869313 0 48.5130687 0 37.746664 19.2183908"></polygon>
+            <g id="lens" transform="translate(37.500000, 14.978723)"></g>
         </g>
-        <g id="lens" transform="translate(5.000000, 27.000000)">
-            <path d="M23.8508003,5 C27.1590794,1.8989637 31.6077763,0 36.5,0 C41.3922237,0 45.8409206,1.8989637 49.1491997,5 L72,5 L72,35 L44.875349,35 C42.3606644,36.2789852 39.5145332,37 36.5,37 C33.4854668,37 30.6393356,36.2789852 28.124651,35 L0,35 L0,5 L23.8508003,5 Z" id="Combined-Shape" fill="#5042D3"></path>
-            <circle id="Oval" fill="#FFFFFF" cx="36.5" cy="18.5" r="15.5"></circle>
+        <g id="lens" transform="translate(8.000000, 26.000000)">
+            <path d="M44.7202507,9.32432432 C50.9232739,3.54131069 59.2645806,0 68.4375,0 C77.6104194,0 85.9517261,3.54131069 92.1547493,9.32432432 L135,9.32432432 L135,65.2702703 L84.1412794,65.2702703 C79.4262458,67.6554048 74.0897498,69 68.4375,69 C62.7852502,69 57.4487542,67.6554048 52.7337206,65.2702703 L0,65.2702703 L0,9.32432432 L44.7202507,9.32432432 Z" id="Combined-Shape" fill="#5042D3"></path>
+            <ellipse id="Oval" fill="#FFFFFF" cx="68.4375" cy="34.5" rx="29.0625" ry="28.9054054"></ellipse>
         </g>
-        <rect id="Rectangle" fill="#D8D8D8" x="9" y="34" width="7" height="3" rx="1.5"></rect>
+        <rect id="Rectangle" fill="#D8D8D8" x="16" y="39" width="13" height="6" rx="3"></rect>
     </g>
 </svg>
