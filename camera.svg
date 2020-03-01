@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="150px" height="110px" viewBox="0 0 150 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="137px" height="90px" viewBox="0 0 137 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
     <title>camera</title>
     <desc>Created with Sketch.</desc>
     <g id="camera" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="camerabody" transform="translate(8.000000, 11.000000)">
+        <g id="camerabody" transform="translate(1.000000, 1.000000)">
             <polygon id="camera" stroke="#5042D3" points="0 19.2183908 0 88 135 88 135 19.2183908 97.2533363 19.2183908 86.4869313 0 48.5130687 0 37.746664 19.2183908"></polygon>
             <g id="lens" transform="translate(37.500000, 14.978723)"></g>
         </g>
-        <g id="lens" transform="translate(8.000000, 26.000000)">
+        <g id="lens" transform="translate(1.000000, 16.000000)">
             <path d="M44.7202507,9.32432432 C50.9232739,3.54131069 59.2645806,0 68.4375,0 C77.6104194,0 85.9517261,3.54131069 92.1547493,9.32432432 L135,9.32432432 L135,65.2702703 L84.1412794,65.2702703 C79.4262458,67.6554048 74.0897498,69 68.4375,69 C62.7852502,69 57.4487542,67.6554048 52.7337206,65.2702703 L0,65.2702703 L0,9.32432432 L44.7202507,9.32432432 Z" id="Combined-Shape" fill="#5042D3"></path>
             <ellipse id="Oval" fill="#FFFFFF" cx="68.4375" cy="34.5" rx="29.0625" ry="28.9054054"></ellipse>
         </g>
-        <rect id="Rectangle" fill="#D8D8D8" x="16" y="39" width="13" height="6" rx="3"></rect>
+        <rect id="Rectangle" fill="#D8D8D8" x="9" y="29" width="13" height="6" rx="3"></rect>
     </g>
 </svg>
