@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="279px" height="175px" viewBox="0 0 279 175" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>design2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="design2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="laptop" transform="translate(0.000000, 3.000000)">
+            <path d="M45,0 L235,0 C237.761424,-5.07265313e-16 240,2.23857625 240,5 L240,129 L40,129 L40,5 C40,2.23857625 42.2385763,5.07265313e-16 45,0 Z" id="Rectangle" stroke="#4A4A4A" stroke-width="6" fill="#000000"></path>
+            <path d="M240.08863,132.5 L38.8193459,132.5 C38.1738637,132.5 37.5533977,132.749662 37.087807,133.196733 L3.76221761,165.196733 C3.27127028,165.668152 2.99375651,166.319364 2.99375651,167 C2.99375651,168.380712 4.11304464,169.5 5.49375651,169.5 L273.496309,169.5 C274.877021,169.5 275.996309,168.380712 275.996309,167 C275.996309,166.318297 275.717928,165.666159 275.225631,165.194606 L241.817951,133.194606 C241.352579,132.748843 240.73305,132.5 240.08863,132.5 Z" id="Combined-Shape" stroke-opacity="0.286684783" stroke="#979797" stroke-width="5" fill="#D8D8D8"></path>
+        </g>
+        <g id="Group-2" transform="translate(79.000000, 20.000000)">
+            <rect id="Rectangle" stroke="#979797" stroke-width="0.5" fill="#FFFFFF" x="0.25" y="0.25" width="120.5" height="87.5"></rect>
+            <g id="Group" transform="translate(11.000000, 9.000000)">
+                <rect id="Rectangle" fill="#000099" x="0" y="0" width="31" height="31"></rect>
+                <path d="M33.5,0.5 L95.5,0.5" id="Line" stroke="#4A4A4A" stroke-linecap="square"></path>
+                <path d="M33.5,5.5 L95.5,5.5" id="Line-Copy" stroke="#4A4A4A" stroke-linecap="square"></path>
+                <path d="M33.5,10.5 L95.5,10.5" id="Line-Copy-2" stroke="#4A4A4A" stroke-linecap="square"></path>
+                <path d="M33.5,15.5 L95.5,15.5" id="Line-Copy-3" stroke="#4A4A4A" stroke-linecap="square"></path>
+                <path d="M33.5,20.5 L95.5,20.5" id="Line-Copy-4" stroke="#4A4A4A" stroke-linecap="square"></path>
+                <path d="M33.5,25.5 L95.5,25.5" id="Line-Copy-5" stroke="#4A4A4A" stroke-linecap="square"></path>
+                <path d="M33.5,30.5 L95.5,30.5" id="Line-Copy-6" stroke="#4A4A4A" stroke-linecap="square"></path>
+            </g>
+            <g id="Group-Copy" transform="translate(60.000000, 66.000000) rotate(-180.000000) translate(-60.000000, -66.000000) translate(11.000000, 50.000000)">
+                <circle id="Oval" fill="#D0021B" cx="16" cy="16" r="16"></circle>
+                <path d="M35.5,0.5 L97.5,0.5" id="Line" stroke="#4A4A4A" stroke-linecap="square"></path>
+                <path d="M35.5,5.5 L97.5,5.5" id="Line-Copy" stroke="#4A4A4A" stroke-linecap="square"></path>
+                <path d="M35.5,10.5 L97.5,10.5" id="Line-Copy-2" stroke="#4A4A4A" stroke-linecap="square"></path>
+                <path d="M35.5,15.5 L97.5,15.5" id="Line-Copy-3" stroke="#4A4A4A" stroke-linecap="square"></path>
+                <path d="M35.5,20.5 L97.5,20.5" id="Line-Copy-4" stroke="#4A4A4A" stroke-linecap="square"></path>
+                <path d="M35.5,25.5 L97.5,25.5" id="Line-Copy-5" stroke="#4A4A4A" stroke-linecap="square"></path>
+                <path d="M35.5,30.5 L97.5,30.5" id="Line-Copy-6" stroke="#4A4A4A" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>
