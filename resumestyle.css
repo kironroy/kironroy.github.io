@@ -108,10 +108,6 @@ body {
 	clear: both;
 }
 
-ul {
-	font-size: 18px;
-}
-
 a:link {
 	text-decoration: bold;
 	color: #000000;
@@ -199,8 +195,8 @@ p {
 
 #contactDetails ul {
 	list-style-type: none;
-	font-size: 20px;
-	margin-top: 3px;
+	font-size: 0.9em;
+	margin-top: 2px;
 }
 
 #contactDetails ul li {
