@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
     <title>js</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="js" fill-rule="nonzero">
-            <g id="Unofficial_JavaScript_logo_2">
-                <rect id="Rectangle-path" fill="#F7DF1E" x="0" y="0" width="100" height="100"></rect>
-                <path d="M67.1746032,78.1253968 C69.1888889,81.4142857 71.8095238,83.831746 76.4444444,83.831746 C80.3380952,83.831746 82.8253968,81.8857143 82.8253968,79.1968254 C82.8253968,75.9746032 80.2698413,74.8333333 75.984127,72.9587302 L73.6349206,71.9507937 C66.8539683,69.0619048 62.3492063,65.4428571 62.3492063,57.7920635 C62.3492063,50.7444444 67.7190476,45.3793651 76.1111111,45.3793651 C82.0857143,45.3793651 86.3809524,47.4587302 89.4761905,52.9031746 L82.1587302,57.6015873 C80.547619,54.7126984 78.8095238,53.5746032 76.1111111,53.5746032 C73.3587302,53.5746032 71.6142857,55.3206349 71.6142857,57.6015873 C71.6142857,60.4206349 73.3603175,61.5619048 77.3920635,63.3079365 L79.7412698,64.3142857 C87.7253968,67.7380952 92.2333333,71.2285714 92.2333333,79.0761905 C92.2333333,87.5365079 85.5873016,92.1714286 76.6619048,92.1714286 C67.9349206,92.1714286 62.2968254,88.0126984 59.5380952,82.5619048 L67.1746032,78.1253968 Z M33.9793651,78.9396825 C35.4555556,81.5587302 36.7984127,83.7730159 40.0269841,83.7730159 C43.1142857,83.7730159 45.0619048,82.5650794 45.0619048,77.868254 L45.0619048,45.915873 L54.4587302,45.915873 L54.4587302,77.9952381 C54.4587302,87.7253968 48.7539683,92.1539683 40.4269841,92.1539683 C32.9031746,92.1539683 28.5460317,88.2603175 26.3301587,83.5706349 L33.9793651,78.9396825 Z" id="Shape" fill="#000000"></path>
-            </g>
-        </g>
+    <g id="js" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" stroke="#000000" fill="#FFFFFF" x="6.5" y="8.5" width="66" height="62"></rect>
+        <rect id="Rectangle" stroke="#000000" fill="#7ED321" x="6.5" y="8.5" width="66" height="19"></rect>
+        <text font-family="HelveticaNeue-Light, Helvetica Neue" font-size="18" font-weight="300" fill="#000000">
+            <tspan x="34.006" y="23">js</tspan>
+        </text>
+        <text id="let-j-=" font-family="PTMono-Regular, PT Mono" font-size="10" font-weight="normal" fill="#000000">
+            <tspan x="19" y="52">let j =</tspan>
+        </text>
     </g>
 </svg>
