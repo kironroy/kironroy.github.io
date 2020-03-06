@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>eightbit</title>
+    <desc>Created with Sketch.</desc>
+    <g id="eightbit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" stroke="#000000" fill="#FFFFFF" x="6.5" y="8.5" width="66" height="62"></rect>
+        <rect id="Rectangle" stroke="#000000" fill="#7ED321" x="14.5" y="18.5" width="51" height="43"></rect>
+        <rect id="Rectangle" fill="#000000" x="25" y="26" width="33" height="29"></rect>
+        <text id="8" font-family="Helvetica-Light, Helvetica" font-size="30" font-weight="300" fill="#FFFFFF">
+            <tspan x="33.16" y="51">8</tspan>
+        </text>
+    </g>
+</svg>
