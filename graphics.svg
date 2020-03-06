@@ -5,8 +5,8 @@
     <desc>Created with Sketch.</desc>
     <g id="graphics" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect id="Rectangle" stroke="#000000" fill="#FFFFFF" x="6.5" y="8.5" width="66" height="62"></rect>
-        <circle id="Oval" stroke="#000000" fill="#7ED321" cx="54" cy="45" r="14"></circle>
+        <circle id="Oval" stroke="#000000" fill="#7ED321" cx="51" cy="46" r="11"></circle>
         <rect id="Rectangle" stroke="#000000" fill="#7ED321" x="6.5" y="8.5" width="66" height="19"></rect>
-        <polygon id="Triangle" stroke="#000000" fill="#7ED321" points="25 33 38 59 12 59"></polygon>
+        <polygon id="Triangle" stroke="#000000" fill="#7ED321" points="27 36 37 56 17 56"></polygon>
     </g>
 </svg>

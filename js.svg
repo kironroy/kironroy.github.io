@@ -9,8 +9,8 @@
         <text font-family="HelveticaNeue-Light, Helvetica Neue" font-size="18" font-weight="300" fill="#000000">
             <tspan x="34.006" y="23">js</tspan>
         </text>
-        <text id="let-j-=" font-family="PTMono-Regular, PT Mono" font-size="10" font-weight="normal" fill="#000000">
-            <tspan x="19" y="52">let j =</tspan>
+        <text id="let-j-=" font-family="Monaco" font-size="10" font-weight="normal" fill="#000000">
+            <tspan x="18.996582" y="52">let j =</tspan>
         </text>
     </g>
 </svg>
