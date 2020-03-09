@@ -5,7 +5,7 @@
     <desc>Created with Sketch.</desc>
     <g id="eightbit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect id="Rectangle" stroke="#000000" fill="#FFFFFF" x="6.5" y="8.5" width="66" height="62"></rect>
-        <rect id="Rectangle" stroke="#000000" fill="#7ED321" x="14.5" y="18.5" width="51" height="43"></rect>
+        <rect id="Rectangle" stroke="#000000" fill="#008000" x="14.5" y="18.5" width="51" height="43"></rect>
         <g id="Group" transform="translate(24.000000, 22.000000)">
             <rect id="Rectangle" fill="#000000" x="0" y="4" width="33" height="29"></rect>
             <text id="8" font-family="Helvetica-Light, Helvetica" font-size="30" font-weight="300" fill="#FFFFFF">

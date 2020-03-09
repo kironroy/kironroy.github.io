@@ -5,7 +5,7 @@
     <desc>Created with Sketch.</desc>
     <g id="archives" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect id="Rectangle" stroke="#000000" fill="#FFFFFF" x="6.5" y="8.5" width="66" height="62"></rect>
-        <rect id="Rectangle" stroke="#000000" fill="#7ED321" x="14.5" y="18.5" width="51" height="43"></rect>
-        <polygon id="path4968" fill="#000000" transform="translate(41.164234, 40.265172) rotate(-7.092546) translate(-41.164234, -40.265172) " points="46.7316516 52.1662956 40.1123106 45.788445 32.1648539 50.3245636 36.062959 41.927765 29.3792817 35.6133194 38.4072564 36.8021735 42.2252517 28.3640488 43.9074139 37.4960855 52.9491859 38.5944492 44.9608972 43.04915"></polygon>
+        <rect id="Rectangle" stroke="#000000" fill="#008000" x="14.5" y="18.5" width="51" height="43"></rect>
+        <polygon id="path4968" fill="#F4F0ED" transform="translate(40.164234, 40.265172) rotate(-7.092546) translate(-40.164234, -40.265172) " points="45.7316516 52.1662956 39.1123106 45.788445 31.1648539 50.3245636 35.062959 41.927765 28.3792817 35.6133194 37.4072564 36.8021735 41.2252517 28.3640488 42.9074139 37.4960855 51.9491859 38.5944492 43.9608972 43.04915"></polygon>
     </g>
 </svg>
