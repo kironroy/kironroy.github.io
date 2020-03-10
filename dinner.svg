@@ -5,7 +5,7 @@
     <desc>Created with Sketch.</desc>
     <g id="dinner" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect id="Rectangle" stroke="#000000" fill="#FFFFFF" x="6.5" y="8.5" width="66" height="62"></rect>
-        <rect id="Rectangle" stroke="#000000" fill="#7ED321" x="14.5" y="18.5" width="51" height="43"></rect>
+        <rect id="Rectangle" stroke="#000000" fill="#FFCC00" x="14.5" y="18.5" width="51" height="43"></rect>
         <g id="fork-head" transform="translate(27.000000, 20.000000)">
             <path d="M1.55293474,5.18147644 L12.9220423,5.58096075 L12.9220423,13.4808088 L1.5540064,13.7924865 C-0.833319993,13.8579398 -2.82169085,11.9756898 -2.88714422,9.58836344 C-2.88822706,9.54886811 -2.88876856,9.5093598 -2.88876856,9.46984964 L-2.88876856,9.46984964 C-2.88876856,7.09998489 -0.967613591,5.17882992 1.40225116,5.17882992 C1.45249064,5.17882992 1.50272625,5.17971223 1.55293474,5.18147644 Z" id="Rectangle" fill="#000000" transform="translate(5.016637, 9.486486) rotate(-90.000000) translate(-5.016637, -9.486486) "></path>
             <rect id="Rectangle-Copy" fill="#7ED321" x="2.22222222" y="0" width="1.11111111" height="12.6486486" rx="0.555555556"></rect>
