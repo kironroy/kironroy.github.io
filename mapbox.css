@@ -138,7 +138,6 @@
 
 .mapboxgl-ctrl-icon,
 .mapboxgl-ctrl-icon>.mapboxgl-ctrl-compass-arrow {
-    speak: none;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -407,7 +406,7 @@ a.mapboxgl-ctrl-logo.mapboxgl-compact {
     -webkit-align-self: center;
     align-self: center;
     border-bottom: none;
-    border-top-color: #ffcc00;
+    border-top-color: #000099;
 }
 
 .mapboxgl-popup-anchor-bottom-left .mapboxgl-popup-tip {
@@ -456,7 +455,7 @@ a.mapboxgl-ctrl-logo.mapboxgl-compact {
 
 .mapboxgl-popup-content {
     position: relative;
-    background: #ffcc00;
+    background: #000099;
     border-radius: 3px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     padding: 10px 10px 15px;
