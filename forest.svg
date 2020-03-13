@@ -4,31 +4,31 @@
     <title>forest</title>
     <desc>Created with Sketch.</desc>
     <g id="forest" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="Rectangle" stroke="#5042D3" fill="#FFFFFF" x="6.5" y="8.5" width="66" height="62"></rect>
+        <rect id="Rectangle" stroke="#5042D3" stroke-width="2" fill="#5042D3" x="7" y="9" width="65" height="61"></rect>
         <g id="Group-2" transform="translate(11.000000, 28.000000)">
             <g id="Group">
-                <polygon id="Triangle-Copy-2" fill="#000000" points="7.69799805 8.39781605 15.3959961 18.5287751 0 18.5287751"></polygon>
-                <polygon id="Triangle-Copy-3" fill="#000000" points="7.69799805 4.19890803 13.9963601 12.9302311 1.39963601 12.9302311"></polygon>
-                <polygon id="Triangle-Copy-4" fill="#000000" points="7.69799805 9.76996262e-15 12.5967241 7.33168706 2.79927202 7.33168706"></polygon>
-                <path d="M7.69799805,2 L8,30" id="Line" stroke="#000000" stroke-linecap="square"></path>
+                <polygon id="Triangle-Copy-2" fill="#FFFFFF" points="7.69799805 8.39781605 15.3959961 18.5287751 0 18.5287751"></polygon>
+                <polygon id="Triangle-Copy-3" fill="#FFFFFF" points="7.69799805 4.19890803 13.9963601 12.9302311 1.39963601 12.9302311"></polygon>
+                <polygon id="Triangle-Copy-4" fill="#FFFFFF" points="7.69799805 9.76996262e-15 12.5967241 7.33168706 2.79927202 7.33168706"></polygon>
+                <path d="M7.69799805,2 L8,30" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
             </g>
         </g>
-        <g id="Group-2-Copy" transform="translate(32.000000, 28.000000)">
+        <g id="Group-2-Copy" transform="translate(32.000000, 28.000000)" fill="#FFFFFF" stroke="#FFFFFF">
             <g id="Group">
-                <polygon id="Triangle-Copy-2" fill="#000000" points="7.69799805 8.39781605 15.3959961 18.5287751 0 18.5287751"></polygon>
-                <polygon id="Triangle-Copy-3" fill="#000000" points="7.69799805 4.19890803 13.9963601 12.9302311 1.39963601 12.9302311"></polygon>
-                <polygon id="Triangle-Copy-4" fill="#000000" points="7.69799805 9.76996262e-15 12.5967241 7.33168706 2.79927202 7.33168706"></polygon>
-                <path d="M7.69799805,2 L8,30" id="Line" stroke="#000000" stroke-linecap="square"></path>
+                <polygon id="Triangle-Copy-2" points="7.69799805 8.39781605 15.3959961 18.5287751 0 18.5287751"></polygon>
+                <polygon id="Triangle-Copy-3" points="7.69799805 4.19890803 13.9963601 12.9302311 1.39963601 12.9302311"></polygon>
+                <polygon id="Triangle-Copy-4" points="7.69799805 9.76996262e-15 12.5967241 7.33168706 2.79927202 7.33168706"></polygon>
+                <path d="M7.69799805,2 L8,30" id="Line" stroke-linecap="square"></path>
             </g>
         </g>
         <g id="Group-2-Copy-2" transform="translate(53.000000, 28.000000)">
             <g id="Group">
-                <polygon id="Triangle-Copy-2" fill="#000000" points="7.69799805 8.39781605 15.3959961 18.5287751 0 18.5287751"></polygon>
-                <polygon id="Triangle-Copy-3" fill="#000000" points="7.69799805 4.19890803 13.9963601 12.9302311 1.39963601 12.9302311"></polygon>
-                <polygon id="Triangle-Copy-4" fill="#000000" points="7.69799805 9.76996262e-15 12.5967241 7.33168706 2.79927202 7.33168706"></polygon>
-                <path d="M7.69799805,2 L8,30" id="Line" stroke="#000000" stroke-linecap="square"></path>
+                <polygon id="Triangle-Copy-2" fill="#FFFFFF" points="7.69799805 8.39781605 15.3959961 18.5287751 0 18.5287751"></polygon>
+                <polygon id="Triangle-Copy-3" fill="#FFFFFF" points="7.69799805 4.19890803 13.9963601 12.9302311 1.39963601 12.9302311"></polygon>
+                <polygon id="Triangle-Copy-4" fill="#FFFFFF" points="7.69799805 9.76996262e-15 12.5967241 7.33168706 2.79927202 7.33168706"></polygon>
+                <path d="M7.69799805,2 L8,30" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
             </g>
         </g>
-        <rect id="Rectangle" stroke="#5042D3" fill="#5042D3" x="6.5" y="51.5" width="66" height="19"></rect>
+        <rect id="Rectangle" fill="#FFFFFF" x="6" y="58" width="67" height="1"></rect>
     </g>
 </svg>

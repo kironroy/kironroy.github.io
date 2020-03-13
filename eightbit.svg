@@ -5,9 +5,11 @@
     <desc>Created with Sketch.</desc>
     <g id="eightbit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect id="Rectangle" stroke="#5042D3" fill="#5042D3" x="6.5" y="8.5" width="66" height="62"></rect>
-        <g id="Group" transform="translate(30.000000, 22.000000)" fill="#FFFFFF" font-family="Helvetica-Light, Helvetica" font-size="30" font-weight="300">
-            <text id="8">
-                <tspan x="2.16" y="29">8</tspan>
+        <g id="Group" transform="translate(26.000000, 22.000000)">
+            <rect id="Rectangle" stroke="#000000" fill="#000000" x="0.5" y="2.5" width="28" height="31"></rect>
+            <path d="M4.5,0.5 L4.5,35.5 C6.20867975,35.5 6.45913217,35.5 9.49171971,35.5 C14.3867374,35.5 14.4654463,35.5 24.5,35.5 L24.5,0.5 L4.5,0.5 Z" id="Rectangle" stroke="#000000" fill="#000000"></path>
+            <text id="8" font-family="Helvetica-Light, Helvetica" font-size="30" font-weight="300" fill="#FFFFFF">
+                <tspan x="6.16" y="29">8</tspan>
             </text>
         </g>
     </g>
