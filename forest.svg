@@ -21,14 +21,14 @@
                 <path d="M7.69799805,2 L8,30" id="Line" stroke-linecap="square"></path>
             </g>
         </g>
-        <g id="Group-2-Copy-2" transform="translate(53.000000, 29.000000)">
+        <g id="Group-2-Copy-2" transform="translate(6.000000, 29.000000)">
             <g id="Group">
-                <polygon id="Triangle-Copy-2" fill="#FFFFFF" points="7.69799805 8.39781605 15.3959961 18.5287751 0 18.5287751"></polygon>
-                <polygon id="Triangle-Copy-3" fill="#FFFFFF" points="7.69799805 4.19890803 13.9963601 12.9302311 1.39963601 12.9302311"></polygon>
-                <polygon id="Triangle-Copy-4" fill="#FFFFFF" points="7.69799805 9.76996262e-15 12.5967241 7.33168706 2.79927202 7.33168706"></polygon>
-                <path d="M7.69799805,2 L8,30" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
+                <polygon id="Triangle-Copy-2" fill="#FFFFFF" points="54.697998 8.39781605 62.3959961 18.5287751 47 18.5287751"></polygon>
+                <polygon id="Triangle-Copy-3" fill="#FFFFFF" points="54.697998 4.19890803 60.9963601 12.9302311 48.399636 12.9302311"></polygon>
+                <polygon id="Triangle-Copy-4" fill="#FFFFFF" points="54.697998 1.42108547e-14 59.5967241 7.33168706 49.799272 7.33168706"></polygon>
+                <path d="M54.697998,2 L55,30" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
+                <rect id="Rectangle" stroke="#000000" fill="#000000" x="0.5" y="29.5" width="66" height="12"></rect>
             </g>
         </g>
-        <rect id="Rectangle" stroke="#FFFFFF" fill="#FFFFFF" transform="translate(39.500000, 60.000000) scale(1, -1) translate(-39.500000, -60.000000) " x="6.5" y="59.5" width="66" height="1"></rect>
     </g>
 </svg>
