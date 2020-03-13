@@ -6,7 +6,7 @@
     <g id="pacificNW" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect id="Rectangle" stroke="#5042D3" fill="#5042D3" x="6.5" y="8.5" width="66" height="62"></rect>
         <rect id="Rectangle" stroke="#5042D3" fill="#FFFFFF" x="6.5" y="8.5" width="66" height="19"></rect>
-        <rect id="Rectangle" stroke="#5042D3" fill="#F4F0ED" x="9.5" y="16.5" width="8" height="4"></rect>
+        <rect id="Rectangle" stroke="#5042D3" x="9.5" y="16.5" width="8" height="4"></rect>
         <circle id="Oval-2" stroke="#5042D3" fill="#FFFFFF" cx="40" cy="48" r="17"></circle>
         <g id="Group-2" transform="translate(32.000000, 34.000000)" fill="#000000">
             <g id="Group">
