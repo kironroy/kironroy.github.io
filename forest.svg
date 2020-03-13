@@ -4,7 +4,7 @@
     <title>forest</title>
     <desc>Created with Sketch.</desc>
     <g id="forest" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="Rectangle" stroke="#000000" fill="#FFFFFF" x="6.5" y="8.5" width="66" height="62"></rect>
+        <rect id="Rectangle" stroke="#5042D3" fill="#FFFFFF" x="6.5" y="8.5" width="66" height="62"></rect>
         <g id="Group-2" transform="translate(11.000000, 28.000000)">
             <g id="Group">
                 <polygon id="Triangle-Copy-2" fill="#000000" points="7.69799805 8.39781605 15.3959961 18.5287751 0 18.5287751"></polygon>
@@ -29,6 +29,6 @@
                 <path d="M7.69799805,2 L8,30" id="Line" stroke="#000000" stroke-linecap="square"></path>
             </g>
         </g>
-        <rect id="Rectangle" stroke="#000000" fill="#FFCC00" x="6.5" y="51.5" width="66" height="19"></rect>
+        <rect id="Rectangle" stroke="#5042D3" fill="#5042D3" x="6.5" y="51.5" width="66" height="19"></rect>
     </g>
 </svg>

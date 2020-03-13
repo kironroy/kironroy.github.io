@@ -8,12 +8,12 @@
         <rect id="Rectangle" stroke="#5042D3" fill="#5042D3" x="6.5" y="8.5" width="66" height="19"></rect>
         <rect id="Rectangle" stroke="#5042D3" fill="#F4F0ED" x="9.5" y="16.5" width="8" height="4"></rect>
         <circle id="Oval-2" stroke="#5042D3" fill="#FFFFFF" cx="40" cy="48" r="17"></circle>
-        <g id="Group-2" transform="translate(32.000000, 34.000000)" fill="#5042D3" stroke="#5042D3">
+        <g id="Group-2" transform="translate(32.000000, 34.000000)" fill="#000000">
             <g id="Group">
                 <polygon id="Triangle-Copy-2" points="7.69799805 8.39781605 15.3959961 18.5287751 0 18.5287751"></polygon>
                 <polygon id="Triangle-Copy-3" points="7.69799805 4.19890803 13.9963601 12.9302311 1.39963601 12.9302311"></polygon>
                 <polygon id="Triangle-Copy-4" points="7.69799805 9.76996262e-15 12.5967241 7.33168706 2.79927202 7.33168706"></polygon>
-                <path d="M7.69799805,2 L8,30" id="Line" stroke-linecap="square"></path>
+                <path d="M7.69799805,2 L8,30" id="Line" stroke="#000000" stroke-linecap="square"></path>
             </g>
         </g>
     </g>
