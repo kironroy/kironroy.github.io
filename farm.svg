@@ -10,6 +10,15 @@
         </linearGradient>
     </defs>
     <g id="farm" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M70,76 L70,53 L31,53 L31,76 L22,76 L22,45.5172414 L15,45.5172414 L22.0312104,30.6268483 L50.5,24 L78.9687896,30.6268483 L86,45.5172414 L80,45.5172414 L80,76 L70,76 Z M51,39 C53.209139,39 55,37.209139 55,35 C55,32.790861 53.209139,31 51,31 C48.790861,31 47,32.790861 47,35 C47,37.209139 48.790861,39 51,39 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+        <path d="M69,78 L69,55 L30,55 L30,78 L20,78 L20,47.5172414 L13,47.5172414 L20.0312104,32.6268483 L48.5,26 L76.9687896,32.6268483 L84,47.5172414 L78,47.5172414 L78,78 L69,78 Z M49,41 C51.209139,41 53,39.209139 53,37 C53,34.790861 51.209139,33 49,33 C46.790861,33 45,34.790861 45,37 C45,39.209139 46.790861,41 49,41 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+        <rect id="Rectangle" fill="#FFFFFF" x="-7" y="49" width="111" height="1"></rect>
+        <rect id="Rectangle-Copy" fill="#FFFFFF" x="-7" y="55" width="111" height="1"></rect>
+        <rect id="Rectangle-Copy-2" fill="#FFFFFF" x="-7" y="58" width="111" height="1"></rect>
+        <rect id="Rectangle-Copy-4" fill="#FFFFFF" x="-7" y="61" width="111" height="1"></rect>
+        <rect id="Rectangle-Copy-5" fill="#FFFFFF" x="-7" y="64" width="111" height="1"></rect>
+        <rect id="Rectangle-Copy-6" fill="#FFFFFF" x="-7" y="67" width="111" height="1"></rect>
+        <rect id="Rectangle-Copy-7" fill="#FFFFFF" x="-7" y="70" width="111" height="1"></rect>
+        <rect id="Rectangle-Copy-8" fill="#FFFFFF" x="-7" y="73" width="111" height="1"></rect>
+        <rect id="Rectangle-Copy-3" fill="#FFFFFF" x="-7" y="52" width="111" height="1"></rect>
     </g>
 </svg>

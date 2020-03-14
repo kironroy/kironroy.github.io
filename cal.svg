@@ -3,5 +3,13 @@
     <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
     <title>cal</title>
     <desc>Created with Sketch.</desc>
-    <g id="cal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"></g>
+    <defs>
+        <linearGradient x1="11.2823486%" y1="38.7176514%" x2="88.7176514%" y2="38.7176514%" id="linearGradient-1">
+            <stop stop-color="#FCF53C" offset="0%"></stop>
+            <stop stop-color="#2F1CF8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="cal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M41.1745775,27.9864386 L50.5,12 L59.8254225,27.9864386 L77.7236111,23.2763889 L73.0135614,41.1745775 L89,50.5 L73.0135614,59.8254225 L77.7236111,77.7236111 L59.8254225,73.0135614 L50.5,89 L41.1745775,73.0135614 L23.2763889,77.7236111 L27.9864386,59.8254225 L12,50.5 L27.9864386,41.1745775 L23.2763889,23.2763889 L41.1745775,27.9864386 Z M50.5,69 C60.7172679,69 69,60.7172679 69,50.5 C69,40.2827321 60.7172679,32 50.5,32 C40.2827321,32 32,40.2827321 32,50.5 C32,60.7172679 40.2827321,69 50.5,69 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+    </g>
 </svg>
