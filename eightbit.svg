@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
     <title>eightbit</title>
     <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="10.7939749%" x2="50%" y2="71.3142164%" id="linearGradient-1">
+            <stop stop-color="#4935CF" stop-opacity="0.562301857" offset="0%"></stop>
+            <stop stop-color="#E42727" offset="100%"></stop>
+        </linearGradient>
+    </defs>
     <g id="eightbit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="Rectangle" stroke="#5042D3" fill="#5042D3" x="6.5" y="8.5" width="66" height="62"></rect>
-        <rect id="Rectangle" stroke="#000000" fill="#000000" x="24.5" y="24.5" width="32" height="32"></rect>
-        <g id="Group" transform="translate(30.000000, 22.000000)" fill="#FFFFFF" font-family="Helvetica-Light, Helvetica" font-size="30" font-weight="300">
-            <text id="8">
-                <tspan x="2.16" y="29">8</tspan>
-            </text>
+        <g id="Group" transform="translate(27.000000, 7.000000)" fill="url(#linearGradient-1)">
+            <path d="M20.1428571,23.5 L20.1428571,29.4004329 C20.1428571,31.2545317 21.6459012,32.7575758 23.5,32.7575758 C25.3540988,32.7575758 26.8571429,31.2545317 26.8571429,29.4004329 L26.8571429,23.5 L26.8571429,17.5995671 C26.8571429,15.7454683 25.3540988,14.2424242 23.5,14.2424242 C21.6459012,14.2424242 20.1428571,15.7454683 20.1428571,17.5995671 L20.1428571,23.5 Z M0,23.5 L23.5,0 L47,23.5 L23.5,47 L0,23.5 Z" id="Combined-Shape"></path>
+            <path d="M20.1428571,59.5 L20.1428571,65.4004329 C20.1428571,67.2545317 21.6459012,68.7575758 23.5,68.7575758 C25.3540988,68.7575758 26.8571429,67.2545317 26.8571429,65.4004329 L26.8571429,59.5 L26.8571429,53.5995671 C26.8571429,51.7454683 25.3540988,50.2424242 23.5,50.2424242 C21.6459012,50.2424242 20.1428571,51.7454683 20.1428571,53.5995671 L20.1428571,59.5 Z M0,59.5 L23.5,36 L47,59.5 L23.5,83 L0,59.5 Z" id="Combined-Shape-Copy-3"></path>
         </g>
     </g>
 </svg>

@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
     <title>archives</title>
     <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="77.4353027%" id="linearGradient-1">
+            <stop stop-color="#FCF53C" offset="0%"></stop>
+            <stop stop-color="#2F1CF8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
     <g id="archives" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="Rectangle" stroke="#5042D3" fill="#5042D3" x="6.5" y="8.5" width="66" height="62"></rect>
-        <rect id="Rectangle" stroke="#000000" fill="#000000" x="23.5" y="24.5" width="32" height="32"></rect>
-        <polygon id="path4968" fill="#FFFFFF" stroke-linejoin="round" transform="translate(40.164234, 40.265172) rotate(-7.092546) translate(-40.164234, -40.265172) " points="45.7316516 52.1662956 39.1123106 45.788445 31.1648539 50.3245636 35.062959 41.927765 28.3792817 35.6133194 37.4072564 36.8021735 41.2252517 28.3640488 42.9074139 37.4960855 51.9491859 38.5944492 43.9608972 43.04915"></polygon>
+        <path d="M55,79 L55,59 C55,56.2385763 52.7614237,54 50,54 C47.2385763,54 45,56.2385763 45,59 L45,79 L17,79 L50.5,15 L84,79 L55,79 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
     </g>
 </svg>
