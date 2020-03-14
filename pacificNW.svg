@@ -4,26 +4,32 @@
     <title>pacificNW</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <linearGradient x1="50%" y1="74.6414185%" x2="50%" y2="119.781494%" id="linearGradient-1">
-            <stop stop-color="#013220" offset="0%"></stop>
-            <stop stop-color="#E8F81C" offset="100%"></stop>
+        <linearGradient x1="50%" y1="29.9346924%" x2="50%" y2="95.4284668%" id="linearGradient-1">
+            <stop stop-color="#E2E2E2" stop-opacity="0.688632246" offset="0%"></stop>
+            <stop stop-color="#777586" offset="100%"></stop>
         </linearGradient>
-        <linearGradient x1="50%" y1="50%" x2="50%" y2="17.1508789%" id="linearGradient-2">
-            <stop stop-color="#3E6617" offset="0%"></stop>
-            <stop stop-color="#C3D81B" offset="100%"></stop>
-            <stop stop-color="#E8F81C" offset="100%"></stop>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#ADA9BF" offset="0%"></stop>
+            <stop stop-color="#2F1CF7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="29.9346924%" x2="50%" y2="95.4284668%" id="linearGradient-3">
+            <stop stop-color="#A8C01A" offset="0%"></stop>
+            <stop stop-color="#777586" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="29.9346924%" x2="50%" y2="95.4284668%" id="linearGradient-4">
+            <stop stop-color="#A9C11A" offset="0%"></stop>
+            <stop stop-color="#777586" offset="100%"></stop>
         </linearGradient>
     </defs>
     <g id="pacificNW" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group" transform="translate(9.000000, 11.000000)">
-            <g id="Group-Copy">
-                <rect id="Rectangle" fill="#8F753E" x="18" y="60" width="4" height="19"></rect>
-                <path d="M38.7578125,57 L2.2421875,57 L3.203125,54 L37.796875,54 L38.7578125,57 Z M39.71875,60 L41,64 L0,64 L1.28125,60 L39.71875,60 Z M36.8359375,51 L4.1640625,51 L5.125,48 L35.875,48 L36.8359375,51 Z M34.9140625,45 L6.0859375,45 L7.046875,42 L33.953125,42 L34.9140625,45 Z M32.9921875,39 L8.0078125,39 L8.96875,36 L32.03125,36 L32.9921875,39 Z M31.0703125,33 L9.9296875,33 L10.890625,30 L30.109375,30 L31.0703125,33 Z M29.1484375,27 L11.8515625,27 L12.8125,24 L28.1875,24 L29.1484375,27 Z M27.2265625,21 L13.7734375,21 L14.734375,18 L26.265625,18 L27.2265625,21 Z M25.3046875,15 L15.6953125,15 L16.65625,12 L24.34375,12 L25.3046875,15 Z M23.3828125,9 L17.6171875,9 L20.5,0 L23.3828125,9 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
-            </g>
-            <g id="Group-Copy-2" transform="translate(41.000000, 0.000000)">
-                <rect id="Rectangle" fill="#8F753E" x="18" y="60" width="4" height="19"></rect>
-                <path d="M38.7578125,57 L2.2421875,57 L3.203125,54 L37.796875,54 L38.7578125,57 Z M39.71875,60 L41,64 L0,64 L1.28125,60 L39.71875,60 Z M36.8359375,51 L4.1640625,51 L5.125,48 L35.875,48 L36.8359375,51 Z M34.9140625,45 L6.0859375,45 L7.046875,42 L33.953125,42 L34.9140625,45 Z M32.9921875,39 L8.0078125,39 L8.96875,36 L32.03125,36 L32.9921875,39 Z M31.0703125,33 L9.9296875,33 L10.890625,30 L30.109375,30 L31.0703125,33 Z M29.1484375,27 L11.8515625,27 L12.8125,24 L28.1875,24 L29.1484375,27 Z M27.2265625,21 L13.7734375,21 L14.734375,18 L26.265625,18 L27.2265625,21 Z M25.3046875,15 L15.6953125,15 L16.65625,12 L24.34375,12 L25.3046875,15 Z M23.3828125,9 L17.6171875,9 L20.5,0 L23.3828125,9 Z" id="Combined-Shape" fill="url(#linearGradient-2)"></path>
-            </g>
+        <g id="Group" transform="translate(10.000000, 10.000000)" fill="url(#linearGradient-1)">
+            <path d="M42.4242424,33 L39.8978492,29.6651609 L25,10 L7.57575758,33 L0,33 L25,0 L39.8978492,19.6651609 L50,33 L42.4242424,33 Z" id="Combined-Shape"></path>
+            <path d="M70.4242424,33 L67.8978492,29.6651609 L53,10 L35.5757576,33 L28,33 L53,0 L67.8978492,19.6651609 L78,33 L70.4242424,33 Z" id="Combined-Shape-Copy-3"></path>
+        </g>
+        <rect id="Rectangle" fill="url(#linearGradient-2)" x="10" y="47" width="78" height="6"></rect>
+        <g id="Group-Copy" transform="translate(49.000000, 74.500000) rotate(-180.000000) translate(-49.000000, -74.500000) translate(10.000000, 58.000000)">
+            <path d="M42.4242424,33 L39.8978492,29.6651609 L25,10 L7.57575758,33 L0,33 L25,0 L39.8978492,19.6651609 L50,33 L42.4242424,33 Z" id="Combined-Shape" fill="url(#linearGradient-3)"></path>
+            <path d="M70.4242424,33 L67.8978492,29.6651609 L53,10 L35.5757576,33 L28,33 L53,0 L67.8978492,19.6651609 L78,33 L70.4242424,33 Z" id="Combined-Shape-Copy-3" fill="url(#linearGradient-4)"></path>
         </g>
     </g>
 </svg>
