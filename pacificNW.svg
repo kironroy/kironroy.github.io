@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
     <title>pacificNW</title>
     <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="35.0067139%" x2="50%" y2="119.781494%" id="linearGradient-1">
+            <stop stop-color="#3E6617" offset="0%"></stop>
+            <stop stop-color="#E8F81C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
     <g id="pacificNW" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="Rectangle" stroke="#5042D3" fill="#5042D3" x="6.5" y="8.5" width="66" height="62"></rect>
-        <rect id="Rectangle" stroke="#5042D3" fill="#FFFFFF" x="6.5" y="8.5" width="66" height="19"></rect>
-        <rect id="Rectangle" stroke="#5042D3" x="9.5" y="16.5" width="8" height="4"></rect>
-        <circle id="Oval-2" stroke="#5042D3" fill="#FFFFFF" cx="40" cy="48" r="17"></circle>
-        <g id="Group-2" transform="translate(32.000000, 34.000000)" fill="#000000">
-            <g id="Group">
-                <polygon id="Triangle-Copy-2" points="7.69799805 8.39781605 15.3959961 18.5287751 0 18.5287751"></polygon>
-                <polygon id="Triangle-Copy-3" points="7.69799805 4.19890803 13.9963601 12.9302311 1.39963601 12.9302311"></polygon>
-                <polygon id="Triangle-Copy-4" points="7.69799805 9.76996262e-15 12.5967241 7.33168706 2.79927202 7.33168706"></polygon>
-                <path d="M7.69799805,2 L8,30" id="Line" stroke="#000000" stroke-linecap="square"></path>
+        <g id="Group" transform="translate(9.000000, 11.000000)">
+            <g id="Group-Copy">
+                <rect id="Rectangle" fill="#8F753E" x="18" y="45" width="4" height="34"></rect>
+                <path d="M38.7578125,57 L2.2421875,57 L3.203125,54 L37.796875,54 L38.7578125,57 Z M39.71875,60 L41,64 L0,64 L1.28125,60 L39.71875,60 Z M36.8359375,51 L4.1640625,51 L5.125,48 L35.875,48 L36.8359375,51 Z M34.9140625,45 L6.0859375,45 L7.046875,42 L33.953125,42 L34.9140625,45 Z M32.9921875,39 L8.0078125,39 L8.96875,36 L32.03125,36 L32.9921875,39 Z M31.0703125,33 L9.9296875,33 L10.890625,30 L30.109375,30 L31.0703125,33 Z M29.1484375,27 L11.8515625,27 L12.8125,24 L28.1875,24 L29.1484375,27 Z M27.2265625,21 L13.7734375,21 L14.734375,18 L26.265625,18 L27.2265625,21 Z M25.3046875,15 L15.6953125,15 L16.65625,12 L24.34375,12 L25.3046875,15 Z M23.3828125,9 L17.6171875,9 L20.5,0 L23.3828125,9 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+            </g>
+            <g id="Group-Copy-2" transform="translate(41.000000, 0.000000)">
+                <rect id="Rectangle" fill="#8F753E" x="18" y="45" width="4" height="34"></rect>
+                <path d="M38.7578125,57 L2.2421875,57 L3.203125,54 L37.796875,54 L38.7578125,57 Z M39.71875,60 L41,64 L0,64 L1.28125,60 L39.71875,60 Z M36.8359375,51 L4.1640625,51 L5.125,48 L35.875,48 L36.8359375,51 Z M34.9140625,45 L6.0859375,45 L7.046875,42 L33.953125,42 L34.9140625,45 Z M32.9921875,39 L8.0078125,39 L8.96875,36 L32.03125,36 L32.9921875,39 Z M31.0703125,33 L9.9296875,33 L10.890625,30 L30.109375,30 L31.0703125,33 Z M29.1484375,27 L11.8515625,27 L12.8125,24 L28.1875,24 L29.1484375,27 Z M27.2265625,21 L13.7734375,21 L14.734375,18 L26.265625,18 L27.2265625,21 Z M25.3046875,15 L15.6953125,15 L16.65625,12 L24.34375,12 L25.3046875,15 Z M23.3828125,9 L17.6171875,9 L20.5,0 L23.3828125,9 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
             </g>
         </g>
     </g>

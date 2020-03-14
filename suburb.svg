@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
     <title>suburb</title>
     <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#8E8460" offset="0%"></stop>
+            <stop stop-color="#F76B1C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
     <g id="suburb" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="Rectangle" stroke="#5042D3" fill="#5042D3" x="6.5" y="8.5" width="66" height="62"></rect>
-        <g id="Group" transform="translate(13.000000, 37.000000)">
-            <rect id="Rectangle" fill="#FFFFFF" x="4" y="8" width="18" height="13"></rect>
-            <polygon id="Triangle" fill="#FFFFFF" points="13 0 26 10 0 10"></polygon>
-            <rect id="Rectangle" fill="#5042D3" x="7" y="16.5" width="2" height="5"></rect>
-        </g>
-        <g id="Group-Copy" transform="translate(6.000000, 37.000000)">
-            <rect id="Rectangle" stroke="#000000" fill="#000000" x="0.5" y="21.5" width="66" height="12"></rect>
-            <rect id="Rectangle" fill="#FFFFFF" x="38" y="8" width="18" height="13"></rect>
-            <polygon id="Triangle" fill="#FFFFFF" points="47 0 60 10 34 10"></polygon>
-            <rect id="Rectangle" fill="#5042D3" x="41" y="16" width="2" height="5"></rect>
-        </g>
+        <path d="M68,69 L68,66 L88.1123345,66 L88.1123345,69 L68,69 Z M61,69 L11,69 L11,66 L61,66 L61,69 Z M68,75.0848484 L68,72 L88.1123345,72 L88.1123345,75.0848484 L68,75.0848484 Z M61,75.0848484 L11,75.0848484 L11,72 L61,72 L61,75.0848484 Z M68,63 L68,62 L61,62 L61,63 L11,63 L11,60 L88.1123345,60 L88.1123345,63 L68,63 Z M88.1123345,57 L11,57 L11,54 L88.1123345,54 L88.1123345,57 Z M88.1123345,51 L11,51 L11,48 L88.1123345,48 L88.1123345,51 Z M88.1123345,45 L11,45 L11,43.5126758 L13.9889791,42 L85.1233554,42 L88.1123345,43.5126758 L88.1123345,45 Z M79.1954907,39 L19.9168438,39 L25.8447085,36 L73.267626,36 L79.1954907,39 Z M61.4118966,30 L67.3397613,33 L31.7725732,33 L37.7004379,30 L61.4118966,30 Z M55.4840319,27 L43.6283025,27 L49.5561672,24 L55.4840319,27 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
     </g>
 </svg>
