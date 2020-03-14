@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
     <title>farm</title>
     <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F34F4F" offset="0%"></stop>
+            <stop stop-color="#E42727" offset="100%"></stop>
+        </linearGradient>
+    </defs>
     <g id="farm" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="Rectangle" stroke="#5042D3" fill="#FFFFFF" x="6.5" y="8.5" width="66" height="62"></rect>
-        <g id="Group" transform="translate(23.000000, 24.000000)">
-            <polygon id="Polygon" fill="#5042D3" points="16.5 0 29.7319726 3.38776381 33 11 23.7260326 11 9.3414554 11 0 11 3.26802736 3.38776381"></polygon>
-            <rect id="Rectangle" fill="#FFFFFF" x="15" y="5" width="3" height="3"></rect>
-            <rect id="Rectangle" fill="#5042D3" x="3" y="10" width="27" height="17"></rect>
-        </g>
-        <g id="Group-2" transform="translate(31.000000, 43.000000)" fill="#FFFFFF">
-            <rect id="Rectangle" x="0" y="0" width="17" height="8"></rect>
-        </g>
-        <path d="M29.5,42.5 L48,51" id="Line-2" stroke="#5042D3" stroke-width="0.5" stroke-linecap="square"></path>
-        <path d="M30.5,42.5 L49,51" id="Line-2-Copy" stroke="#5042D3" stroke-width="0.5" stroke-linecap="square" transform="translate(40.000000, 46.500000) scale(-1, 1) translate(-40.000000, -46.500000) "></path>
-        <rect id="Rectangle" fill="#000000" x="6" y="51" width="67" height="20"></rect>
+        <path d="M70,76 L70,53 L31,53 L31,76 L22,76 L22,45.5172414 L15,45.5172414 L22.0312104,30.6268483 L50.5,24 L78.9687896,30.6268483 L86,45.5172414 L80,45.5172414 L80,76 L70,76 Z M51,39 C53.209139,39 55,37.209139 55,35 C55,32.790861 53.209139,31 51,31 C48.790861,31 47,32.790861 47,35 C47,37.209139 48.790861,39 51,39 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
     </g>
 </svg>

@@ -4,31 +4,25 @@
     <title>dinner</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <linearGradient x1="50%" y1="-43.6447144%" x2="50%" y2="169.98291%" id="linearGradient-1">
+        <linearGradient x1="50%" y1="72.3083496%" x2="50%" y2="169.98291%" id="linearGradient-1">
+            <stop stop-color="#C5450E" offset="0%"></stop>
+            <stop stop-color="#E99943" offset="93.9269807%"></stop>
+            <stop stop-color="#2F1CF8" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="33.5 0 67 64 0 64"></polygon>
+        <linearGradient x1="50%" y1="-43.6447144%" x2="50%" y2="169.98291%" id="linearGradient-4">
             <stop stop-color="#D66B00" offset="0%"></stop>
             <stop stop-color="#E99943" offset="85.7334777%"></stop>
             <stop stop-color="#2F1CF8" offset="100%"></stop>
         </linearGradient>
-        <polygon id="path-2" points="33.5 0 67 64 0 64"></polygon>
-        <linearGradient x1="50%" y1="0%" x2="50%" y2="38.031684%" id="linearGradient-4">
-            <stop stop-color="#A7270D" offset="0%"></stop>
-            <stop stop-color="#D0021B" offset="100%"></stop>
-        </linearGradient>
-        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
-            <stop stop-color="#DB5F15" offset="0%"></stop>
-            <stop stop-color="#B43109" offset="100%"></stop>
-        </linearGradient>
     </defs>
     <g id="dinner" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Oval-+-Oval-Copy-2-+-Oval-Copy-3-Mask" transform="translate(17.000000, 15.000000)">
+        <g id="Oval-+-Oval-Copy-2-+-Oval-Copy-3-Mask-Copy" transform="translate(17.000000, 15.000000)">
             <mask id="mask-3" fill="white">
                 <use xlink:href="#path-2"></use>
             </mask>
             <use id="Mask" fill="url(#linearGradient-1)" transform="translate(33.500000, 32.000000) rotate(-180.000000) translate(-33.500000, -32.000000) " xlink:href="#path-2"></use>
-            <circle id="Oval" fill="#D0021B" mask="url(#mask-3)" cx="18" cy="32" r="9"></circle>
-            <circle id="Oval-Copy-2" fill="#D0021B" mask="url(#mask-3)" cx="58" cy="17" r="9"></circle>
-            <circle id="Oval-Copy-3" fill="url(#linearGradient-4)" mask="url(#mask-3)" cx="42" cy="46" r="9"></circle>
-            <circle id="Oval-Copy" fill="url(#linearGradient-5)" mask="url(#mask-3)" cx="31" cy="11" r="9"></circle>
         </g>
+        <path d="M51.0116951,15 C51.0039274,15.1656914 51,15.332387 51,15.5 C51,21.2989899 55.7010101,26 61.5,26 C67.2989899,26 72,21.2989899 72,15.5 C72,15.332387 71.9960726,15.1656914 71.9883049,15 L84,15 L63.0063637,55.1072455 C62.5144327,55.0365726 62.0114873,55 61.5,55 C55.7010101,55 51,59.7010101 51,65.5 C51,68.2667648 52.0701163,70.7835905 53.8190328,72.6591612 L50.5,79 L31.287765,42.2960287 C35.2149222,40.7765078 38,36.9634988 38,32.5 C38,26.7010101 33.2989899,22 27.5,22 C25.3168642,22 23.2893433,22.6662665 21.6096814,23.8065554 L17,15 L51.0116951,15 Z M55.5,50 C61.2989899,50 66,45.2989899 66,39.5 C66,33.7010101 61.2989899,29 55.5,29 C49.7010101,29 45,33.7010101 45,39.5 C45,45.2989899 49.7010101,50 55.5,50 Z" id="Combined-Shape" fill="url(#linearGradient-4)"></path>
     </g>
 </svg>
