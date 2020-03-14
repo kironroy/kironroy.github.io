@@ -16,6 +16,7 @@
   <link href="https://kironroy.github.io/icon-hires.png" rel="icon" sizes="192x192" />
   <link href="https://kironroy.github.io/icon-normal.png" rel="icon" sizes="128x128" />
   <style type="text/css">
+    
     html,
     body {
       display: flex;
@@ -24,10 +25,11 @@
       flex-direction: column;
       margin-top: 16px;
       margin-bottom: 16px;
+      color: rgba(0,0,0,0.8);
       background-color: #ffffff;
       font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      font-weight: 350px;
-      letter-spacing: -.50px
+      font-weight: 300px;
+      letter-spacing: -.30px
     }
 
     div#app {
@@ -44,7 +46,7 @@
 
     div#app .search-wrapper label {
       position: absolute;
-      font-size: 16px;
+      font-size: 14px;
       color: rgba(0, 0, 0, 0.5);
       top: 8px;
       left: 12px;
@@ -54,12 +56,13 @@
 
     div#app .search-wrapper input {
       padding: 8px 20px;
-      font-size: 14px;
-      color: rgba(0, 0, 0, 0.7);
-      border: 2px solid #9ececc;
+      font-size: 16px;
+      color: rgba(0,0,0);
+      border: 1px solid rgba(0,0,0,0.3);
       border-radius: 6px;
       transition: .15s all ease-in-out;
-      background: white;
+      background: #fbfbfb;
+      font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     }
 
     div#app .search-wrapper input:focus {
@@ -80,14 +83,14 @@
 
     div#app .wrapper {
       display: flex;
-      max-width: 354px;
+      max-width: 344px;
       flex-wrap: wrap;
-      padding: 12px 0px 10px 10px;
+      padding-top: 12px;
     }
 
     div#app .card {
 
-      max-width: 140px;
+      max-width: 124px;
       margin: 22px;
       transition: .15s all ease-in-out;
     }
@@ -98,17 +101,16 @@
 
     div#app .card a {
       text-decoration: none;
-      padding: 14px;
-      color: #03A9F4;
-      font-size: 18px;
+      padding: 12px;
+      color: rgba(0,0,0,0.7);
+      font-size: 15px;
       display: flex;
       flex-direction: column;
       align-items: center;
-      color: #000000;
     }
 
     div#app .card a img {
-      height: 100px;
+      height: 92px;
       width: 100px;
     }
 
@@ -126,12 +128,11 @@
     }
 
     div#app .box {
-      width: 20px;
+      width: 200px;
       height: 200px;
       border: 1px solid rgba(0, 0, 0, 0.12);
     }
   </style>
-
   <title>C# Projects</title>
 
   <script type='text/javascript'>
