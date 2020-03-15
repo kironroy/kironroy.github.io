@@ -23,8 +23,7 @@
     </defs>
     <g id="pacificNW" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group" transform="translate(10.000000, 10.000000)" fill="url(#linearGradient-1)">
-            <path d="M42.4242424,33 L39.8978492,29.6651609 L25,10 L7.57575758,33 L0,33 L25,0 L39.8978492,19.6651609 L50,33 L42.4242424,33 Z" id="Combined-Shape"></path>
-            <path d="M70.4242424,33 L67.8978492,29.6651609 L53,10 L35.5757576,33 L28,33 L53,0 L67.8978492,19.6651609 L78,33 L70.4242424,33 Z" id="Combined-Shape-Copy-3"></path>
+            <path d="M39,28.48 L35.5757576,33 L28,33 L35.2121212,23.48 L25,10 L7.57575758,33 L0,33 L25,0 L39,18.48 L53,0 L67.8978492,19.6651609 L78,33 L70.4242424,33 L67.8978492,29.6651609 L53,10 L42.7878788,23.48 L50,33 L42.4242424,33 L39.8978492,29.6651609 L39,28.48 Z" id="Combined-Shape"></path>
         </g>
         <rect id="Rectangle" fill="url(#linearGradient-2)" x="10" y="47" width="78" height="6"></rect>
         <g id="Group-Copy" transform="translate(49.000000, 74.500000) rotate(-180.000000) translate(-49.000000, -74.500000) translate(10.000000, 58.000000)">
