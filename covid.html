@@ -19,17 +19,24 @@
     body {
 
       font-weight: 400;
-      font-size: 17px;
+      font-size: 18px;
       max-width: 1024px;
       padding: 21px;
       margin: 10px auto;
-      background-color: #ffffff;
-      color: rgba(0, 0, 0, 0.7);
+      -background-color: #ffffff;
+      color: #ffffff;
       font-family: 'Georgia', sans-serif;
+      -font-family: Arial, Helvetica, sans-serif;
     }
 
     a {
-      color: #2f1bf8;
+      color: #1a252f;
+      font-size: 16px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    a:hover {
+      background-color: #f0dba5;
     }
 
     p {
@@ -44,11 +51,24 @@
       margin-left: 25px;
       margin-bottom: 25px;
       padding: 5px;
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      -box-sizing: border-box;
+      background-color: #f0dba5;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      border-radius: 6px;
 
     }
 
     h1 {
       margin-left: 23px;
+
+    }
+
+    p {
+      margin-left: 23px;
+      line-height: 1.5;
 
     }
   </style>
@@ -69,8 +89,22 @@
   </center>
   <br>
   <br>
+
   <h1>Coronavirus Guide</h1>
+
   <br>
+  <p>
+    This Coronavirus guide was created on Monday, March 23, 2020.
+    It started as mental exercise of hand-written bullet points and is evolved
+    into a living document of everything that I have come across during this time.
+  </p>
+  <p>
+    Due to the fact that there are so many issues and connections related the Coronavirus,
+    The list is out of order.
+    <strong>That is why the search field is so important.</strong>
+    Use it to type a partial query like: Chi (for China), or Pas (for pasta), then see where that link takes you.
+  </p>
+
   <div id="content"></div>
   <script
     src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-db44b196776521ea816683afab021f757616c80860d31da6232dedb8d7cc4862.js">
@@ -132,7 +166,11 @@
 
       }
     }
-
+    // This Coronavirus was created on March 23, 2020.
+    // It started with a mental exercise of hand-written bullet points
+    // It a living document of everything that I have came across during this time
+    // Because of so many issues, and connections the list is out of order
+    // That is why the search field is so important.
 
     // Constant, library
     var libraries = [
@@ -150,7 +188,7 @@
         url: 'https://www.youtube.com/watch?v=QyeBxcvUJIU'
       },
       {
-        name: 'Economy Business New York Times: ',
+        name: 'Economy, Small Business New York Times: ',
         url: 'https://www.nytimes.com/2020/03/15/business/economy/coronavirus-economy-impact.html'
       },
       {
@@ -201,7 +239,78 @@
         name: 'Price Gouging, Toliet Tissue: ',
         url: 'https://www.nbcdfw.com/news/coronavirus/texas-attorney-general-warns-against-price-gouging-scams/2336162/'
       },
-      // 
+      {
+        name: 'There Are No Libertarians in an Epidemic, No Atheists in Foxholes: ',
+        url: 'https://www.theatlantic.com/politics/archive/2020/03/trump-socialism-and-coronavirus-epidemic/607681/'
+      },
+      {
+        name: 'Libertarian Press Release on COVID-19: ',
+        url: 'https://www.lp.org/libertarian-press-release-on-covid-19/'
+      },
+      {
+        name: 'Personal Protective Equipment, PPE, Masks, Gloves: ',
+        url: 'https://medlineplus.gov/ency/patientinstructions/000447.htm'
+      },
+      {
+        name: 'Geographic Information System, GIS: ',
+        url: 'https://www.esri.com/en-us/what-is-gis/overview'
+      },
+      {
+        name: 'Western supply chains buckle as coronavirus lockdowns spread, economy: ',
+        url: 'https://www.reuters.com/article/us-health-coronavirus-freight/western-supply-chains-buckle-as-coronavirus-lockdowns-spread-idUSKBN21A2PB'
+      },
+      {
+        name: 'Pathogen, Viruses, Bacteria, Parasites, Diseases caused by pathogens: ',
+        url: 'https://www.healthline.com/health/what-is-a-pathogen#types'
+      },
+      {
+        name: 'Anthony Fauci, Doctor, Physician, : ',
+        url: 'https://www.healthline.com/health/what-is-a-pathogen#types'
+      },
+
+      {
+        name: 'Pompeo, China, Russia, Iran, Disinformation, Coronavirus: ',
+        url: 'https://thehill.com/policy/national-security/488659-pompeo-says-china-russia-iran-are-spreading-disinformation-about'
+      },
+      {
+        name: 'Michael, Mike, Richard Pompeo, Secretary of state , during Coronavirus: ',
+        url: 'https://en.wikipedia.org/wiki/Mike_Pompeo'
+      },
+      {
+        name: 'Gina Haspel, CIA, Central Intelligence Agency, during Coronavirus: ',
+        url: 'https://en.wikipedia.org/wiki/Director_of_the_Central_Intelligence_Agency'
+      },
+      {
+        name: 'Christopher, Chris Asher Wray, Federal Bureau of Investigation, FBI, during Coronavirus: ',
+        url: 'https://en.wikipedia.org/wiki/Director_of_the_Central_Intelligence_Agency'
+      },
+      {
+        name: 'Seema Verma, CMS, Centers for Medicare & Medicaid Services, during Coronavirus: ',
+        url: 'https://en.wikipedia.org/wiki/Seema_Verma'
+      },
+      {
+        name: 'Seema Verma, CMS, Centers for Medicare & Medicaid Services, during Coronavirus: ',
+        url: 'https://en.wikipedia.org/wiki/Seema_Verma'
+      },
+      {
+        name: 'Pasta, Italy: ',
+        url: 'https://qz.com/1811768/coronavirus-lockdown-ignites-an-old-italian-debate-its-about-pasta-of-course/'
+      },
+      {
+        name: 'Long Beach, CA, California, L.A., LA, Los Angeles: ',
+        url: '//https://patch.com/california/longbeach-ca/12-coronavirus-cases-confirmed-long-beach-thursday'
+      },
+      {
+        name: 'Spring Breakers, Florida: ',
+        url: 'https://nypost.com/2020/03/23/spring-breakers-from-university-of-tampa-test-positive-for-coronavirus/'
+      },
+
+
+
+
+
+
+
 
 
 
@@ -221,7 +330,7 @@
 
       {
         name: 'ZZZ',
-        url: 'https://github.com/kironroy/kironroy.github.io/wiki/Design-Tools'
+        url: 'https://kironroy.github.io/projects'
       }
     ];
 
