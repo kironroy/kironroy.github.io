@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <link href="https://kironroy.github.io/apple-touch-icon.png" rel="apple-touch-icon" />
+  <link href="https://kironroy.github.io/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+  <link href="https://kironroy.github.io/apple-touch-icon-167x167.png" rel="apple-touch-icon" sizes="167x167" />
+  <link href="https://kironroy.github.io/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+  <link href="https://kironroy.github.io/icon-hires.png" rel="icon" sizes="192x192" />
+  <link href="https://kironroy.github.io/icon-normal.png" rel="icon" sizes="128x128" />
+  <title>Coronavirus Index</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='https://bootswatch.com/4/superhero/bootstrap.css'>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Heebo:300&display=swap');
+
+    body {
+
+      font-weight: 400;
+      font-size: 17px;
+      max-width: 1024px;
+      padding: 21px;
+      margin: 10px auto;
+      background-color: #ffffff;
+      color: rgba(0, 0, 0, 0.7);
+      font-family: 'Georgia', sans-serif;
+    }
+
+    a {
+      color: #2f1bf8;
+    }
+
+    p {
+      margin-bottom: 50px;
+    }
+
+    li {
+      padding: 5px;
+    }
+
+    input {
+      margin-left: 25px;
+      margin-bottom: 25px;
+      padding: 5px;
+
+    }
+
+    h1 {
+      margin-left: 23px;
+
+    }
+  </style>
+  <script>
+    window.console = window.console || function (t) {};
+  </script>
+  <script>
+    if (document.location.search.match(/type=embed/gi)) {
+      window.parent.postMessage("resize", "*");
+    }
+  </script>
+</head>
+
+<body translate="no">
+  <center>
+    <a href="http://kironroy.github.io/projects"><img alt="Kiron Roy Logo" src="new_logo_sm2.svg"
+        style="width:90px;height:90px;"></a>
+  </center>
+  <br>
+  <br>
+  <h1>Coronavirus Guide</h1>
+  <br>
+  <div id="content"></div>
+  <script
+    src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-db44b196776521ea816683afab021f757616c80860d31da6232dedb8d7cc4862.js">
+  </script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/react/0.13.0/react.min.js'></script>
+  <script id="rendered-js">
+    function _defineProperty(obj, key, value) {
+      if (key in obj) {
+        Object.defineProperty(obj, key, {
+          value: value,
+          enumerable: true,
+          configurable: true,
+          writable: true
+        });
+      } else {
+        obj[key] = value;
+      }
+      return obj;
+    }
+    class SearchExample extends React.Component {
+      constructor(...args) {
+        super(...args);
+        _defineProperty(this, "state",
+
+          {
+            searchString: ''
+          });
+        _defineProperty(this, "handleChange",
+          e => {
+            this.setState({
+              searchString: e.target.value
+            });
+          });
+      }
+      render() {
+        var libraries = this.props.items,
+          searchString = this.state.searchString.trim().toLowerCase();
+        if (searchString.length > 0) {
+          libraries = libraries.filter(function (i) {
+            return i.name.toLowerCase().match(searchString);
+          });
+        }
+        return (
+          React.createElement("div", null,
+            React.createElement("input", {
+              type: "text",
+              value: this.state.searchString,
+              onChange: this.handleChange,
+              placeholder: "Type here..."
+            }),
+            React.createElement("ul", null,
+              libraries.map(function (i) {
+                return React.createElement("li", null, i.name, " ", React.createElement("a", {
+                  href: i.url
+                }, i.url));
+              }))));
+
+
+
+      }
+    }
+
+
+    // Constant, library
+    var libraries = [
+
+      {
+        name: 'Lijian Zhao 赵立坚 (@zlj517) | Twitter, Foreign Ministry, China: ',
+        url: 'https://twitter.com/zlj517'
+      },
+      {
+        name: 'The New Silk Road, Part 1: From China to Pakistan | DW Documentary: ',
+        url: 'https://www.youtube.com/watch?v=cUxw9Re-Z-E'
+      },
+      {
+        name: 'The New Silk Road, Part 2: From Kyrgyzstan to Duisburg, China | DW Documentary: ',
+        url: 'https://www.youtube.com/watch?v=QyeBxcvUJIU'
+      },
+      {
+        name: 'Economy Business New York Times: ',
+        url: 'https://www.nytimes.com/2020/03/15/business/economy/coronavirus-economy-impact.html'
+      },
+      {
+        name: 'Senate Insider Trading Scandal, Stock Market, Wall Street: ',
+        url: 'https://www.google.com/search?q=senate+insider+trading&rlz=1C5CHFA_enUS871US871&oq=senate+ins&aqs=chrome.0.0j69i57j0l5.1999j0j4&sourceid=chrome&ie=UTF-8'
+      },
+      {
+        name: 'Stock Market Plunge, Coronavirus, Wall Street: ',
+        url: 'https://www.google.com/search?rlz=1C5CHFA_enUS871US871&ei=fix5XpTqB5XE-gSEupf4CQ&q=stock+market&oq=stock+market&gs_l=psy-ab.3..0i131i273l2j0i131l4j0i131i67j0i131l2j0.82270.83796..84174...0.0..0.137.1161.11j2......0....1..gws-wiz.......0i324j0i7i30j0i8i30j0i67j0i273j0i10.0HwVPQy9tms&ved=0ahUKEwiUoZ65x7HoAhUVop4KHQTdBZ8Q4dUDCAs&uact=5'
+      },
+      {
+        name: 'Black Monday (1987), Stock Market, Wall Street: ',
+        url: 'https://en.wikipedia.org/wiki/Black_Monday_(1987)'
+      },
+      {
+        name: 'Deep Fake, Toronto, New York Times, Dessa: ',
+        url: 'https://www.nytimes.com/2019/11/22/the-weekly/deepfake-joe-rogan.html'
+      },
+      {
+        name: 'Deep Fake, Toronto, Dessa, Company Web Site: ',
+        url: 'https://www.dessa.com/'
+      },
+      {
+        name: 'Centers for Disease Control and Prevention, CDC: ',
+        url: 'https://www.cdc.gov/'
+      },
+      {
+        name: 'Six Feet Distance, 6 feet',
+        url: 'https://www.insider.com/social-distance-six-feet-photos-2020-3'
+      },
+      {
+        name: 'Wet Market: ',
+        url: 'https://en.wikipedia.org/wiki/Wet_market'
+      },
+      {
+        name: 'Wuhan, China: ',
+        url: 'https://en.wikipedia.org/wiki/Wuhan'
+      },
+      {
+        name: '2019–20 coronavirus pandemic, Wuhan: ',
+        url: 'https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic'
+      },
+      {
+        name: 'Index case, patient: ',
+        url: 'https://en.wikipedia.org/wiki/Index_case'
+      },
+      {
+        name: 'Price Gouging, Toliet Tissue: ',
+        url: 'https://www.nbcdfw.com/news/coronavirus/texas-attorney-general-warns-against-price-gouging-scams/2336162/'
+      },
+      // 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      {
+        name: 'ZZZ',
+        url: 'https://github.com/kironroy/kironroy.github.io/wiki/Design-Tools'
+      }
+    ];
+
+
+
+    // put input and display on page
+    React.render(
+      React.createElement(SearchExample, {
+        items: libraries
+      }),
+      document.getElementById('content'));
+    //# sourceURL=pen.js
+  </script>
+</body>
+
+</html>
