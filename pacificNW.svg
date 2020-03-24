@@ -11,7 +11,7 @@
     </defs>
     <g id="pacificNW" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group" transform="translate(10.000000, 31.000000)" fill="url(#linearGradient-1)">
-            <path d="M53.75,16.5 L56.6532572,19.9839086 L80,48 L69.1666667,48 L56.6532572,32.9839086 L42.9166667,16.5 L53.75,16.5 L40,0 L26.25,16.5 L37.0833333,16.5 L10.8333333,48 L0,48 L26.25,16.5 L37.0833333,16.5 L40,13 L42.9166667,16.5 L53.75,16.5 Z" id="Combined-Shape"></path>
+            <path d="M69.1666667,48 L56.6532572,32.9839086 L40,13 L10.8333333,48 L0,48 L40,0 L56.6532572,19.9839086 L80,48 L69.1666667,48 Z" id="Combined-Shape"></path>
             <polygon id="Triangle-Copy-10" points="40 20 49.5756229 31.65728 63 48 17 48"></polygon>
         </g>
     </g>
