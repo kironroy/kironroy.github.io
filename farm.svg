@@ -4,19 +4,14 @@
     <title>farm</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <linearGradient x1="50%" y1="73.8656851%" x2="50%" y2="21.1313101%" id="linearGradient-1">
-            <stop stop-color="#FCF53C" offset="0%"></stop>
-            <stop stop-color="#EDECE4" offset="100%"></stop>
-        </linearGradient>
-        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
             <stop stop-color="#F34F4F" offset="0%"></stop>
             <stop stop-color="#E42727" offset="100%"></stop>
         </linearGradient>
     </defs>
     <g id="farm" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-2" transform="translate(10.000000, 21.000000)">
-            <rect id="Rectangle" fill="url(#linearGradient-1)" x="29" y="6" width="24" height="15"></rect>
-            <path d="M58,59 L58,39 L24,39 L24,59 L7.98591549,59 L7.98591549,24.4137931 L0,24.4137931 L8.0215217,7.51892407 L40.5,0 L72.9784783,7.51892407 L81,24.4137931 L74.1549296,24.4137931 L74.1549296,59 L58,59 Z M41.0704225,17.0192308 C43.5907079,17.0192308 45.6338028,14.9872923 45.6338028,12.4807692 C45.6338028,9.97424614 43.5907079,7.94230769 41.0704225,7.94230769 C38.5501372,7.94230769 36.5070423,9.97424614 36.5070423,12.4807692 C36.5070423,14.9872923 38.5501372,17.0192308 41.0704225,17.0192308 Z" id="Combined-Shape" fill="url(#linearGradient-2)"></path>
+        <g id="Group-2" transform="translate(10.000000, 21.000000)" fill="url(#linearGradient-1)">
+            <path d="M58,59 L58,39 L24,39 L24,59 L7.98591549,59 L7.98591549,24.4137931 L0,24.4137931 L8.0215217,7.51892407 L40.5,0 L72.9784783,7.51892407 L81,24.4137931 L74.1549296,24.4137931 L74.1549296,59 L58,59 Z M41.0704225,17.0192308 C43.5907079,17.0192308 45.6338028,14.9872923 45.6338028,12.4807692 C45.6338028,9.97424614 43.5907079,7.94230769 41.0704225,7.94230769 C38.5501372,7.94230769 36.5070423,9.97424614 36.5070423,12.4807692 C36.5070423,14.9872923 38.5501372,17.0192308 41.0704225,17.0192308 Z" id="Combined-Shape"></path>
         </g>
     </g>
 </svg>

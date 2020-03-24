@@ -4,24 +4,15 @@
     <title>pacificNW</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <linearGradient x1="50%" y1="29.9346924%" x2="50%" y2="95.4284668%" id="linearGradient-1">
-            <stop stop-color="#A8C01A" offset="0%"></stop>
-            <stop stop-color="#777586" offset="100%"></stop>
-        </linearGradient>
-        <linearGradient x1="50%" y1="29.9346924%" x2="50%" y2="95.4284668%" id="linearGradient-2">
-            <stop stop-color="#A9C11A" offset="0%"></stop>
-            <stop stop-color="#777586" offset="100%"></stop>
-        </linearGradient>
-        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-3">
-            <stop stop-color="#EEEEEE" offset="0%"></stop>
-            <stop stop-color="#D8D8D8" offset="100%"></stop>
+        <linearGradient x1="50%" y1="56.0546875%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#4F79A2" offset="0%"></stop>
+            <stop stop-color="#3E6617" offset="100%"></stop>
         </linearGradient>
     </defs>
     <g id="pacificNW" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-Copy" transform="translate(50.000000, 68.000000) rotate(-360.000000) translate(-50.000000, -68.000000) translate(17.000000, 54.000000)">
-            <path d="M35.6363636,28 L33.5141933,25.1704396 L21,8.48484848 L6.36363636,28 L0,28 L21,0 L33.5141933,16.6855911 L42,28 L35.6363636,28 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
-            <path d="M59.6363636,28 L57.5141933,25.1704396 L45,8.48484848 L30.3636364,28 L24,28 L45,-1.42108547e-14 L57.5141933,16.6855911 L66,28 L59.6363636,28 Z" id="Combined-Shape-Copy-3" fill="url(#linearGradient-2)"></path>
+        <g id="Group" transform="translate(10.000000, 31.000000)" fill="url(#linearGradient-1)">
+            <path d="M69.1666667,48 L56.6532572,32.9839086 L40,13 L10.8333333,48 L0,48 L40,0 L56.6532572,19.9839086 L80,48 L69.1666667,48 Z" id="Combined-Shape"></path>
+            <polygon id="Triangle-Copy-10" points="40 20 49.5756229 31.65728 63 48 17 48"></polygon>
         </g>
-        <path d="M72.9999922,29.5121144 C76.4955734,30.7476214 79,34.0813406 79,38 C79,42.9705627 74.9705627,47 70,47 L30,47 C25.0294373,47 21,42.9705627 21,38 C21,33.5881072 24.1745574,29.9176719 28.3640424,29.1483242 C28.1255279,28.1331369 28,27.0798951 28,26 C28,17.7157288 35.3873016,11 44.5,11 C50.8855535,11 56.423895,14.2975869 59.1668977,19.1217363 C59.7645502,19.0415777 60.376726,19 61,19 C67.627417,19 73,23.7010101 73,29.5 C73,29.5040387 72.9999974,29.5080768 72.9999922,29.5121144 Z" id="Combined-Shape" fill="url(#linearGradient-3)"></path>
     </g>
 </svg>
