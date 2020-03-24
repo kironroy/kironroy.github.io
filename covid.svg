@@ -8,10 +8,6 @@
             <stop stop-color="#3F1F1F" offset="0%"></stop>
             <stop stop-color="#862526" offset="100%"></stop>
         </linearGradient>
-        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
-            <stop stop-color="#FAF779" offset="0%"></stop>
-            <stop stop-color="#F3B144" offset="100%"></stop>
-        </linearGradient>
     </defs>
     <g id="covid" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group" transform="translate(9.000000, 8.000000)" fill="url(#linearGradient-1)">
@@ -24,6 +20,5 @@
             <path d="M16,27 L16,27 C17.6568542,27 19,28.3431458 19,30 L19,55 C19,56.6568542 17.6568542,58 16,58 L16,58 C14.3431458,58 13,56.6568542 13,55 L13,30 C13,28.3431458 14.3431458,27 16,27 Z" id="Rectangle" transform="translate(16.000000, 42.500000) rotate(270.000000) translate(-16.000000, -42.500000) "></path>
             <path d="M23.4347285,7.89709404 L23.4347285,7.89709404 C25.2014458,7.89709404 26.6336532,9.32930143 26.6336532,11.0960188 L26.6336532,35.7734381 C26.6336532,37.5401555 25.2014458,38.9723629 23.4347285,38.9723629 L23.4347285,38.9723629 C21.6680111,38.9723629 20.2358037,37.5401555 20.2358037,35.7734381 L20.2358037,11.0960188 C20.2358037,9.32930143 21.6680111,7.89709404 23.4347285,7.89709404 Z" id="Rectangle" transform="translate(23.434728, 23.434728) rotate(315.000000) translate(-23.434728, -23.434728) "></path>
         </g>
-        <polygon id="Triangle" fill="url(#linearGradient-2)" points="51 42 58 56 44 56"></polygon>
     </g>
 </svg>
