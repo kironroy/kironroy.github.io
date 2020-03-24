@@ -10,6 +10,7 @@
   <link href="https://kironroy.github.io/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
   <link href="https://kironroy.github.io/icon-hires.png" rel="icon" sizes="192x192" />
   <link href="https://kironroy.github.io/icon-normal.png" rel="icon" sizes="128x128" />
+  <script src="jquery-3.4.1.min.js"></script>
   <title>Coronavirus Index</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel='stylesheet' href='https://bootswatch.com/4/superhero/bootstrap.css'>
@@ -27,6 +28,22 @@
       color: #ffffff;
       font-family: 'Georgia', sans-serif;
       -font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .button {
+      background-color: #4CAF50;
+      font-family: 'Georgia', sans-serif;
+      font-size: 14px;
+      border-radius: 6px;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
     }
 
     a {
@@ -71,6 +88,9 @@
       line-height: 1.5;
 
     }
+
+
+
   </style>
   <script>
     window.console = window.console || function (t) {};
@@ -89,10 +109,13 @@
   </center>
   <br>
   <br>
+  
+  <a id="home"></a>
 
   <h1>COVID-19 Coronavirus Guide</h1>
   <br>
-  <h4><SPAN STYLE="color: #ffffcc"><u>README:</u></h4></SPAN>
+
+  <h4><SPAN STYLE="color: #4CAF50"><u>README:</u></h4></SPAN>
   <p>
     This Coronavirus guide was created on Monday, March 23, 2020.
     It started as mental exercise of hand-written bullet points and evolved
@@ -105,11 +128,14 @@
     Use it to type a partial query like: Chi (for China), or Pas (for pasta), then see where that link takes you.
   </p>
 
+ 
+
   <div id="content"></div>
   <script
     src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-db44b196776521ea816683afab021f757616c80860d31da6232dedb8d7cc4862.js">
   </script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/react/0.13.0/react.min.js'></script>
+
   <script id="rendered-js">
 
 // Thank you: Marek Melichar
@@ -174,11 +200,7 @@
 
     // Constant, library
     var libraries = [
-
-      {
-        name: 'Lijian Zhao 赵立坚 (@zlj517) | Twitter, Foreign Ministry, China: ',
-        url: 'https://twitter.com/zlj517'
-      },
+ 
       {
         name: 'The New Silk Road, Part 1: From China to Pakistan | DW Documentary: ',
         url: 'https://www.youtube.com/watch?v=cUxw9Re-Z-E'
@@ -272,7 +294,10 @@
         name: 'Anthony Fauci, Doctor, Physician: ',
         url: 'https://en.wikipedia.org/wiki/Anthony_Fauci'
       },
-
+      {
+        name: 'Lijian Zhao 赵立坚 (@zlj517) | Twitter, Foreign Ministry, China: ',
+        url: 'https://twitter.com/zlj517'
+      },
       {
         name: 'Pompeo, China, Russia, Iran, Disinformation, Coronavirus: ',
         url: 'https://thehill.com/policy/national-security/488659-pompeo-says-china-russia-iran-are-spreading-disinformation-about'
@@ -417,6 +442,33 @@
       document.getElementById('content'));
     //# sourceURL=pen.js
   </script>
+
+<script> 
+  /*Scroll to top when arrow up clicked BEGIN*/
+$(window).scroll(function() {
+    var height = $(window).scrollTop();
+    if (height > 100) {
+        $('#back2Top').fadeIn();
+    } else {
+        $('#back2Top').fadeOut();
+    }
+});
+$(document).ready(function() {
+    $("#back2Top").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
+
+});
+ /*Scroll to top when arrow up clicked END*/
+  </script>
+
+<center>
+  <a href="#home" class="button">Go back to top</a>
+</center>
+
+
 </body>
 
 </html>
