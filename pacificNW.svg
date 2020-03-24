@@ -4,36 +4,15 @@
     <title>pacificNW</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-1">
-            <stop stop-color="#EEEEEE" offset="0%"></stop>
-            <stop stop-color="#D8D8D8" offset="100%"></stop>
-        </linearGradient>
-        <linearGradient x1="50%" y1="27.9526654%" x2="50%" y2="100%" id="linearGradient-2">
+        <linearGradient x1="50%" y1="56.0546875%" x2="50%" y2="100%" id="linearGradient-1">
             <stop stop-color="#4F79A2" offset="0%"></stop>
-            <stop stop-color="#6396BF" offset="100%"></stop>
+            <stop stop-color="#3E6617" offset="100%"></stop>
         </linearGradient>
     </defs>
     <g id="pacificNW" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M69.8440025,28.2886895 C72.255514,29.066706 74,31.3296297 74,34 C74,37.3137085 71.3137085,40 68,40 L37,40 C33.6862915,40 31,37.3137085 31,34 C31,31.0032544 33.1969709,28.5196388 36.0681345,28.0719313 C36.0230984,27.7197615 36,27.3621287 36,27 C36,21.4771525 41.372583,17 48,17 C52.989491,17 57.2677519,19.5376153 59.0776856,23.1485984 C59.6970615,23.0512715 60.3402403,23 61,23 C65.3974043,23 69.0582129,25.2777021 69.8440025,28.2886895 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
-        <polygon id="Triangle" fill="url(#linearGradient-2)" points="50.5 42 64.4471029 58.6532572 84 82 17 82"></polygon>
-        <polygon id="Triangle" fill="#3E6617" points="27.5 73 30 82 25 82"></polygon>
-        <polygon id="Triangle-Copy-2" fill="#3E6617" points="32.5 73 35 82 30 82"></polygon>
-        <polygon id="Triangle-Copy-3" fill="#3E6617" points="37.5 73 40 82 35 82"></polygon>
-        <polygon id="Triangle-Copy-4" fill="#3E6617" points="42.5 73 45 82 40 82"></polygon>
-        <polygon id="Triangle-Copy-5" fill="#3E6617" points="47.5 73 50 82 45 82"></polygon>
-        <polygon id="Triangle-Copy-6" fill="#3E6617" points="52.5 73 55 82 50 82"></polygon>
-        <polygon id="Triangle-Copy-7" fill="#3E6617" points="57.5 73 60 82 55 82"></polygon>
-        <polygon id="Triangle-Copy-8" fill="#3E6617" points="62.5 73 65 82 60 82"></polygon>
-        <polygon id="Triangle-Copy-9" fill="#3E6617" points="67.5 73 70 82 65 82"></polygon>
-        <polygon id="Triangle-Copy-10" fill="#3E6617" points="72.5 73 75 82 70 82"></polygon>
-        <polygon id="Triangle-Copy" fill="#6D8E19" points="30 75 32 82 28 82"></polygon>
-        <polygon id="Triangle-Copy-11" fill="#6D8E19" points="35 75 37 82 33 82"></polygon>
-        <polygon id="Triangle-Copy-12" fill="#6D8E19" points="40 75 42 82 38 82"></polygon>
-        <polygon id="Triangle-Copy-13" fill="#6D8E19" points="45 75 47 82 43 82"></polygon>
-        <polygon id="Triangle-Copy-14" fill="#6D8E19" points="50 75 52 82 48 82"></polygon>
-        <polygon id="Triangle-Copy-15" fill="#6D8E19" points="55 75 57 82 53 82"></polygon>
-        <polygon id="Triangle-Copy-16" fill="#6D8E19" points="60 75 62 82 58 82"></polygon>
-        <polygon id="Triangle-Copy-17" fill="#6D8E19" points="65 75 67 82 63 82"></polygon>
-        <polygon id="Triangle-Copy-18" fill="#6D8E19" points="70 75 72 82 68 82"></polygon>
+        <g id="Group" transform="translate(10.000000, 31.000000)" fill="url(#linearGradient-1)">
+            <path d="M53.75,16.5 L56.6532572,19.9839086 L80,48 L69.1666667,48 L56.6532572,32.9839086 L42.9166667,16.5 L53.75,16.5 L40,0 L26.25,16.5 L37.0833333,16.5 L10.8333333,48 L0,48 L26.25,16.5 L37.0833333,16.5 L40,13 L42.9166667,16.5 L53.75,16.5 Z" id="Combined-Shape"></path>
+            <polygon id="Triangle-Copy-10" points="40 20 49.5756229 31.65728 63 48 17 48"></polygon>
+        </g>
     </g>
 </svg>
