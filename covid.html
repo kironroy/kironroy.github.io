@@ -28,7 +28,7 @@
       color: #ffffff;
       font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     }
-    
+
     .button {
       background-color: #4CAF50;
       font-family: Arial, Helvetica, sans-serif;
@@ -50,7 +50,7 @@
       font-size: 16px;
       font-family: Arial, Helvetica, sans-serif;
     }
-    
+
     a:visited {
       color: #00e;
     }
@@ -83,9 +83,10 @@
 
     }
 
-    h1,h4 {
+    h1,
+    h4 {
       margin-left: 23px;
-      
+
 
     }
 
@@ -94,9 +95,6 @@
       line-height: 1.5;
 
     }
-
-
-
   </style>
   <script>
     window.console = window.console || function (t) {};
@@ -115,7 +113,7 @@
   </center>
   <br>
   <br>
-  
+
   <a id="home"></a>
 
   <h1>COVID-19 Coronavirus Guide</h1>
@@ -123,28 +121,29 @@
 
   <h4><SPAN STYLE="color: #4CAF50"><u>README:</u></h4></SPAN>
   <p>
-    This Coronavirus guide was created on March 23, 2020.
-    It started as a mental exercise of hand written bullet points and evolved
-    into a living document. 
+    23 March 2020. I started this Coronavirus guide as
+    a mental exercise of hand written bullet points.
+    It is now a
+    living document.
   </p>
   <p>
-   There many interelated issues and connections that are related to the Coronavirus.  
+    There many interelated issues and connections that are related to the Coronavirus.
     <SPAN STYLE="color: #ffffcc"><strong>That is why the search field is so important.</strong></SPAN>
     Use it to type a partial query like: cont (Contagion), or pas (for pasta),
-   <br>
-   <br>
+    <br>
+    <br>
     List below of other key terms, names:
     <ul>
-     <li>WHO</li>
-     <li>Index</li>
-     <li>Pathogen</li>
-     <li>Toliet Tissue</li>
-     <li>Anthony Fauci</li>
-     ...
-   </ul>
+      <li>WHO</li>
+      <li>Index</li>
+      <li>Pathogen</li>
+      <li>Toliet Tissue</li>
+      <li>Anthony Fauci</li>
+      ...
+    </ul>
   </p>
 
- 
+
 
   <div id="content"></div>
   <script
@@ -153,9 +152,8 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/react/0.13.0/react.min.js'></script>
 
   <script id="rendered-js">
-
-// Thank you: Marek Melichar
-// Thank you: https://codepen.io/marekmelichar/pen/ORyyda
+    // Thank you: Marek Melichar
+    // Thank you: https://codepen.io/marekmelichar/pen/ORyyda
 
     function _defineProperty(obj, key, value) {
       if (key in obj) {
@@ -216,7 +214,7 @@
 
     // Constant, library
     var libraries = [
- 
+
       {
         name: 'The New Silk Road, Part 1: From China to Pakistan | DW Documentary: ',
         url: 'https://www.youtube.com/watch?v=cUxw9Re-Z-E'
@@ -245,7 +243,7 @@
         name: 'Stock Market Plunge, Coronavirus, Wall Street Journal: ',
         url: 'https://www.wsj.com/livecoverage/coronavirus'
       },
-      
+
       {
         name: 'Black Monday (1987), Stock Market, Wall Street, Economy: ',
         url: 'https://en.wikipedia.org/wiki/Black_Monday_(1987)'
@@ -425,6 +423,18 @@
         url: 'https://www.youtube.com/watch?v=3PrY7nFbwAY&list=WL&index=22&t=0s'
       },
       {
+        name: 'One World Government, Markets, Crisis, Public Health, WHO, China ',
+        url: 'https://mises.org/power-market/does-coronavirus-make-case-world-government'
+      },
+      {
+        name: 'India, Day 1: World’s Largest Coronavirus Lockdown Begins ',
+        url: 'https://www.nytimes.com/2020/03/25/world/asia/india-lockdown-coronavirus.html'
+      },
+      {
+        name: 'One World Government, Markets, Crisis, Public Health, WHO, China ',
+        url: 'https://mises.org/power-market/does-coronavirus-make-case-world-government'
+      },
+      {
         name: 'Bat, Bat Soup: ',
         url: 'https://www.health.com/condition/infectious-diseases/coronavirus-bat-soup'
       },
@@ -473,15 +483,15 @@
         name: 'Tedros Adhanom, WHO, World Health Organization: ',
         url: 'https://en.wikipedia.org/wiki/Tedros_Adhanom'
       },
-      
-      
 
-    
-    
-     
-      
-      
-      
+
+
+
+
+
+
+
+
 
 
 
@@ -521,30 +531,32 @@
     //# sourceURL=pen.js
   </script>
 
-<script> 
-  /*Scroll to top when arrow up clicked BEGIN*/
-$(window).scroll(function() {
-    var height = $(window).scrollTop();
-    if (height > 100) {
+  <script>
+    /*Scroll to top when arrow up clicked BEGIN*/
+    $(window).scroll(function () {
+      var height = $(window).scrollTop();
+      if (height > 100) {
         $('#back2Top').fadeIn();
-    } else {
+      } else {
         $('#back2Top').fadeOut();
-    }
-});
-$(document).ready(function() {
-    $("#back2Top").click(function(event) {
-        event.preventDefault();
-        $("html, body").animate({ scrollTop: 0 }, "slow");
-        return false;
+      }
     });
+    $(document).ready(function () {
+      $("#back2Top").click(function (event) {
+        event.preventDefault();
+        $("html, body").animate({
+          scrollTop: 0
+        }, "slow");
+        return false;
+      });
 
-});
- /*Scroll to top when arrow up clicked END*/
+    });
+    /*Scroll to top when arrow up clicked END*/
   </script>
 
-<center>
-  <a href="#home" class="button">Go back to top</a>
-</center>
+  <center>
+    <a href="#home" class="button">Go back to top</a>
+  </center>
 
 
 </body>
