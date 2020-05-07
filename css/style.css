@@ -7,6 +7,7 @@
 /* Basic */
 /*********************************************************************************/
 
+@import url('https://fonts.googleapis.com/css?family=Heebo:300&display=swap');
 
 body {
     background: #FFFFFF;
@@ -30,7 +31,7 @@ input,
 textarea,
 select {
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "SF Text", "Helvetica Neue", Arial, sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 16pt;
     -letter-spacing: -0.10px;
     line-height: 1.75em;
