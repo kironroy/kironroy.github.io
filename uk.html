@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <link href="https://kironroy.github.io/apple-touch-icon.png" rel="apple-touch-icon" />
+  <link href="https://kironroy.github.io/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+  <link href="https://kironroy.github.io/apple-touch-icon-167x167.png" rel="apple-touch-icon" sizes="167x167" />
+  <link href="https://kironroy.github.io/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+  <link href="https://kironroy.github.io/icon-hires.png" rel="icon" sizes="192x192" />
+  <link href="https://kironroy.github.io/icon-normal.png" rel="icon" sizes="128x128" />
+  <script src="jquery-3.4.1.min.js"></script>
+  <title>United Kingdom Guide</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='https://bootswatch.com/4/superhero/bootstrap.css'>
+  <style>
+   @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+    body {
+
+      font-weight: 400;
+      font-size: 18px;
+      max-width: 1024px;
+      padding: 21px;
+      margin: 10px auto;
+      background-color: #ffffff;
+      color: #000000;
+      font-family: 'Merriweather', serif;
+    }
+
+    .button {
+      background-color: #012169;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      border-radius: 6px;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+
+    a {
+      color: #1a252f;
+      font-size: 16px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    a:visited {
+      color: #00e;
+    }
+
+    a:hover {
+      color: #bb1919;
+    }
+
+    p {
+      margin-bottom: 50px;
+    }
+
+    li {
+      padding: 5px;
+    }
+
+    input {
+      margin-left: 25px;
+      margin-bottom: 25px;
+      padding: 5px;
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      -box-sizing: border-box;
+      background-color: #f3f3f3;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      border-radius: 6px;
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+
+    }
+
+    h1,
+    h4 {
+      margin-left: 23px;
+
+
+    }
+
+    p {
+      margin-left: 23px;
+      line-height: 1.5;
+
+    }
+  </style>
+  <script>
+    window.console = window.console || function (t) {};
+  </script>
+  <script>
+    if (document.location.search.match(/type=embed/gi)) {
+      window.parent.postMessage("resize", "*");
+    }
+  </script>
+</head>
+
+<body translate="no">
+  <center>
+    <a href="http://kironroy.github.io/projects"><img alt="Kiron Roy Logo" src="unitedkingdom.svg"
+        style="width:160px;height:60px;"></a>
+  </center>
+  <br>
+  <br>
+
+  <a id="home"></a>
+
+  <h2>United Kingdom Guide</h2>
+  <br>
+
+
+  <p>
+    Type in the search box on anything related to the United Kingdom
+    <br>
+    <br>
+    List below of other key terms, names:
+    <ul>
+      <li>VE Day</li>
+      <li>London</li>
+      <li>Jaywick</li>
+      ...
+    </ul>
+  </p>
+
+
+
+  <div id="content"></div>
+  <script
+    src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-db44b196776521ea816683afab021f757616c80860d31da6232dedb8d7cc4862.js">
+  </script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/react/0.13.0/react.min.js'></script>
+
+  <script id="rendered-js">
+    // Thank you: Marek Melichar
+    // Thank you: https://codepen.io/marekmelichar/pen/ORyyda
+
+    function _defineProperty(obj, key, value) {
+      if (key in obj) {
+        Object.defineProperty(obj, key, {
+          value: value,
+          enumerable: true,
+          configurable: true,
+          writable: true
+        });
+      } else {
+        obj[key] = value;
+      }
+      return obj;
+    }
+    class SearchExample extends React.Component {
+      constructor(...args) {
+        super(...args);
+        _defineProperty(this, "state",
+
+          {
+            searchString: ''
+          });
+        _defineProperty(this, "handleChange",
+          e => {
+            this.setState({
+              searchString: e.target.value
+            });
+          });
+      }
+      render() {
+        var libraries = this.props.items,
+          searchString = this.state.searchString.trim().toLowerCase();
+        if (searchString.length > 0) {
+          libraries = libraries.filter(function (i) {
+            return i.name.toLowerCase().match(searchString);
+          });
+        }
+        return (
+          React.createElement("div", null,
+            React.createElement("input", {
+              type: "text",
+              value: this.state.searchString,
+              onChange: this.handleChange,
+              placeholder: "Type here..."
+            }),
+            React.createElement("ul", null,
+              libraries.map(function (i) {
+                return React.createElement("li", null, i.name, " ", React.createElement("a", {
+                  href: i.url
+                }, i.url));
+              }))));
+
+
+
+      }
+    }
+
+
+    // Constant, library
+    var libraries = [
+
+      {
+        name: 'The never before seen images of Manchester on VE Day 1945: ',
+        url: 'https://www.manchestereveningnews.co.uk/news/greater-manchester-news/ve-day-achieve-images-reveal-18211819'
+      },
+      {
+        name: 'VE DAY 75: ',
+        url: 'https://www.english-heritage.org.uk/visit/inspire-me/ve-day/ve-day-in-pictures/'
+      },
+      {
+        name: 'Dancing in the streets: VE Day celebrations in 1945 - in pictures: ',
+        url: 'https://www.theguardian.com/world/gallery/2020/may/08/dancing-in-the-streets-ve-day-celebrations-in-1945-in-pictures'
+      },
+      {
+        name: 'That’s the Way It Crumbles: The American Conquest of English by Matthew Engel – review: ',
+        url: 'https://www.theguardian.com/books/2017/jul/03/thats-way-it-crumbles-american-conquest-english-matthew-engel-review'
+      },
+      {
+        name: 'Jaywick: ',
+        url: 'https://www.youtube.com/playlist?list=PL53oX5COm6ZLNiCePtDrYJBrSI_0-ICLQ'
+      },
+      {
+        name: 'London on Google Maps: ',
+        url: 'https://www.google.com/maps/place/London,+UK/@51.5285582,-0.2416815,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5073509!4d-0.1277583'
+      },
+      {
+        name: 'Kent on Google Maps: ',
+        url: 'https://www.google.com/maps/place/Kent,+UK/@51.1950577,0.1822307,9z/data=!3m1!4b1!4m5!3m4!1s0x47d8a815e2b18297:0x9251e76476201559!8m2!3d51.2787075!4d0.5217254'
+      },
+      {
+        name: 'Kent on Google Maps: ',
+        url: 'https://www.google.com/maps/place/Kent,+UK/@51.1950577,0.1822307,9z/data=!3m1!4b1!4m5!3m4!1s0x47d8a815e2b18297:0x9251e76476201559!8m2!3d51.2787075!4d0.5217254'
+      },
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ];
+
+
+
+    // put input and display on page
+    React.render(
+      React.createElement(SearchExample, {
+        items: libraries
+      }),
+      document.getElementById('content'));
+    //# sourceURL=pen.js
+  </script>
+
+  <script>
+    /*Scroll to top when arrow up clicked BEGIN*/
+    $(window).scroll(function () {
+      var height = $(window).scrollTop();
+      if (height > 100) {
+        $('#back2Top').fadeIn();
+      } else {
+        $('#back2Top').fadeOut();
+      }
+    });
+    $(document).ready(function () {
+      $("#back2Top").click(function (event) {
+        event.preventDefault();
+        $("html, body").animate({
+          scrollTop: 0
+        }, "slow");
+        return false;
+      });
+
+    });
+    /*Scroll to top when arrow up clicked END*/
+  </script>
+
+  <center>
+    <a href="#home" class="button">Go back to top</a>
+  </center>
+
+
+</body>
+
+</html>
