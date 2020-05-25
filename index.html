@@ -504,6 +504,20 @@
     </script>
     <script src="js/init.js">
     </script>
+      <script type="text/javascript">
+        if (window.addEventListener) {
+          //var state = 0, hackers = [72,65,67,75,69,82,83];
+          var state = 0,
+            tim = [75, 73, 82, 79, 78];
+    
+          window.addEventListener("keydown", function (e) {
+            if (e.keyCode == tim[state]) state++;
+            else state = 0;
+            if (state == 5)
+              window.location = "https://en.wikipedia.org/wiki/Kiron,_Iowa";
+          }, true);
+        }
+      </script>
 </body>
 
 </html>
