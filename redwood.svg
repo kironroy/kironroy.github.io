@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>redwood</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="75.5096436%" x2="50%" y2="42.0043945%" id="linearGradient-1">
+            <stop stop-color="#3E6617" offset="0%"></stop>
+            <stop stop-color="#3C3E20" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="redwood" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(32.000000, 11.000000)">
+            <rect id="Rectangle" fill="#5F3730" x="17" y="61" width="3" height="18"></rect>
+            <path d="M34.9765625,57 L2.0234375,57 L2.890625,54 L34.109375,54 L34.9765625,57 Z M35.84375,60 L37,64 L0,64 L1.15625,60 L35.84375,60 Z M33.2421875,51 L3.7578125,51 L4.625,48 L32.375,48 L33.2421875,51 Z M31.5078125,45 L5.4921875,45 L6.359375,42 L30.640625,42 L31.5078125,45 Z M29.7734375,39 L7.2265625,39 L8.09375,36 L28.90625,36 L29.7734375,39 Z M28.0390625,33 L8.9609375,33 L9.828125,30 L27.171875,30 L28.0390625,33 Z M26.3046875,27 L10.6953125,27 L11.5625,24 L25.4375,24 L26.3046875,27 Z M24.5703125,21 L12.4296875,21 L13.296875,18 L23.703125,18 L24.5703125,21 Z M22.8359375,15 L14.1640625,15 L15.03125,12 L21.96875,12 L22.8359375,15 Z M21.1015625,9 L15.8984375,9 L18.5,0 L21.1015625,9 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+        </g>
+    </g>
+</svg>
