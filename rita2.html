@@ -1,258 +1,175 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <meta name="robots" content="noindex, nofollow">
-  <meta name="googlebot" content="noindex, nofollow">
-  <script type="text/javascript" src="/js/lib/dummy.js"></script>
-  <link rel="stylesheet" type="text/css" href="/css/result-light.css">
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.3/vue.min.js"></script>
-  <style type="text/css">
-    /* // thank you: https://codepen.io/sergio_llanos22/pen/JNQRRP
-*/
-
-@import url('https://fonts.googleapis.com/css?family=Heebo:300,400');
-
-html, body {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	margin-top: 16px;
-	margin-bottom: 16px;
-  background-color: #FFFFFF;
-  font-family: 'Heebo';
-  font-weight: 300;
-}
-
-div#app {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-}
-
-div#app .search-wrapper {
-	position: relative;
-}
-
-div#app .search-wrapper label {
-	position: absolute;
-	font-size: 12px;
-	color: rgba(0, 0, 0, 0.5);
-	top: 8px;
-	left: 12px;
-	z-index: -1;
-	transition: .15s all ease-in-out;
-}
-
-div#app .search-wrapper input {
-	padding: 10px 40px;
-	color: rgba(0, 0, 0, 0.7);
-	border: 2px solid rgba(0, 0, 0, 0.12);
-	transition: .15s all ease-in-out;
-	background: white;
-}
-
-div#app .search-wrapper input:focus {
-	outline: none;
-	transform: scale(1.05);
-}
-
-div#app .search-wrapper input:focus + label {
-	font-size: 10px;
-	transform: translateY(-24px) translateX(-12px);
-}
-
-div#app .search-wrapper input::-webkit-input-placeholder {
-	font-size: 12px;
-	color: rgba(0, 0, 0, 0.5);
-	font-weight: 100;
-}
-
-div#app .wrapper {
-	display: flex;
-	max-width: 444px;
-	flex-wrap: wrap;
-	padding-top: 12px;
-}
-
-div#app .card {
-	box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
-	max-width: 124px;
-	margin: 12px;
-	transition: .15s all ease-in-out;
-}
-
-div#app .card:hover {
-	transform: scale(1.1);
-}
-
-div#app .card a {
-	text-decoration: none;
-	padding: 12px;
-	color: #03A9F4;
-	font-size: 18px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-  color: #000000;
-}
-
-div#app .card a img {
-	height: 92px;
-  width: 100px;
-}
-
-div#app .card a small {
-	font-size: 1px;
-	padding: 4px;
-}
-
-div#app .hotpink {
-	background: hotpink;
-}
-
-div#app .green {
-	background: green;
-}
-
-div#app .box {
-	width: 200px;
-	height: 200px;
-	border: 1px solid rgba(0, 0, 0, 0.12);
-}
-  </style>
-
-  <title>basic vue by kironroy</title>
-
-
-
-
-
-
-
-<script type='text/javascript'>//<![CDATA[
-window.onload=function(){
-// thank you: https://codepen.io/sergio_llanos22/pen/JNQRRP
-
-class Post {
-  constructor(title, link, author, img) {
-    this.title = title;
-    this.link = link;
-    //this.author = author;
-    this.img = img;
-  }
-}
-
-const app = new Vue({
-  el: '#app',
-  data: {
-    keyword: '',
-    postList: [
-      new Post(
-        'Office Ally',
-        'https://pm.officeally.com/pm/login.aspx',
-        'Chris',
-        'https://pbs.twimg.com/profile_images/778987537477935104/XftRCnIU.jpg'
-      ),
-      new Post(
-        'EZIZ',
-        'http://eziz.org/myvfcvaccines/',
-        'Tim',
-        'http://eziz.org/images/faq2.gif'
-      ),
-      new Post(
-        'Vaccine',
-        'https://www.vaccineshoppe.com/index.cfm?fa=anon.homepage',
-        'Sam',
-        'http://www.casaalliance.net/images/193/0/button-order-sanofi.png'
-      ),
-      new Post(
-        'Medi-Cal',
-        'https://www.medi-cal.ca.gov/Eligibility/Login.asp',
-        'Rachel',
-        'https://www.kerncounty.com/dhs/images/medi-cal.jpg'
-      ),
-      new Post(
-        'Availity',
-        'https://apps.availity.com/availity/web/public.elegant.login',
-        'Chris',
-        'https://prnewswire2-a.akamaihd.net/p/1893751/sp/189375100/thumbnail/entry_id/0_ibyy2qeg/def_height/1600/def_width/1600/version/100012/type/2/q/100'
-      ),
-      new Post(
-        'PIH EZ-NET',
-        'https://eznetportal.pihhealth.org/EZ-NET60/Login.aspx',
-        'Tim',
-        'https://biz.prlog.org/PIH_Health/logo.jpg'
-      ),
-      new Post(
-        'Medpoint',
-        'https://mpmweb.medpointmanagement.com/2011/Default.aspx',
-        'A. A. Ron',
-        'https://mpmweb.medpointmanagement.com/2011/IMAGES/MedpointLogoNew.jpg'
-      ),
-      new Post(
-        'Navinet',
-        'https://navinet.navimedix.com/sign-in?ReturnUrl=/',
-        'Alex',
-        'http://businessradiox.com/wp-content/uploads/2015/10/navinet.jpeg'
-      ),
-      new Post(
-        'L.A. Care',
-        'https://external.lacare.org/oam/server/obrareq.cgi?encquery%3D2PYm7ygji8Nq9aGhg6Jvh%2B67qcxUwX6JwlIJgmiZn3vP42jzbhOIT0Y5tWwappdzru9LVBbJjJCm3Mcu2a98Id6R4i5Jbftr0yJIOcLE2yGFbWOqEIKEUS4jTfMIfveStpnpHuDRqag8CLNo6FRzFfpYYpUHgU90kjcydc4JXHLSZgGBcb%2BvRZZf%2Bzc482NI%2Fzyl0P00CBQ%2FETbq824GKAuvsuanZ1qpu0L%2BNO6Jfa1l5BJIeE5m9tbFG%2BjS4%2BUgcP1rgc3fto%2Fhru7GVVT2vWtDlM2MKX%2BrEsj5YPjp73Nj3PU0bfkpK3Z1yFeXvx6Jw3FAZeM2Mkwia3gjWqSk3FmnWBr%2BTlaEOR%2FVc%2BUl4i2L4og2Eqm3yA2uqmhqARjqxJ6gBViGUl%2BO20DoPTWYPg%3D%3D%20agentid%3DProdExt_Pinole_Pittsburg%20ver%3D1%20crmethod%3D2&ECID-Context=1.005HOKIhh_1CcpO5yj9DiW0004Qi00021d%3BkXjE',
-        'Chuck',
-        'https://upload.wikimedia.org/wikipedia/en/b/b3/L.A._Care_Health_Plan_official_logo.png'
-      ),
-
-
-
-    ]
-  },
-  methods: {
-    toggleOnOff() {
-      this.onOff = !this.onOff;
-    }
-  },
-  computed: {
-    filteredList() {
-      return this.postList.filter((post) => {
-        return post.title.toLowerCase().includes(this.keyword.toLowerCase());
-      });
-    }
-  }
-});
-}//]]>
-
-</script>
-  </head>
-    <body>
-  <!-- // thank you: https://codepen.io/sergio_llanos22/pen/JNQRRP -->
-<div id="app">
-  <div class="search-wrapper">
-    <input type="text" v-model="keyword" placeholder="Search"/>
-    <label>Search</label>
-  </div>
-      <div class="wrapper">
-        <div class="card" v-for="post in filteredList">
-          <a v-bind:href="post.link" target="_blank">
-            <img v-bind:src="post.img"/>
-            <small>{{post.author}}</small>{{post.title}}
-          </a>
-        </div>
-      </div>
+    <link href="style_rita.css" rel="stylesheet" type="text/css">
+    <title>Rita Roy M.D.</title>
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="/favicon.ico" rel="icon" type="image/x-icon">
+    <title>Rita Roy M.D.</title>
+</head>
+<body>
+<div class="left">
+    <br>
+    <br>
+    <!--<center><a href="http://kironroy.net/"><img src="logored.png" alt="Gis Logo for homepage" height="100" width="62"></a></center> -->
+</div><!--Navigation starts here-->
+<div class="right1">
+    <div class="navtop">
+        <a id="top" name="top"></a> <a href="https://www.google.com/search?q=rita++roy+m.d&ie=utf-8&oe=utf-8">Rita Roy M.D.</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#office">Office Ally</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#Resources">Resources</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#insurance">Insurance</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#taxes">Taxes</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#vaccine">Vaccine</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     </div>
+</div><br>
+<div class="right2">
+    <!-- Office Ally -->
+    <h3><a id="office" name="office">Office Ally</a></h3>
+    <ul>
+        <li>
+        <a href="https://kironroy.github.io/rita2.html"><strong>Rita Roy GUI</strong></a>
+    </li>
 
+    <li>
+        <a href="//https://www.youtube.com/watch?v=6iSsTSHeF3M"><strong>Traceable Temp</strong></a>
+    </li>
 
-  <script>
-  // tell the embed parent frame the height of the content
-  if (window.parent && window.parent.parent){
-    window.parent.parent.postMessage(["resultsFrame", {
-      height: document.body.getBoundingClientRect().height,
-      slug: "90dmpfv8"
-    }], "*")
-  }
-</script>
-  </body>
+        <li>
+            <a href="https://rita-supplies.glitch.me/"><strong>Rita Roy Supplies</strong></a>
+        </li>
+        <li style="list-style: none"></li>
+        <li>
+            <a href="https://www.irs.gov/individuals/international-taxpayers/taxpayer-identification-numbers-tin">Tax Id (TIN): 953728208</a>
+        </li>
+        <li>
+            <a href="https://pm.officeally.com/pm/login.aspx">Practice Mate (Office Ally)</a>
+        </li>
+        <li>
+            <a href="http://tv.officeally.com/pmcat/">Practice Mate Training Videos (Office Ally)</a>
+        </li>
+    </ul><!-- Resources ends -->
+    <div id="underbar">
+        <a href="#office">Office Ally</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#Resources">Resources</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#insurance">Insurance</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#vaccine">Vaccine</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#taxes">Taxes</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div><!-- Resources starts -->
+    <h3><a id="Resources" name="Resources">Resources</a></h3>
+    <ul>
+        <li>
+            <a href="http://www.nuemd.com/Resources-10/codes/shortness%20of%20breath">Resources lookup</a>
+        </li>
+        <li>
+            <a href="http://publichealth.lacounty.gov/cms/CHDP.htm">CHDP Provider Resources</a>
+        </li>
+        <li>
+            <a href="http://www.dhcs.ca.gov/services/chdp/Pages/default.aspx">Child Health and Disability Prevention Program CA.gov</a>
+        </li>
+        <li>
+            <a href="http://www.pri-med.com/medical-conferences.aspx">Pri Med Conferences</a>
+        </li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://register.xpressreg.net/RRCV3/WEST0517/Login">Pri Med Conference Login</a>
+        </li>
+    </ul><!-- Resources ends -->
+    <div id="underbar">
+        <a href="#office">Office Ally</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#Resources">Resources</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#insurance">Insurance</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#vaccine">Vaccine</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#taxes">Taxes</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div><!-- Insurance starts -->
+    <h3><a id="insurance" name="insurance">Insurance</a></h3>
+    <ul>
+        <li>
+            <a href="https://aerial.carecoordination.medecision.com/login.html">Aerial Dashboard</a>
+        </li>
+        <li>
+            <a href="https://aerial.carecoordination.medecision.com/dsipa/physician/LoginDefault.aspx?Logout=Y">Aerial (Downey, Prospect, St. Francis)</a>
+        </li>
+        <li>
+            <a href="https://www.medi-cal.ca.gov/Eligibility/Login.asp">Medi-Cal</a>
+        </li>
+        <li>
+            <a href="https://apps.availity.com/availity/web/public.elegant.login">Availity (Part of Blue Cross)</a>
+        </li>
+        <li>
+            <a href="https://www.uhcwest.com/commonPortal/index.jsp">United Healthcare</a>
+        </li>
+        <li>
+            <a href="https://www.healthnet.com/portal/provider/home.ndo">Healthnet</a>
+        </li>
+        <li>
+            <a href="https://www.blueshieldca.com/provider/home.sp">Blue Shield of CA</a>
+        </li>
+        <li>
+            <a href="https://navinet.navimedix.com/sign-in?ReturnUrl=/">Navinet</a>
+        </li>
+        <li>
+            <a href="https://mpmweb.medpointmanagement.com/2011/Default.aspx">Medpoint</a>
+        </li>
+        <li>
+            <a href="https://healthid.optum.com/tb/app/index.html?TARGET=HTTPS%3A%2F%2Fwww.uhcmilitarywest.com%2Fuhcmw%2Fportal%2Fsecure%2Fprovider%2Foidredirect%2F&relyingAppId=TBP39755#/login">United Health Care 2</a>
+        </li>
+        <li>
+            <a href="https://www.cozeva.com/user/login">Cozeva</a>
+        </li>
+        <li>
+            <a href="https://www.questdiagnostics.com/questConnect/cspLogin.do?method=getRoles">Quest Diagnostics</a>
+        </li>
+        <li>
+            <a href="https://umih-portal.com/Portal/Login.aspx?ReturnUrl=%2fportal%2f">Carestream</a>
+        </li>
+        <li>
+            <a href="https://cignaforhcp.cigna.com/web/public/guest/">Cigna</a>
+        </li>
+        <li>
+            <a href="http://www.immunize.org/vis/">Immunization Action Coalition</a>
+        </li>
+        <li>
+            <a href="https://external.lacare.org/oam/server/obrareq.cgi?encquery%3D2PYm7ygji8Nq9aGhg6Jvh%2B67qcxUwX6JwlIJgmiZn3vP42jzbhOIT0Y5tWwappdzru9LVBbJjJCm3Mcu2a98Id6R4i5Jbftr0yJIOcLE2yGFbWOqEIKEUS4jTfMIfveStpnpHuDRqag8CLNo6FRzFfpYYpUHgU90kjcydc4JXHLSZgGBcb%2BvRZZf%2Bzc482NI%2Fzyl0P00CBQ%2FETbq824GKAuvsuanZ1qpu0L%2BNO6Jfa1l5BJIeE5m9tbFG%2BjS4%2BUgcP1rgc3fto%2Fhru7GVVT2vWtDlM2MKX%2BrEsj5YPjp73Nj3PU0bfkpK3Z1yFeXvx6Jw3FAZeM2Mkwia3gjWqSk3FmnWBr%2BTlaEOR%2FVc%2BUl4i2L4og2Eqm3yA2uqmhqARjqxJ6gBViGUl%2BO20DoPTWYPg%3D%3D%20agentid%3DProdExt_Pinole_Pittsburg%20ver%3D1%20crmethod%3D2&ECID-Context=1.005HOKIhh_1CcpO5yj9DiW0004Qi00021d%3BkXjE">LA Care</a>
+        </li>
+        <li>
+            <a href="https://eznetportal.pihhealth.org/EZ-NET60/Login.aspx">EZ net PIH</a>
+        </li>
+        <li>
+            <a href="https://member.capphysicians.com/">Cooperative Physicans</a>
+        </li>
+    </ul><!-- Insurance starts -->
+    <div id="underbar">
+        <a href="#office">Office Ally</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#Resources">Resources</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#insurance">Insurance</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#vaccine">Vaccine</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#taxes">Taxes</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div><!-- Vaccine starts -->
+    <h3><a id="vaccine" name="vaccine">Vaccine</a></h3>
+    <ul>
+        <li>
+            <a href="http://eziz.org/myvfcvaccines/">EZIZ</a>
+        </li>
+        <li>
+            <a href="https://www.vaccineshoppe.com/index.cfm?fa=anon.homepage">Vaccineshoppe (Sanofi Pasteur)</a>
+        </li>
+        <li>
+            <a href="https://www.merckvaccines.com/is-bin/INTERSHOP.enfinity/WFS/Merck-MerckVaccines-Site">Merck Vaccines</a>
+        </li>
+        <li>
+            <a href="https://gskvaccinesdirect.com/">GSK vaccines</a>
+        </li>
+        <li>
+            <a href="https://pfizerprime.com/primeglobal/login">Pfzier</a>
+        </li>
+    </ul><!-- Vaccine ends -->
+    <div id="underbar">
+        <a href="#office">Office Ally</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#Resources">Resources</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#insurance">Insurance</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#vaccine">Vaccine</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#taxes">Taxes</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+    <h3><a id="taxes" name="taxes">Taxes</a></h3>
+    <ul>
+        <li>
+            <a href="https://my.waveapps.com/login/?service=accounting&next=/"><i>Wave Payroll Accounting</i></a>
+        </li>
+        <li>
+            <a href="https://www.ftb.ca.gov/businesses/">CA Franchise board</a>
+        </li>
+        <li>
+            <a href="https://www.eftps.gov/eftps/">EFTPS</a>
+        </li>
+        <li>
+            <a href="https://www.irs.gov/">IRS</a>
+        </li>
+        <li>
+            <a href="https://www.irs.gov/pub/irs-pdf/p15.pdf">(Circular E), Employer's Tax Guide (page 57)</a>
+        </li>
+    </ul>
+    <div id="underbar">
+        <a href="#office">Office Ally</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#Resources">Resources</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#insurance">Insurance</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#vaccine">Vaccine</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#taxes">Taxes</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div><!--help ends-->
+</div>
+</body>
 </html>
