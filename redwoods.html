@@ -1,117 +1,119 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta content="text/html; charset=utf-8" http-equiv="content-type">
 	<meta content="width=device-width, initial-scale=1" name="viewport">
 	<title>Redwoods: Sequoia sempervirens</title>
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	
-	
+
+
 	<script src="redwoods.js">
 	</script><!-- For Safari Browser: -->
-    <link href="https://kironroy.github.io/apple-touch-icon.png" rel="apple-touch-icon" />
-    <link href="https://kironroy.github.io/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
-    <link href="https://kironroy.github.io/apple-touch-icon-167x167.png" rel="apple-touch-icon" sizes="167x167" />
-    <link href="https://kironroy.github.io/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
-    <link href="https://kironroy.github.io/icon-hires.png" rel="icon" sizes="192x192" />
-    <link href="https://kironroy.github.io/icon-normal.png" rel="icon" sizes="128x128" />
+	<link href="https://kironroy.github.io/apple-touch-icon.png" rel="apple-touch-icon" />
+	<link href="https://kironroy.github.io/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+	<link href="https://kironroy.github.io/apple-touch-icon-167x167.png" rel="apple-touch-icon" sizes="167x167" />
+	<link href="https://kironroy.github.io/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+	<link href="https://kironroy.github.io/icon-hires.png" rel="icon" sizes="192x192" />
+	<link href="https://kironroy.github.io/icon-normal.png" rel="icon" sizes="128x128" />
 	<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" -->
-    <style>
-
-       
+	<style>
 		@import url('https://fonts.googleapis.com/css?family=Ovo');
 
 
-        a {
-            -background-color:transparent;
-            text-decoration: none;
-            color: #7F1C25;
-            font-style: normal;
+		a {
+			-background-color: transparent;
+			text-decoration: none;
+			color: #7F1C25;
+			font-style: normal;
 
-        }
+		}
 
-        a:hover {
-            outline: 0;
-            font-weight: bold;
-            color: #612711;
-        }
+		a:hover {
+			outline: 0;
+			font-weight: bold;
+			color: #612711;
+		}
 
-        h1, h2, h4 {
-            color: #7F1C25;
-            font-family: 'Ovo', serif;
-            letter-spacing: -.80px;
-        }
+		h1,
+		h2,
+		h4 {
+			color: #7F1C25;
+			font-family: 'Ovo', serif;
+			letter-spacing: -.80px;
+		}
 
 
-        body {
-            font-family: 'Ovo', serif;
-            background-color: #ffffff;
-            letter-spacing: -.30px;
-            padding-top: 50px;
-            padding-left: 50px;
-            padding-right: 50px;
-            line-height: 1.2;
-            font-size: 1.30em;
+		body {
+			font-family: 'Ovo', serif;
+			background-color: #ffffff;
+			letter-spacing: -.30px;
+			padding-top: 50px;
+			padding-left: 50px;
+			padding-right: 50px;
+			line-height: 1.2;
+			font-size: 1.30em;
 
-        }
+		}
 
-        .books_italics a:link {
-            font-family: 'Times', serif;
-            font-style: italic;
-            
-        }
+		.books_italics a:link {
+			font-family: 'Times', serif;
+			font-style: italic;
 
-        .tabs {
-            clear: both;
-            position: relative;
-            max-width: 680px;
-            margin: 0 auto;
-            /* you can either manually set a min-height here or do it via JS ---> */
-        }
+		}
 
-        .tab {
-            float: left;
-        }
+		.tabs {
+			clear: both;
+			position: relative;
+			max-width: 680px;
+			margin: 0 auto;
+			/* you can either manually set a min-height here or do it via JS ---> */
+		}
 
-        .tab label {
-            font-size: 23px;
-            margin-right: 22px;
-            position: relative;
-            top: 0;
-            cursor: pointer;
-            color: #7F1C25;
-        }
+		.tab {
+			float: left;
+		}
 
-        .tab [type=radio] {
-            display: none;
-        }
+		.tab label {
+			font-size: 23px;
+			margin-right: 22px;
+			position: relative;
+			top: 0;
+			cursor: pointer;
+			color: #7F1C25;
+		}
 
-        .tab__content {
-            position: absolute;
-            top: 40px;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            transition: opacity .2s cubic-bezier(.42,0,.34,1.01);
-            opacity: 0;
-        }
+		.tab [type=radio] {
+			display: none;
+		}
 
-        [type=radio]:checked ~ label {
-            border-bottom: 2px solid #7F1C25;
-            color: #7F1C25;
-            z-index: 2;
-        }
+		.tab__content {
+			position: absolute;
+			top: 40px;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			transition: opacity .2s cubic-bezier(.42, 0, .34, 1.01);
+			opacity: 0;
+		}
 
-        [type=radio]:checked ~ label ~ .tab__content {
-            z-index: 1;
-            opacity: 1;
-        }
+		[type=radio]:checked~label {
+			border-bottom: 2px solid #7F1C25;
+			color: #7F1C25;
+			z-index: 2;
+		}
 
-    </style>
+		[type=radio]:checked~label~.tab__content {
+			z-index: 1;
+			opacity: 1;
+		}
+	</style>
 </head>
+
 <body>
 	<center>
-		<a href="http://kironroy.github.io"><img alt="Kiron Roy Logo" src="new_logo_sm2.svg" style="width:90px;height:90px;"></a>
+		<a href="http://kironroy.github.io/projects.html"><img alt="Kiron Roy Logo" src="new_logo_sm2.svg"
+				style="width:90px;height:90px;"></a>
 	</center>
 	<center>
 		<h2>Redwood Guide</h2>
@@ -123,77 +125,110 @@
 				<br>
 				<h4><i aria-hidden="true" class="fa fa-book "></i> Books</h4>
 				<div class="books_italics">
-				<p><em><a href="http://jaredfarmer.net/books/trees-in-paradise/">Trees in Paradise: A California History</a></em></p><em></em>
-				<p><em><a href="https://en.wikipedia.org/wiki/The_Wild_Trees">The Wild Trees</a></em></p><em></em>
-				<p><em><a href="http://www.goodreads.com/book/show/695012.The_Last_Stand">The Last Stand: The War Between Wall Street and Main Street over California's Ancient Redwoods
-				<p><em><em><em></em></em></em></p></a></em> <em></em></p>
-				<p><em><a href="http://www.cachumapress.com/catalog/coast-redwood.html">COAST REDWOOD A Natural and Cultural History</a></em></p><em></em>
-				<p><em><a href="http://www.goodreads.com/book/show/106327.Giants_in_the_Earth">Giants in the Earth: The California Redwoods</a></em></p><em></em>
-				<p><em><a href="http://www.goodreads.com/book/show/712044.From_the_Redwood_Forest">From the Redwood Forest: Ancient Trees, the Bottom Line, and a Headwaters Journey</a></em></p><em></em>
-				<p><em><a href="http://www.npbooksonline.com/redwood">Redwood - The Story Behind the Scenery</a></em></p>
-				&nbsp;&nbsp;&nbsp;<strong>~ Other Trees ~</strong>
-				<p><em><a href="https://www.publishersweekly.com/978-1-55365-016-4">Tree: A Life Story</a></em></p>
-				<p><em><a href="http://penguinrandomhouse.ca/books/182225/golden-spruce#9780676976465">The Golden Spruce A True Story of Myth, Madness and Greed</a></em></p>
+					<p><em><a href="http://jaredfarmer.net/books/trees-in-paradise/">Trees in Paradise: A California
+								History</a></em></p><em></em>
+					<p><em><a href="https://en.wikipedia.org/wiki/The_Wild_Trees">The Wild Trees</a></em></p><em></em>
+					<p><em><a href="http://www.goodreads.com/book/show/695012.The_Last_Stand">The Last Stand: The War
+								Between Wall Street and Main Street over California's Ancient Redwoods
+								<p><em><em><em></em></em></em></p></a></em> <em></em></p>
+					<p><em><a href="http://www.cachumapress.com/catalog/coast-redwood.html">COAST REDWOOD A Natural and
+								Cultural History</a></em></p><em></em>
+					<p><em><a href="http://www.goodreads.com/book/show/106327.Giants_in_the_Earth">Giants in the Earth:
+								The California Redwoods</a></em></p><em></em>
+					<p><em><a href="http://www.goodreads.com/book/show/712044.From_the_Redwood_Forest">From the Redwood
+								Forest: Ancient Trees, the Bottom Line, and a Headwaters Journey</a></em></p><em></em>
+					<p><em><a href="http://www.npbooksonline.com/redwood">Redwood - The Story Behind the
+								Scenery</a></em></p>
+					&nbsp;&nbsp;&nbsp;<strong>~ Other Trees ~</strong>
+					<p><em><a href="https://www.publishersweekly.com/978-1-55365-016-4">Tree: A Life Story</a></em></p>
+					<p><em><a href="http://penguinrandomhouse.ca/books/182225/golden-spruce#9780676976465">The Golden
+								Spruce A True Story of Myth, Madness and Greed</a></em></p>
+				</div>
+			</div>
+			<div class="tab">
+				<input id="tab-2" name="tabgroup" type="radio"> <label for="tab-2">Links</label>
+				<div class="tab__content">
+					<br>
+					<h4><i aria-hidden="true" class="fa fa-link"></i> Links</h4>
+					<p><strong><a href="https://kironroy.github.io/comic2">My Forest Trip v2!</a></strong></p>
+					<p><strong><a href="https://kironroy.github.io/comic">My Forest Trip!</a></strong></p>
+					<p><a href="https://repl.it/DbdW/12/">Redwoods Ruby programming</a></p>
+					<p><a href="http://www.mdvaden.com/redwood_hyperion.shtml">Hyperion Coast Redwood</a></p>
+					<p><a href="http://www.mdvaden.com/grove_of_titans.shtml">MD Vaden's main page</a></p>
+					<p><a href="http://www.mdvaden.com/redwood_dimensions.shtml">MD Vaden's Tallest and Largest
+							Redwoods</a></p>
+					<p><a href="http://www.panamintcity.com/hyperion/hyperionredwood.html">Steve A Hall's Redwood
+							log</a></p>
+					<p><a href="http://groveoftitans.com/">Grove of Titans</a></p>
+					<p><a
+							href="https://rephaim23.wordpress.com/2013/10/07/pdx-trees-notable-tallest-trees-of-portland-oregon-metro/">Trees
+							of Portland</a></p>
+					<p><a href="https://rephaim23.wordpress.com/2012/11/12/tallest-douglas-fir-and-redwood-in-america/">Tallest
+							Douglas Firs</a></p>
+				</div>
+			</div>
+			<div class="tab">
+				<input id="tab-3" name="tabgroup" type="radio"> <label for="tab-3">Maps</label>
+				<div class="tab__content">
+					<br>
+					<h4><i aria-hidden="true" class="fa fa-map"></i> Maps</h4>
+					<p><a href="http://famousredwoods.com/">All Redwoods</a></p>
+					<p><a
+							href="https://www.google.com/maps/place/41%C2%B012'17.7%22N+124%C2%B000'56.0%22W/@41.20491,-124.0177487,689m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x0!8m2!3d41.20491!4d-124.01556">Hyperion
+							Tree</a></p>
+					<p><a href="http://www.mendorailhistory.org/images/redwoods/NG_MapofRedwoods_lg.jpg">NATGEO Map
+							(jpg)</a></p>
+					<p><a href="http://www.savetheredwoods.org/get-involved/visit/redwoods-finder/">Redwoods Finder
+							Interactive Map</a></p>
+					<p><a href="https://www.google.com/maps/@40.3492017,-123.994635,1204m/data=!3m1!1e3">Big Tree Area:
+							Giant Tree, Rockfeller Grove Google Maps</a></p>
+					<p><a href="https://www.google.com/maps/@41.4021305,-124.0621188,1515m/data=!3m1!1e3">Fern
+							Canyon</a></p>
+					<p><a
+							href="https://www.google.com/maps/@41.8116334,-124.1056059,3a,75y,263.39h,90.23t/data=!3m6!1e1!3m4!1sc_CXB-YOuTsz06_ito8aWw!2e0!7i13312!8i6656">Walker
+							Road</a></p>
+					<p><a href="https://www.google.com/maps/@41.7884573,-124.0858049,922m/data=!3m1!1e3">Stout Grove
+							Google Maps</a></p>
+					<p><a
+							href="https://www.google.com/maps/place/Grove+of+Titans/@41.7781505,-124.0997309,13z/data=!4m2!3m1!1s0x0:0x1924df7f68d5a0b1">Grove
+							of Titans Google Maps</a></p>
+					<p><a
+							href="https://www.google.com/maps/place/Montgomery+Woods+State+Reserve/@39.2290217,-123.3878855,15z/data=!4m5!3m4!1s0x0:0x39af6e9eb6594145!8m2!3d39.2290217!4d-123.3878855">Montgomery
+							Woods State Reserve</a></p>
+				</div>
+			</div>
+			<div class="tab">
+				<input id="tab-4" name="tabgroup" type="radio"> <label for="tab-4">YouTube</label>
+				<div class="tab__content">
+					<br>
+					<h4><i aria-hidden="true" class="fa fa-youtube-play"></i> YouTube</h4>
+					<p><a href="https://www.youtube.com/watch?v=V49IovRSJDs">Ecological Succession</a></p>
+					<p><a href="https://www.youtube.com/watch?v=25Jzk7s635s">National Geographic Redwood Photograph with
+							three Canon EOS 1Ds Mark II</a></p>
+					<p><a href="https://www.dailymotion.com/video/x5jawrg">National Geographic Explorer Climbing Redwood
+							Giants </a></p>
+					<p><a href="https://www.youtube.com/watch?v=sIoZ0J7x1Cg">Climbing the World's Tallest Tree: Hyperion
+							Coast Redwood</a></p>
+					<p><a href="https://www.youtube.com/watch?v=mS1C5TfBfuo">Finding HYPERION (full length edit)</a></p>
+					<p><a href="https://www.youtube.com/watch?v=F3j8q6x-gE0">Tallest tree found in Redwood National Park
+							(Part 1)</a></p>
+					<p><a href="https://www.youtube.com/watch?v=6zWbjqAON34">Tallest tree found in Redwood National Park
+							(Part 2)</a></p>
+					<p><a href="https://www.youtube.com/watch?v=V5T8WT_anfA">Screaming Titans</a></p>
+					<p><a href="https://www.youtube.com/watch?v=d8UnRI4QceI">Lost Monarch- World's Biggest Tree, Grove
+							of Titans- Jed Smith Redwood Park</a></p>
+					<p><a href="https://www.youtube.com/watch?v=iNBBcN_SCNY">Stephen Sillett FINAL</a></p>
+					<p><a href="https://www.youtube.com/watch?v=1B1G_Ghh2Sc">Bury Me in Redwood Country</a></p>
+					<p><a href="https://www.youtube.com/watch?v=wW9w6eCQQkU">One Man’s Mission to Revive the Last
+							Redwood Forests | Short Film Showcase</a></p>
+					<p><a href="https://www.youtube.com/watch?v=PsrPTpg6mNo">4K, Redwoods National Park</a></p>
+					<p><a href="https://www.youtube.com/watch?v=FWi2bn40ma4">4K Redwood National and State Parks</a></p>
+					<p><a href="https://www.youtube.com/watch?v=6_P8RUqGQbM">4K, Hoh Rain Forest</a></p>
+					<br>
+					<br>
+				</div>
 			</div>
 		</div>
-		<div class="tab">
-			<input id="tab-2" name="tabgroup" type="radio"> <label for="tab-2">Links</label>
-			<div class="tab__content">
-				<br>
-				<h4><i aria-hidden="true" class="fa fa-link"></i> Links</h4>
-				<p><strong><a href="https://kironroy.github.io/comic2">My Forest Trip v2!</a></strong></p>
-				<p><strong><a href="https://kironroy.github.io/comic">My Forest Trip!</a></strong></p>
-				<p><a href="https://repl.it/DbdW/12/">Redwoods Ruby programming</a></p>
-				<p><a href="http://www.mdvaden.com/redwood_hyperion.shtml">Hyperion Coast Redwood</a></p>
-				<p><a href="http://www.mdvaden.com/grove_of_titans.shtml">MD Vaden's main page</a></p>
-				<p><a href="http://www.mdvaden.com/redwood_dimensions.shtml">MD Vaden's Tallest and Largest Redwoods</a></p>
-				<p><a href="http://www.panamintcity.com/hyperion/hyperionredwood.html">Steve A Hall's Redwood log</a></p>
-				<p><a href="http://groveoftitans.com/">Grove of Titans</a></p>
-				<p><a href="https://rephaim23.wordpress.com/2013/10/07/pdx-trees-notable-tallest-trees-of-portland-oregon-metro/">Trees of Portland</a></p>
-				<p><a href="https://rephaim23.wordpress.com/2012/11/12/tallest-douglas-fir-and-redwood-in-america/">Tallest Douglas Firs</a></p>
-			</div>
-		</div>
-		<div class="tab">
-			<input id="tab-3" name="tabgroup" type="radio"> <label for="tab-3">Maps</label>
-			<div class="tab__content">
-				<br>
-				<h4><i aria-hidden="true" class="fa fa-map"></i> Maps</h4>
-				<p><a href="http://famousredwoods.com/">All Redwoods</a></p>
-				<p><a href="https://www.google.com/maps/place/41%C2%B012'17.7%22N+124%C2%B000'56.0%22W/@41.20491,-124.0177487,689m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x0!8m2!3d41.20491!4d-124.01556">Hyperion Tree</a></p>
-				<p><a href="http://www.mendorailhistory.org/images/redwoods/NG_MapofRedwoods_lg.jpg">NATGEO Map (jpg)</a></p>
-				<p><a href="http://www.savetheredwoods.org/get-involved/visit/redwoods-finder/">Redwoods Finder Interactive Map</a></p>
-				<p><a href="https://www.google.com/maps/@40.3492017,-123.994635,1204m/data=!3m1!1e3">Big Tree Area: Giant Tree, Rockfeller Grove Google Maps</a></p>
-				<p><a href="https://www.google.com/maps/@41.4021305,-124.0621188,1515m/data=!3m1!1e3">Fern Canyon</a></p>
-				<p><a href="https://www.google.com/maps/@41.8116334,-124.1056059,3a,75y,263.39h,90.23t/data=!3m6!1e1!3m4!1sc_CXB-YOuTsz06_ito8aWw!2e0!7i13312!8i6656">Walker Road</a></p>
-				<p><a href="https://www.google.com/maps/@41.7884573,-124.0858049,922m/data=!3m1!1e3">Stout Grove Google Maps</a></p>
-				<p><a href="https://www.google.com/maps/place/Grove+of+Titans/@41.7781505,-124.0997309,13z/data=!4m2!3m1!1s0x0:0x1924df7f68d5a0b1">Grove of Titans Google Maps</a></p>
-				<p><a href="https://www.google.com/maps/place/Montgomery+Woods+State+Reserve/@39.2290217,-123.3878855,15z/data=!4m5!3m4!1s0x0:0x39af6e9eb6594145!8m2!3d39.2290217!4d-123.3878855">Montgomery Woods State Reserve</a></p>
-			</div>
-		</div>
-		<div class="tab">
-			<input id="tab-4" name="tabgroup" type="radio"> <label for="tab-4">YouTube</label>
-			<div class="tab__content">
-				<br>
-				<h4><i aria-hidden="true" class="fa fa-youtube-play"></i> YouTube</h4>
-				<p><a href="https://www.youtube.com/watch?v=V49IovRSJDs">Ecological Succession</a></p>
-				<p><a href="https://www.youtube.com/watch?v=25Jzk7s635s">National Geographic Redwood Photograph with three Canon EOS 1Ds Mark II</a></p>
-                <p><a href="https://www.dailymotion.com/video/x5jawrg">National Geographic Explorer Climbing Redwood Giants </a></p>
-				<p><a href="https://www.youtube.com/watch?v=sIoZ0J7x1Cg">Climbing the World's Tallest Tree: Hyperion Coast Redwood</a></p>
-				<p><a href="https://www.youtube.com/watch?v=mS1C5TfBfuo">Finding HYPERION (full length edit)</a></p>
-				<p><a href="https://www.youtube.com/watch?v=F3j8q6x-gE0">Tallest tree found in Redwood National Park (Part 1)</a></p>
-				<p><a href="https://www.youtube.com/watch?v=6zWbjqAON34">Tallest tree found in Redwood National Park (Part 2)</a></p>
-				<p><a href="https://www.youtube.com/watch?v=V5T8WT_anfA">Screaming Titans</a></p>
-				<p><a href="https://www.youtube.com/watch?v=d8UnRI4QceI">Lost Monarch- World's Biggest Tree, Grove of Titans- Jed Smith Redwood Park</a></p>
-				<p><a href="https://www.youtube.com/watch?v=iNBBcN_SCNY">Stephen Sillett FINAL</a></p>
-				<p><a href="https://www.youtube.com/watch?v=1B1G_Ghh2Sc">Bury Me in Redwood Country</a></p>
-				<p><a href="https://www.youtube.com/watch?v=wW9w6eCQQkU">One Man’s Mission to Revive the Last Redwood Forests | Short Film Showcase</a></p>
-				<p><a href="https://www.youtube.com/watch?v=PsrPTpg6mNo">4K, Redwoods National Park</a></p>
-				<p><a href="https://www.youtube.com/watch?v=FWi2bn40ma4">4K Redwood National and State Parks</a></p>
-				<p><a href="https://www.youtube.com/watch?v=6_P8RUqGQbM">4K, Hoh Rain Forest</a></p>
-				<br>
-				<br>
-			</div>
-		</div>
-	</div>
 </body>
+
 </html>
