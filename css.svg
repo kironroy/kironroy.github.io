@@ -4,13 +4,9 @@
     <title>css</title>
     <desc>Created with Sketch.</desc>
     <g id="css" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="Rectangle" stroke="#000000" fill="#FFFFFF" x="6.5" y="8.5" width="66" height="62"></rect>
-        <rect id="Rectangle" stroke="#000000" fill="#7ED321" x="6.5" y="8.5" width="66" height="19"></rect>
-        <text font-family="HelveticaNeue-Light, Helvetica Neue" font-size="22" font-weight="300" fill="#000000">
-            <tspan x="23.709" y="24">css</tspan>
-        </text>
-        <text id=":{}" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="22" font-weight="300" fill="#000000">
-            <tspan x="27.616" y="54">:{}</tspan>
+        <rect id="Rectangle" fill="#5042D3" x="6" y="8" width="67" height="63"></rect>
+        <text font-family="ArialMT, Arial" font-size="22" font-weight="normal" fill="#FFFFFF">
+            <tspan x="23.5" y="45">css</tspan>
         </text>
     </g>
 </svg>

@@ -4,8 +4,7 @@
     <title>youtube</title>
     <desc>Created with Sketch.</desc>
     <g id="youtube" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="Rectangle" stroke="#000000" fill="#FFFFFF" x="6.5" y="8.5" width="66" height="62"></rect>
-        <path d="M33,33.5 C28.8578644,33.5 25.5,36.8578644 25.5,41 L25.5,50 C25.5,54.1421356 28.8578644,57.5 33,57.5 L47,57.5 C51.1421356,57.5 54.5,54.1421356 54.5,50 L54.5,41 C54.5,36.8578644 51.1421356,33.5 47,33.5 L33,33.5 Z M45.118034,46 L35.5,50.809017 L35.5,41.190983 L45.118034,46 Z" id="Rectangle-2" stroke="#000000" fill="#7ED321"></path>
-        <rect id="Rectangle" stroke="#000000" fill="#7ED321" x="6.5" y="8.5" width="66" height="19"></rect>
+        <rect id="Rectangle" fill="#5042D3" x="6" y="8" width="67" height="63"></rect>
+        <path d="M33,27 L47,27 C51.418278,27 55,30.581722 55,35 L55,44 C55,48.418278 51.418278,52 47,52 L33,52 C28.581722,52 25,48.418278 25,44 L25,35 C25,30.581722 28.581722,27 33,27 Z M45,40 L35,45 L35,35 L45,40 Z" id="Rectangle-2" fill="#F7DF1E"></path>
     </g>
 </svg>
