@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>vectors</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="77.4353027%" id="linearGradient-1">
+            <stop stop-color="#FCF53C" offset="0%"></stop>
+            <stop stop-color="#2F1CF8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="vectors" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M54,85 L54,65 C54,62.2385763 51.7614237,60 49,60 C46.2385763,60 44,62.2385763 44,65 L44,85 L16,85 L49.5,21 L83,85 L54,85 Z" id="Combined-Shape-Copy" fill="url(#linearGradient-1)" transform="translate(49.500000, 53.000000) rotate(-180.000000) translate(-49.500000, -53.000000) "></path>
+    </g>
+</svg>
