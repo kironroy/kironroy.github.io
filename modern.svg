@@ -204,15 +204,15 @@
             <polygon id="Rectangle" fill="url(#linearGradient-21)" points="139.841797 400.454781 194 380.314453 194 434.721765 170.855469 440.97797 170.855469 490.999776 139.841797 494.353516"></polygon>
             <polygon id="Rectangle" fill="url(#linearGradient-22)" points="170.674766 433.537915 270.923828 410 270.923828 544.717013 95 550.087891 95 498.013732 170.674766 489.428708"></polygon>
             <polygon id="Rectangle" fill="url(#linearGradient-23)" points="271 410 353.076172 436.64545 353.076172 544.951172 271 544.951172"></polygon>
-            <polygon id="Rectangle" fill="#18101C" points="484.145508 456.779297 504.230469 454.72168 504.230469 530.620117 484.145508 529.171875"></polygon>
-            <polygon id="Rectangle" fill="url(#linearGradient-24)" points="503.805664 454.72168 559.483398 477.744141 559.483398 533.101562 503.805664 530.620117"></polygon>
+            <polygon id="Rectangle" fill="#18101C" points="484.145508 456.779297 504.230469 454.665283 504.230469 530.620117 484.145508 529.171875"></polygon>
+            <polygon id="Rectangle" fill="url(#linearGradient-24)" points="504.186035 454.702881 559.483398 477.744141 559.483398 533.101563 504.186035 530.65332"></polygon>
             <path d="M437.125,613 L640,644.5" id="Path-4" stroke="#559359"></path>
             <path d="M488.125,585 L640,603" id="Path-4" stroke="#559258"></path>
             <path d="M488.125,561 L640,579" id="Path-4" stroke="#56955A"></path>
             <path d="M444.125,591 L640,615.5" id="Path-4" stroke="#4E8852"></path>
-            <polygon id="Rectangle" fill="url(#linearGradient-25)" opacity="0.632672991" points="487 468.260254 490 468 490 527.467285 487 527.467285"></polygon>
-            <polygon id="Rectangle-Copy-8" fill="url(#linearGradient-25)" opacity="0.632672991" points="491 468.260254 494 468 494 527.467285 491 527.467285"></polygon>
-            <polygon id="Rectangle-Copy-9" fill="url(#linearGradient-25)" opacity="0.632672991" points="495 468.260254 498 468 498 527.467285 495 527.467285"></polygon>
+            <polygon id="Rectangle" fill="url(#linearGradient-25)" opacity="0.632672991" points="487 468.260254 499 467.320312 499 527.467285 487 527.467285"></polygon>
+            <rect id="Rectangle" fill="#18101C" x="489" y="464" width="3" height="64"></rect>
+            <rect id="Rectangle-Copy-7" fill="#18101C" x="494" y="464" width="3" height="64"></rect>
             <path d="M157.5,601.5 L243,604.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
             <path d="M123.5,608.730469 L229.5,612.5" id="Line-Copy-7" stroke="#979797" stroke-linecap="square"></path>
             <path d="M178.5,592.5 L263.071289,595.5" id="Line-Copy" stroke="#979797" stroke-linecap="square"></path>
