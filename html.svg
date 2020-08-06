@@ -4,7 +4,8 @@
     <title>html</title>
     <desc>Created with Sketch.</desc>
     <g id="html" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="Rectangle" fill="#5042D3" x="6" y="8" width="67" height="63"></rect>
+        <circle id="Oval-Copy" stroke="#5042D3" stroke-width="2" fill="#EDDBFB" cx="40" cy="39" r="30"></circle>
+        <path d="M12.9553195,26 L67.0446889,26 C68.9386734,29.9330065 70,34.3425602 70,39 C70,43.6574398 68.9386734,48.0669935 67.0446796,52.0000019 L12.9553195,52 C11.0613262,48.0669921 10,43.6574391 10,39 C10,34.3425609 11.0613262,29.9330079 12.9553195,26 Z" id="Combined-Shape" fill="#000099"></path>
         <text id="HTML" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#F4F0ED">
             <tspan x="17.7226562" y="44">HTML</tspan>
         </text>
