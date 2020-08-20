@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="89px" height="89px" viewBox="0 0 89 89" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
     <title>cypress</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="cypress">
-            <rect id="biz_act" fill="#5042D3" x="0" y="0" width="89" height="89" rx="8"></rect>
-            <g id="Apartment-clipart" transform="translate(18.000000, 18.000000)" stroke="#FFFFFF">
+    <g id="cypress" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(19.000000, 24.000000)" id="Apartment-clipart" stroke="#5042D3">
+            <g>
                 <path d="M0,53.4065934 L54,53.4065934 M3,53.4065934 L3,0 L33,0 L33,23.7362637 M24,53.4065934 L24,23.7362637 L48,23.7362637 L48,53.4065934" id="Shape" stroke-width="2"></path>
                 <path d="M9,4 L9,8" id="Shape" stroke-width="4" stroke-dasharray="4"></path>
                 <path d="M15,4 L15,8" id="Shape" stroke-width="4" stroke-dasharray="4"></path>
