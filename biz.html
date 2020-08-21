@@ -16,6 +16,8 @@
 	<link href="https://kironroy.github.io/icon-hires.png" rel="icon" sizes="192x192" />
 	<link href="https://kironroy.github.io/icon-normal.png" rel="icon" sizes="128x128" />
 	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css?family=Heebo:300&display=swap');
+
 		html,
 		body {
 			display: flex;
@@ -24,10 +26,11 @@
 			flex-direction: column;
 			margin-top: 16px;
 			margin-bottom: 16px;
+			color: rgba(0, 0, 0, 0.8);
 			background-color: #ffffff;
-			font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-			font-weight: 300;
-			letter-spacing: -.50px
+			font-family: 'Heebo', sans-serif;
+			font-weight: 300px;
+			letter-spacing: -.30px
 		}
 
 		div#app {
@@ -55,11 +58,12 @@
 		div#app .search-wrapper input {
 			padding: 8px 20px;
 			font-size: 16px;
-			color: rgba(0, 0, 0, 0.7);
-			border: 2px solid #9ececc;
+			color: rgba(0, 0, 0);
+			border: 1px solid rgba(0, 0, 0, 0.3);
 			border-radius: 6px;
 			transition: .15s all ease-in-out;
-			background: white;
+			background: #fbfbfb;
+			font-family: 'Heebo', sans-serif;
 		}
 
 		div#app .search-wrapper input:focus {
@@ -99,12 +103,11 @@
 		div#app .card a {
 			text-decoration: none;
 			padding: 12px;
-			color: #03A9F4;
-			font-size: 18px;
+			color: rgba(0, 0, 0, 0.7);
+			font-size: 17px;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-			color: #000000;
 		}
 
 		div#app .card a img {
