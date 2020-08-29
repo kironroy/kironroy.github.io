@@ -666,11 +666,11 @@ input[type="reset"]:active,
 }
 
 #main>section.two {
-    background: #5042D3;
+    background: #000099;
 }
 
 #main>section.three {
-    background: #000099;
+    background: #5042D3;;
 }
 
 #main>section.four {
