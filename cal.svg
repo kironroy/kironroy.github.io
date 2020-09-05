@@ -8,8 +8,13 @@
             <stop stop-color="#FCF53C" offset="0%"></stop>
             <stop stop-color="#2F1CF8" offset="100%"></stop>
         </linearGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="139.661038%" id="radialGradient-2">
+            <stop stop-color="#F7EF40" offset="0%"></stop>
+            <stop stop-color="#A0752E" offset="100%"></stop>
+        </radialGradient>
     </defs>
     <g id="cal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <path d="M41.1745775,27.9864386 L50.5,12 L59.8254225,27.9864386 L77.7236111,23.2763889 L73.0135614,41.1745775 L89,50.5 L73.0135614,59.8254225 L77.7236111,77.7236111 L59.8254225,73.0135614 L50.5,89 L41.1745775,73.0135614 L23.2763889,77.7236111 L27.9864386,59.8254225 L12,50.5 L27.9864386,41.1745775 L23.2763889,23.2763889 L41.1745775,27.9864386 Z M50.5,69 C60.7172679,69 69,60.7172679 69,50.5 C69,40.2827321 60.7172679,32 50.5,32 C40.2827321,32 32,40.2827321 32,50.5 C32,60.7172679 40.2827321,69 50.5,69 Z" id="Combined-Shape" fill="url(#linearGradient-1)" transform="translate(50.500000, 50.500000) rotate(-270.000000) translate(-50.500000, -50.500000) "></path>
+        <circle id="Oval" fill="url(#radialGradient-2)" cx="50.5" cy="50.5" r="15.5"></circle>
     </g>
 </svg>
