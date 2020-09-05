@@ -461,7 +461,7 @@ input[type="reset"]:active,
     width: 375px;
     height: 100%;
     color: #000;
-    background: #eddbfb38;
+    background: #fcfcfc;
     -box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
     text-align: right;
 }
@@ -588,7 +588,7 @@ input[type="reset"]:active,
 #footer {
     margin-left: 375px;
     text-align: center;
-    background-color: #F2F2F2;
+    background-color: #fafafa;
     color: #000000;
     padding: 1em 0 2em 0;
     -box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
@@ -666,15 +666,15 @@ input[type="reset"]:active,
 }
 
 #main>section.two {
-    background: #000099;
+    background: #060693;
 }
 
 #main>section.three {
-    background: #5042D3;;
+    background: #000099;
 }
 
 #main>section.four {
-    background: #F2F2F2;
+    background: #fafafa;
 }
 
 #quote {
