@@ -4,21 +4,18 @@
     <title>covid</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <linearGradient x1="50%" y1="13.9246324%" x2="50%" y2="64.1601562%" id="linearGradient-1">
-            <stop stop-color="#3F1F1F" offset="0%"></stop>
-            <stop stop-color="#862526" offset="100%"></stop>
-        </linearGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="100%" id="radialGradient-1">
+            <stop stop-color="#BB2F2F" offset="0%"></stop>
+            <stop stop-color="#4B2020" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="39.0929383%" cy="38.7176514%" fx="39.0929383%" fy="38.7176514%" r="60.9070617%" id="radialGradient-2">
+            <stop stop-color="#AB2C2C" offset="0%"></stop>
+            <stop stop-color="#94AB2C" offset="100%"></stop>
+        </radialGradient>
     </defs>
     <g id="covid" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group" transform="translate(12.000000, 13.000000)" fill="url(#linearGradient-1)">
-            <rect id="Rectangle" x="35" y="0" width="6" height="31" rx="3"></rect>
-            <rect id="Rectangle" transform="translate(53.556349, 21.943651) rotate(45.000000) translate(-53.556349, -21.943651) " x="50.5563492" y="6.44365081" width="6" height="31" rx="3"></rect>
-            <rect id="Rectangle" transform="translate(60.000000, 37.500000) rotate(90.000000) translate(-60.000000, -37.500000) " x="57" y="22" width="6" height="31" rx="3"></rect>
-            <rect id="Rectangle" transform="translate(53.556349, 53.056349) rotate(135.000000) translate(-53.556349, -53.056349) " x="50.5563492" y="37.5563492" width="6" height="31" rx="3"></rect>
-            <rect id="Rectangle" transform="translate(38.000000, 59.500000) rotate(180.000000) translate(-38.000000, -59.500000) " x="35" y="44" width="6" height="31" rx="3"></rect>
-            <rect id="Rectangle" transform="translate(22.443651, 53.056349) rotate(225.000000) translate(-22.443651, -53.056349) " x="19.4436508" y="37.5563492" width="6" height="31" rx="3"></rect>
-            <rect id="Rectangle" transform="translate(16.000000, 37.500000) rotate(270.000000) translate(-16.000000, -37.500000) " x="13" y="22" width="6" height="31" rx="3"></rect>
-            <rect id="Rectangle" transform="translate(22.443651, 21.943651) rotate(315.000000) translate(-22.443651, -21.943651) " x="19.4436508" y="6.44365081" width="6" height="31" rx="3"></rect>
-        </g>
+        <circle id="Oval" fill="url(#radialGradient-1)" cx="51.5" cy="45.5" r="15.5"></circle>
+        <path d="M42.1745775,22.9864386 L51.5,7 L60.8254225,22.9864386 L78.7236111,18.2763889 L74.0135614,36.1745775 L90,45.5 L74.0135614,54.8254225 L78.7236111,72.7236111 L60.8254225,68.0135614 L51.5,84 L42.1745775,68.0135614 L24.2763889,72.7236111 L28.9864386,54.8254225 L13,45.5 L28.9864386,36.1745775 L24.2763889,18.2763889 L42.1745775,22.9864386 Z M51.5,64 C61.7172679,64 70,55.7172679 70,45.5 C70,35.2827321 61.7172679,27 51.5,27 C41.2827321,27 33,35.2827321 33,45.5 C33,55.7172679 41.2827321,64 51.5,64 Z" id="Combined-Shape-Copy-2" fill="url(#radialGradient-2)" transform="translate(51.500000, 45.500000) rotate(-270.000000) translate(-51.500000, -45.500000) "></path>
+        <path d="M42.1745775,22.9864386 L51.5,7 L60.8254225,22.9864386 L78.7236111,18.2763889 L74.0135614,36.1745775 L90,45.5 L74.0135614,54.8254225 L78.7236111,72.7236111 L60.8254225,68.0135614 L51.5,84 L42.1745775,68.0135614 L24.2763889,72.7236111 L28.9864386,54.8254225 L13,45.5 L28.9864386,36.1745775 L24.2763889,18.2763889 L42.1745775,22.9864386 Z M51.5,64 C61.7172679,64 70,55.7172679 70,45.5 C70,35.2827321 61.7172679,27 51.5,27 C41.2827321,27 33,35.2827321 33,45.5 C33,55.7172679 41.2827321,64 51.5,64 Z" id="Combined-Shape-Copy-2" fill="url(#radialGradient-2)" transform="translate(51.500000, 45.500000) rotate(-292.000000) translate(-51.500000, -45.500000) "></path>
     </g>
 </svg>
