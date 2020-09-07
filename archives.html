@@ -39,7 +39,7 @@
 
     .my-gallery img {
         width: 100%;
-        height: auto;
+        height: 100%;
     }
 
     .my-gallery figure {
@@ -73,7 +73,7 @@
         <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
 
             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                <a data-size="1024x681" href="https://kironroy.github.io/images/fulls/archF1.jpg" itemprop="contentUrl">
+                <a data-size="1024x750" href="https://kironroy.github.io/images/fulls/archF1.jpg" itemprop="contentUrl">
                     <img alt="Image description" itemprop="thumbnail"
                         src="https://kironroy.github.io/images/fulls/archF1.jpg" />
                 </a>
@@ -82,7 +82,7 @@
             </figure>
 
             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                <a data-size="1024x681" href="https://kironroy.github.io/images/fulls/archF2.jpg" itemprop="contentUrl">
+                <a data-size="1024x780" href="https://kironroy.github.io/images/fulls/archF2.jpg" itemprop="contentUrl">
                     <img alt="Image description" itemprop="thumbnail"
                         src="https://kironroy.github.io/images/fulls/archF2.jpg" />
                 </a>
@@ -90,7 +90,7 @@
             </figure>
 
             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                <a data-size="1023x680" href="https://kironroy.github.io/images/fulls/archF3.jpg" itemprop="contentUrl">
+                <a data-size="1023x690" href="https://kironroy.github.io/images/fulls/archF3.jpg" itemprop="contentUrl">
                     <img alt="Image description" itemprop="thumbnail"
                         src="https://kironroy.github.io/images/fulls/archF3.jpg" />
                 </a>
@@ -98,7 +98,7 @@
             </figure>
 
             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                <a data-size="1024x681" href="https://kironroy.github.io/images/fulls/archF4.jpg" itemprop="contentUrl">
+                <a data-size="1024x825" href="https://kironroy.github.io/images/fulls/archF4.jpg" itemprop="contentUrl">
                     <img alt="Image description" itemprop="thumbnail"
                         src="https://kironroy.github.io/images/fulls/archF4.jpg" />
                 </a>
@@ -106,7 +106,7 @@
             </figure>
 
             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                <a data-size="1024x681" href="https://kironroy.github.io/images/fulls/archF5.jpg" itemprop="contentUrl">
+                <a data-size="1024x790" href="https://kironroy.github.io/images/fulls/archF5.jpg" itemprop="contentUrl">
                     <img alt="Image description" itemprop="thumbnail"
                         src="https://kironroy.github.io/images/fulls/archF5.jpg" />
                 </a>
@@ -131,7 +131,7 @@
             </figure>
 
             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                <a data-size="1024x681" href="https://kironroy.github.io/images/fulls/archF8.jpg" itemprop="contentUrl">
+                <a data-size="1024x800" href="https://kironroy.github.io/images/fulls/archF8.jpg" itemprop="contentUrl">
                     <img alt="Image description" itemprop="thumbnail"
                         src="https://kironroy.github.io/images/fulls/archF8.jpg" />
                 </a>
@@ -154,7 +154,21 @@
                     <img alt="Image description" itemprop="thumbnail"
                         src="https://kironroy.github.io/images/fulls/archF10.jpg" />
                 </a>
+
                 <figcaption itemprop="caption description">Mother and Baby</figcaption>
+            </figure>
+
+            <!---->
+
+
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <a data-size="1024x681" href="https://kironroy.github.io/images/fulls/archF10.jpg"
+                    itemprop="contentUrl">
+                    <img alt="Image description" itemprop="thumbnail"
+                        src="https://kironroy.github.io/images/fulls/archF10.jpg" />
+                </a>
+
+                <figcaption itemprop="caption description">Indian Girl</figcaption>
             </figure>
 
             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -423,7 +437,7 @@
                     getThumbBoundsFn: function (index) {
                         // See Options -> getThumbBoundsFn section of documentation for more info
                         var thumbnail = items[index].el.getElementsByTagName('img')[
-                            0], // find thumbnail
+                                0], // find thumbnail
                             pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
                             rect = thumbnail.getBoundingClientRect();
 
