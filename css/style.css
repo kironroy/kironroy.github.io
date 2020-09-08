@@ -43,7 +43,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #000;
+    color: red;
     line-height: 1.5em;
     letter-spacing: -0.10px;
     font-weight: 300;
@@ -633,7 +633,7 @@ input[type="reset"]:active,
 
 #main>section.dark {
     color: #ddd;
-    color: #000000;
+    color: #5042d3;
 }
 
 #main>section.dark h2,
