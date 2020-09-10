@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+        <title>Dark Mode Toggle</title>
+        <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+        <meta content="noindex, nofollow" name="robots">
+        <meta content="noindex, nofollow" name="googlebot">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+
+
+        <script src="/js/lib/dummy.js" type="text/javascript"></script>
+
+        <link href="/css/result-light.css" rel="stylesheet" type="text/css">
+
+
+        <style id="compiled-css" type="text/css">
+
+            * {
+                font-family: "Times-New Roman", serif;
+            }
+
+            body {
+                font-size: 22px;
+                line-height: 1.6;
+                padding: 14px;
+                background-color: #ffffff;
+                letter-spacing: 0.20px;
+            }
+
+            section {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                -height: 3010vh;
+                box-sizing: border-box;
+                padding: 50px;
+                transition: 0.5s;
+            }
+
+            section.dark {
+                background: #262626;
+                color: #fff;
+            }
+
+            ul {
+                position: absolute;
+                top: 20px;
+                right: 20px;
+                margin: 0;
+                padding: 0;
+                width: 100px;
+                height: 30px;
+                z-index: 1;
+                border: 1px solid #000;
+                border-radius: 4px;
+                cursor: pointer;
+                overflow: hidden;
+            }
+
+            ul.active {
+                border-color: #fff;
+            }
+
+            ul li {
+                list-style: none;
+                width: 100%;
+                height: 60px;
+                text-align: center;
+                text-transform: uppercase;
+                transition: 0.5s;
+            }
+
+            ul.active li {
+                transform: translateY(-30px);
+            }
+
+            ul li span {
+                display: block;
+                width: 100%;
+                height: 30px;
+                line-height: 30px;
+                color: #262626;
+                background: #fff;
+            }
+
+            ul li span:nth-child(1) {
+                background: #262626;
+                color: #fff;
+            }
+
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            a {
+                text-align: center;
+
+                letter-spacing: -0.50px;
+                font-size: 22px;
+                color: #5042D3;
+                text-decoration: underline;
+                font-weight: 300;
+                letter-spacing: -0.50px
+            }
+
+            .title {
+                text-align: center;
+                font-size: 28px;
+                background-color: #5042D3;
+                color: white;
+                padding: 10px;
+                letter-spacing: -0.50px
+            }
+            /* EOS */
+        </style>
+
+        <script id="insert"></script>
+
+
+        <script charset="utf-8" src="/js/stringify.js?9a9853d11caf2d74c11569be5915ce17fc2f0561"></script>
+        <script>
+      const customConsole = (w) => {
+        const pushToConsole = (payload, type) => {
+          w.parent.postMessage({
+            console: {
+              payload: stringify(payload),
+              type:    type
+            }
+          }, "*")
+        }
+
+        w.onerror = (message, url, line, column) => {
+          // the line needs to correspond with the editor panel
+          // unfortunately this number needs to be altered every time this view is changed
+          line = line - 70
+          if (line < 0){
+            pushToConsole(message, "error")
+          } else {
+            pushToConsole(`[${line}:${column}] ${message}`, "error")
+          }
+        }
+
+        let console = (function(systemConsole){
+          return {
+            log: function(){
+              let args = Array.from(arguments)
+              pushToConsole(args, "log")
+              systemConsole.log.apply(this, args)
+            },
+            info: function(){
+              let args = Array.from(arguments)
+              pushToConsole(args, "info")
+              systemConsole.info.apply(this, args)
+            },
+            warn: function(){
+              let args = Array.from(arguments)
+              pushToConsole(args, "warn")
+              systemConsole.warn.apply(this, args)
+            },
+            error: function(){
+              let args = Array.from(arguments)
+              pushToConsole(args, "error")
+              systemConsole.error.apply(this, args)
+            },
+            system: function(arg){
+              pushToConsole(arg, "system")
+            },
+            clear: function(arg){
+              systemConsole.clear.apply(this, args)
+            },
+            time: function(arg){
+              systemConsole.time.apply(this, args)
+            },
+            assert: function(arg){
+              systemConsole.assert.apply(this, args)
+            }
+          }
+        }(window.console))
+
+        window.console = console
+
+        console.system("Running fiddle")
+      }
+
+      if (window.parent){
+        customConsole(window)
+      }
+    </script>
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <title>Dark and Light</title>
+ <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+ <section>
+  
+  
+  
+  <!-- start here with notes -->
+
+  <center>
+    <a href="http://kironroy.github.io/biz"><img alt="Kiron Roy Logo" src="headshot_80px.svg"
+            style="width:80px;height:80px;"></a>
+</center>
+<center>
+    <h3>Notes</h3>
+</center>
+<a name="top"></a>
+<ul>
+    <b>Short Cuts </b>
+   
+    <li><a href="#macroecon"> Macroeconomics</a></li>
+    <li><a href="#microecon"> Microeconomics</a></li>
+    <li><a href="#biz">Business</a></li>
+</ul>
+<center>
+    <h6><i>These notes will start from the very basics to specifics of a chosen business</i></h6>
+</center>
+<a name="macroecon"></a>
+<div class="title">
+    Macroeconomics
+</div>
+<br>
+<a href="https://www.youtube.com/playlist?list=PL1oDmcs0xTD-dJN1PL2N1urX0EKupBJCQ">Source</a>
+<br>
+<p><strong>Opportunity Cost = </strong><span style="font-weight: 400;">Give up one choice for another better choice and a better way to spend one&rsquo;s time.</span></p>
+<p><strong>Macroeconomics = </strong><span style="font-weight: 400;">Bigger picture, GDP, Unemployment rate, interest rates, deficit.&nbsp;</span></p>
+<p><strong>Microeconomics =</strong><span style="font-weight: 400;"> How firms work.&nbsp; How much labor they hire to make a profit.&nbsp;&nbsp;</span></p>
+<p><strong>Incentives =</strong><span style="font-weight: 400;"> External motivations that explain people&rsquo;s choices.</span></p>
+<p><strong>Scarcity =</strong><span style="font-weight: 400;"> Humans working with finite resources and unlimited wants.&nbsp;</span></p>
+<p><strong>Benefits and Costs =</strong><span style="font-weight: 400;"> Costs outweigh benefits.&nbsp; Example, banning ALL cars because a tiny fraction of deadly accidents will lead to people walking, trains.&nbsp; Benefits are not there.</span></p>
+<p><strong>Industrial Revolution =</strong><span style="font-weight: 400;"> raises standard of living, increased population and standard of living.&nbsp;</span></p>
+<p><span style="font-weight: 400;">Adam Smith division of labor = A pizza man should make pizza and trade it for a guy who can make t-shirts, instead of trying to do everything.</span></p>
+
+<p><span style="font-weight: 400;">Most nations have a mixed economy like the United States, but North Korea has a controlled economy, where the government controls the economy.&nbsp; Moreover, New Zealand is laissez a faire (less government).&nbsp;</span></p>
+<p><span style="font-weight: 400;">Look up circular flow of income.</span></p>
+<p><span style="font-weight: 400;">Four market behaviors</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Supply can go &#x2193;</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Supply can go &#8593;&nbsp;</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Demand can go &#x2193;&nbsp;</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Demand can go &#8593;&nbsp;</span></li>
+</ul>
+<p><strong>Supply and Demand =</strong><span style="font-weight: 400;"> Consumers and producers agree on price and production.</span></p>
+<p><strong>Law of Demand =</strong><span style="font-weight: 400;"> Prices go up, consumers buy less.&nbsp; Conversely, Prices go down, people buy more.</span></p>
+<p><strong>Law of Supply =</strong><span style="font-weight: 400;"> Prices go up, producers make a profit, will produce more goods (or services). Conversely, price goes down, producers profits go down, which leads to a curtail in production.</span></p>
+<p><span style="font-weight: 400;">If the price goes up, producers produce lots of strawberries, but consumers wouldn&rsquo;t want to buy them.&nbsp; This is a surplus.&nbsp;</span></p>
+<p><strong>Equilibrium Price =</strong><span style="font-weight: 400;"> The price at which quantity of a product offered is equal.</span></p>
+<p><strong>Equilibrium Quantity = </strong><span style="font-weight: 400;">The quantity demanded or supplied at equilibrium price&nbsp;&nbsp;</span></p>
+<p><em><span style="font-weight: 400;">In 2014 gas prices went down dramatically due to a decrease in European and Chinese economies.&nbsp; In addition, fracking technology created more supply.&nbsp; The combination of decreased prices and increased supply drove the gasoline price down 40%.&nbsp; Creating a new equilibrium.&nbsp;&nbsp;</span></em></p>
+<p><strong>Market = </strong><span style="font-weight: 400;">Any place where buyers and sellers voluntarily meet to exchange goods and services.&nbsp; Consumers give up money for strawberries.&nbsp; Farmers give up strawberries for money.&nbsp; Market transparency leads to less corruption.&nbsp;</span></p>
+<p><strong>Price Signals =</strong><span style="font-weight: 400;"> The info that markets generate to guide distribution of resources.&nbsp;</span></p>
+<p><strong>Recession = </strong><span style="font-weight: 400;">2 successive quarters (six months) of negative GDP</span></p>
+<p><strong>Depression =</strong><span style="font-weight: 400;"> prolonged recession.</span></p>
+<p><strong>Three types of unemployment</strong></p>
+
+<ul>
+<li style="font-weight: 400;"><strong>Frictional Unemployment =</strong><span style="font-weight: 400;"> The time period between jobs when a worker is searching for a job, or transitioning from a job.</span><strong> Example, the new employees entering the workforce from college</strong></li>
+&nbsp;
+
+<li><strong><strong>Structural Employment = </strong><span style="font-weight: 400;">Unemployment caused by a lack of demand for workers&rsquo; specific type of labor. </span><strong>Example, VCR repairman. Moreover,&nbsp; the example of employees being replaced by robots. </strong><span style="font-weight: 400;"></span></strong></li>
+&nbsp;
+<li> 
+    <strong>Cyclical unemployment = </strong><span style="font-weight: 400;">people stop buying goods leads to businesses layoff workers and in turn those laid off workers stop buying goods and more people lose their jobs.&nbsp; </span><strong>&nbsp;</strong>
+</li>
+</ul>
+
+<p><span style="font-weight: 400;">0% unemployment is impossible due to frictional and structural employment.</span></p>
+<p><strong>Real GDP and Unemployment are inversely related&nbsp;</strong></p>
+<p><span style="font-weight: 400;">Look up Zimbabwe.</span></p>
+<p><strong>Business Cycle </strong><span style="font-weight: 400;">= Changes in four components:&nbsp;</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Consumer spending</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Business spending</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Net exports</span></li>
+</ul>
+<p><span style="font-weight: 400;">Changes the speed of the economy.</span></p>
+<p><strong>Productivity =</strong><span style="font-weight: 400;"> is the ability to produce more output, per worker, per hour.&nbsp; An increase in productivity is better for the country.&nbsp; Look up Singapore.&nbsp;</span></p>
+<p><strong>Factors of Production =</strong><span style="font-weight: 400;"> Land, labor, capital.&nbsp; Human capital = education, skills, knowledge.</span></p>
+<p><span style="font-weight: 400;">Capital has a cost, but finding new ways to organize production is virtually free technology</span></p>
+<p><strong>Purchasing power =</strong><span style="font-weight: 400;"> Amount of goods and services that can be bought by a given amount of money.</span></p>
+<p><strong>Inflation = </strong><span style="font-weight: 400;">Increase in a currency supply.&nbsp; Number of people using the currency increases, resulting in rising prices of goods and services overtime.&nbsp; Look up Venezuela&nbsp;</span></p>
+<p><strong>Bubbles =</strong><span style="font-weight: 400;"> Surges in asset prices to the levels significantly above the value of the asset.&nbsp; Housing bubble.&nbsp; Look up NINJA loans.&nbsp;</span></p>
+<p><strong>CPI = Consumer Price Index,</strong><span style="font-weight: 400;"> shows how prices have changed in different years.</span></p>
+<p><strong>Real =</strong><span style="font-weight: 400;"> price from past adjusted for inflation.&nbsp; Nominal is not adjusted.</span></p>
+<p><strong>Demand pull inflation =</strong><span style="font-weight: 400;"> Too much money chasing too few goods.</span></p>
+<p><strong>Supply Shock =</strong><span style="font-weight: 400;"> Decrease in oil production, leads to increase in gasoline price, which leads to increase in delivery costs and the pizza prices.&nbsp; Thus, people will not buy pizza.&nbsp;
+<p><span style="font-weight: 400;"></span></p>
+<p><strong>Fiscal Policy = </strong><span style="font-weight: 400;">Government intervention by government spending or taxes.</span></p>
+<p><strong>Recessionary Gap = </strong><span style="font-weight: 400;">situation wherein the real GDP is lower than the potential GDP at the full employment level.&nbsp;</span></p>
+<p><span style="font-weight: 400;">Inflationary Gap =&nbsp; When unemployment is low, factories work overtime, but this is not sustainable.&nbsp; Producers will bid up costs leading to more inflation.&nbsp;&nbsp;</span></p>
+<p><strong>Expansionary Fiscal Policy = </strong><span style="font-weight: 400;">Stimulate the economy during or in anticipation of a business-cycle contraction (Obama 2009).</span></p>
+<p><strong>Contractionary Fiscal Policy = </strong><span style="font-weight: 400;">Reduce the money supply and ultimately the spending in a country. This is rarely implemented (Bush 1993).</span></p>
+<p><span style="font-weight: 400;">Budget Deficit = Amount of which a government&rsquo;s spending exceeds its income over a particular period of time.</span></p>
+<p><em><span style="font-weight: 400;">Economists are focused on federal deficit as to percentage of GDP rather than federal debt (adjusted for inflation)</span></em></p>
+<p><span style="font-weight: 400;">Debt = Accumulation of budget deficits.&nbsp;</span></p>
+<p>
+<p><strong>Central Bank has two roles:</strong></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Regulate and oversee that the nation&rsquo;s commercial banks have enough money in reserve to avoid bank runs.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Conduct monetary policy by increasing or decreasing the money supply to speed up or slow down the economy.</span></li>
+</ul>
+<p><strong>Interest rate = price of borrowing money.&nbsp; When banks lend money, they expect to be repaid the amount lended.&nbsp; This is known as the principle.&nbsp; A percentage of principle covers inflation and enough to make a profit.&nbsp;&nbsp;</strong></p>
+<p><strong>Financial System </strong><span style="font-weight: 400;">= A network of institutions, markets, and contracts that bring lenders and borrowers together.&nbsp; Banks, Bond Markets, Stock Market.</span></p>
+<p><strong>Fluctuations in the stock market are not reliable indicators of how the economy is doing.</strong></p>
+<p><strong>HyperInflation = Confusion on what prices to charge for products.&nbsp; Moreover, forces consumers to spend as quickly as possible rather than save money.&nbsp; Therefore, there is no money to be invested in businesses.&nbsp;&nbsp;&nbsp;</strong></p>
+<p><strong>Velocity of money = </strong><span style="font-weight: 400;">number of timers a dollar is spent per year.&nbsp; When people spend their money as quickly as they get it, that increases velocity, which pushes inflation up an even faster vicious cycle.&nbsp;</span></p>
+<p><strong>Liquidity Trap = </strong><span style="font-weight: 400;">Continuing falling prices leads to layoffs and economic depression&nbsp;</span></p>
+<p><strong>Stagflation = </strong><span style="font-weight: 400;">Output slows down or stops at the same time price rises.</span></p>
+<p><em><span style="font-weight: 400;">America&rsquo;s largest trading partner is Canada.&nbsp;&nbsp;</span></em></p>
+<p><strong>Net Exports = </strong><span style="font-weight: 400;">is the difference between imports and exports.&nbsp;</span></p>
+<p><span style="font-weight: 400;">International trade shuffles jobs</span></p>
+<p><strong>Balance of Payment =</strong></p>
+<ul>
+<li><strong><strong>Current Account = </strong><span style="font-weight: 400;">Records the sale , purchase of goods, services, investment income</span></strong></li>
+</ul>
+<ul>
+<li><strong>Financial Account = </strong><span style="font-weight: 400;">Records the purchase and sale of financial assets like stocks and bonds</span></li>
+</ul>
+<p><em><span style="font-weight: 400;">There is a reason why the flow of goods and flow of money are symmetric. If consumers, businesses, and the government want to buy more stuff than their country is producing domestically, they have to import more products from abroad.&nbsp; So there is a trade deficit.&nbsp;</span></em></p>
+<p><span style="font-weight: 400;">Look up Lorenz Curve</span></p>
+
+<!-- MACROECON NOTES  END  -->
+
+<!-- top of page -->
+<a href="#top">Top</a>
+<br>
+<!-- top of page -->
+
+<a name="microecon"></a>
+
+<div class="title">
+   Microeconomics
+</div>
+<!-- top of page -->
+<a href="#top">Top</a>
+<!-- top of page -->
+<br>
+
+<p><strong>Marginal Analysis = </strong><span style="font-weight: 400;">How individuals, businesses, and governments make decisions.&nbsp;&nbsp;</span></p>
+<p><em><span style="font-weight: 400;">For example a business may decide how many workers to hire.&nbsp; They compare additional workers, a labor cost, to the additional revenue created by that worker.&nbsp; If hiring additional workers lead to revenue, then workers are hired.</span></em></p>
+<p><em><span style="font-weight: 400;">Governments decide if building an additional park will add any utility, if the benefits outweigh the costs.&nbsp; Law of diminishing returns.</span></em></p>
+<p><strong>Elasticity of Demand = </strong><span style="font-weight: 400;">Sensitivity to quantity when there is a change in price.&nbsp;&nbsp;</span></p>
+<p><em><span style="font-weight: 400;">People will still buy gasoline if the price goes up, because it is a unique product.</span></em> <em><span style="font-weight: 400;">Conversely, pizza is elastic.&nbsp; If the price of pizza goes up, consumers will purchase: sandwiches, tacos, sushi, etc.</span></em></p>
+<p><strong>Productive Efficiency = </strong><span style="font-weight: 400;">Idea that products are being made at the lowest possible cost.&nbsp; No wasted resources of workers, raw materials, capital.&nbsp; This leads to profits. </span><em><span style="font-weight: 400;">&nbsp;&nbsp;</span></em></p>
+<p><strong>Allocative Efficiency = </strong><span style="font-weight: 400;">State of the economy which production represents consumer preferences.&nbsp; Scarce resources allocated to products consumers want.&nbsp; Unlike Laser discs.&nbsp;</span></p>
+<p><span style="font-weight: 400;">Price gouging = When sellers raise prices for essential items to a much higher level than is considered reasonable.&nbsp; Toilet tissue. </span></p>
+<p><span style="font-weight: 400;">Price Ceiling = Government sets a max price.&nbsp;</span></p>
+<p><em><span style="font-weight: 400;">If the government forces petroleum companies to sell gasoline at $1.00 per gallon, consumers will rush to buy more.&nbsp; However, companies will not make a profit and curtail production.</span></em></p>
+<p><span style="font-weight: 400;"><b>Price Floor =</b></span><em><span style="font-weight: 400;">Minimum price in a specific market.&nbsp; Price is artificially high and above the equilibrium.&nbsp; Corn producers will have incentive to produce more corn, but consumers will look for alternatives, like wheat.</span></em></p>
+<p><em><span style="font-weight: 400;">Rent control is another type of price ceiling.&nbsp; Rent is low to keep long-term tenants.&nbsp; However, landlords don&rsquo;t make a profit and don&rsquo;t have any incentive to add improvements to the building.&nbsp; Developers will not create new buildings in the area as well.</span></em></p>
+<p><em><span style="font-weight: 400;"><b>Subsidies</b></span></em><span style="font-weight: 400;">&nbsp;</span><em><span style="font-weight: 400;">= Government payment given to farms designed to offset costs.&nbsp; However, farms can handle price shocks.&nbsp; Subsidies can discourage farmers from innovating.&nbsp;</span></em></p>
+<p><strong><em>Accounting profit = Revenue - explicit costs&nbsp;</em></strong></p>
+<ul>
+<li><strong><strong><em>Companies in competitive markets don&rsquo;t usually make very much profit.&nbsp; Maybe no profit.</em></strong></strong></li>
+</ul>
+
+<ul>
+<li style="font-weight: 400;"><strong><em>They must make accounting profit&nbsp; </em></strong><em><span style="font-weight: 400;">&nbsp;</span></em><span style="font-weight: 400;">&nbsp;</span></li>
+</ul>
+<p><strong>&nbsp;Costs of production = </strong><span style="font-weight: 400;">Variable + Fixed costs</span></p>
+<p><span style="font-weight: 400;">Fixed Costs can be spread over large units.</span></p>
+<p><strong>Economies of Scale = </strong><span style="font-weight: 400;">Companies that produce more can utilize mass production techniques and spread out their fixed costs over many units.</span></p>
+<p><strong><em>Goal of a business is to make right amount of products that maximize profits</em></strong></p>
+<p><strong>Marginal revenue = </strong><span style="font-weight: 400;">additional revenue earned from selling another unit.</span></p>
+<p><strong>Marginal cost =</strong><span style="font-weight: 400;"> additional cost of producing another unit.</span></p>
+<p><strong>Sunk cost = </strong><span style="font-weight: 400;">a cost that as already been paid and cannot be recovered&nbsp;</span></p>
+<p><span style="font-weight: 400;">&nbsp;</span></p>
+
+<!-- Microecon notes end -->
+<!-- top of page -->
+<a href="#top">Top</a>
+<!-- top of page -->
+
+<a name="biz"></a>
+<div class="title">
+
+<!-- top of page -->
+<a href="#top">Top</a>
+<!-- top of page -->
+
+    <i>SBA:</i> Steps of Buying a Business
+</div>
+ <!-- top of page -->
+<a href="#top">Top</a>
+<br>
+<br>
+<a href="https://www.investopedia.com/terms/b/business.asp">Business Defention</a>
+<br>
+<a href="https://www.sba.gov/course/buying-business/">Source</a>
+<ul>
+    <li>Pick a familar industry.</li>
+    <li>Consider your skills, talents to eliminate unrealistic business ventures.</li>
+    <li>List your conditions of purchase: Location, size, time-commitment, multi-location</li>
+    <li>Loook for business in your prefered area</li>
+    <li>Hire a business broker</li>
+    <li>Business with low overhead</li>
+    <li>Business start post Covid</li>
+    <li>Business with best cash flow</li>
+    <li>Business necessary metrics</li>
+</ul>
+<p>
+    Due Diligence begins with an initial research of the business.
+    Why is the business for sale? How is the business perceived? Will the business stay profitable.
+    Connect with business associations, speak to customers and inquire about asking price.
+    Determine the value of the business: inventory, debt, location.
+</p>
+<p>
+    Approach to the value of the business. Asset-based: The value of the business
+    is determined on the costs to replace the tangible assets. If the earnings
+    will not support the value greater than the assets.
+    Then at best, the business' value equals the value of tangible assets
+</p>
+
+<p>
+    Market based uses ratios or factors derived from: earnings, sales, assets, of past transactions of similar
+    businesses.
+    Apply to this to the business you are seeking to buy
+</p>
+
+<p>Income based dervies indication of value by Capitalization or Discount rate</p>
+
+<p>There are three options for buying a business. Outright sale: ownership is transferred immediately.<br>
+    Payment is excepted right away.</p>
+
+<p>Gradual Sale: Flexible option transferring a business which often benefits individual who cannot afford to
+    purchase a business through an outright sale, but are instead able to fiance a long-term payment plan.</p>
+
+<p>Lease Agreement: Committing to a contract that details the conditions and payments you will make for the
+    temporary rights to the business.</p>
+<p>Sales agreement: key document to finalize the purchase of the business.</p>
+
+<ul>
+    <li>You require a sales agreement to:</li>
+    <li>Buy a business legally.</li>
+    <li>Finalize the purchase of the business.</li>
+    <li>Define everything that you intend to purchase</li>
+</ul>
+
+
+
+<div class="title">
+    Questions to Ask When Buying a Business
+</div>
+<p><a href="https://www.allbusiness.com/questions-to-ask-when-buying-a-business-567-1.html">Source</a></p>
+<p> Get a solid business broker and select a business that you have some experience with.</p>
+<a
+    href="https://s3.amazonaws.com/mentoring.redesign/s3fs-public/Orange-County-SCORE-Buying-a-Business-Checklist.pdf">Checklist</a>
+<ul>
+    <li>What is the state of the industry in which the business operates? Is the industry in growth mode, or is it
+        mature or in decline?</li>
+    <li>What is the state of the business’s target market? Is its target market growing or shrinking? Are its target
+        customers undergoing demographic changes, such as aging, loss of disposable income, or other transitions
+        that could put the business at risk?</li>
+    <li>Is the business’s customer base growing? Is the business adequately diversified, or is it overly dependent
+        on one or two big customers?</li>
+    <li>How does this business compare to competitors in its industry? How many competitors are there? What are
+        their strengths and weaknesses?</li>
+    <li>What is the state of the region where the business is located? Are people moving into the area or are they
+        moving out? What about businesses? Is the local economy growing or shrinking?</li>
+    <li>What kind of staff does the business have? Do employees have skills that are difficult to find elsewhere?
+        Are their wages average, above average, or below average for the industry? What benefits does the company
+        offer?</li>
+    <li>Is there a lot of turnover at the company? How long have key employees been with the company? Are key
+        personnel likely to stay with the company after a change in ownership?</li>
+    <li>What is the company’s reputation in the industry and the community? Businesses are often up for sale because
+        of problems the owner may try to hide. Go online and ask around in the community to learn as much as you can
+        about the reputation the company has among customers, vendors, and prospects.</li>
+</ul>
+
+
+
+
+<div class="title">
+    5 key metrics
+</div>
+<p><a
+        href="https://www.businessbroker.net/blog/buying-a-franchise-or-business/5-key-metrics-to-look-at-when-comparing-businesses-for-sale-deciding-to-buy">Source</a>
+</p>
+<p><strong>1. Product or Process</strong></p>
+<p>You have to be interested in the the service or product (or the combo of both).</p>
+<p><strong>2. Business Plan</strong></p>
+<p>Look at their business plan. See how their goals align with yours. Their plan should show how the product/process
+    is marketed. In addition, check out how similar companies stack up in sales. If they don't have a business plan
+    but their is potential, then create your own plan.</p>
+<p><strong>3. Financial</strong></p>
+<p>If the business does not have solid financial documents, walk away. Financial documents are the health of the
+    business <a href="https://kironroy.github.io/four">Source</a></p>
+<p><strong>4. Customers</strong></p>
+<p>Know the current customers as well as web-mapping the area with <i>Google map and <a
+            href="https://www.trulia.com/?cid=sem|google|tbw_nb_nat_x_ht_nat_homes(hv)!3757af49|Homes-Broad_352776865_22475177305_kwd-10115540_223899029214_">trulia</a></i>.
+    <strong>Key metrics:</strong> demographics, adjacencies. <strong>Then determine:</strong> market saturation, or
+    potential growth.</p>
+<p><strong>5. Performance and Progress</strong></p>
+<p>The efficiency of the business. Workers adequately working? This would reflect in the expense and income columns.
+    Is the owner active, or is there a manager, sub-managers?</p>
+<div class="title">
+    5 Key Performance Indicators (KPI)
+</div>
+<p><a href="https://www.allbusiness.com/buying-a-business-5-essential-kpis-to-review-112437-1.html">Source</a></p>
+<p><strong>1. Customer acquisition cost</strong></p><strong>Customer acquisition cost = dollar amount you spend on
+    sales and marketing in order to require a new customer.</strong> The number indicates efficiency of marketing
+and is calculated by <i>Total number of customers / Total acquisition costs</i>. If the company you are looking at
+is spending too much, consider the options of refining the marketing strategy and more efficiently allocating the
+budget.
+<p></p>
+<p><strong>2. Customer retention rate</strong></p>
+<p><strong>Customer retention rate = customers who come back regularly for goods and services</strong> High
+    retention rates include: <i>High quality product at a competitive price, customer support, and customer
+        satisfaction.</i></p>
+<p><strong>3. Profit margin</strong></p>
+<p><strong>Profit margin = "markup" how much a product or service's revenue exceeds its cost to the
+        business.</strong> Business with low margins are vulnerable to drops in sales or poor market share. This
+    will raise concern about long-term sustainability.</p>
+<p><strong>4. Overhead</strong></p><strong>refers to fixed expenses outside labor and production costs.</strong>
+Rent, utilities, and insurance are all examples of overhead expenses. When compared to overall revenue, overhead can
+indicate a company’s efficiency.
+<p></p>
+<p><strong>5. Employee turnover</strong></p>
+<p>High employee turnover could be a red flag that current management isn’t engaging staff or rewarding strong
+    individual or company performance. If you’re considering a business with high turnover, revamp employee
+    policies.</p>
+</div>
+<div class="title">
+    Property Mangement 10 (KPI)
+</div>
+<br>
+<a href="https://www.buildium.com/blog/property-management-kpis-to-track/">Source</a>
+<ol>
+    <li>Properties Won vs Property lost: Property managers need to track how many properties successfully acquired
+        within a year.</li>
+    <li>Occupancy rates: should be 95 to 96% at any given time</li>
+    <li>Average Arrears (debt, money owed to you) can impact a company's cash flow. Always try to minimize arrears
+    </li>
+    <li>Tenant turnover: Unless, you are managing rent controlled properties, it is common for tenants to turn over
+        every year or two.</li>
+    <li>Rent-Ready costs: when a unit turns over, do you know how much it will cost to get the unit in rent-ready
+        condition?</li>
+    <li>Average Days-to-Lease: Each day passes without a resident occupying a unit is money being lost</li>
+    <li>Net-Income: Besides tracking rent, track other revenue streams like washer and dryer costs</li>
+    <li>Repair and maintenance cost: Property maintenance should line up reputable service companies, know specificP
+        cost of repair (example: bathroom remodeling</li>
+    <li>Property management fees usually 8 to 12%</li>
+    <li>Revenue growth</li>
+</ol>
+<div class="title">
+    Financial Accounting (Libby, Libby, and Short)
+</div>
+<p>
+    Most companies list assets in order of liquidity or how soon an asset is expected by management to be turned into cash or used.
+
+Liabilities are usually listed on the balance sheet in order of maturity (how soon an obligation is to be paid).  
+
+Managers business decisions often result in transactions that affect the financial statement.  Decisions to expand the number of stores, advertise a new product, change and employee benefit package and invest excess cash would affect the financial statement.  The decision to purchase additional inventory for cash in anticipation of a major sales will increase inventory and decrease cash.  But if there is no demand for additional inventory, the lower cash balance will also reduce the company’s ability to pay its other obligations.
+
+</p>
+<p>
+Operating Cycle:  The long term objective for any business is to turn cash into more cash.  If a company is to stay in business, this excess must be generated from operations that is from activities for which the business was established, not from borrowing money or selling long-lived assets.
+</p>  
+
+
+<!-- top of page -->
+<a href="#top">Top</a>
+<!-- top of page -->
+
+
+
+
+  <!-- end here with notes -->
+
+
+
+
+
+ </section>
+  <ul>
+   <li>
+    <span>Dark</span>
+    <span>Light</span>
+   </li>
+  </ul>
+ <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+ <script type="text/javascript">
+  $(document).ready(function(){
+   $('ul').click(function(){
+    $('ul').toggleClass('active')
+    $('section').toggleClass('dark')
+   })
+  })
+ </script>
+</body>
+</html>
+
+
+    <script type="text/javascript">//<![CDATA[
+
+
+
+
+
+  //]]></script>
+
+  <script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: "87dystfj"
+      }], "*")
+    }
+
+    // always overwrite window.name, in case users try to set it manually
+    window.name = "result"
+  </script>
+
+    <script>
+      let allLines = []
+
+      window.addEventListener("message", (message) => {
+        if (message.data.console){
+          let insert = document.querySelector("#insert")
+          allLines.push(message.data.console.payload)
+          insert.innerHTML = allLines.join(";\r")
+
+          let result = eval.call(null, message.data.console.payload)
+          if (result !== undefined){
+            console.log(result)
+          }
+        }
+      })
+    </script>
+
+</body>
+</html> 
+    </head>
+</html> 
+    </head>
+</html> 
+    </head>
+</html> 
+    </head>
+</html> 
+    </head>
+</html> 
+    </head>
+</html> 
+    </head>
+</html> 
+    </head>
+</html> 
+    </head>
+    </head>
+</html>
