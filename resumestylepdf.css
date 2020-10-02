@@ -160,7 +160,6 @@ p {
 	font-weight: 400;
 	font-family: 'Heebo', sans-serif;
 	margin-bottom: -6px;
-	letter-spacing: -.50px;
 }
 
 #name h2 {
@@ -251,7 +250,6 @@ section:last-child {
 	font-style: italic;
 	font-size: 1.5em;
 	color: #5042d3;
-	letter-spacing: -.50px;
 }
 
 .sectionContent h2 {
@@ -259,7 +257,6 @@ section:last-child {
 	font-weight: 350;
 	font-size: 1.5em;
 	margin-bottom: -2px;
-	letter-spacing: -.50px;
 	color: #5042d3;
 }
 
