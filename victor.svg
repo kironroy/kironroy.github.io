@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>victor</title>
+    <desc>Created with Sketch.</desc>
+    <g id="victor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(50.000000, 50.000000) rotate(-180.000000) translate(-50.000000, -50.000000) translate(10.000000, 15.500000)">
+            <path d="M69.1666667,69 L56.6532572,47.4143686 L40,18.6875 L10.8333333,69 L0,69 L40,0 L56.6532572,28.7268686 L80,69 L69.1666667,69 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            <polygon id="Triangle-Copy-10" fill="#FFCC01" points="40 28.75 49.5756229 45.50734 63 69 17 69"></polygon>
+        </g>
+    </g>
+</svg>
