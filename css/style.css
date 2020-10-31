@@ -66,29 +66,29 @@ h4 strong,
 h5 strong,
 h6 strong {
     color: #5042d3;
-    letter-spacing: -.50px;
+    letter-spacing: -.10px;
 }
 
 h2 {
     font-size: 1.30em;
-    letter-spacing: -.50px;
+    letter-spacing: -.10px;
     color: #FFFFFF;
 }
 
 h2.alt {
     color: #888;
-    letter-spacing: -.50px;
+    letter-spacing: -.10px;
 }
 
 h2.alt strong {
     color: #666;
-    letter-spacing: -.50px;
+    letter-spacing: -.10px;
 }
 
 h3 {
     font-size: 1.7em;
     color: #FFFFFF;
-    letter-spacing: -.50px;
+    letter-spacing: -.10px;
 }
 
 header {
