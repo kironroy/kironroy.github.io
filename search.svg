@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="150px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>search</title>
+    <desc>Created with Sketch.</desc>
+    <g id="search" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(26.500000, 10.000000)">
+            <rect id="Rectangle" fill="#D5C5E1" x="21.4358811" y="27.051868" width="4.76352914" height="52.3988205" rx="2.38176457"></rect>
+            <g id="Group" transform="translate(0.595441, 0.018608)">
+                <circle id="Oval" fill="#D5C5E1" cx="23.0765424" cy="23.3602872" r="22.5520755"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="23.0765424" cy="23.3602872" r="18.8808074"></circle>
+            </g>
+            <g id="Group-2" transform="translate(14.151027, 11.131958)" fill="#00009A">
+                <rect id="Rectangle" x="0.412152215" y="0.841665508" width="5.97055871" height="5.97026037" rx="1"></rect>
+                <rect id="Rectangle-Copy" x="0.412152215" y="9.29518692" width="5.97055871" height="5.97026037" rx="1"></rect>
+                <rect id="Rectangle-Copy-2" x="0.412152215" y="17.7487083" width="5.97055871" height="5.97026037" rx="1"></rect>
+            </g>
+            <g id="Group-2-Copy" transform="translate(26.234300, 11.131958)" fill="#00009A">
+                <rect id="Rectangle" x="0.412152215" y="0.841665508" width="5.97055871" height="5.97026037" rx="1"></rect>
+                <rect id="Rectangle-Copy" x="0.412152215" y="9.29518692" width="5.97055871" height="5.97026037" rx="1"></rect>
+                <rect id="Rectangle-Copy-2" x="0.412152215" y="17.7487083" width="5.97055871" height="5.97026037" rx="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
