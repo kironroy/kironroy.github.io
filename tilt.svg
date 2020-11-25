@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>tilt</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="10.7939749%" x2="50%" y2="71.3142164%" id="linearGradient-1">
+            <stop stop-color="#4935CF" stop-opacity="0.562301857" offset="0%"></stop>
+            <stop stop-color="#E42727" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="10.7939749%" x2="50%" y2="71.3142164%" id="linearGradient-2">
+            <stop stop-color="#2F1CF7" offset="0%"></stop>
+            <stop stop-color="#BAD01A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="tilt" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(50.000000, 47.376154) rotate(-315.000000) translate(-50.000000, -47.376154) translate(27.500000, 2.876154)">
+            <g id="Group" fill="url(#linearGradient-1)">
+                <path d="M19.2385558,22.4449818 L19.2385558,28.0805184 C19.2385558,29.8513785 20.6741216,31.2869443 22.4449818,31.2869443 C24.215842,31.2869443 25.6514078,29.8513785 25.6514078,28.0805184 L25.6514078,22.4449818 L25.6514078,16.8094453 C25.6514078,15.0385851 24.215842,13.6030193 22.4449818,13.6030193 C20.6741216,13.6030193 19.2385558,15.0385851 19.2385558,16.8094453 L19.2385558,22.4449818 Z M0,22.4449818 L22.4449818,0 L44.8899636,22.4449818 L22.4449818,44.8899636 L0,22.4449818 Z" id="Combined-Shape-Copy-3"></path>
+            </g>
+            <g id="Group-Copy" transform="translate(0.000000, 43.643020)" fill="url(#linearGradient-2)">
+                <path d="M19.2385558,22.4449818 L19.2385558,28.0805184 C19.2385558,29.8513785 20.6741216,31.2869443 22.4449818,31.2869443 C24.215842,31.2869443 25.6514078,29.8513785 25.6514078,28.0805184 L25.6514078,22.4449818 L25.6514078,16.8094453 C25.6514078,15.0385851 24.215842,13.6030193 22.4449818,13.6030193 C20.6741216,13.6030193 19.2385558,15.0385851 19.2385558,16.8094453 L19.2385558,22.4449818 Z M0,22.4449818 L22.4449818,0 L44.8899636,22.4449818 L22.4449818,44.8899636 L0,22.4449818 Z" id="Combined-Shape-Copy-3"></path>
+            </g>
+        </g>
+    </g>
+</svg>
