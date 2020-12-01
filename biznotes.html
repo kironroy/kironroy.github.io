@@ -35,6 +35,26 @@
                 letter-spacing: 0.20px;
             }
 
+            #topBtn {
+                    display: none;
+                    position: fixed;
+                    bottom: 20px;
+                    right: 30px;
+                    z-index: 99;
+                    font-size: 18px;
+                    border: none;
+                    outline: none;
+                    background-color: #262626;
+                    color: #FFFFFF;
+                    cursor: pointer;
+                    padding: 15px;
+                    border-radius: 4px;
+            }
+
+            #topBtn:hover {
+            background-color: #000000
+            }
+
             section {
                 position: absolute;
                 top: 0;
@@ -94,6 +114,7 @@
             ul li span:nth-child(1) {
                 background: #262626;
                 color: #fff;
+                border-radius: 4px;
             }
 
             img {
@@ -215,13 +236,10 @@
 </head>
 <body>
     
-        <!-- BACK TO TOP -->
-        <a name="top"></a>
-        <br>
-        <!-- BACK TO TOP -->
+     
  <section>
     
-
+    <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
   
   
   <!-- start here with notes -->
@@ -251,11 +269,7 @@
     Overview
 </div>
 
-<!-- top of page -->
-<a href="#top">Top</a>
-<br>
-<!-- top of page -->
-<br>
+
 
 <a href="https://www.amazon.com/Macroeconomics-Quick-Study-Business-BarCharts/dp/1423208544">Source</a>
 <br>
@@ -299,11 +313,7 @@
 <div class="title">
     Macroeconomics
 </div>
-<!-- top of page -->
-<a href="#top">Top</a>
-<br>
-<!-- top of page -->
-<br>
+
 
 <a href="https://www.youtube.com/playlist?list=PL1oDmcs0xTD-dJN1PL2N1urX0EKupBJCQ">Source</a>
 <br>
@@ -419,20 +429,13 @@
 
 <!-- MACROECON NOTES  END  -->
 
-<!-- top of page -->
-<a href="#top">Top</a>
-<br>
-<!-- top of page -->
+
 
 <a name="microecon"></a>
 
 <div class="title">
    Microeconomics
 </div>
-<!-- top of page -->
-<a href="#top">Top</a>
-<!-- top of page -->
-<br>
 
 <p><strong>Marginal Analysis = </strong><span style="font-weight: 400;">How individuals, businesses, and governments make decisions.&nbsp;&nbsp;</span></p>
 <p>
@@ -474,21 +477,16 @@
 <p><span style="font-weight: 400;">&nbsp;</span></p>
 
 <!-- Microecon notes end -->
-<!-- top of page -->
-<a href="#top">Top</a>
-<!-- top of page -->
+
 
 <a name="biz"></a>
 <div class="title">
 
-<!-- top of page -->
-<a href="#top">Top</a>
-<!-- top of page -->
+
 
     <i>SBA:</i> Steps of Buying a Business
 </div>
- <!-- top of page -->
-<a href="#top">Top</a>
+
 <br>
 <br>
 <a href="https://www.investopedia.com/terms/b/business.asp">Business Defention</a>
@@ -701,9 +699,7 @@ Operating Cycle:  The long term objective for any business is to turn cash into 
 <h2>
     <center>Four Statements</center>
 </h2>
-<!-- top of page -->
-<a href="#top">Top</a>
-<!-- top of page -->
+
 <center><a
         href="https://docs.google.com/spreadsheets/d/1EaSkW-ZnVmMbwTpMAJuE9uewi49VxSwNNkr1MUv8XL4/edit?usp=sharing">
         Integrated Financial Statements</a>
@@ -810,10 +806,7 @@ Operating Cycle:  The long term objective for any business is to turn cash into 
 <br>
 
 
-<!-- top of page -->
-<a href="#top">Top</a>
-<br>
-<!-- top of page -->
+
 
 <a name="youtube"></a>
 
@@ -828,10 +821,7 @@ Operating Cycle:  The long term objective for any business is to turn cash into 
 <br>
 <br>
 
-<!-- top of page -->
-<a href="#top">Top</a>
-<!-- top of page -->
-<br>
+
 
 
 <a name="questions"></a>
@@ -876,10 +866,6 @@ Operating Cycle:  The long term objective for any business is to turn cash into 
     </ol>
     </ol>
 
-<!-- top of page -->
-<a href="#top">Top</a>
-<!-- top of page -->
-<br>
 
 
 
@@ -946,6 +932,28 @@ Operating Cycle:  The long term objective for any business is to turn cash into 
           }
         }
       })
+    </script>
+
+<script>
+    //Get the button
+    var mybutton = document.getElementById("topBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
     </script>
 
 </body>
