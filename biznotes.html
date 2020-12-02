@@ -5,6 +5,8 @@
         <title>Business Notes</title>
         <meta content="text/html; charset=UTF-8" http-equiv="content-type">
         <meta content="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+        <script src="https://kit.fontawesome.com/1569f98a9e.js" crossorigin="anonymous"
+        integrity="sha384-eyW6goDtRESSkKYbhfkte7n3b0YoTn4slQfTm21g36NMjzeiiaWANXdGGkmtsujP"></script>
         <meta content="noindex, nofollow" name="robots">
         <meta content="noindex, nofollow" name="googlebot">
         <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -23,17 +25,16 @@
 
 
         <style id="compiled-css" type="text/css">
-
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
             * {
-                font-family: "Times New Roman", serif;
+                font-family: 'Roboto', sans-serif;
             }
 
             body {
-                font-size: 22px;
+                font-size: 18px;
                 line-height: 1.6;
                 padding: 14px;
                 background-color: #ffffff;
-                letter-spacing: 0.20px;
             }
 
             #scroll {
@@ -107,7 +108,7 @@
             ul li {
                 list-style: none;
                 width: 100%;
-                height: 60px;
+                height: 80px;
                 text-align: center;
                 transition: 0.5s;
             }
@@ -121,14 +122,16 @@
                 width: 100%;
                 height: 30px;
                 line-height: 30px;
-                color: #5042D3;
-                background: #fff;
+                color: #191919;
+                background:rgb(255, 255, 124);
+                font-size: medium;
                 border-radius: 4px;
             }
 
             ul li span:nth-child(1) {
-                background: #5042D3;
-                color: #fff;
+                background: #191919;
+                color: rgb(255, 255, 124);
+                font-size: medium;
             }
 
             img {
@@ -138,19 +141,17 @@
 
             a {
                 text-align: center;
-
-                letter-spacing: -0.50px;
-                font-size: 22px;
+                font-size: 16px;
                 color: #5042D3;
-                text-decoration: underline;
+                text-decoration: none;
                 font-weight: 300;
-                letter-spacing: -0.50px
+                
             }
 
             .title {
                 text-align: center;
                 font-size: 28px;
-                background-color: #5042D3;
+                background-color: #000999;
                 color: white;
                 padding: 10px;
                 letter-spacing: -0.50px
@@ -264,25 +265,40 @@
 <center>
     <h2>Notes</h2>
 </center>
-
-<ol>
-    <b>Short Cuts </b>
+<div class="title">
+    Shortcuts
+</div>
+<br>
    
-    <li><a href="#overview">Overview</li>
-    <li><a href="#macroecon">Macroeconomics</a></li>
-    <li><a href="#microecon">Microeconomics</a></li>
-    <li><a href="#biz">Business</a></li>
-    <li><a href="#four">Financial Statements</a></li>
-    <li><a href="#youtube">YouTube</a></li>
-    <li><a href="#questions">Questions</a></li>
-</ol>
+   
+    <a href="#overview">Overview
+        <br>
+   <a href="#macroecon">Macroeconomics</a>
+   <br>
+
+  <a href="#microecon">Microeconomics</a>
+  <br>
+
+    <a href="#biz">Business</a>
+    <br>
+
+    <a href="#four">Financial Statements</a>
+    <br>
+
+    <a href="#youtube">YouTube</a>
+    <br>
+
+    <a href="#questions">Questions</a>
+
+    <br>
+    <br>
 
 <a name="overview"></a>
 <div class="title">
     Overview
 </div>
 
-
+<br>
 
 <a href="https://www.amazon.com/Macroeconomics-Quick-Study-Business-BarCharts/dp/1423208544">Source</a>
 <br>
@@ -892,8 +908,8 @@ Operating Cycle:  The long term objective for any business is to turn cash into 
  </section>
   <ul>
    <li>
-    <span>Dark</span>
-    <span>Light</span>
+    <span><i class="fas fa-moon"></i></span>
+    <span><i class="far fa-sun"></i></span>
    </li>
   </ul>
  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
