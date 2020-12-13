@@ -21,283 +21,292 @@
 	</script>
 	<link href="/css/result-light.css" rel="stylesheet" type="text/css">
 	<style id="compiled-css" type="text/css">
-	    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-	           * {
-					font-family: 'Roboto', sans-serif;
-	           }
+	       @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+	              * {
+	                   font-family: 'Roboto', sans-serif;
+	              }
 
-	           body {
-	               font-size: 18px;
-	               line-height: 1.6;
-	               padding: 14px;
-	               background-color: #ffffff;
-	           }
+	              body {
+	                  font-size: 18px;
+	                  line-height: 1.6;
+	                  padding: 14px;
+	                  background-color: #ffffff;
+	              }
 
-			   .overview a {
-				   font-size: 20px;
-				   line-height: 2;
-				   font-weight: bolder;
-				   letter-spacing: 0.5px; 
-				   text-decoration: none;
-				   padding-bottom: 3px;
-				    
-			   }
+	              .overview a {
+	                  font-size: 20px;
+	                  line-height: 2;
+	                  font-weight: bolder;
+	                  letter-spacing: 0.5px; 
+	                  text-decoration: none;
+	                  padding-bottom: 3px;
+	                   
+	              }
 
-			   .books a {
-				   font-family: 'Times New Roman', Times, serif;
-				   font-size: 18px;
-				   font-weight: bolder;
-				   letter-spacing: 0.5px; 
-				   color: blue;
-			   }
+	              .lookup {
+	                  font-family: 'Times New Roman', Times, serif;
+	                  font-size: 18px;
+	                  font-weight: bolder;
+	                  letter-spacing: 0.5px; 
+	              }
 
-	           #scroll {
-	               position:fixed;
-	               right:10px;
-	               bottom:10px;
-	               cursor:pointer;
-	               width:50px;
-	               height:50px;
-	               background-color:blue;
-	               opacity: 90%;
-	               text-indent:-9999px;
-	               display:none;
-	               -webkit-border-radius:60px;
-	               -moz-border-radius:60px;
-	               border-radius:60px
-	           }
-	           #scroll span {
-	               position:absolute;
-	               top:50%;
-	               left:50%;
-	               margin-left:-8px;
-	               margin-top:-12px;
-	               height:0;
-	               width:0;
-	               border:8px solid transparent;
-	               border-bottom-color:#ffffff;
-	           }
-	           #scroll:hover {
-	               background-color:#000099;
-	               opacity: 90%;
-	           
-	           }
+	              .books a {
+	                  font-family: 'Times New Roman', Times, serif;
+	                  font-size: 18px;
+	                  font-weight: bolder;
+	                  letter-spacing: 0.5px; 
+	                  color: blue;
+	              }
 
-
-	           section {
-	               position: absolute;
-	               top: 0;
-	               left: 0;
-	               width: 100%;
-	               -height: 3010vh;
-	               box-sizing: border-box;
-	               padding: 50px;
-	               transition: 0.5s;
-	           }
-
-	           section.dark {
-	               background: #191919;
-	               color: #fff;
-				   
-	           }
-
-			   section.dark a {
-					color: #ffff7c;
-			   }
-
-			   section.dark .title2 {
-				   background-color: rgb(254, 165, 0);
-	               color: black
-			   }
-
-			   section.dark .title {
-				   background-color: yellow;
-	               color: black
-			   }
-
-			   section.dark #scroll {
-				position:fixed;
-	               right:10px;
-	               bottom:10px;
-	               cursor:pointer;
-	               width:50px;
-	               height:50px;
-	               background-color:yellow;
-	               opacity: 90%;
-	               text-indent:-9999px;
-	               display:none;
-	               -webkit-border-radius:60px;
-	               -moz-border-radius:60px;
-	               border-radius:60px
-			   }
-
-			   section.dark #scroll span {
-	               position:absolute;
-	               top:50%;
-	               left:50%;
-	               margin-left:-8px;
-	               margin-top:-12px;
-	               height:0;
-	               width:0;
-	               border:8px solid transparent;
-				   border-bottom-color:black;
-	           }
-
-	           ul {
-	               position: absolute;
-	               top: 20px;
-	               right: 20px;
-	               margin-top: 25px;
-	               margin-right: -10px;
-	               padding: 110;
-	               width: 100px;
-	               height: 30px;
-	               z-index: 1;
-	               cursor: pointer;
-	               overflow: hidden;
-	           }
-
-	           ol {
-	               list-style-type: disc;
-	           }
-
-
-	           ul li {
-	               list-style: none;
-	               width: 100%;
-	               height: 80px;
-	               text-align: center;
-	               transition: 0.5s;
-	           }
-
-	           ul.active li {
-	               transform: translateY(-30px);
-	           }
-
-	           ul li span {
-	               display: block;
-	               width: 100%;
-	               height: 30px;
-	               line-height: 30px;
-	               color: #191919;
-	               background:yellow;
-	               font-size: large;
-	               border-radius: 6px;
-	           }
-
-	           ul li span:nth-child(1) {
-	               background: #191919;
-	               color: yellow;
-	               font-size: medium
-	           }
-
-	           img {
-	               max-width: 100%;
-	               height: auto;
-	           }
-
-	           a {
-	               text-align: center;
-	               font-size: 17px;
-	               color: blue;
-	               text-decoration: none;
-	               font-weight: 300;
-	               
-	           }
-
-	           .title {
-	               text-align: center;
-	               font-size: 24px;
-	               background-color: blue;
-	               color: white;
-                   padding: 5px;
-                   border-radius: 6px;
-				   letter-spacing: 0.5px;
-				   font-weight: bolder;
+	              #scroll {
+	                  position:fixed;
+	                  right:10px;
+	                  bottom:10px;
+	                  cursor:pointer;
+	                  width:50px;
+	                  height:50px;
+	                  background-color:blue;
+	                  opacity: 90%;
+	                  text-indent:-9999px;
+	                  display:none;
+	                  -webkit-border-radius:60px;
+	                  -moz-border-radius:60px;
+	                  border-radius:60px
+	              }
+	              #scroll span {
+	                  position:absolute;
+	                  top:50%;
+	                  left:50%;
+	                  margin-left:-8px;
+	                  margin-top:-12px;
+	                  height:0;
+	                  width:0;
+	                  border:8px solid transparent;
+	                  border-bottom-color:#ffffff;
+	              }
+	              #scroll:hover {
+	                  background-color:#000099;
+	                  opacity: 90%;
 	              
-	           }
+	              }
 
-	           .title2 {
-	               text-align: center;
-	               font-size: 24px;
-	               background-color: red;
-	               color: white;
-                   padding: 5px;
-                   border-radius: 6px;
-	           }
-	           /* EOS */
+
+	              section {
+	                  position: absolute;
+	                  top: 0;
+	                  left: 0;
+	                  width: 100%;
+	                  -height: 3010vh;
+	                  box-sizing: border-box;
+	                  padding: 50px;
+	                  transition: 0.5s;
+	              }
+
+	              section.dark {
+	                  background: #191919;
+	                  color: #fff;
+	                  
+	              }
+
+	              section.dark a {
+	                   color: #ffff7c;
+	              }
+
+	              section.dark .title2 {
+	                  background-color: rgb(254, 165, 0);
+	                  color: black
+	              }
+
+	              section.dark .title {
+	                  background-color: yellow;
+	                  color: black
+	              }
+
+	              section.dark #scroll {
+	               position:fixed;
+	                  right:10px;
+	                  bottom:10px;
+	                  cursor:pointer;
+	                  width:50px;
+	                  height:50px;
+	                  background-color:yellow;
+	                  opacity: 90%;
+	                  text-indent:-9999px;
+	                  display:none;
+	                  -webkit-border-radius:60px;
+	                  -moz-border-radius:60px;
+	                  border-radius:60px
+	              }
+
+	              section.dark #scroll span {
+	                  position:absolute;
+	                  top:50%;
+	                  left:50%;
+	                  margin-left:-8px;
+	                  margin-top:-12px;
+	                  height:0;
+	                  width:0;
+	                  border:8px solid transparent;
+	                  border-bottom-color:black;
+	              }
+
+	           
+
+	              ul {
+	                  position: absolute;
+	                  top: 20px;
+	                  right: 20px;
+	                  margin-top: 25px;
+	                  margin-right: -10px;
+	                  padding: 110;
+	                  width: 100px;
+	                  height: 30px;
+	                  z-index: 1;
+	                  cursor: pointer;
+	                  overflow: hidden;
+	              }
+
+	              ol {
+	                  list-style-type: disc;
+	              }
+
+
+	              ul li {
+	                  list-style: none;
+	                  width: 100%;
+	                  height: 80px;
+	                  text-align: center;
+	                  transition: 0.5s;
+	              }
+
+	              ul.active li {
+	                  transform: translateY(-30px);
+	              }
+
+	              ul li span {
+	                  display: block;
+	                  width: 100%;
+	                  height: 30px;
+	                  line-height: 30px;
+	                  color: #191919;
+	                  background:yellow;
+	                  font-size: large;
+	                  border-radius: 6px;
+	              }
+
+	              ul li span:nth-child(1) {
+	                  background: #191919;
+	                  color: yellow;
+	                  font-size: medium
+	              }
+
+	              img {
+	                  max-width: 100%;
+	                  height: auto;
+	              }
+
+	              a {
+	                  text-align: center;
+	                  font-size: 17px;
+	                  color: blue;
+	                  text-decoration: none;
+	                  font-weight: 300;
+	                  
+	              }
+
+	              .title {
+	                  text-align: center;
+	                  font-size: 24px;
+	                  background-color: blue;
+	                  color: white;
+	                  padding: 5px;
+	                  border-radius: 6px;
+	                  letter-spacing: 0.5px;
+	                  font-weight: bolder;
+	                 
+	              }
+
+	              .title2 {
+	                  text-align: center;
+	                  font-size: 24px;
+	                  background-color: red;
+	                  color: white;
+	                  padding: 5px;
+	                  border-radius: 6px;
+	              }
+	              /* EOS */
 	</style>
 	<script id="insert">
 	</script>
 	<script charset="utf-8" src="/js/stringify.js?9a9853d11caf2d74c11569be5915ce17fc2f0561">
 	</script>
 	<script>
-	     const customConsole = (w) => {
-	       const pushToConsole = (payload, type) => {
-	         w.parent.postMessage({
-	           console: {
-	             payload: stringify(payload),
-	             type:    type
-	           }
-	         }, "*")
-	       }
+	        const customConsole = (w) => {
+	          const pushToConsole = (payload, type) => {
+	            w.parent.postMessage({
+	              console: {
+	                payload: stringify(payload),
+	                type:    type
+	              }
+	            }, "*")
+	          }
 
-	       w.onerror = (message, url, line, column) => {
-	         // the line needs to correspond with the editor panel
-	         // unfortunately this number needs to be altered every time this view is changed
-	         line = line - 70
-	         if (line < 0){
-	           pushToConsole(message, "error")
-	         } else {
-	           pushToConsole(`[${line}:${column}] ${message}`, "error")
-	         }
-	       }
+	          w.onerror = (message, url, line, column) => {
+	            // the line needs to correspond with the editor panel
+	            // unfortunately this number needs to be altered every time this view is changed
+	            line = line - 70
+	            if (line < 0){
+	              pushToConsole(message, "error")
+	            } else {
+	              pushToConsole(`[${line}:${column}] ${message}`, "error")
+	            }
+	          }
 
-	       let console = (function(systemConsole){
-	         return {
-	           log: function(){
-	             let args = Array.from(arguments)
-	             pushToConsole(args, "log")
-	             systemConsole.log.apply(this, args)
-	           },
-	           info: function(){
-	             let args = Array.from(arguments)
-	             pushToConsole(args, "info")
-	             systemConsole.info.apply(this, args)
-	           },
-	           warn: function(){
-	             let args = Array.from(arguments)
-	             pushToConsole(args, "warn")
-	             systemConsole.warn.apply(this, args)
-	           },
-	           error: function(){
-	             let args = Array.from(arguments)
-	             pushToConsole(args, "error")
-	             systemConsole.error.apply(this, args)
-	           },
-	           system: function(arg){
-	             pushToConsole(arg, "system")
-	           },
-	           clear: function(arg){
-	             systemConsole.clear.apply(this, args)
-	           },
-	           time: function(arg){
-	             systemConsole.time.apply(this, args)
-	           },
-	           assert: function(arg){
-	             systemConsole.assert.apply(this, args)
-	           }
-	         }
-	       }(window.console))
+	          let console = (function(systemConsole){
+	            return {
+	              log: function(){
+	                let args = Array.from(arguments)
+	                pushToConsole(args, "log")
+	                systemConsole.log.apply(this, args)
+	              },
+	              info: function(){
+	                let args = Array.from(arguments)
+	                pushToConsole(args, "info")
+	                systemConsole.info.apply(this, args)
+	              },
+	              warn: function(){
+	                let args = Array.from(arguments)
+	                pushToConsole(args, "warn")
+	                systemConsole.warn.apply(this, args)
+	              },
+	              error: function(){
+	                let args = Array.from(arguments)
+	                pushToConsole(args, "error")
+	                systemConsole.error.apply(this, args)
+	              },
+	              system: function(arg){
+	                pushToConsole(arg, "system")
+	              },
+	              clear: function(arg){
+	                systemConsole.clear.apply(this, args)
+	              },
+	              time: function(arg){
+	                systemConsole.time.apply(this, args)
+	              },
+	              assert: function(arg){
+	                systemConsole.assert.apply(this, args)
+	              }
+	            }
+	          }(window.console))
 
-	       window.console = console
+	          window.console = console
 
-	       console.system("Running fiddle")
-	     }
+	          console.system("Running fiddle")
+	        }
 
-	     if (window.parent){
-	       customConsole(window)
-	     }
+	        if (window.parent){
+	          customConsole(window)
+	        }
 	</script>
 	<title>Dark and Light</title>
 </head>
@@ -312,28 +321,25 @@
 		<center>
 			<h2>Notes</h2>
 		</center>
-	
 		<div class="title">
 			Shortcuts
 		</div><br>
 		<div class="overview">
-		&nbsp; &nbsp; <a href="#overview">Overview</a><br>
-		&nbsp; &nbsp; <a href="#books">Books</a><br>
-		&nbsp; &nbsp; <a href="#macroecon">Macroeconomics</a><br>
-		&nbsp; &nbsp; <a href="#microecon">Microeconomics</a><br>
-		&nbsp; &nbsp; <a href="#biz">Business</a><br>
-		&nbsp; &nbsp; <a href="#company">Companies</a><br>
-		&nbsp; &nbsp; <a href="#four">Four Statements</a><br>
-		&nbsp; &nbsp; <a href="#youtube">YouTube</a><br>
-		&nbsp; &nbsp; <a href="#questions">Questions</a><br>
-		</div>
-		<br>
+			&nbsp; &nbsp; <a href="#overview">Overview</a><br>
+			&nbsp; &nbsp; <a href="#books">Books</a><br>
+			&nbsp; &nbsp; <a href="#macroecon">Macroeconomics</a><br>
+			&nbsp; &nbsp; <a href="#microecon">Microeconomics</a><br>
+			&nbsp; &nbsp; <a href="#biz">Business</a><br>
+			&nbsp; &nbsp; <a href="#company">Companies</a><br>
+			&nbsp; &nbsp; <a href="#four">Four Statements</a><br>
+			&nbsp; &nbsp; <a href="#youtube">YouTube</a><br>
+			&nbsp; &nbsp; <a href="#questions">Questions</a><br>
+		</div><br>
 		<a id="overview" name="overview"></a>
 		<div class="title">
 			Overview
 		</div><br>
-		<img alt="Joan" height="150" src="https://cdn.glitch.com/831583d2-f625-423f-a73f-e837a3edda8b%2F890C6CE0-6A54-45B0-8A68-81EDEE690686.jpeg?v=1605052318400" width="150"><br>
-		Economics is the study of how scarce resources are allocated among competing uses.
+		<i class="fas fa-eye"></i> &nbsp; <i>Economics is the study of how scarce resources are allocated among competing uses.</i>
 		<ol>
 			<li>What is produced?</li>
 			<li>How is it produced?</li>
@@ -359,33 +365,18 @@
 		<p class="p1">Financial contracts are typically between someone who wants to shift value to the present and someone who wants to shift value to the future.<span class="Apple-converted-space">&nbsp;</span> Two reasons to shift value to the present: consumption and production.<span class="Apple-converted-space">&nbsp;</span> Consumption covers: current expenses, buy food, pay medical bills, deal with unforeseen cost.<span class="Apple-converted-space">&nbsp;</span> Consumption loans mitigate risks.<span class="Apple-converted-space">&nbsp;</span> Governments also take loans from citizens (bond) and pay back with future tax revenues.<span class="Apple-converted-space">&nbsp;</span></p>
 		<p class="p1">Consumption and production use current capital; investment provides that capital.<span class="Apple-converted-space">&nbsp;</span> It is the basic technology for saving for the future.<span class="Apple-converted-space">&nbsp;</span> That is why pension funds hold stocks and bonds and other financial assets. <span class="Apple-converted-space">&nbsp;</span></p>
 		<p class="p1">Productive loans are different from consumption loans.<span class="Apple-converted-space">&nbsp;</span> They are used for economic growth.<span class="Apple-converted-space">&nbsp;</span> Finance can bring capital together to create an enterprise that will generate higher future value.<span class="Apple-converted-space">&nbsp;</span> Additionally, finance removes the perquisite of wealth from entrepreneurship.<span class="Apple-converted-space">&nbsp;</span></p>
-		<p class="p1"><a href="https://www.goodreads.com/book/show/26597296-money-changes-everything">Source</a></p>
-		
-		<a id="books" name="Books"></a>
-		<!-- Books list STARTS-->
+		<p class="p1"><a href="https://www.goodreads.com/book/show/26597296-money-changes-everything"><i class="fas fa-link"></i>&nbsp; Source</a></p><a id="books" name="Books"></a> <!-- Books list STARTS-->
 		<div class="title">
 			Books
 		</div>
 		<div class="books">
 			<ol>
-				<i>
-				<li><a href="https://www.goodreads.com/book/show/106835.The_Intelligent_Investor">The Intelligent Investor
-					by Benjamin Graham</a></li>
-					<br>
-				<li><a href="https://www.goodreads.com/book/show/51300408-a-world-without-work">A World Without Work: Technology, Automation, and How We Should Respond
-					by Daniel Susskind</a></li>
-					<br>
-				<li><a href="https://www.goodreads.com/book/show/28789663-citizen-coke">Citizen Coke: The Making of Coca-Cola Capitalism
-					by Bartow J. Elmore</a></li>
-				
-		
-			
-			
-				</i>
+				<li style="list-style: none"><i></i></li>
+				<li><i><a href="https://www.goodreads.com/book/show/106835.The_Intelligent_Investor">The Intelligent Investor by Benjamin Graham</a></i><i><br></i></li>
+				<li><i><a href="https://www.goodreads.com/book/show/51300408-a-world-without-work">A World Without Work: Technology, Automation, and How We Should Respond by Daniel Susskind</a></i><i><br></i></li>
+				<li><i><a href="https://www.goodreads.com/book/show/28789663-citizen-coke">Citizen Coke: The Making of Coca-Cola Capitalism by Bartow J. Elmore</a></i></li>
 			</ol>
-	    </div>
-
-		<!-- Books list ENDS-->
+		</div><!-- Books list ENDS-->
 		<a id="macroecon" name="macroecon"></a>
 		<div class="title">
 			Macroeconomics
@@ -398,8 +389,7 @@
 		<p><strong>Benefits and Costs =</strong> <span style="font-weight: 400;">Costs outweigh benefits.&nbsp; Example, banning ALL cars because a tiny fraction of deadly accidents will lead to people walking, trains.&nbsp; Benefits are not there.</span></p>
 		<p><strong>Industrial Revolution =</strong> <span style="font-weight: 400;">raises standard of living, increased population and standard of living.&nbsp;</span></p>
 		<p><span style="font-weight: 400;">Adam Smith division of labor = A pizza man should make pizza and trade it for a guy who can make t-shirts, instead of trying to do everything.</span></p>
-		<p><span style="font-weight: 400;">Most nations have a mixed economy like the United States, but North Korea has a controlled economy, where the government controls the economy.&nbsp; Moreover, New Zealand is laissez a faire (less government).&nbsp;</span></p>
-		<p><img alt="Jill" height="100" src="https://cdn.glitch.com/831583d2-f625-423f-a73f-e837a3edda8b%2F61DF44D5-82E8-4782-8C6D-CC41537AD0E2.png?v=1601502145473" width="100"> <span style="font-size: 20px;">Look up circular flow of income.</span></p>
+		<p><span style="font-weight: 400;">Most nations have a mixed economy like the United States, but North Korea has a controlled economy, where the government controls the economy.&nbsp; Moreover, New Zealand is laissez a faire (less government).&nbsp;</span></p><i class="fas fa-eye"></i>&nbsp;<i>Look up circular flow of income.</i>
 		<p><span style="font-weight: 400;">Four market behaviors</span></p>
 		<ol>
 			<li style="font-weight: 500;"><span style="font-weight: 500;">Supply can go &#x2193;</span></li>
@@ -412,8 +402,7 @@
 		<p><strong>Law of Supply =</strong> <span style="font-weight: 400;">Prices go up, producers make a profit, will produce more goods (or services). Conversely, price goes down, producers profits go down, which leads to a curtail in production.</span></p>
 		<p><span style="font-weight: 400;">If the price goes up, producers produce lots of strawberries, but consumers wouldn&rsquo;t want to buy them.&nbsp; This is a surplus.&nbsp;</span></p>
 		<p><strong>Equilibrium Price =</strong> <span style="font-weight: 400;">The price at which quantity of a product offered is equal.</span></p>
-		<p><strong>Equilibrium Quantity =</strong> <span style="font-weight: 400;">The quantity demanded or supplied at equilibrium price.&nbsp;&nbsp;</span></p>
-		<p><img alt="Barnhart" height="110" src="https://cdn.glitch.com/831583d2-f625-423f-a73f-e837a3edda8b%2F554420DB-C858-4C09-B088-61FBD00F812E.png?v=1601502113784" width="100"> <em><span style="font-weight: 400;">In 2014 gas prices went down dramatically due to a decrease in European and Chinese economies.&nbsp; In addition, fracking technology created more supply.&nbsp; The combination of decreased prices and increased supply drove the gasoline price down 40%.&nbsp; Creating a new equilibrium.&nbsp;&nbsp;</span></em></p>
+		<p><strong>Equilibrium Quantity =</strong> <span style="font-weight: 400;">The quantity demanded or supplied at equilibrium price.&nbsp;&nbsp;</span></p><i class="fas fa-eye"></i> &nbsp; <i>In 2014 gas prices went down dramatically due to a decrease in European and Chinese economies.&nbsp; In addition, fracking technology created more supply.&nbsp; The combination of decreased prices and increased supply drove the gasoline price down 40%.&nbsp; Creating a new equilibrium.&nbsp;&nbsp;</i>
 		<p><strong>Market =</strong> <span style="font-weight: 400;">Any place where buyers and sellers voluntarily meet to exchange goods and services.&nbsp; Consumers give up money for strawberries.&nbsp; Farmers give up strawberries for money.&nbsp; Market transparency leads to less corruption.&nbsp;</span></p>
 		<p><strong>Price Signals =</strong> <span style="font-weight: 400;">The info that markets generate to guide distribution of resources.&nbsp;</span></p>
 		<p><strong>Recession =</strong> <span style="font-weight: 400;">2 successive quarters (six months) of negative GDP.</span></p>
@@ -425,8 +414,9 @@
 			<li><strong>Cyclical unemployment =</strong> <span style="font-weight: 400;">people stop buying goods leads to businesses layoff workers and in turn those laid off workers stop buying goods and more people lose their jobs.&nbsp;</span> <strong>&nbsp;</strong></li>
 		</ol>
 		<p><span style="font-weight: 400;">0% unemployment is impossible due to frictional and structural employment.</span></p>
-		<p><strong>Real GDP and Unemployment are inversely related.&nbsp;</strong></p>
-		<p><img alt="Jill" height="100" src="https://cdn.glitch.com/831583d2-f625-423f-a73f-e837a3edda8b%2F61DF44D5-82E8-4782-8C6D-CC41537AD0E2.png?v=1601502145473" width="100"> <span style="font-weight: 400;">Look up Zimbabwe.</span></p>
+		<p><strong>Real GDP and Unemployment are inversely related.&nbsp;</strong></p><i class="fas fa-eye"></i>&nbsp;<i>Look up circular flow of income.<br>
+		<br>
+		<i class="fas fa-eye"></i>&nbsp;Look up Zimbabwe.</i>
 		<p><strong>Business Cycle</strong> <span style="font-weight: 400;">= Changes in four components:&nbsp;</span></p>
 		<ol>
 			<li style="font-weight: 400;"><span style="font-weight: 400;">Consumer spending</span></li>
@@ -450,8 +440,7 @@
 		<p><span style="font-weight: 400;"><strong>Inflationary Gap</strong> =&nbsp; When unemployment is low, factories work overtime, but this is not sustainable.&nbsp; Producers will bid up costs leading to more inflation.&nbsp;&nbsp;</span></p>
 		<p><strong>Expansionary Fiscal Policy =</strong> <span style="font-weight: 400;">Stimulate the economy during or in anticipation of a business-cycle contraction (Obama 2009).</span></p>
 		<p><strong>Contractionary Fiscal Policy =</strong> <span style="font-weight: 400;">Reduce the money supply and ultimately the spending in a country. This is rarely implemented (Bush 1993).</span></p>
-		<p><span style="font-weight: 400;"><strong>Budget Deficit</strong> = Amount of which a government&rsquo;s spending exceeds its income over a particular period of time.</span></p>
-		<p><em><img alt="Barnhart" height="110" src="https://cdn.glitch.com/831583d2-f625-423f-a73f-e837a3edda8b%2F554420DB-C858-4C09-B088-61FBD00F812E.png?v=1601502113784" width="100"> <span style="font-weight: 400;">Economists are focused on federal deficit as to percentage of GDP rather than federal debt (adjusted for inflation)</span></em></p>
+		<p><span style="font-weight: 400;"><strong>Budget Deficit</strong> = Amount of which a government&rsquo;s spending exceeds its income over a particular period of time.</span></p><i class="fas fa-eye"></i> &nbsp; <i>Economists are focused on federal deficit as to percentage of GDP rather than federal debt (adjusted for inflation)</i>
 		<p><span style="font-weight: 400;"><strong>Debt</strong> = Accumulation of budget deficits.&nbsp;</span></p>
 		<p></p>
 		<p><strong>Central Bank has two roles:</strong></p>
@@ -465,8 +454,7 @@
 		<p><strong>HyperInflation = Confusion on what prices to charge for products.&nbsp; Moreover, forces consumers to spend as quickly as possible rather than save money.&nbsp; Therefore, there is no money to be invested in businesses.&nbsp;&nbsp;&nbsp;</strong></p>
 		<p><strong>Velocity of money =</strong> <span style="font-weight: 400;">number of times a dollar is spent per year.&nbsp; When people spend their money as quickly as they get it, that increases velocity, which pushes inflation up an even faster vicious cycle.&nbsp;</span></p>
 		<p><strong>Liquidity Trap =</strong> <span style="font-weight: 400;">Continuing falling prices leads to layoffs and economic depression.&nbsp;</span></p>
-		<p><strong>Stagflation =</strong> <span style="font-weight: 400;">Output slows down or stops at the same time price rises.</span></p>
-		<p><em><img alt="Barnhart" height="110" src="https://cdn.glitch.com/831583d2-f625-423f-a73f-e837a3edda8b%2F554420DB-C858-4C09-B088-61FBD00F812E.png?v=1601502113784" width="100"> <span style="font-weight: 400;">America&rsquo;s largest trading partner is Canada.&nbsp;&nbsp;</span></em></p>
+		<p><strong>Stagflation =</strong> <span style="font-weight: 400;">Output slows down or stops at the same time price rises.</span></p><i class="fas fa-eye"></i> <i>America&rsquo;s largest trading partner is Canada.&nbsp;&nbsp;</i>
 		<p><strong>Net Exports =</strong> <span style="font-weight: 400;">is the difference between imports and exports.&nbsp;</span></p>
 		<p><span style="font-weight: 400;">International trade shuffles jobs.</span></p>
 		<p><strong>Balance of Payment =</strong></p>
@@ -475,25 +463,23 @@
 		</ol>
 		<ol>
 			<li><strong>Financial Account =</strong> <span style="font-weight: 400;">Records the purchase and sale of financial assets like stocks and bonds</span></li>
-		</ol>
-		<p><img alt="Barnhart" height="110" src="https://cdn.glitch.com/831583d2-f625-423f-a73f-e837a3edda8b%2F554420DB-C858-4C09-B088-61FBD00F812E.png?v=1601502113784" width="100"> <em><span style="font-weight: 400;">There is a reason why the flow of goods and flow of money are symmetric. If consumers, businesses, and the government want to buy more stuff than their country is producing domestically, they have to import more products from abroad.&nbsp; So there is a trade deficit.&nbsp;</span></em></p>
-		<p><img alt="Jill" height="100" src="https://cdn.glitch.com/831583d2-f625-423f-a73f-e837a3edda8b%2F61DF44D5-82E8-4782-8C6D-CC41537AD0E2.png?v=1601502145473" width="100"> <span style="font-weight: 400;">Look up Lorenz Curve</span></p><!-- MACROECON NOTES  END  -->
-		<a id="microecon" name="microecon"></a>
+		</ol><i class="fas fa-eye"></i>&nbsp;<i>There is a reason why the flow of goods and flow of money are symmetric. If consumers, businesses, and the government want to buy more stuff than their country is producing domestically, they have to import more products from abroad</i><br>
+		<p><span style="font-weight: 400;"></span></p><a href="https://www.youtube.com/playlist?list=PL1oDmcs0xTD-dJN1PL2N1urX0EKupBJCQ"><i class="fas fa-link"></i>&nbsp; Source</a>
+		<br>
+		<br>
+		<!-- MACROECON NOTES  END  -->
+		 <a id="microecon" name="microecon"></a>
 		<div class="title">
 			Microeconomics
 		</div>
-		<p><strong>Marginal Analysis =</strong> <span style="font-weight: 400;">How individuals, businesses, and governments make decisions.&nbsp;&nbsp;</span></p>
-		<p><img alt="Barnhart" height="110" src="https://cdn.glitch.com/831583d2-f625-423f-a73f-e837a3edda8b%2F554420DB-C858-4C09-B088-61FBD00F812E.png?v=1601502113784" width="100"> <em><span style="font-weight: 400;">For example a business may decide how many workers to hire.&nbsp; They compare additional workers, a labor cost, to the additional revenue created by that worker.&nbsp; If hiring additional workers lead to revenue, then workers are hired.</span></em></p>
+		<p><strong>Marginal Analysis =</strong> <span style="font-weight: 400;">How individuals, businesses, and governments make decisions.&nbsp;&nbsp;</span></p><i class="fas fa-eye"></i>&nbsp;<i>For example a business may decide how many workers to hire.&nbsp; They compare additional workers, a labor cost, to the additional revenue created by that worker.&nbsp; If hiring additional workers lead to revenue, then workers are hired.</i>
 		<p><em><span style="font-weight: 400;">Governments decide if building an additional park will add any utility, if the benefits outweigh the costs.&nbsp; Law of diminishing returns.</span></em></p>
-		<p><strong>Elasticity of Demand =</strong> <span style="font-weight: 400;">Sensitivity to quantity when there is a change in price.&nbsp;&nbsp;</span></p>
-		<p><img alt="Barnhart" height="110" src="https://cdn.glitch.com/831583d2-f625-423f-a73f-e837a3edda8b%2F554420DB-C858-4C09-B088-61FBD00F812E.png?v=1601502113784" width="100"> <em><span style="font-weight: 400;">People will still buy gasoline if the price goes up, because it is a unique product.</span></em> <em><span style="font-weight: 400;">Conversely, pizza is elastic.&nbsp; If the price of pizza goes up, consumers will purchase: sandwiches, tacos, sushi, etc.</span></em></p>
+		<p><strong>Elasticity of Demand =</strong> <span style="font-weight: 400;">Sensitivity to quantity when there is a change in price.&nbsp;&nbsp;</span></p><i class="fas fa-eye"></i>&nbsp;<i>People will still buy gasoline if the price goes up, because it is a unique product. Conversely, pizza is elastic.&nbsp; If the price of pizza goes up, consumers will purchase: sandwiches, tacos, sushi, etc.</i>
 		<p><strong>Productive Efficiency =</strong> <span style="font-weight: 400;">Idea that products are being made at the lowest possible cost.&nbsp; No wasted resources of workers, raw materials, capital.&nbsp; This leads to profits.</span> <em><span style="font-weight: 400;">&nbsp;&nbsp;</span></em></p>
 		<p><strong>Allocative Efficiency =</strong> <span style="font-weight: 400;">State of the economy which production represents consumer preferences.&nbsp; Scarce resources allocated to products consumers want.&nbsp; Unlike Laser discs.&nbsp;</span></p>
 		<p><span style="font-weight: 400;"><strong>Price gouging</strong> = When sellers raise prices for essential items to a much higher level than is considered reasonable.&nbsp; Toilet tissue.</span></p>
-		<p><span style="font-weight: 400;"><strong>Price Ceiling</strong> = Government sets a max price.&nbsp;</span></p>
-		<p><img alt="Barnhart" height="110" src="https://cdn.glitch.com/831583d2-f625-423f-a73f-e837a3edda8b%2F554420DB-C858-4C09-B088-61FBD00F812E.png?v=1601502113784" width="100"> <em><span style="font-weight: 400;">If the government forces petroleum companies to sell gasoline at $1.00 per gallon, consumers will rush to buy more.&nbsp; However, companies will not make a profit and curtail production.</span></em></p>
-		<p><span style="font-weight: 400;"><b>Price Floor =</b></span> <em><span style="font-weight: 400;">Minimum price in a specific market.&nbsp; Price is artificially high and above the equilibrium.&nbsp; Corn producers will have incentive to produce more corn, but consumers will look for alternatives, like wheat.</span></em></p>
-		<p><em><img alt="Barnhart" height="110" src="https://cdn.glitch.com/831583d2-f625-423f-a73f-e837a3edda8b%2F554420DB-C858-4C09-B088-61FBD00F812E.png?v=1601502113784" width="100"> <span style="font-weight: 400;">Rent control is another type of price ceiling.&nbsp; Rent is low to keep long-term tenants.&nbsp; However, landlords don&rsquo;t make a profit and don&rsquo;t have any incentive to add improvements to the building.&nbsp; Developers will not create new buildings in the area as well.</span></em></p>
+		<p><span style="font-weight: 400;"><strong>Price Ceiling</strong> = Government sets a max price.&nbsp;</span></p><i class="fas fa-eye"></i>&nbsp;<i>If the government forces petroleum companies to sell gasoline at $1.00 per gallon, consumers will rush to buy more.&nbsp; However, companies will not make a profit and curtail production.</i>
+		<p><span style="font-weight: 400;"><b>Price Floor =</b></span><span style="font-weight: 400;">Minimum price in a specific market.&nbsp; Price is artificially high and above the equilibrium.&nbsp; Corn producers will have incentive to produce more corn, but consumers will look for alternatives, like wheat.</span></p><i class="fas fa-eye"></i>&nbsp;<i>Rent control is another type of price ceiling.&nbsp; Rent is low to keep long-term tenants.&nbsp; However, landlords don&rsquo;t make a profit and don&rsquo;t have any incentive to add improvements to the building.&nbsp; Developers will not create new buildings in the area as well.</i>
 		<p><em><span style="font-weight: 400;"><b>Subsidies</b></span></em><span style="font-weight: 400;">&nbsp;</span><em><span style="font-weight: 400;">= Government payment given to farms designed to offset costs.&nbsp; However, farms can handle price shocks.&nbsp; Subsidies can discourage farmers from innovating.&nbsp;</span></em></p>
 		<p><strong><em>Accounting profit = Revenue - explicit costs.&nbsp;</em></strong></p>
 		<ol>
@@ -509,45 +495,30 @@
 		<p><strong>Marginal revenue =</strong> <span style="font-weight: 400;">additional revenue earned from selling another unit.</span></p>
 		<p><strong>Marginal cost =</strong> <span style="font-weight: 400;">additional cost of producing another unit.</span></p>
 		<p><strong>Sunk cost =</strong> <span style="font-weight: 400;">a cost that as already been paid and cannot be recovered.&nbsp;</span></p>
-		<p><span style="font-weight: 400;"></span></p><a href="https://www.youtube.com/playlist?list=PL1oDmcs0xTD-dJN1PL2N1urX0EKupBJCQ">Source</a> <!-- Microecon notes end -->
-		
-		
-		<!-- Companies list STARTS-->
-		<a id="company" name="company"></a><br>
+		<p><span style="font-weight: 400;"></span></p><a href="https://www.youtube.com/playlist?list=PL1oDmcs0xTD-dJN1PL2N1urX0EKupBJCQ"><i class="fas fa-link"></i>&nbsp; Source</a> <!-- Microecon notes end -->
+		 <!-- Companies list STARTS-->
+		 <a id="company" name="company"></a><br>
 		<br>
-
 		<div class="title">
 			Companies | Ideas
 		</div>
 		<ol>
-			<i>
-			<li><a href="https://hendohover.com/">Hendo: Hover Boards</a></li>
-			<br>
-			<li><a href="http://www.aerogel.org/">Aerogel: Lightest Solid</a></li>
-			<br>
-			<li><a href="https://thispersondoesnotexist.com/">This Person Does Not Exist: AI, Stock Photography, Images</a></li>
-			<br>
-			<li><a href="https://www.nvidia.com/en-us/research/ai-playground/">Nvidia AI research: AI created art</a></li>
-			<br>
-			<li><a href="https://www.artaigallery.com">Art Galley: AI created art</a></li>
-			<br>
-			<li><a href="https://www.dessa.com/">Dessa: Deep fake videos</a></li>
-
-	
-		
-		
-			</i>
-		</ol>
-
-		<!-- Companies list ENDS-->
+			<li style="list-style: none"><i></i></li>
+			<li><i><a href="https://hendohover.com/">Hendo: Hover Boards</a></i><i><br></i></li>
+			<li><i><a href="http://www.aerogel.org/">Aerogel: Lightest Solid</a></i><i><br></i></li>
+			<li><i><a href="https://thispersondoesnotexist.com/">This Person Does Not Exist: AI, Stock Photography, Images</a></i><i><br></i></li>
+			<li><i><a href="https://www.nvidia.com/en-us/research/ai-playground/">Nvidia AI research: AI created art</a></i><i><br></i></li>
+			<li><i><a href="https://www.artaigallery.com">Art Galley: AI created art</a></i><i><br></i></li>
+			<li><i><a href="https://www.dessa.com/">Dessa: Deep fake videos</a></i></li>
+		</ol><!-- Companies list ENDS-->
 		<br>
 		<a id="biz" name="biz"></a><br>
 		<div class="title">
 			<i>SBA:</i> Steps of Buying a Business
 		</div><br>
 		<br>
-		<a href="https://www.investopedia.com/terms/b/business.asp">Business Defention</a><br>
-		<a href="https://www.sba.gov/course/buying-business/">Source</a>
+		<a href="https://www.investopedia.com/terms/b/business.asp"><i class="fas fa-link"></i>&nbsp;Business Defention</a><br>
+		<a href="https://www.sba.gov/course/buying-business/"><i class="fas fa-link"></i>&nbsp; Source</a>
 		<ol>
 			<li>Pick a familar industry.</li>
 			<li>Consider your skills, talents to eliminate unrealistic business ventures.</li>
@@ -577,7 +548,7 @@
 		<div class="title">
 			Questions to Ask When Buying a Business
 		</div>
-		<p><a href="https://www.allbusiness.com/questions-to-ask-when-buying-a-business-567-1.html">Source</a></p>
+		<p><a href="https://www.allbusiness.com/questions-to-ask-when-buying-a-business-567-1.html"><i class="fas fa-link"></i>&nbsp; Source</a></p>
 		<p>Get a solid business broker and select a business that you have some experience with.</p><a href="https://s3.amazonaws.com/mentoring.redesign/s3fs-public/Orange-County-SCORE-Buying-a-Business-Checklist.pdf">Checklist</a>
 		<ol>
 			<li>What is the state of the industry in which the business operates? Is the industry in growth mode, or is it mature or in decline?</li>
@@ -592,13 +563,13 @@
 		<div class="title">
 			5 key metrics
 		</div>
-		<p><a href="https://www.businessbroker.net/blog/buying-a-franchise-or-business/5-key-metrics-to-look-at-when-comparing-businesses-for-sale-deciding-to-buy">Source</a></p>
+		<p><a href="https://www.businessbroker.net/blog/buying-a-franchise-or-business/5-key-metrics-to-look-at-when-comparing-businesses-for-sale-deciding-to-buy"><i class="fas fa-link"></i>&nbsp; Source</a></p>
 		<p><strong>1. Product or Process</strong></p>
 		<p>You have to be interested in the the service or product (or the combo of both).</p>
 		<p><strong>2. Business Plan</strong></p>
 		<p>Look at their business plan. See how their goals align with yours. Their plan should show how the product/process is marketed. In addition, check out how similar companies stack up in sales. If they don't have a business plan but their is potential, then create your own plan.</p>
 		<p><strong>3. Financial</strong></p>
-		<p>If the business does not have solid financial documents, walk away. Financial documents are the health of the business <a href="https://kironroy.github.io/four">Source</a></p>
+		<p>If the business does not have solid financial documents, walk away. Financial documents are the health of the business.
 		<p><strong>4. Customers</strong></p>
 		<p>Know the current customers as well as web-mapping the area with <i>Google map and <a href="https://www.trulia.com/?cid=sem|google|tbw_nb_nat_x_ht_nat_homes(hv)!3757af49|Homes-Broad_352776865_22475177305_kwd-10115540_223899029214_">trulia</a></i>. <strong>Key metrics:</strong> demographics, adjacencies. <strong>Then determine:</strong> market saturation, or potential growth.</p>
 		<p><strong>5. Performance and Progress</strong></p>
@@ -606,7 +577,7 @@
 		<div class="title">
 			5 Key Performance Indicators (KPI)
 		</div>
-		<p><a href="https://www.allbusiness.com/buying-a-business-5-essential-kpis-to-review-112437-1.html">Source</a></p>
+		<p><a href="https://www.allbusiness.com/buying-a-business-5-essential-kpis-to-review-112437-1.html"><i class="fas fa-link"></i>&nbsp; Source</a></p>
 		<p><strong>1. Customer acquisition cost</strong></p><strong>Customer acquisition cost = dollar amount you spend on sales and marketing in order to require a new customer.</strong> The number indicates efficiency of marketing and is calculated by <i>Total number of customers / Total acquisition costs</i>. If the company you are looking at is spending too much, consider the options of refining the marketing strategy and more efficiently allocating the budget.
 		<p></p>
 		<p><strong>2. Customer retention rate</strong></p>
@@ -620,7 +591,7 @@
 		<div class="title">
 			Property Mangement 10 (KPI)
 		</div><br>
-		<a href="https://www.buildium.com/blog/property-management-kpis-to-track/">Source</a>
+		<a href="https://www.buildium.com/blog/property-management-kpis-to-track/"><i class="fas fa-link"></i>&nbsp; Source</a>
 		<ol>
 			<li>Properties Won vs Property lost: Property managers need to track how many properties successfully acquired within a year.</li>
 			<li>Occupancy rates: should be 95 to 96% at any given time</li>
@@ -685,21 +656,26 @@
 		<p>1. Give some or all money (dividends) to investors</p>
 		<p>2. Save the money for inside the business</p>
 		<p>3. Combination of 1 and 2</p>
-		<p>Retained earning <strong>does not</strong> report what is done with the retained earnings or cash-flow. It just reports the earnings.</p><a href="https://www.youtube.com/playlist?list=PL41BF20388A0E8CD0">Source</a><br>
+		<p>Retained earning <strong>does not</strong> report what is done with the retained earnings or cash-flow. It just reports the earnings.</p><a href="https://www.youtube.com/playlist?list=PL41BF20388A0E8CD0"><i class="fas fa-link"></i>&nbsp; Source</a><br>
+		<br>
 		<a id="youtube" name="youtube"></a>
 		<div class="title">
 			YouTube
 		</div>
 		<ol>
-		<li><a href="https://www.youtube.com/playlist?list=PLGYHoDFJVwJYGBsPUPSj2sPWBR-MhbW_7">Artificial Playlist</a></li>
-		<li><a href="https://www.youtube.com/playlist?list=PLGYHoDFJVwJZsUI1W4VWERu1YAQuCugco">Economics Playlist</a></li>
-		<li><a href="https://www.youtube.com/playlist?list=PLmur3Z0Afau5vIOiTlhqHUADN_nA4x8v8">Rise and Fall Playlist</a></li>
-		</ol>
-		<a id="questions" name="questions"></a>
+			<li>
+				<a href="https://www.youtube.com/playlist?list=PLGYHoDFJVwJYGBsPUPSj2sPWBR-MhbW_7">Artificial Playlist</a>
+			</li>
+			<li>
+				<a href="https://www.youtube.com/playlist?list=PLGYHoDFJVwJZsUI1W4VWERu1YAQuCugco">Economics Playlist</a>
+			</li>
+			<li>
+				<a href="https://www.youtube.com/playlist?list=PLmur3Z0Afau5vIOiTlhqHUADN_nA4x8v8">Rise and Fall Playlist</a>
+			</li>
+		</ol><a id="questions" name="questions"></a>
 		<div class="title">
 			Questions
 		</div><br>
-		<img alt="Joan" height="150" src="https://cdn.glitch.com/831583d2-f625-423f-a73f-e837a3edda8b%2F890C6CE0-6A54-45B0-8A68-81EDEE690686.jpeg?v=1605052318400" width="150"><br>
 		<ol>
 			<li><strong>Artificial Intelligence</strong> will replace most jobs, displace different types of workers</li>
 			<li>Will AI get too intelligent and stop doing the work humans formerly did?
@@ -742,61 +718,61 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.js">
 	</script> 
 	<script type="text/javascript">
-	 $(document).ready(function(){
-	  $('ul').click(function(){
-	   $('ul').toggleClass('active')
-	   $('section').toggleClass('dark')
-	  })
-	 })
-	</script>
-	<script type="text/javascript">
-	//<![CDATA[
-
-	 //]]>
-	</script> 
-	<script>
-	   // tell the embed parent frame the height of the content
-	   if (window.parent && window.parent.parent){
-	     window.parent.parent.postMessage(["resultsFrame", {
-	       height: document.body.getBoundingClientRect().height,
-	       slug: "87dystfj"
-	     }], "*")
-	   }
-
-	   // always overwrite window.name, in case users try to set it manually
-	   window.name = "result"
-	</script> 
-	<script>
-	     let allLines = []
-
-	     window.addEventListener("message", (message) => {
-	       if (message.data.console){
-	         let insert = document.querySelector("#insert")
-	         allLines.push(message.data.console.payload)
-	         insert.innerHTML = allLines.join(";\r")
-
-	         let result = eval.call(null, message.data.console.payload)
-	         if (result !== undefined){
-	           console.log(result)
-	         }
-	       }
+	    $(document).ready(function(){
+	     $('ul').click(function(){
+	      $('ul').toggleClass('active')
+	      $('section').toggleClass('dark')
 	     })
+	    })
+	</script> 
+	<script type="text/javascript">
+	   //<![CDATA[
+
+	    //]]>
+	</script> 
+	<script>
+	      // tell the embed parent frame the height of the content
+	      if (window.parent && window.parent.parent){
+	        window.parent.parent.postMessage(["resultsFrame", {
+	          height: document.body.getBoundingClientRect().height,
+	          slug: "87dystfj"
+	        }], "*")
+	      }
+
+	      // always overwrite window.name, in case users try to set it manually
+	      window.name = "result"
+	</script> 
+	<script>
+	        let allLines = []
+
+	        window.addEventListener("message", (message) => {
+	          if (message.data.console){
+	            let insert = document.querySelector("#insert")
+	            allLines.push(message.data.console.payload)
+	            insert.innerHTML = allLines.join(";\r")
+
+	            let result = eval.call(null, message.data.console.payload)
+	            if (result !== undefined){
+	              console.log(result)
+	            }
+	          }
+	        })
 	</script> 
 	<script>
 
-	$(document).ready(function(){ 
-	   $(window).scroll(function(){ 
-	       if ($(this).scrollTop() > 100) { 
-	           $('#scroll').fadeIn(); 
-	       } else { 
-	           $('#scroll').fadeOut(); 
-	       } 
-	   }); 
-	   $('#scroll').click(function(){ 
-	       $("html, body").animate({ scrollTop: 0 }, 600); 
-	       return false; 
-	   }); 
-	});
+	   $(document).ready(function(){ 
+	      $(window).scroll(function(){ 
+	          if ($(this).scrollTop() > 100) { 
+	              $('#scroll').fadeIn(); 
+	          } else { 
+	              $('#scroll').fadeOut(); 
+	          } 
+	      }); 
+	      $('#scroll').click(function(){ 
+	          $("html, body").animate({ scrollTop: 0 }, 600); 
+	          return false; 
+	      }); 
+	   });
 	</script>
 </body>
 </html>
