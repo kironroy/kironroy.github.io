@@ -21,7 +21,7 @@
 	</script>
 	<link href="/css/result-light.css" rel="stylesheet" type="text/css">
 	<style id="compiled-css" type="text/css">
-	       @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+	    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 	           * {
 					font-family: 'Roboto', sans-serif;
 	           }
@@ -33,6 +33,25 @@
 	               background-color: #ffffff;
 	           }
 
+			   .overview a {
+				   font-size: 20px;
+				   line-height: 2;
+				   font-weight: bolder;
+				   letter-spacing: 0.5px; 
+				   text-decoration: none;
+				   padding-bottom: 3px;
+				   border-bottom: 0.5px solid blue;
+				    
+			   }
+
+			   .books a {
+				   font-family: 'Times New Roman', Times, serif;
+				   font-size: 18px;
+				   font-weight: bolder;
+				   letter-spacing: 0.5px; 
+				   color: blue;
+			   }
+
 	           #scroll {
 	               position:fixed;
 	               right:10px;
@@ -40,7 +59,7 @@
 	               cursor:pointer;
 	               width:50px;
 	               height:50px;
-	               background-color:#5042D3;
+	               background-color:blue;
 	               opacity: 90%;
 	               text-indent:-9999px;
 	               display:none;
@@ -137,8 +156,8 @@
 
 	           a {
 	               text-align: center;
-	               font-size: 16px;
-	               color: #5042D3;
+	               font-size: 17px;
+	               color: blue;
 	               text-decoration: none;
 	               font-weight: 300;
 	               
@@ -147,17 +166,19 @@
 	           .title {
 	               text-align: center;
 	               font-size: 24px;
-	               background-color: #000999;
+	               background-color: blue;
 	               color: white;
                    padding: 5px;
                    border-radius: 6px;
+				   letter-spacing: 0.5px;
+				   font-weight: bolder;
 	              
 	           }
 
 	           .title2 {
 	               text-align: center;
 	               font-size: 24px;
-	               background-color: #d35042;
+	               background-color: red;
 	               color: white;
                    padding: 5px;
                    border-radius: 6px;
@@ -249,10 +270,13 @@
 		<center>
 			<h2>Notes</h2>
 		</center>
+	
 		<div class="title">
 			Shortcuts
 		</div><br>
+		<div class="overview">
 		&nbsp; &nbsp; <a href="#overview">Overview</a><br>
+		&nbsp; &nbsp; <a href="#books">Books</a><br>
 		&nbsp; &nbsp; <a href="#macroecon">Macroeconomics</a><br>
 		&nbsp; &nbsp; <a href="#microecon">Microeconomics</a><br>
 		&nbsp; &nbsp; <a href="#biz">Business</a><br>
@@ -260,6 +284,7 @@
 		&nbsp; &nbsp; <a href="#four">Financial Statements</a><br>
 		&nbsp; &nbsp; <a href="#youtube">YouTube</a><br>
 		&nbsp; &nbsp; <a href="#questions">Questions</a><br>
+		</div>
 		<br>
 		<a id="overview" name="overview"></a>
 		<div class="title">
@@ -293,6 +318,33 @@
 		<p class="p1">Consumption and production use current capital; investment provides that capital.<span class="Apple-converted-space">&nbsp;</span> It is the basic technology for saving for the future.<span class="Apple-converted-space">&nbsp;</span> That is why pension funds hold stocks and bonds and other financial assets. <span class="Apple-converted-space">&nbsp;</span></p>
 		<p class="p1">Productive loans are different from consumption loans.<span class="Apple-converted-space">&nbsp;</span> They are used for economic growth.<span class="Apple-converted-space">&nbsp;</span> Finance can bring capital together to create an enterprise that will generate higher future value.<span class="Apple-converted-space">&nbsp;</span> Additionally, finance removes the perquisite of wealth from entrepreneurship.<span class="Apple-converted-space">&nbsp;</span></p>
 		<p class="p1"><a href="https://www.goodreads.com/book/show/26597296-money-changes-everything">Source</a></p><a id="macroecon" name="macroecon"></a>
+		
+		<a id="books" name="Books"></a>
+		<!-- Books list STARTS-->
+		<div class="title">
+			Books
+		</div>
+		<div class="books">
+			<ol>
+				<i>
+				<li><a href="https://www.goodreads.com/book/show/106835.The_Intelligent_Investor">The Intelligent Investor
+					by Benjamin Graham</a></li>
+					<br>
+				<li><a href="https://www.goodreads.com/book/show/51300408-a-world-without-work">A World Without Work: Technology, Automation, and How We Should Respond
+					by Daniel Susskind</a></li>
+					<br>
+				<li><a href="https://www.goodreads.com/book/show/28789663-citizen-coke">Citizen Coke: The Making of Coca-Cola Capitalism
+					by Bartow J. Elmore</a></li>
+				
+		
+			
+			
+				</i>
+			</ol>
+	    </div>
+
+		<!-- Books list ENDS-->
+		
 		<div class="title">
 			Macroeconomics
 		</div><br>
@@ -420,9 +472,9 @@
 		<a id="company" name="company"></a><br>
 		<br>
 
-		<!-- Compannies list STARTS-->
+		<!-- Companies list STARTS-->
 		<div class="title">
-			<i>SBA:</i> Companies | Ideas
+			Companies | Ideas
 		</div>
 		<ol>
 			<i>
@@ -439,7 +491,7 @@
 			</i>
 		</ol>
 
-		<!-- Compannies list ENDS-->
+		<!-- Companies list ENDS-->
 		<br>
 		<br>
 		<div class="title">
