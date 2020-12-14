@@ -4,30 +4,23 @@
     <title>night</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <radialGradient cx="50%" cy="100%" fx="50%" fy="100%" r="653.446584%" gradientTransform="translate(0.500000,1.000000),scale(0.058582,1.000000),rotate(90.000000),translate(-0.500000,-1.000000)" id="radialGradient-1">
-            <stop stop-color="#ECE045" offset="0%"></stop>
-            <stop stop-color="#ECE045" offset="100%"></stop>
-        </radialGradient>
-        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="111.498937%" gradientTransform="translate(0.500000,0.500000),rotate(79.428186),scale(1.000000,1.270234),translate(-0.500000,-0.500000)" id="radialGradient-2">
-            <stop stop-color="#ECE045" offset="0%"></stop>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F9F473" offset="0%"></stop>
             <stop stop-color="#FFFFFF" offset="100%"></stop>
-        </radialGradient>
+        </linearGradient>
     </defs>
     <g id="night" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-2" transform="translate(6.500000, 24.418985)">
-            <polygon id="Polygon" fill="#E0D43A" points="62.6604152 10.8065744 24.6635594 10.8065744 31.9203131 0.00260481944 55.4036615 0.00260481944"></polygon>
-            <rect id="Rectangle" fill="#ECE045" x="0.5" y="10.2696021" width="86.3239746" height="5.05702364"></rect>
-            <rect id="Rectangle-Copy-6" fill="#1A1A1A" x="0.5" y="15.3266257" width="86.3239746" height="43.6323132"></rect>
-            <rect id="Rectangle-Copy" fill="#ECE045" x="0.5" y="19.4431995" width="86.3239746" height="5.05702364"></rect>
-            <rect id="Rectangle-Copy-2" fill="url(#radialGradient-1)" x="0.5" y="28.616797" width="86.3239746" height="5.05702364"></rect>
-            <rect id="Rectangle-Copy-3" fill="url(#radialGradient-1)" x="0.5" y="37.0451697" width="86.3239746" height="5.05702364"></rect>
-            <rect id="Rectangle-Copy-4" fill="url(#radialGradient-1)" x="0.5" y="45.4735425" width="86.3239746" height="5.05702364"></rect>
-            <rect id="Rectangle-Copy-5" fill="url(#radialGradient-1)" x="0.5" y="53.9019152" width="86.3239746" height="5.05702364"></rect>
-        </g>
-        <circle id="Oval_2_" stroke="#ECE045" stroke-width="3" fill="#000000" cx="50" cy="58.5809402" r="19.547465"></circle>
-        <g id="Group" transform="translate(44.429565, 50.000000)">
-            <circle id="Oval" fill="url(#radialGradient-2)" cx="5.6975191" cy="7.39427113" r="5.49386722"></circle>
-            <circle id="Oval-Copy" fill="#000000" cx="7.72232237" cy="5.54370254" r="5.49386722"></circle>
+        <g transform="translate(4.500000, 27.358444)">
+            <path d="M66.9465463,14.8525983 C67.185804,15.3879026 66.8906884,15.8263866 66.2920786,15.8263866 L25.8584538,15.8263866 C25.257982,15.8263866 24.974969,15.3925574 25.2281912,14.8637699 L31.8762045,0.963547655 C32.1303577,0.433829186 32.8276497,0 33.4281214,0 L59.2148909,0 C59.8153627,0 60.5005521,0.438484005 60.7416718,0.973788258 L66.9465463,14.8525983 Z" id="Shape" fill="#C5B358"></path>
+            <path d="M0,9.53027762 C0,8.38426104 0.980305005,7.44771134 2.17845557,7.44771134 L88.1250444,7.44771134 C89.323195,7.44771134 90.3035,8.38426104 90.3035,9.53027762 L90.3035,51.9142719 C90.3035,53.0584265 89.323195,53.9959072 88.1250444,53.9959072 L2.17845557,53.9959072 C0.980305005,53.9959072 0,53.0584265 0,51.9142719 L0,9.53027762 Z" id="Shape_1_" fill="#C5B358"></path>
+            <circle id="Oval" fill="#1A1A1A" cx="45.617232" cy="31.6527732" r="21.4121701"></circle>
+            <rect id="Rectangle-path" fill="#1A1A1A" x="0" y="14.8954227" width="90.3035" height="31.6527732"></rect>
+            <circle id="Oval_1_" fill="#000000" cx="45.617232" cy="31.6527732" r="19.5502423"></circle>
+            <circle id="Oval_2_" fill="#000000" cx="45.15175" cy="31.1872912" r="17.2228325"></circle>
+            <g id="Group" transform="translate(38.582543, 23.721809)">
+                <circle id="Oval_3_" fill="url(#linearGradient-1)" cx="6.61723196" cy="7.72180928" r="5.85579642"></circle>
+                <circle id="Oval_3_-Copy" fill="#000000" cx="8.38160884" cy="6.1985854" r="5.85579642"></circle>
+            </g>
         </g>
     </g>
 </svg>
