@@ -4,26 +4,28 @@
     <title>night</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <radialGradient cx="50%" cy="100%" fx="50%" fy="100%" r="653.446584%" gradientTransform="translate(0.500000,1.000000),scale(0.051900,1.000000),rotate(90.000000),translate(-0.500000,-1.000000)" id="radialGradient-1">
+        <radialGradient cx="50%" cy="100%" fx="50%" fy="100%" r="653.446584%" gradientTransform="translate(0.500000,1.000000),scale(0.058582,1.000000),rotate(90.000000),translate(-0.500000,-1.000000)" id="radialGradient-1">
             <stop stop-color="#ECE045" offset="0%"></stop>
             <stop stop-color="#ECE045" offset="100%"></stop>
         </radialGradient>
-        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="168.264668%" id="radialGradient-2">
-            <stop stop-color="#E9E9E1" offset="0%"></stop>
-            <stop stop-color="#A0752E" offset="100%"></stop>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="111.498937%" gradientTransform="translate(0.500000,0.500000),rotate(79.428186),scale(1.000000,1.270234),translate(-0.500000,-0.500000)" id="radialGradient-2">
+            <stop stop-color="#ECE045" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
         </radialGradient>
     </defs>
     <g id="night" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <polygon id="Polygon" fill="#E0D43A" transform="translate(50.000000, 32.271229) scale(-1, -1) translate(-50.000000, -32.271229) " points="50 28.0023009 66.9463809 28.0023009 60.4734394 36.5401576 39.5265606 36.5401576 33.0536191 28.0023009"></polygon>
-        <rect id="Rectangle" fill="#ECE045" x="11.5" y="36.1158142" width="77" height="3.99632215"></rect>
-        <rect id="Rectangle-Copy-6" fill="#1A1A1A" x="11.5" y="40.1121364" width="77" height="34.480515"></rect>
-        <rect id="Rectangle-Copy" fill="#ECE045" x="11.5" y="43.3652663" width="77" height="3.99632215"></rect>
-        <rect id="Rectangle-Copy-2" fill="url(#radialGradient-1)" x="11.5" y="50.6147185" width="77" height="3.99632215"></rect>
-        <rect id="Rectangle-Copy-3" fill="url(#radialGradient-1)" x="11.5" y="57.2752554" width="77" height="3.99632215"></rect>
-        <rect id="Rectangle-Copy-4" fill="url(#radialGradient-1)" x="11.5" y="63.9357923" width="77" height="3.99632215"></rect>
-        <rect id="Rectangle-Copy-5" fill="url(#radialGradient-1)" x="11.5" y="70.5963292" width="77" height="3.99632215"></rect>
-        <circle id="Oval_2_" fill="#000000" cx="50" cy="55.6110406" r="16.4066683"></circle>
-        <g id="Group" transform="translate(44.792648, 48.271578)">
+        <g id="Group-2" transform="translate(6.500000, 24.418985)">
+            <polygon id="Polygon" fill="#E0D43A" points="62.6604152 10.8065744 24.6635594 10.8065744 31.9203131 0.00260481944 55.4036615 0.00260481944"></polygon>
+            <rect id="Rectangle" fill="#ECE045" x="0.5" y="10.2696021" width="86.3239746" height="5.05702364"></rect>
+            <rect id="Rectangle-Copy-6" fill="#1A1A1A" x="0.5" y="15.3266257" width="86.3239746" height="43.6323132"></rect>
+            <rect id="Rectangle-Copy" fill="#ECE045" x="0.5" y="19.4431995" width="86.3239746" height="5.05702364"></rect>
+            <rect id="Rectangle-Copy-2" fill="url(#radialGradient-1)" x="0.5" y="28.616797" width="86.3239746" height="5.05702364"></rect>
+            <rect id="Rectangle-Copy-3" fill="url(#radialGradient-1)" x="0.5" y="37.0451697" width="86.3239746" height="5.05702364"></rect>
+            <rect id="Rectangle-Copy-4" fill="url(#radialGradient-1)" x="0.5" y="45.4735425" width="86.3239746" height="5.05702364"></rect>
+            <rect id="Rectangle-Copy-5" fill="url(#radialGradient-1)" x="0.5" y="53.9019152" width="86.3239746" height="5.05702364"></rect>
+        </g>
+        <circle id="Oval_2_" stroke="#ECE045" stroke-width="3" fill="#000000" cx="50" cy="58.5809402" r="19.547465"></circle>
+        <g id="Group" transform="translate(44.429565, 50.000000)">
             <circle id="Oval" fill="url(#radialGradient-2)" cx="5.6975191" cy="7.39427113" r="5.49386722"></circle>
             <circle id="Oval-Copy" fill="#000000" cx="7.72232237" cy="5.54370254" r="5.49386722"></circle>
         </g>
