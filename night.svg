@@ -1,23 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
-<title>Artboard</title>
-<desc>Created with Sketch.</desc>
-<g id="Page-1">
-	<g id="Artboard">
-		<g id="nights" transform="translate(1.000000, 21.000000)">
-			<path id="Shape" fill="#C5B358" d="M71.911,15.954C72.168,16.529,71.851,17,71.208,17H27.776c-0.645,0-0.949-0.466-0.677-1.034
-				L34.24,1.035C34.513,0.466,35.262,0,35.907,0h27.699c0.645,0,1.381,0.471,1.64,1.046L71.911,15.954z"/>
-			<path id="Shape_1_" fill="#C5B358" d="M0,10.237C0,9.006,1.053,8,2.34,8h92.32C95.947,8,97,9.006,97,10.237v45.527
-				C97,56.993,95.947,58,94.66,58H2.34C1.053,58,0,56.993,0,55.764V10.237z"/>
-			<circle id="Oval" fill="#1A1A1A" cx="49" cy="34" r="23"/>
-			<rect id="Rectangle-path" y="16" fill="#1A1A1A" width="97" height="34"/>
-			<circle id="Oval_1_" cx="49" cy="34" r="21"/>
-			<circle id="Oval_2_" cx="48.5" cy="33.5" r="18.5"/>
-			<circle id="Oval_3_" fill="#C5B358" cx="49" cy="33" r="1"/>
-		</g>
-	</g>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>night</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="100%" fx="50%" fy="100%" r="653.446584%" gradientTransform="translate(0.500000,1.000000),scale(0.051900,1.000000),rotate(90.000000),translate(-0.500000,-1.000000)" id="radialGradient-1">
+            <stop stop-color="#ECE045" offset="0%"></stop>
+            <stop stop-color="#ECE045" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="168.264668%" id="radialGradient-2">
+            <stop stop-color="#E9E9E1" offset="0%"></stop>
+            <stop stop-color="#A0752E" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="night" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Polygon" fill="#E0D43A" transform="translate(50.000000, 32.271229) scale(-1, -1) translate(-50.000000, -32.271229) " points="50 28.0023009 66.9463809 28.0023009 60.4734394 36.5401576 39.5265606 36.5401576 33.0536191 28.0023009"></polygon>
+        <rect id="Rectangle" fill="#ECE045" x="11.5" y="36.1158142" width="77" height="3.99632215"></rect>
+        <rect id="Rectangle-Copy-6" fill="#1A1A1A" x="11.5" y="40.1121364" width="77" height="34.480515"></rect>
+        <rect id="Rectangle-Copy" fill="#ECE045" x="11.5" y="43.3652663" width="77" height="3.99632215"></rect>
+        <rect id="Rectangle-Copy-2" fill="url(#radialGradient-1)" x="11.5" y="50.6147185" width="77" height="3.99632215"></rect>
+        <rect id="Rectangle-Copy-3" fill="url(#radialGradient-1)" x="11.5" y="57.2752554" width="77" height="3.99632215"></rect>
+        <rect id="Rectangle-Copy-4" fill="url(#radialGradient-1)" x="11.5" y="63.9357923" width="77" height="3.99632215"></rect>
+        <rect id="Rectangle-Copy-5" fill="url(#radialGradient-1)" x="11.5" y="70.5963292" width="77" height="3.99632215"></rect>
+        <circle id="Oval_2_" fill="#000000" cx="50" cy="55.6110406" r="16.4066683"></circle>
+        <g id="Group" transform="translate(44.792648, 48.271578)">
+            <circle id="Oval" fill="url(#radialGradient-2)" cx="5.6975191" cy="7.39427113" r="5.49386722"></circle>
+            <circle id="Oval-Copy" fill="#000000" cx="7.72232237" cy="5.54370254" r="5.49386722"></circle>
+        </g>
+    </g>
 </svg>
