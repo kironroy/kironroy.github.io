@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <link href="https://kironroy.github.io/apple-touch-icon.png" rel="apple-touch-icon" />
+  <link href="https://kironroy.github.io/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+  <link href="https://kironroy.github.io/apple-touch-icon-167x167.png" rel="apple-touch-icon" sizes="167x167" />
+  <link href="https://kironroy.github.io/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+  <link href="https://kironroy.github.io/icon-hires.png" rel="icon" sizes="192x192" />
+  <link href="https://kironroy.github.io/icon-normal.png" rel="icon" sizes="128x128" />
+  <script src="jquery-3.4.1.min.js"></script>
+  <title>Ideas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='https://bootswatch.com/4/superhero/bootstrap.css'>
+  <style>
+     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+    body {
+
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 2.5;
+      max-width: 1024px;
+      padding: 21px;
+      margin: 10px auto;
+      background-color: #fefcfc;
+      color: #444;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .button {
+      background-color: blue;
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      border-radius: 6px;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+
+    a {
+      color: blue;
+      text-decoration: none;
+      font-size: 16px;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    a:visited {
+      color: gray;
+    }
+
+    a:hover {
+      color: fuchsia;
+    }
+
+    p {
+      margin-bottom: 50px;
+    }
+
+    li {
+      padding: 5px;
+    }
+
+    input {
+      margin-left: 25px;
+      margin-bottom: 25px;
+      padding: 5px;
+      width: 100%;
+      padding: 10px 18px;
+      margin: 8px 0;
+      -box-sizing: border-box;
+      background-color: #ffffff;
+      color: blue;
+      border: 1px solid rgb(2, 2, 225);
+      border-radius: 6px;
+      font-family: 'Roboto', sans-serif;
+
+
+    }
+
+    h1,
+    h4 {
+      margin-left: 23px;
+
+
+    }
+
+    p {
+      margin-left: 23px;
+      line-height: 1.5;
+
+    }
+  </style>
+  <script>
+    window.console = window.console || function (t) {};
+  </script>
+  <script>
+    if (document.location.search.match(/type=embed/gi)) {
+      window.parent.postMessage("resize", "*");
+    }
+  </script>
+</head>
+
+<body translate="no">
+  <center>
+    <a href="http://kironroy.github.io/"><img alt="Kiron Roy Logo" src="headshot_80px.svg"
+        style="width:90px;height:90px;"></a>
+  </center>
+  <br>
+  <a id="home"></a>
+  <center><h2>Innovative Companies and Ideas</h2></center>
+  <br>
+
+  <h4><SPAN STYLE="color: blue"><b>Type in a partial query below such as:</b></SPAN></h4>
+    <ul>
+      <li>Food</li>
+      <li>Artificial Intelligence </li>
+      <li>Hover Boards</li>
+      <li>Flux Pinning</li>
+      ...
+    </ul>
+
+
+
+
+  <div id="content"></div>
+  <script
+    src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-db44b196776521ea816683afab021f757616c80860d31da6232dedb8d7cc4862.js">
+  </script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/react/0.13.0/react.min.js'></script>
+
+  <script id="rendered-js">
+    // Thank you: Marek Melichar
+    // Thank you: https://codepen.io/marekmelichar/pen/ORyyda
+
+    function _defineProperty(obj, key, value) {
+      if (key in obj) {
+        Object.defineProperty(obj, key, {
+          value: value,
+          enumerable: true,
+          configurable: true,
+          writable: true
+        });
+      } else {
+        obj[key] = value;
+      }
+      return obj;
+    }
+    class SearchExample extends React.Component {
+      constructor(...args) {
+        super(...args);
+        _defineProperty(this, "state",
+
+          {
+            searchString: ''
+          });
+        _defineProperty(this, "handleChange",
+          e => {
+            this.setState({
+              searchString: e.target.value
+            });
+          });
+      }
+      render() {
+        var libraries = this.props.items,
+          searchString = this.state.searchString.trim().toLowerCase();
+        if (searchString.length > 0) {
+          libraries = libraries.filter(function (i) {
+            return i.name.toLowerCase().match(searchString);
+          });
+        }
+        return (
+          React.createElement("div", null,
+            React.createElement("input", {
+              type: "text",
+              value: this.state.searchString,
+              onChange: this.handleChange,
+              placeholder: "Type here..."
+            }),
+            React.createElement("ul", null,
+              libraries.map(function (i) {
+                return React.createElement("li", null, i.name, " ", React.createElement("a", {
+                  href: i.url
+                }, i.url));
+              }))));
+
+
+
+      }
+    }
+
+
+    // Constant, library
+    var libraries = [
+
+      {
+        name: 'Hendo Hover Boards, physics: ',
+        url: 'https://hendohover.com/'
+      },
+
+      {
+        name: 'Aerogel, lightest, light solid, physics: ',
+        url: 'http://www.aerogel.org/'
+      },
+      
+      {
+        name: 'This Person Does not Exist, fake photos, stock photos, AI, Artificial Intelligence: ',
+        url: 'https://thispersondoesnotexist.com/'
+      },
+
+      {
+        name: 'Nvidia, Artificial Intelligence, art: ',
+        url: 'https://www.nvidia.com/en-us/research/ai-playground/'
+      },
+      {
+        name: 'Artificial Intelligence, art: ',
+        url: 'https://www.artaigallery.com/'
+      },
+
+      {
+        name: 'Dessa: Deep fake videos: ',
+        url: 'https://www.dessa.com/'
+      },
+      {
+        name: 'Faraday Future, Intelligent Mobility Ecosystem, Cars: ',
+        url: 'https://www.ff.com/'
+      },
+
+      {
+        name: 'Tesla, cars, roofs, solar, energy: ',
+        url: 'https://www.tesla.com/'
+      },
+      
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ];
+
+
+
+    // put input and display on page
+    React.render(
+      React.createElement(SearchExample, {
+        items: libraries
+      }),
+      document.getElementById('content'));
+    //# sourceURL=pen.js
+  </script>
+
+  <script>
+    /*Scroll to top when arrow up clicked BEGIN*/
+    $(window).scroll(function () {
+      var height = $(window).scrollTop();
+      if (height > 100) {
+        $('#back2Top').fadeIn();
+      } else {
+        $('#back2Top').fadeOut();
+      }
+    });
+    $(document).ready(function () {
+      $("#back2Top").click(function (event) {
+        event.preventDefault();
+        $("html, body").animate({
+          scrollTop: 0
+        }, "slow");
+        return false;
+      });
+
+    });
+    /*Scroll to top when arrow up clicked END*/
+  </script>
+
+  <center>
+    <a href="#home" class="button">Go back to top</a>
+  </center>
+
+
+</body>
+
+</html>
