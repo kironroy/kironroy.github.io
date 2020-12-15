@@ -45,7 +45,7 @@ h5,
 h6 {
     color: #5042d3;
     line-height: 1.5em;
-    letter-spacing: -0.10px;
+    -letter-spacing: -0.10px;
     font-weight: 300;
 }
 
