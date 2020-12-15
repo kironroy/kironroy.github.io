@@ -127,6 +127,7 @@ ul.icons a {
 
 	content: '\f0c9';
 	color: #FFFFFF;
+	opacity: 80%;
 	background: blue;
 	border-color: blue;
 	font-size: 20px;
