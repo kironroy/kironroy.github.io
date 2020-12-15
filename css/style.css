@@ -393,7 +393,7 @@ input[type="reset"],
     display: inline-block;
     text-decoration: none;
     padding: 0.70em 2.5em 0.70em 2.5em;
-    background: #5042D3;
+    background: blue;
     border-radius: 9px;
 }
 
