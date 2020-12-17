@@ -33,7 +33,7 @@ select {
     font-family: 'Heebo', sans-serif;
     font-weight: 300;
     font-size: 16pt;
-    -letter-spacing: -0.10px;
+    letter-spacing: 0.50px;
     line-height: 1.75em;
     color: #FFF;
 }
@@ -45,7 +45,7 @@ h5,
 h6 {
     color: #5042d3;
     line-height: 1.5em;
-    -letter-spacing: -0.10px;
+    letter-spacing: 0.50px;
     font-weight: 300;
 }
 
@@ -57,7 +57,7 @@ h5 a,
 h6 a {
     color: inherit;
     text-decoration: none;
-    letter-spacing: -0.20px;
+    letter-spacing: 0.50px;
 }
 
 h1 strong,
@@ -66,29 +66,29 @@ h4 strong,
 h5 strong,
 h6 strong {
     color: #5042d3;
-    letter-spacing: -.10px;
+    letter-spacing: 0.50px;
 }
 
 h2 {
     font-size: 1.30em;
-    letter-spacing: -.10px;
+    letter-spacing: 0.50px;
     color: #FFFFFF;
 }
 
 h2.alt {
     color: #888;
-    letter-spacing: -.10px;
+    letter-spacing: 0.50px;
 }
 
 h2.alt strong {
     color: #666;
-    letter-spacing: -.10px;
+    letter-spacing: 0.50px;
 }
 
 h3 {
     font-size: 1.7em;
     color: #FFFFFF;
-    letter-spacing: -.10px;
+    letter-spacing: 0.50px;
 }
 
 header {
