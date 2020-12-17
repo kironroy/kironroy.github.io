@@ -127,9 +127,9 @@ ul.icons a {
 
 	content: '\f0c9';
 	color: #FFFFFF;
-	opacity: 80%;
-	background: blue;
-	border-color: blue;
+	opacity: 85%;
+	background: rgb(26, 115, 232);
+	border-color: rgb(26, 115, 232);
 	font-size: 20px;
 	line-height: 2em;
 	border-radius: 9px;
