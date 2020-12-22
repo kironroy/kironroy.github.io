@@ -4,6 +4,10 @@
     <title>Architectural</title>
     <desc>Created with Sketch.</desc>
     <g id="architectural" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M25.2885924,79.0067631 L50.155701,31.533216 L75.0228096,79.0067631 L81.7766569,79.0067631 L50.155701,18.6395141 L18.5347451,79.0067631 L25.2885924,79.0067631 Z" id="Combined-Shape" stroke="#FFFFFF" stroke-width="2" fill="#D5C5E1"></path>
+        <g id="Group" transform="translate(17.500000, 19.000000)" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.5">
+            <path d="M4.23434818,60.2627619 L16.3248069,37.1809887 L28.4152656,60.2627619 L31.0441269,60.2627619 L16.3248069,32.162256 L1.60548687,60.2627619 L4.23434818,60.2627619 Z" id="Combined-Shape-Copy"></path>
+            <path d="M36.356645,60.2627619 L48.4471037,37.1809887 L60.5375624,60.2627619 L63.1664237,60.2627619 L48.4471037,32.162256 L33.7277837,60.2627619 L36.356645,60.2627619 Z" id="Combined-Shape-Copy-2"></path>
+            <path d="M20.3978054,29.7959017 L32.4882641,6.71412858 L44.5787228,29.7959017 L47.2075841,29.7959017 L32.4882641,1.69539589 L17.7689441,29.7959017 L20.3978054,29.7959017 Z" id="Combined-Shape-Copy-3"></path>
+        </g>
     </g>
 </svg>
