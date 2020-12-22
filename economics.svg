@@ -5,12 +5,12 @@
     <desc>Created with Sketch.</desc>
     <g id="economics" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="econ" transform="translate(14.500000, 14.500000)">
-            <circle id="biggerO" stroke="#A7C1B4" stroke-width="2" cx="34.8233365" cy="34.8233365" r="27.3098564"></circle>
-            <circle id="Oval" fill="#FF69B4" cx="34.8233365" cy="34.8233365" r="5.40750892"></circle>
-            <circle id="Oval" fill="#FF69B4" cx="34.8233365" cy="8.09454093" r="7.55379004"></circle>
-            <circle id="Oval-Copy" fill="#FF69B4" cx="34.8233365" cy="62.7142536" r="7.55379004"></circle>
-            <circle id="Oval-Copy-2" fill="#FF69B4" cx="8.09454093" cy="34.8233365" r="7.55379004"></circle>
-            <circle id="Oval-Copy-3" fill="#FF69B4" cx="62.7142536" cy="34.8233365" r="7.55379004"></circle>
+            <circle id="biggerO" stroke="#5042D3" stroke-width="2" cx="34.8233365" cy="34.8233365" r="27.3098564"></circle>
+            <circle id="Oval" fill="#EDDBFB" cx="34.8233365" cy="34.8233365" r="5.40750892"></circle>
+            <circle id="Oval" fill="#000099" cx="34.8233365" cy="8.09454093" r="7.55379004"></circle>
+            <circle id="Oval-Copy" fill="#000099" cx="34.8233365" cy="62.7142536" r="7.55379004"></circle>
+            <circle id="Oval-Copy-2" fill="#000099" cx="8.09454093" cy="34.8233365" r="7.55379004"></circle>
+            <circle id="Oval-Copy-3" fill="#000099" cx="62.7142536" cy="34.8233365" r="7.55379004"></circle>
         </g>
     </g>
 </svg>
