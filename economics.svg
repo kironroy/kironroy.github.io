@@ -3,14 +3,28 @@
     <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
     <title>economics</title>
     <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="67.6265657%" id="radialGradient-1">
+            <stop stop-color="#8877EB" offset="0%"></stop>
+            <stop stop-color="#5042D3" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="208.288945%" id="radialGradient-2">
+            <stop stop-color="#D4CB60" offset="0%"></stop>
+            <stop stop-color="#EDDBFB" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#0808FF" offset="0%"></stop>
+            <stop stop-color="#000099" offset="100%"></stop>
+        </linearGradient>
+    </defs>
     <g id="economics" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="econ" transform="translate(14.500000, 14.500000)">
-            <circle id="biggerO" stroke="#5042D3" stroke-width="2" cx="34.8233365" cy="34.8233365" r="27.3098564"></circle>
-            <circle id="Oval" fill="#EDDBFB" cx="34.8233365" cy="34.8233365" r="5.40750892"></circle>
-            <circle id="Oval" fill="#000099" cx="34.8233365" cy="8.09454093" r="7.55379004"></circle>
-            <circle id="Oval-Copy" fill="#000099" cx="34.8233365" cy="62.7142536" r="7.55379004"></circle>
-            <circle id="Oval-Copy-2" fill="#000099" cx="8.09454093" cy="34.8233365" r="7.55379004"></circle>
-            <circle id="Oval-Copy-3" fill="#000099" cx="62.7142536" cy="34.8233365" r="7.55379004"></circle>
+        <g id="econ" transform="translate(13.500000, 13.500000)">
+            <circle id="biggerO" stroke="url(#radialGradient-1)" stroke-width="2" cx="35.8233365" cy="35.8233365" r="27.3098564"></circle>
+            <circle id="Oval" fill="url(#radialGradient-2)" cx="35.8233365" cy="35.8233365" r="5.40750892"></circle>
+            <circle id="Oval-Copy" fill="url(#linearGradient-3)" cx="35.8233365" cy="63.7142536" r="7.55379004"></circle>
+            <circle id="Oval-Copy-Copy-3" fill="url(#linearGradient-3)" transform="translate(35.823336, 7.932419) scale(-1, -1) translate(-35.823336, -7.932419) " cx="35.8233365" cy="7.9324194" r="7.55379004"></circle>
+            <circle id="Oval-Copy-Copy" fill="url(#linearGradient-3)" transform="translate(63.133193, 35.823336) scale(1, -1) rotate(-90.000000) translate(-63.133193, -35.823336) " cx="63.1331928" cy="35.8233365" r="7.55379004"></circle>
+            <circle id="Oval-Copy-Copy-2" fill="url(#linearGradient-3)" transform="translate(8.513480, 35.823336) scale(-1, -1) rotate(-90.000000) translate(-8.513480, -35.823336) " cx="8.51348014" cy="35.8233365" r="7.55379004"></circle>
         </g>
     </g>
 </svg>
