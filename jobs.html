@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <link href="https://kironroy.github.io/apple-touch-icon.png" rel="apple-touch-icon" />
+  <link href="https://kironroy.github.io/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+  <link href="https://kironroy.github.io/apple-touch-icon-167x167.png" rel="apple-touch-icon" sizes="167x167" />
+  <link href="https://kironroy.github.io/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+  <link href="https://kironroy.github.io/icon-hires.png" rel="icon" sizes="192x192" />
+  <link href="https://kironroy.github.io/icon-normal.png" rel="icon" sizes="128x128" />
+  <script src="jquery-3.4.1.min.js"></script>
+  <title>Jobs Guide</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='https://bootswatch.com/4/superhero/bootstrap.css'>
+  <style>
+     @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+    body {
+
+      font-weight: 400;
+      font-size: 18px;
+      max-width: 1024px;
+      padding: 21px;
+      margin: 10px auto;
+      -background-color: #ffffff;
+      color: #ffffff;
+      font-family: 'Merriweather', serif;
+    }
+
+    .button {
+      background-color: #4CAF50;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      border-radius: 6px;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+
+    a {
+      color: #1a252f;
+      font-size: 16px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    a:visited {
+      color: #00e;
+    }
+
+    a:hover {
+      color: #f0dba5;
+    }
+
+    p {
+      margin-bottom: 50px;
+    }
+
+    li {
+      padding: 5px;
+    }
+
+    input {
+      margin-left: 25px;
+      margin-bottom: 25px;
+      padding: 5px;
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      -box-sizing: border-box;
+      background-color: #f0dba5;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      border-radius: 6px;
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+
+    }
+
+    h1,
+    h4 {
+      margin-left: 23px;
+
+
+    }
+
+    p {
+      margin-left: 23px;
+      line-height: 1.5;
+
+    }
+  </style>
+  <script>
+    window.console = window.console || function (t) {};
+  </script>
+  <script>
+    if (document.location.search.match(/type=embed/gi)) {
+      window.parent.postMessage("resize", "*");
+    }
+  </script>
+</head>
+
+<body translate="no">
+  <center>
+    <a href="http://kironroy.github.io/resume"><img alt="Kiron Roy Logo" src="headshot_80px.svg"
+        style="width:90px;height:90px;"></a>
+  </center>
+  <br>
+  <br>
+
+  <a id="home"></a>
+
+  <h1>Jobs Guide</h1>
+  <br>
+
+  <h4><SPAN STYLE="color: #4CAF50"><u>README:</u></h4></SPAN>
+
+  <p>
+
+    List below of other key terms, names:
+    <ul>
+      <li>Indeed</li>
+      <li>CA</li>
+      <li>Link</li>
+      ...
+    </ul>
+  </p>
+
+
+
+  <div id="content"></div>
+  <script
+    src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-db44b196776521ea816683afab021f757616c80860d31da6232dedb8d7cc4862.js">
+  </script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/react/0.13.0/react.min.js'></script>
+
+  <script id="rendered-js">
+    // Thank you: Marek Melichar
+    // Thank you: https://codepen.io/marekmelichar/pen/ORyyda
+
+    function _defineProperty(obj, key, value) {
+      if (key in obj) {
+        Object.defineProperty(obj, key, {
+          value: value,
+          enumerable: true,
+          configurable: true,
+          writable: true
+        });
+      } else {
+        obj[key] = value;
+      }
+      return obj;
+    }
+    class SearchExample extends React.Component {
+      constructor(...args) {
+        super(...args);
+        _defineProperty(this, "state",
+
+          {
+            searchString: ''
+          });
+        _defineProperty(this, "handleChange",
+          e => {
+            this.setState({
+              searchString: e.target.value
+            });
+          });
+      }
+      render() {
+        var libraries = this.props.items,
+          searchString = this.state.searchString.trim().toLowerCase();
+        if (searchString.length > 0) {
+          libraries = libraries.filter(function (i) {
+            return i.name.toLowerCase().match(searchString);
+          });
+        }
+        return (
+          React.createElement("div", null,
+            React.createElement("input", {
+              type: "text",
+              value: this.state.searchString,
+              onChange: this.handleChange,
+              placeholder: "Type here..."
+            }),
+            React.createElement("ul", null,
+              libraries.map(function (i) {
+                return React.createElement("li", null, i.name, " ", React.createElement("a", {
+                  href: i.url
+                }, i.url));
+              }))));
+
+
+
+      }
+    }
+
+
+    // Constant, library
+    var libraries = [
+
+    
+
+      {
+        name: 'Government Jobs',
+        url: 'https://www.governmentjobs.com/'
+      }
+      ,
+
+      {
+        name: 'Indeed',
+        url: 'https://secure.indeed.com/account/login?hl=en_US&co=US&continue=https%3A%2F%2Fwww.indeed.com%2F%3Ffrom%3Dgnav-jobsearch--jasx&tmpl=desktop&service=my&from=gnav-util-homepage&jsContinue=https%3A%2F%2Fwww.indeed.com%2F&empContinue=https%3A%2F%2Faccount.indeed.com%2Fmyaccess&_ga=2.225537746.952262831.1614017336-1436336361.1614017336'
+      }
+      ,
+
+      {
+        name: 'Linkedin',
+        url: 'https://www.linkedin.com/'
+      }
+      ,
+
+      {
+        name: 'Google Map, Job Board, Cities',
+        url: 'https://www.google.com/maps/d/edit?mid=1fOT-yZWkDJvaoljUiansVlIrVRRjaSQ3&ll=33.81857091203724%2C-118.18666118252779&z=10'
+      }
+      ,
+
+      {
+        name: 'Cal Careers, CA',
+        url: 'https://www.calcareers.ca.gov/'
+      }
+      ,  
+
+      {
+        name: ' Cal Jobs, EDD, jobs',
+        url: 'https://www.caljobs.ca.gov/vosnet/timeout.aspx?lblErrorMessage=jobsearchcriteriaquick.aspx%20at%20518%20No%20Referring%20Page'
+      }
+      ,      
+      
+
+      // {
+      //   name: '',
+      //   url: ''
+      // }
+      // ,   
+
+      // {
+      //   name: '',
+      //   url: ''
+      // }
+      // ,
+
+      // {
+      //   name: '',
+      //   url: ''
+      // }
+      // ,
+
+      // {
+      //   name: '',
+      //   url: ''
+      // }
+      // ,
+
+      // {
+      //   name: '',
+      //   url: ''
+      // }
+      // ,
+
+      // {
+      //   name: '',
+      //   url: ''
+      // }
+      // ,  
+
+      // {
+      //   name: '',
+      //   url: ''
+      // }
+      // ,      
+      
+
+      // {
+      //   name: '',
+      //   url: ''
+      // }
+      // ,    
+
+      // {
+      //   name: '',
+      //   url: ''
+      // }
+      // ,
+
+      // {
+      //   name: '',
+      //   url: ''
+      // }
+      // ,
+
+      // {
+      //   name: '',
+      //   url: ''
+      // }
+      // ,
+
+      // {
+      //   name: '',
+      //   url: ''
+      // }
+      // ,
+
+      // {
+      //   name: '',
+      //   url: ''
+      // }
+      // ,  
+
+      // {
+      //   name: '',
+      //   url: ''
+      // }
+      // ,      
+      
+
+      // {
+      //   name: '',
+      //   url: ''
+      // }
+      // ,       
+      
+          
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ];
+
+
+
+    // put input and display on page
+    React.render(
+      React.createElement(SearchExample, {
+        items: libraries
+      }),
+      document.getElementById('content'));
+    //# sourceURL=pen.js
+  </script>
+
+  <script>
+    /*Scroll to top when arrow up clicked BEGIN*/
+    $(window).scroll(function () {
+      var height = $(window).scrollTop();
+      if (height > 100) {
+        $('#back2Top').fadeIn();
+      } else {
+        $('#back2Top').fadeOut();
+      }
+    });
+    $(document).ready(function () {
+      $("#back2Top").click(function (event) {
+        event.preventDefault();
+        $("html, body").animate({
+          scrollTop: 0
+        }, "slow");
+        return false;
+      });
+
+    });
+    /*Scroll to top when arrow up clicked END*/
+  </script>
+
+  <center>
+    <a href="#home" class="button">Go back to top</a>
+  </center>
+
+
+</body>
+
+</html>
