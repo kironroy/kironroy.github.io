@@ -1,0 +1,199 @@
+
+<a id="home"></a>
+
+
+| **Article navigation** | 
+| ------------- | 
+| ⤵️ [Introduction](#intro) | 
+| ⤵️ [Tables](#tables) | 
+| ⤵️ [Queries](#queries)  | 
+| ⤵️ [Update & Delete](#updel) |
+| ⤵️ [Stored Procedures](#store)  | 
+
+
+### Introduction
+
+I created a simple database using _SQL Server Management Studio_.  The database trackers Professors giving lectures at Universities.  
+
+The database's name is ``ProfessorTracker.dbo``
+
+The database has 5 tables:
+ * ``dbo.Professors``
+ * ``dbo.TopicOfLecture``
+ * ``dbo.LecturesDone``
+ * ``dbo.Universities``
+ * ``dbo.Locations``
+
+The 5 tables are **interrelated** to each other.  That is why _Structured Query Language (SQL)_ are known as **relational databases**.   
+
+  * Every table will have a ~~~~~~~~~~ 
+
+
+
+
+
+---
+
+### Tables
+
+
+#### Table 1
+ **Professors** is a 8 column table that contains information on Professors:
+ * ``id`` :key:
+ * ``FirstName``
+ * ``LastName``
+ * ``EmailAddress``
+ * ``PayRate``
+ * ``Bonus``
+ * ``CreateDate``
+ * ``LastUpdated``
+
+| id   | FirstName | LastName  | EmailAddress            | PayRate | Bonus  | CreateDate                  | LastUpdated                 |
+|------|-----------|-----------|-------------------------|---------|--------|-----------------------------|-----------------------------|
+| 1    | Andhrea   | Gezz      | andhreagezz@ucla.edu    | 100.00  | 200.00 | 2021-03-15 18:08:44.4133333 | 2021-03-15 18:08:44.4133333 |
+| 2    | Sal       | Permutter | salpermutter@cal.edu    | 150.00  | 200.00 | 2021-03-15 18:09:43.7033333 | 2021-03-15 18:09:43.7033333 |
+| 3    | Edward    | Murphy    | edmurphy@jefferson.com  | 110.00  | 120.00 | 2021-03-16 06:53:03.0500000 | 2021-03-16 06:53:03.0500000 |
+| 4    | Paul      | Brown     | paulbrown@yale.edu      | 200.00  | 300.00 | 2021-03-16 07:20:39.7500000 | 2021-03-16 07:20:39.7500000 |
+| 1005 | Steve     | Silent    | stevesilent@humbolt.edu | 300.00  | 400.00 | 2021-03-17 18:13:04.4200000 | 2021-03-17 18:13:04.4200000 |
+| 1006 | Charles   | Evans     | charlesevans@csuf.edu   | 310.00  | 320.00 | 2021-03-17 18:17:32.4400000 | 2021-03-17 18:17:32.4400000 |
+ 
+#### Table 2
+**Topic of Lectures** is a 5 column table that contains information on the topic of a lecture:
+ * ``id`` :key:
+ * ``LectureTopic``
+ * ``UniversityId``
+ * ``CreateDate``
+ * ``LastUpdated``
+
+| id | LectureTopic                      | UniversityId | CreateDate                  | LastUpdated                 |
+|----|-----------------------------------|--------------|-----------------------------|-----------------------------|
+| 1  | The Expanding Universe.           | 1            | 2021-03-15 18:24:38.9500000 | 2021-03-15 18:24:38.9500000 |
+| 2  | Black Hole in the Milkyway Galaxy | 2            | 2021-03-15 18:24:38.9500000 | 2021-03-15 18:24:38.9500000 |
+| 3  | The Orgins of the Elements        | 3            | 2021-03-16 06:58:08.5033333 | 2021-03-16 06:58:08.5033333 |
+| 4  | Nuclear Reactions                 | 4            | 2021-03-16 07:24:15.2600000 | 2021-03-16 07:24:15.2600000 |
+| 5  | Microsoft Word                    | 4            | 2021-03-16 07:24:31.3666667 | 2021-03-16 07:24:31.3666667 |
+
+#### Table 3
+**Lectures Done** is a 9 column table that contains information on the topic of a lecture:
+ * ``id`` :key:
+ * ``LectureTopic``
+ * ``UniversityId``
+ * ``CreateDate``
+ * ``LastUpdated``
+
+| id | ProfessorId | TopicId | LocationId | HoursLectured | DescrptionOfLecture                                       | DateOfLecture | CreateDate                  | LastUpdated                 |
+|----|-------------|---------|------------|---------------|-----------------------------------------------------------|---------------|-----------------------------|-----------------------------|
+| 1  | 1           | 2       | 2          | 6             | How I discovered a black hole in our Milkway Galaxy       | 2017-02-02    | 2021-03-15 18:38:50.6333333 | 2021-03-15 18:38:50.6333333 |
+| 2  | 2           | 1       | 1          | 4             | The Universee is exapnding and accelerating               | 2016-01-03    | 2021-03-15 18:38:50.6333333 | 2021-03-15 18:38:50.6333333 |
+| 3  | 3           | 3       | 3          | 2             | Origin of the all the known elements in the perodic table | 2019-07-05    | 2021-03-16 07:05:26.6100000 | 2021-03-16 07:05:26.6100000 |
+| 4  | 4           | 4       | 4          | 1             | Atomic 101                                                | 2000-08-03    | 2021-03-16 07:31:32.1600000 | 2021-03-16 07:31:32.1600000 |
+| 5  | 4           | 5       | 5          | 3             | The coolness of Microsoft Word                            | 1999-02-04    | 2021-03-16 07:31:32.1600000 | 2021-03-16 07:31:32.1600000 |
+
+#### Table 4
+**Universities** is a 6 column table that contains information on the topic of a lecture:
+ * ``id`` :key:
+ * ``UniversityName``
+ * ``Website``
+ * ``ContactEmail``
+ * ``CreateDate``
+ * ``LastUpdated``
+
+| id | UniversityName        | Website            | ContactEmail             | CreateDate                  | LastUpdated                 |
+|----|-----------------------|--------------------|--------------------------|-----------------------------|-----------------------------|
+| 1  | UCLA                  | www.ucla.edu       | randyjackson@ucla.edu    | 2021-03-15 18:17:59.1366667 | 2021-03-15 18:17:59.1366667 |
+| 2  | Harvard               | www.harvard.edu    | theoratcliff@harvard.edu | 2021-03-15 18:18:32.2400000 | 2021-03-15 18:18:32.2400000 |
+| 3  | Stanford              | www.stanford.edu   | maxcool@pine.edu         | 2021-03-16 06:55:40.2333333 | 2021-03-16 06:55:40.2333333 |
+| 4  | Pepperdine University | www.pepperdine.edu | kennystar@pep.edu        | 2021-03-16 07:13:18.4966667 | 2021-03-16 07:13:18.4966667 |
+
+#### Table 5
+**Locations** is a 8 column table that contains information of Universities:
+ * ``id`` :key:
+ * ``StreetAddress``
+ * ``City``
+ * ``State``
+ * ``ZipCode``
+ * ``UniversityId``
+ * ``CreateDate``
+ * ``LastUpdated``
+
+
+
+| id | StreetAddress     | City      | State | ZipCode | UniversityId | CreateDate                  | LastUpdated                 |
+|----|-------------------|-----------|-------|---------|--------------|-----------------------------|-----------------------------|
+| 1  | 123 Westwood Blvd | L.A.      | CA    | 90095   | 1            | 2021-03-15 18:30:04.7400000 | 2021-03-15 18:30:04.7400000 |
+| 2  | 357 Harvard Road  | Boston    | MA    | 01434   | 2            | 2021-03-15 18:30:04.7400000 | 2021-03-15 18:30:04.7400000 |
+| 3  | 123 Pine Street   | Palo Alto | CA    | 94301   | 3            | 2021-03-16 07:00:20.0000000 | 2021-03-16 07:00:20.0000000 |
+| 4  | 444 Eden way      | Malibu    | CA    | 90263   | 4            | 2021-03-16 07:16:05.7000000 | 2021-03-16 07:16:05.7000000 |
+| 5  | 6750 Argo Road    | Calabasas | CA    | 91302   | 4            | 2021-03-16 07:17:47.7100000 | 2021-03-16 07:17:47.7100000 |
+
+| **Article Navigation** | 
+| ------------- | 
+| ⤴️ [Back to the Top](#home) | 
+
+---
+
+### Queries 
+
+
+#### **Order by** will order the data, here it is ordered reverse-alphabetical by first name:
+
+```sql
+/*
+ Multi 
+ line 
+ comment 
+*/
+
+ -- single line comment 
+ -- desc = ordering it by reverse alpha order, z-a
+
+select FirstName, LastName, EmailAddress, PayRate, Bonus
+from dbo.Professors
+order by FirstName desc;
+```
+
+#### Output:
+
+| FirstName | LastName  | EmailAddress            | PayRate | Bonus  |
+|-----------|-----------|-------------------------|---------|--------|
+| Steve     | Silent    | stevesilent@humbolt.edu | 300.00  | 400.00 |
+| Sal       | Permutter | salpermutter@cal.edu    | 150.00  | 200.00 |
+| Paul      | Brown     | paulbrown@yale.edu      | 200.00  | 300.00 |
+| Edward    | Murphy    | edmurphy@jefferson.com  | 110.00  | 120.00 |
+| Charles   | Evans     | charlesevans@csuf.edu   | 310.00  | 320.00 |
+| Andhrea   | Gezz      | andhreagezz@ucla.edu    | 100.00  | 200.00 |
+
+
+####  **Where** statement acts on a query before it is grouped:
+
+```sql
+select FirstName, LastName, EmailAddress, PayRate, Bonus
+from dbo.Professors
+-- where and then a condition 
+where Bonus > 300;
+```
+
+#### Output:
+| FirstName | LastName | EmailAddress            | PayRate | Bonus  |
+|-----------|----------|-------------------------|---------|--------|
+| Steve     | Silent   | stevesilent@humbolt.edu | 300.00  | 400.00 |
+| Charles   | Evans    | charlesevans@csuf.edu   | 310.00  | 320.00 |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+| **Article Navigation** | 
+| ------------- | 
+| ⤴️ [Back to the Top](#home) | 
