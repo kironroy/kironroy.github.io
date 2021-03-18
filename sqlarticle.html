@@ -4,7 +4,6 @@
 
 | **Article navigation** | 
 | ------------- | 
-| ⤵️ [Introduction](#intro) | 
 | ⤵️ [Tables](#tables) | 
 | ⤵️ [Queries](#queries)  | 
 | ⤵️ [Update & Delete](#updel) |
@@ -26,13 +25,20 @@ The database has 5 tables:
 
 The 5 tables are **interrelated** to each other.  That is why _Structured Query Language (SQL)_ are known as **relational databases**.   
 
-  * Every table will have a ~~~~~~~~~~ 
+  * Every table will have a primary key :key: 
+    that will be unique that table
+  * Every table will have ``CreateDate`` and 
+    ``LastUpdated`` columns
+  * The tables will have surrogate keys (ids) 
+    that will align to create relationships
+  *  A University might have multiple locations.  Example: _Pepperdine_ has 2 campuses.  One university, 2 locations.  This is a **One to many relationship**.  Note: this will be discussed in the Queries section
 
 
 
 
 
 ---
+<a id="tables"></a>
 
 ### Tables
 
@@ -131,11 +137,13 @@ The 5 tables are **interrelated** to each other.  That is why _Structured Query 
 | ⤴️ [Back to the Top](#home) | 
 
 ---
+<a id="queries"></a>
+
 
 ### Queries 
 
 
-#### **Order by** will order the data, here it is ordered reverse-alphabetical by first name:
+**Order by** will order the data, here it is ordered reverse-alphabetical by first name:
 
 ```sql
 /*
@@ -152,7 +160,7 @@ from dbo.Professors
 order by FirstName desc;
 ```
 
-#### Output:
+Output :fast_forward: 
 
 | FirstName | LastName  | EmailAddress            | PayRate | Bonus  |
 |-----------|-----------|-------------------------|---------|--------|
@@ -164,7 +172,7 @@ order by FirstName desc;
 | Andhrea   | Gezz      | andhreagezz@ucla.edu    | 100.00  | 200.00 |
 
 
-####  **Where** statement acts on a query before it is grouped:
+**Where** statement acts on a query before it is grouped:
 
 ```sql
 select FirstName, LastName, EmailAddress, PayRate, Bonus
@@ -173,14 +181,128 @@ from dbo.Professors
 where Bonus > 300;
 ```
 
-#### Output:
+Output :fast_forward: 
+
 | FirstName | LastName | EmailAddress            | PayRate | Bonus  |
 |-----------|----------|-------------------------|---------|--------|
-| Steve     | Silent   | stevesilent@humbolt.edu | 300.00  | 400.00 |
+| Stephen   | Silent   | stevesilent@humbolt.edu | 300.00  | 400.00 |
 | Charles   | Evans    | charlesevans@csuf.edu   | 310.00  | 320.00 |
 
+**Left Join** Connects a one table's information (left side) with another table's information on the (right side)
+
+```sql
+-- University table will have a varible of 'u'
+-- Location will have a variable of 'l'
+-- the 'as' keyword can create custom headers
 
 
+select u.UniversityName as 'University'
+     , u.id as 'University Id'
+     , l.StreetAddress as 'Street Address'
+	 , l.State
+	 , l.id as 'Location Id'
+from dbo.Universities u
+
+left join dbo.Locations l on u.id = l.UniversityId;
+```
+
+Output :fast_forward: 
+
+| University            | University Id | Street Address    | State | Location Id |
+|-----------------------|---------------|-------------------|-------|-------------|
+| UCLA                  | 1             | 123 Westwood Blvd | CA    | 1           |
+| Harvard               | 2             | 357 Harvard Road  | MA    | 2           |
+| Stanford              | 3             | 123 Pine Street   | CA    | 3           |
+| Pepperdine University | 4             | 444 Eden way      | CA    | 4           |
+| Pepperdine University | 4             | 6750 Argo Road    | CA    | 5           |
+
+Note: Pepperdine has a **unique id** of 4, but since it has two locations it has two **Location ids**: 4 and 5 respectively.
+
+**Inner Join**
+
+```sql
+-- Professor Tracker has a total of 5 tables:
+	-- ld LecturesDone table
+	-- p Professors table
+	-- t TopicOfLecture table
+	-- u Universitites table
+	-- l locations table
+
+-- ** This query uses all tables **
+
+select p.FirstName + ' ' + p.LastName as 'Professor'
+	  , t.LectureTopic as 'Topic of Lecture'
+	  , ld.DescrptionOfLecture as' Title of Lecture'
+      , u.UniversityName as 'University'
+	  , l.City
+	  , ld.HoursLectured as 'Total Hours Lectured'
+from dbo.LecturesDone ld
+
+-- How do these tables connect?
+
+-- Join the Professors and the Lectures they did
+inner join dbo.Professors p on ld.ProfessorId = p.id
+
+-- Topic of lecture on the Lectures done table
+inner join dbo.TopicOfLecture t on ld.TopicId = t.id
+
+-- Which University was the lecture done in
+inner join dbo.Locations l on ld.LocationId = l.id
+inner join dbo.Universities u on t.UniversityId = u.id
+```
+
+Output :fast_forward: 
+
+|  Professor   | Topic of Lecture  |	 Title of Lecture |	University   |	City	|  Total Hours Lectured |
+|--------------|-------------------|----------------------|------------------|-----------|----------------------|
+|Andhrea Gezz   |Black Hole in the Milkyway Galaxy |How I discovered a black hole in our Milkway Galaxy  |Harvard   |Boston| 6 |
+|Sal Permutter	|The Expanding Universe.	|The Universee is exapnding and accelerating	|UCLA	|L.A.|	4|
+|Edward Murphy	|The Orgins of the Elements	|Origin of the all the known elements in the perodic table |Stanford |Palo Alto| 2|
+|Paul Brown	|Nuclear Reactions	|Atomic 101	|Pepperdine University	|Malibu| 1|
+|Paul Brown	|Microsoft Word        |The coolness of Microsoft Word |Pepperdine University |Calabasas  |3|
+
+| **Article Navigation** | 
+| ------------- | 
+| ⤴️ [Back to the Top](#home) | 
+
+
+---
+<a id="updel"></a>
+###Update and Delete
+
+**Update a Record**
+
+```sql
+-- The Profesor table needs to be updated to say:
+-- 'Steve' to 'Stephen' 
+
+select * from dbo.Professors
+
+update dbo.Professors
+set FirstName = 'Stephen'
+where id = 1005;
+```
+
+| id   | FirstName | LastName  | EmailAddress            | PayRate | Bonus  | CreateDate                  | LastUpdated                 |
+|------|-----------|-----------|-------------------------|---------|--------|-----------------------------|-----------------------------|
+| 1    | Andhrea   | Gezz      | andhreagezz@ucla.edu    | 100.00  | 200.00 | 2021-03-15 18:08:44.4133333 | 2021-03-15 18:08:44.4133333 |
+| 2    | Sal       | Permutter | salpermutter@cal.edu    | 150.00  | 200.00 | 2021-03-15 18:09:43.7033333 | 2021-03-15 18:09:43.7033333 |
+| 3    | Edward    | Murphy    | edmurphy@jefferson.com  | 110.00  | 120.00 | 2021-03-16 06:53:03.0500000 | 2021-03-16 06:53:03.0500000 |
+| 4    | Paul      | Brown     | paulbrown@yale.edu      | 200.00  | 300.00 | 2021-03-16 07:20:39.7500000 | 2021-03-16 07:20:39.7500000 |
+| 1005 | Stephen   | Silent    | stevesilent@humbolt.edu | 300.00  | 400.00 | 2021-03-17 18:13:04.4200000 | 2021-03-17 18:13:04.4200000 |
+| 1006 | Charles   | Evans     | charlesevans@csuf.edu   | 310.00  | 320.00 | 2021-03-17 18:17:32.4400000 | 2021-03-17 18:17:32.4400000 |
+
+**Delete** record
+
+```sql
+-- BE CAREFUL ABOUT THIS 
+-- ONCE IT IS DELETED, IT'S GONE
+-- NO REDO!
+
+delete
+from dbo.Professors
+where id = 1
+```
 
 
 
@@ -197,3 +319,6 @@ where Bonus > 300;
 | **Article Navigation** | 
 | ------------- | 
 | ⤴️ [Back to the Top](#home) | 
+
+
+
