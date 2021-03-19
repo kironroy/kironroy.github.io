@@ -12,7 +12,7 @@
 
 ### Introduction
 
-I created a simple database using _SQL Server Management Studio_.  The database trackers Professors giving lectures at Universities.  
+I created a simple database using _SQL Server Management Studio_.  The database tracks professors giving lectures at universities.  Some universities have more than one campus and professors  can give more than one lecture.   
 
 The database's name is ``ProfessorTracker.dbo``
 
@@ -26,11 +26,11 @@ The database has 5 tables:
 The 5 tables are **interrelated** to each other.  That is why _Structured Query Language (SQL)_ are known as **relational databases**.   
 
   * Every table will have a primary key :key: 
-    that will be unique that table
+    that will be unique to that table.
   * Every table will have ``CreateDate`` and 
-    ``LastUpdated`` columns
+    ``LastUpdated`` columns.
   * The tables will have surrogate keys (ids) 
-    that will align to create relationships
+    that will align to primary keys (ids) to create table relationships.
   *  A University might have multiple locations.  Example: _Pepperdine_ has 2 campuses.  One university, 2 locations.  This is a **One to many relationship**.  Note: this will be discussed in the Queries section
 
 
@@ -63,7 +63,7 @@ The 5 tables are **interrelated** to each other.  That is why _Structured Query 
 | 1005 | Steve     | Silent    | stevesilent@humbolt.edu | 300.00  | 400.00 | 2021-03-17 18:13:04.4200000 | 2021-03-17 18:13:04.4200000 |
 | 1006 | Charles   | Evans     | charlesevans@csuf.edu   | 310.00  | 320.00 | 2021-03-17 18:17:32.4400000 | 2021-03-17 18:17:32.4400000 |
 
-_**Note**_: _Sometimes ids can get out of sync, if someone tries to put data that is the wrong type ``string`` instead of an ``int`` type, or failed to include data (a missing columns.)
+_**Note**_: _Sometimes ids can get out of sync, if someone tries to put data that is the wrong type ``string`` instead of an ``int`` type, or failed to include data (a missing columns.)_
 
 Technically _SSMS_ has created those ``ids``, but they do not show up on the table.  ``ids`` **do not** have to be in order, they **only** have to be **unique**. 
 _  
@@ -341,19 +341,3 @@ where id = 1
 
 
 ### Stored Procedures
-
-
-
-
-
-
-
-
-
-
-
-
-| **Article Navigation** | 
-| ------------- | 
-| ⤴️ [Back to the Top](#home) | 
-
