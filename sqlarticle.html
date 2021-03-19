@@ -12,16 +12,36 @@
 
 ### Introduction
 
-I created a simple database using _SQL Server Management Studio_.  The database tracks professors giving lectures at universities.  Some universities have more than one campus and professors  can give more than one lecture.   
+I created a simple database using _SQL Server Management Studio_.  The database tracks professors giving lectures at universities.  Some universities have more than one campus and professors can give more than one lecture.   
 
-The database's name is ``ProfessorTracker.dbo``
+The database's name is ProfessorTracker
 
 The database has 5 tables:
- * ``dbo.Professors``
- * ``dbo.TopicOfLecture``
- * ``dbo.LecturesDone``
- * ``dbo.Universities``
- * ``dbo.Locations``
+ 1. Professors
+ 2. TopicOfLecture
+ 3. LecturesDone
+ 4. Universities
+ 5. Locations
+
+```sql
+-- The database and table names do not have 
+-- spaces in between the words.
+-- Database and tables use CapitalCase.
+
+-- The database is labled 
+
+dbo.ProfesorTracker.
+
+-- The the tables are labeled as such
+
+dbo.Professors
+dbo.TopicOfLecture
+dbo.LecturesDone
+dbo.Universities
+dbo.Locations
+
+```
+
 
 The 5 tables are **interrelated** to each other.  That is why _Structured Query Language (SQL)_ are known as **relational databases**.   
 
@@ -180,8 +200,8 @@ values ('Andhrea', 'Gezz', 'andhreagezz@ucla.edu', 100, 200);
  comment 
 */
 
- -- single line comment 
- -- desc = ordering it by reverse alpha order, z-a
+-- single line comment 
+-- desc = ordering it by reverse alpha order, z-a
 
 select FirstName, LastName, EmailAddress, PayRate, Bonus
 from dbo.Professors
@@ -223,7 +243,6 @@ Output :fast_forward:
 -- Location will have a variable of 'l'
 -- the 'as' keyword can create custom headers
 
-
 select u.UniversityName as 'University'
      , u.id as 'University Id'
      , l.StreetAddress as 'Street Address'
@@ -249,14 +268,14 @@ Note: Pepperdine has a **unique id** of 4, but since it has two locations it has
 **Inner Join**
 
 ```sql
--- Professor Tracker has a total of 5 tables:
+-- variables for each table:
 	-- ld LecturesDone table
 	-- p Professors table
 	-- t TopicOfLecture table
 	-- u Universitites table
 	-- l locations table
 
--- ** This query uses all tables **
+-- ** This query uses all 5 tables **
 
 select p.FirstName + ' ' + p.LastName as 'Professor'
 	  , t.LectureTopic as 'Topic of Lecture'
@@ -325,7 +344,7 @@ where id = 1005;
 ```sql
 -- BE CAREFUL ABOUT THIS 
 -- ONCE IT IS DELETED, IT'S GONE
--- NO REDO!
+-- NO REDO OPTION!
 
 delete
 from dbo.Professors
@@ -341,3 +360,28 @@ where id = 1
 
 
 ### Stored Procedures
+
+* Stored procedures can limit access to the database.
+
+* It's a layer of control and protection.
+
+* Stored procedure make it harder for [sql injection](https://www.w3schools.com/sql/sql_injection.asp).
+
+  * SQL injection = Smith (as a last name); delete from from 
+  dbo.Customers;
+
+* Stored procedures are fast.
+
+
+
+
+
+
+
+
+
+
+
+| **Article Navigation** | 
+| ------------- | 
+| ⤴️ [Back to the Top](#home) | 
