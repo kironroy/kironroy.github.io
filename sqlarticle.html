@@ -12,7 +12,7 @@
 
 ### Introduction
 
-I created a simple database using _SQL Server Management Studio_.  The database tracks professors giving lectures at universities.  Some universities have more than one campus and professors can give more than one lecture.   
+I created a simple database using _SQL Server Management Studio_.  The database tracks professors giving lectures at universities.  Some universities have [more than one campus](https://en.wikipedia.org/wiki/One-to-many_(data_model)) and professors can give more than one lecture.  All the columns have to be filled out.  No [null](https://www.w3schools.com/sql/sql_null_values.asp#:~:text=What%20is%20a%20NULL%20Value,saved%20with%20a%20NULL%20value.) values.  In other words, can't leave empty.   
 
 The database's name is ProfessorTracker
 
@@ -24,10 +24,12 @@ The database has 5 tables:
  5. Locations
 
 ```sql
--- The database and table names do not have 
--- spaces in between the words.
--- Database and tables use CapitalCase.
 
+/*
+The database and table names do not have 
+spaces in between the words
+Database and tables use CapitalCase
+*/
 -- The database is labled 
 
 dbo.ProfesorTracker.
@@ -385,3 +387,4 @@ where id = 1
 | **Article Navigation** | 
 | ------------- | 
 | ⤴️ [Back to the Top](#home) | 
+
