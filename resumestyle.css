@@ -74,6 +74,7 @@ video {
 	margin: 0;
 	padding: 0;
 	vertical-align: baseline;
+	columns: #ff6347;
 }
 
 
@@ -95,14 +96,19 @@ section {
 	display: block;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400&display=swap');
+
+* {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 
 html,
 body {
 	background: #FFFFFF;
-	font-family: 'Heebo', sans-serif;
+	font-family: 'Georgia', serif;
 	font-size: 16px;
-	font-weight: 400;
+	font-weight: 300;
 	color: #222;
 }
 
@@ -118,7 +124,7 @@ a:link {
 a:link {
 
 	text-decoration: none;
-	color: #5042d3;
+	color: blue;
 }
 
 a:visited {
@@ -135,6 +141,7 @@ a:focus {
 
 p {
 	font-size: 18px;
+	font-family: 'Georgia', serif;
 	line-height: 1.6;
 	margin-bottom: 20px;
 	color: #444;
@@ -158,7 +165,6 @@ p {
 #name h1 {
 	font-size: 2.5em;
 	font-weight: 400;
-	font-family: 'Heebo', sans-serif;
 	margin-bottom: -6px;
 	letter-spacing: -.50px;
 }
@@ -168,7 +174,6 @@ p {
 	font-size: 2em;
 	margin-left: 2px;
 	font-weight: 400;
-	font-family: 'Heebo', sans-serif;
 }
 
 #mainArea {
@@ -246,21 +251,21 @@ section:last-child {
 }
 
 .sectionTitle h1 {
-	font-family: 'Heebo', sans-serif;
 	font-weight: 400;
 	font-style: italic;
+	font-family: 'Arial', Times, serif;
 	font-size: 1.5em;
-	color: #5042d3;
+	color: #ff6347;
 	letter-spacing: -.50px;
 }
 
 .sectionContent h2 {
-	font-family: 'Heebo', sans-serif;
 	font-weight: 350;
-	font-size: 1.5em;
+	font-size: 1.2em;
+	font-family: 'Arial', Times, serif;
 	margin-bottom: -2px;
 	letter-spacing: -.50px;
-	color: #5042d3;
+	color: #ff6347;
 }
 
 .subDetails {
@@ -275,7 +280,6 @@ section:last-child {
 	font-size: 18px;
 	margin-bottom: 4px;
 	font-weight: 400;
-	font-family: 'Heebo', sans-serif;
 
 }
 
