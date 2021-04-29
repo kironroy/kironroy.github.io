@@ -46,45 +46,20 @@
 	               
 	           }
 
-	          
-
-	           .button {
-	                  font-family: 'Delius Swash Caps', cursive;
-	                  font-weight: 300;
-	                  background-color: #000099;
-	                  border-radius: 20px;
-	                  cursor: pointer;
-	                  cursor: hand;
-	                  width: 100px;
-	                  height: 50px;
-	                  color: white;
-	                  text-align:center;
-	                  line-height:50px;
-	                  border: none;
-	                  padding: 4px 8px;
-	                  text-align: center;
-	                  text-decoration: none;
-	                  text-align: center;
-	                  text-decoration: none;
-	                  display: inline-block;
-	                  margin: 4px 2px;
-	                  cursor: pointer;
-	           }
-
 	           button {
 	                 font-family: 'Delius Swash Caps', cursive;
-	                  background-color: transparent;
-	                  border-radius: 18;
-	                  border: none;
-	                  color: white;
-	                  text-align: center;
-	                  text-decoration: none;
-	                  display: inline-block;
-	                  margin: 10px;
-	                  font-size: 22px;
-	                  margin: 4px 2px;
-	                  cursor: pointer;
-	           }
+					 background-color: #4CAF50; /* Green */
+					 border-radius: 25px;
+					 border: none;
+					 color: white;
+					 padding: 15px 32px;
+					 text-align: center;
+					 text-decoration: none;
+					 display: inline-block;
+					 font-size: 22px;
+					 margin: 4px 2px;
+					 cursor: pointer;
+	               }
 
 	             
 	</style>
@@ -111,8 +86,8 @@
 				&nbsp;&nbsp;
 				<center>
 					Cartoons
-				</center><br>
-				<div class="button">
+				</center>
+				<br>
 					<button onclick="changeColor()">Repaint!</button>
 				</div>
 			</center>
@@ -158,37 +133,7 @@
 	                 }], "*")
 	             }
 	</script> 
-	<script>
-	      
-	      var button = document.querySelector('.button');
 
-	      button.onclick = function () {
-	      var red = Math.floor(Math.random() * 256);
-	      var blue = Math.floor(Math.random() * 256);
-	      var green = Math.floor(Math.random() * 256);
-
-	      this.style.backgroundColor = "rgb(" + red + "," + green + "," + blue + ")";
-	      };
-
-
-	      // Math.floor(Math.random() * 256) [0-255]
-	      // rgb(255,255,255)
-	</script> 
-	<script>
-	      
-	   var button = document.querySelector('.title');
-
-	   button.onclick = function () {
-	   var red = Math.floor(Math.random() * 256);
-	   var blue = Math.floor(Math.random() * 256);
-	   var green = Math.floor(Math.random() * 256);
-
-	   this.style.backgroundColor = "rgb(" + red + "," + green + "," + blue + ")";
-	   };
-
-
-	   // Math.floor(Math.random() * 256) [0-255]
-	   // rgb(255,255,255)
-	</script>
+	
 </body>
 </html>
