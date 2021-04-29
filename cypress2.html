@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<link href="https://kironroy.github.io/apple-touch-icon.png" rel="apple-touch-icon">
+	<script src="https://cdn.jsdelivr.net/npm/vue@2">
+	</script>
+	<link href="https://kironroy.github.io/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
+	<link href="https://kironroy.github.io/apple-touch-icon-167x167.png" rel="apple-touch-icon" sizes="167x167">
+	<link href="https://kironroy.github.io/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
+	<link href="https://kironroy.github.io/icon-hires.png" rel="icon" sizes="192x192">
+	<link href="https://kironroy.github.io/icon-normal.png" rel="icon" sizes="128x128">
+	<style>
+	       @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+	            
+
+	       #cypress {
+	        background-color: #f4f4f5; 
+			border-radius: 10px;
+	       }
+
+		   #oc_mang {
+			background-color: #E5EAEF; 
+			padding: 10px;
+			border-radius: 10px;
+		   }
+
+		   #insurance{
+			background-color: #FEE9E9;  
+			padding: 10px; 
+			border-radius: 10px;
+		   }
+
+	       body {
+               font-family: 'Roboto', sans-serif;
+	           font-size: 20px;
+	           line-height: 1.6;
+	           padding: 14px;
+	           background-color: #ffffff;
+	           margin: 20px;
+	       }
+
+	       img {
+	           max-width: 100%;
+	           height: auto;
+	       }
+
+	       a {
+	           text-align: center;
+	           letter-spacing: -.50px;
+	           font-size: 20px;
+	           color: blue;
+	           text-decoration: underline;
+	           font-weight: 300;
+	           letter-spacing: -.50px
+	       }
+
+	       li {
+	           line-height: 2.5;
+	       }
+	</style>
+	<title>Cypress</title>
+</head>
+<body>
+	<center>
+		<a href="http://kironroy.github.io/biz"><img alt="Kiron Roy Logo" src="headshot_80px.svg" style="width:80px;height:80px;"></a>
+	</center>
+	
+	<center><h2>Cypress</h2></center>
+
+	<h3>Taxes</h3>
+	 <p><a href="https://cypress.hdlgov.com/">Cypress Business License Renewal Website</a></p>
+			
+<!-- INSURANCE -->
+	<div id="insurance">
+		<h3 v-once>{{ title }}</h3>
+		<p>{{agent()}} </p>  
+		<p>{{statefarmlink()}}: <a v-bind:href="link"> State Farm Insurance</a></p>  
+	</div>
+<!-- INSURANCE ends-->
+    <br>
+<!-- OC MANAGEMENT-->
+	<div id="oc_mang">
+		<h3 v-once>{{ title }}</h3>
+		<p>{{address()}}</p>
+		<p>{{mang()}}: <a v-bind:href="link">Orange County Property Management</a></p>  
+		<p>{{map()}}: <a v-bind:href="linkmap">OC Property Management Map</a></p>  
+	</div>
+<!-- OC MANAGEMENT ends-->
+
+<!-- CYPRESS BACKGROUND-->
+	<ul id="cypress">
+		<!-- key, value -->
+		<h3>Cypress Background</h3>
+		  <div v-for="(key, value) in object">
+			<li> {{ value }}: {{ key }} </li>
+		  </div>
+		  <li>Zoning: <a href="https://www.cypressca.org/government/departments/community-development/zoning-map">RM 20-FA</a>
+		  </ul></li>
+<!-- CYPRESS BACKGROUND ENDS-->
+    
+
+<script>
+
+// Insurance
+new Vue({
+	el: '#insurance',
+	data: {
+		title: 'State Farm Insurance',
+		link: 'https://www.statefarm.com/',
+
+	},
+	methods: {
+		agent: function() {
+			return 'Agent: Emma Hightower, Phone: (714) - 637 - 5900'
+		},
+		statefarmlink: function() {
+			return 'The units are insured by'
+		},
+		map: function() {
+			return 'Map'
+		}
+	}
+})
+
+// OC mang
+new Vue({
+	el: '#oc_mang',
+	data: {
+		title: 'Mangement',
+		link: 'https://www.orangecountypropertymanagement.com/',
+		linkmap: 'https://www.google.com/maps/place/Orange+County+Property+Management+Inc./@33.7194966,-118.0018257,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0xe066b210d8eaa0a',
+	},
+	methods: {
+		mang: function() {
+			return 'Managed by'
+		},
+		address: function() {
+			return 'Orange County Property Management Inc. 16742 Gothard St #117 Huntington Beach, CA 92647 (714) 840-1700'
+		},
+		map: function() {
+			return 'Map'
+		}
+	}
+})
+
+// Cypress
+
+new Vue({
+		el: '#cypress',
+		data: {
+			object: {
+				'Total Ground Floor Area': '2,441 ft² 25% of total area',
+				'Total Square footage': '9,600 ft² 0.22 acres',
+				'Total Units': 4,
+				'Purchasesd Date': 'October 10, 1989',
+				'Purchase Price': '$480,000',
+				'Address': 'La Salle Street 8570-8576 Cypress CA 90630 United States',
+			}
+		}
+	})
+	</script>
+</body>
+</html>

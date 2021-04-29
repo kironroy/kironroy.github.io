@@ -15,11 +15,22 @@
 	            
 
 	       #cypress {
-	           color:rgb(43, 43, 43);
-	           background-color: #fffafa;
-	           font-size: 19px;
-               font-family: 'Times', sans-serif;
+	        background-color: #f4f4f5; 
+			border-radius: 10px;
+			font-size: 18px;
 	       }
+
+		   #oc_mang {
+			background-color: #E5EAEF; 
+			padding: 10px;
+			border-radius: 10px;
+		   }
+
+		   #insurance{
+			background-color: #FEE9E9;  
+			padding: 10px; 
+			border-radius: 10px;
+		   }
 
 	       body {
                font-family: 'Roboto', sans-serif;
@@ -46,7 +57,7 @@
 	       }
 
 	       li {
-	           line-height: 2.5;
+	           line-height: 2.3;
 	       }
 	</style>
 	<title>Cypress</title>
@@ -55,58 +66,99 @@
 	<center>
 		<a href="http://kironroy.github.io/biz"><img alt="Kiron Roy Logo" src="headshot_80px.svg" style="width:80px;height:80px;"></a>
 	</center>
-	<h3></h3>
-	<center>
-		<h3>Cypress </h3>
-	</center>
-    <!-- standard HTML -->
-	<ul>
-		<li>Map: <a
-            href="https://www.google.com/maps/place/8570+La+Salle+St/@33.8378698,-118.0473668,150m/data=!3m1!1e3!4m3!3m2!1s0x80dd2c235dafbc6b:0x80fa6238b829bc93!4b1">Google
-            Map of Cypress</a></li>
-		<li>Managed by: <a href="http://orangecountypropertymanagement.com/">Orange County Management</a>
-		</li>
-        <ul>
-            <li>Orange County Property Management Inc. 16742 Gothard St #117 Huntington Beach, CA 92647 (714) 840-1700</li>
-            <li><a href="https://www.google.com/maps/place/Orange+County+Property+Management+Inc./@33.7194966,-118.0018257,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0xe066b210d8eaa0a">Orange County Management Map</a></li>
-            <li>Login: <a href="https://orangecountypm.appfolio.com/oportal/users/log_in">Appfolio Login</a>
-            </li>
-        </ul>
-		<li>Insurance: <a href="https://www.statefarm.com/">State Farm</a>
-		</li>
-        <ul>
-            <li>Agent: Emma Hightower Phone: (714) - 637 - 5900</li>
-        </ul>
-		<li>
-			<a href="https://cypress.hdlgov.com/">Cypress Business License Renewal Website</a>
-		</li>
-	</ul>
-    <!-- standard HTML ENDS-->
+	
+	<center><h2>Cypress</h2></center>
+
+	<h3>Taxes</h3>
+	 <p><a href="https://cypress.hdlgov.com/">Cypress Business License Renewal Website</a></p>
+			
+<!-- INSURANCE -->
+	<div id="insurance">
+		<h3 v-once>{{ title }}</h3>
+		<p>{{agent()}} </p>  
+		<p>{{statefarmlink()}}: <a v-bind:href="link"> State Farm Insurance</a></p>  
+	</div>
+<!-- INSURANCE ends-->
+    <br>
+<!-- OC MANAGEMENT-->
+	<div id="oc_mang">
+		<h3 v-once>{{ title }}</h3>
+		<p>{{address()}}</p>
+		<p>{{mang()}}: <a v-bind:href="link">Orange County Property Management</a></p>  
+		<p>{{map()}}: <a v-bind:href="linkmap">OC Property Management Map</a></p>  
+	</div>
+<!-- OC MANAGEMENT ends-->
+
+<!-- CYPRESS BACKGROUND-->
+	<ul id="cypress">
+		<!-- key, value -->
+		<h3>Cypress Background</h3>
+		  <div v-for="(key, value) in object">
+			<li> {{ value }}: {{ key }} </li>
+		  </div>
+		  <li>Zoning: <a href="https://www.cypressca.org/government/departments/community-development/zoning-map">RM 20-FA</a>
+		  </ul></li>
+<!-- CYPRESS BACKGROUND ENDS-->
     
-    <!-- Vue Js-->
-        <ul id="cypress">
-            <!-- key, value -->
-              <div v-for="(key, value) in object">
-                <li> {{ value }}: {{ key }} </li>
-              </div>
-              <li>Zoning: <a href="https://www.cypressca.org/government/departments/community-development/zoning-map">RM 20-FA</a>
-              </ul></li>
-    <!-- Vue Js ENDS-->
-    
-	<script>
-	// Cypress info
-	new Vue({
-	 el: '#cypress',
-	 data: {
-	   object: {
-	       'Total Ground Floor Area': '2,441 ft² 25% of total area',
-	       'Total Square footage': '9,600 ft² 0.22 acres',
-	       'Total Units': 4,
-	       'Purchasesd Date': 'October 10, 1989',
-	       'Purchase Price': '$480,000',
-	       'Address': 'La Salle Street 8570-8576 Cypress CA 90630 United States',
-	   }
-	 }
+
+<script>
+
+// Insurance
+new Vue({
+	el: '#insurance',
+	data: {
+		title: 'State Farm Insurance',
+		link: 'https://www.statefarm.com/',
+
+	},
+	methods: {
+		agent: function() {
+			return 'Agent: Emma Hightower, Phone: (714) - 637 - 5900'
+		},
+		statefarmlink: function() {
+			return 'The units are insured by'
+		},
+		map: function() {
+			return 'Map'
+		}
+	}
+})
+
+// OC mang
+new Vue({
+	el: '#oc_mang',
+	data: {
+		title: 'Mangement',
+		link: 'https://www.orangecountypropertymanagement.com/',
+		linkmap: 'https://www.google.com/maps/place/Orange+County+Property+Management+Inc./@33.7194966,-118.0018257,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0xe066b210d8eaa0a',
+	},
+	methods: {
+		mang: function() {
+			return 'Managed by'
+		},
+		address: function() {
+			return 'Orange County Property Management Inc. 16742 Gothard St #117 Huntington Beach, CA 92647 (714) 840-1700'
+		},
+		map: function() {
+			return 'Map'
+		}
+	}
+})
+
+// Cypress
+
+new Vue({
+		el: '#cypress',
+		data: {
+			object: {
+				'Total Ground Floor Area': '2,441 ft² 25% of total area',
+				'Total Square footage': '9,600 ft² 0.22 acres',
+				'Total Units': 4,
+				'Purchasesd Date': 'October 10, 1989',
+				'Purchase Price': '$480,000',
+				'Address': 'La Salle Street 8570-8576 Cypress CA 90630 United States',
+			}
+		}
 	})
 	</script>
 </body>
