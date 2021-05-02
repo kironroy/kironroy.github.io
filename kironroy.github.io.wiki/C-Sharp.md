@@ -59,6 +59,8 @@
   * **[C#](https://docs.microsoft.com/en-us/dotnet/csharp/)**
   
   * [C# Tutorials Point](https://www.tutorialspoint.com/csharp/index.htm)
+   
+  * [C# Tutorial - Tutlane](https://www.tutlane.com/tutorial/csharp)
   
   * [C# Compiler](https://www.jdoodle.com/compile-c-sharp-online)
   
@@ -74,6 +76,8 @@ ASP.NET Websites
 * [Get Started with ASP.NET Websites](https://www.asp.net/get-started/websites)
 
 * [ASP.NET MVC](https://www.youtube.com/watch?v=phyV-OQNeRM)
+
+* [Asp.Net MVC Tutorial](https://www.tutlane.com/tutorial/aspnet-mvc)
 
 ---
 
