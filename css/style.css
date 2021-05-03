@@ -126,6 +126,7 @@ a {
 a:hover {
     color: #f8c604;
     border-bottom-color: rgba(255, 255, 255, 0);
+
 }
 
 sub {
@@ -399,8 +400,9 @@ input[type="button"]:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 .button:hover {
-    background-color: #5042d3;
-    -box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    background-color: #5cb85c;
+    transition: background-color .15s, font-size .15s;
+    font-size: 22px;
 }
 
 input[type="button"]:active,
