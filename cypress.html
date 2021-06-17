@@ -14,11 +14,15 @@
 	       @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 	            
 
+		   .markdown-body {
+    white-space: pre-wrap;
+}
 	       #cypress {
 	        background-color: #f4f4f5; 
 			border-radius: 10px;
 			font-size: 18px;
 	       }
+
 
 		   #oc_mang {
 			background-color: #E5EAEF; 
@@ -140,7 +144,9 @@ new Vue({
 			return 'Managed by'
 		},
 		address: function() {
-			return 'Orange County Property Management Inc. 16742 Gothard St #117 Huntington Beach, CA 92647 (714) 840-1700'
+			return `Orange County Property Management Inc.
+					16742 Gothard St #117 Huntington Beach, CA 92647
+					Norma Hernandez (714) 840-1700 ext 234`
 		},
 		map: function() {
 			return 'Map'
